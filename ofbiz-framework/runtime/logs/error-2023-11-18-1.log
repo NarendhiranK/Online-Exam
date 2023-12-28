@@ -1,0 +1,2 @@
+2023-11-18 12:11:18,591 |sse-nio-8443-exec-13 |RequestHandler                |E| Request SetTimeZoneFromBrowser caused an error with the following message: User authorization is required for this service: SetTimeZoneFromBrowser
+2023-11-18 12:16:03,165 |jsse-nio-8443-exec-6 |RequestHandler                |E| Request createOfbizDemoEvent caused an error with the following message: First Name and Last Name are required fields on the form and can't be empty.

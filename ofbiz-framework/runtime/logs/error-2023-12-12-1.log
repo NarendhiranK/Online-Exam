@@ -1,0 +1,18 @@
+2023-12-12 11:12:34,107 |OFBiz-JobQueue-1     |GenericDelegator              |E| Failure in findOne operation for entity [JobSandbox]: org.apache.ofbiz.entity.transaction.GenericTransactionException: Roll back error (with no rollbackOnly cause found), could not commit transaction, was rolled back instead: java.lang.Exception: Transaction has timed out (Transaction has timed out). Rolling back transaction.
+org.apache.ofbiz.entity.transaction.GenericTransactionException: Roll back error (with no rollbackOnly cause found), could not commit transaction, was rolled back instead: java.lang.Exception: Transaction has timed out (Transaction has timed out)
+	at org.apache.ofbiz.entity.transaction.TransactionUtil.commit(TransactionUtil.java:279) ~[main/:?]
+	at org.apache.ofbiz.entity.transaction.TransactionUtil.commit(TransactionUtil.java:233) ~[main/:?]
+	at org.apache.ofbiz.entity.GenericDelegator.findOne(GenericDelegator.java:1497) [main/:?]
+	at org.apache.ofbiz.entity.GenericDelegator.refresh(GenericDelegator.java:1200) [main/:?]
+	at org.apache.ofbiz.entity.GenericValue.refresh(GenericValue.java:88) [main/:?]
+	at org.apache.ofbiz.service.job.PersistedServiceJob.init(PersistedServiceJob.java:146) [main/:?]
+	at org.apache.ofbiz.service.job.GenericServiceJob.exec(GenericServiceJob.java:70) [main/:?]
+	at org.apache.ofbiz.service.job.AbstractJob.run(AbstractJob.java:106) [main/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+Caused by: java.lang.Exception: Transaction has timed out
+	at org.apache.geronimo.transaction.manager.TransactionImpl.commit(TransactionImpl.java:266) ~[geronimo-transaction-3.1.5.jar:3.1.5]
+	at org.apache.geronimo.transaction.manager.TransactionManagerImpl.commit(TransactionManagerImpl.java:263) ~[geronimo-transaction-3.1.5.jar:3.1.5]
+	at org.apache.ofbiz.entity.transaction.TransactionUtil.commit(TransactionUtil.java:250) ~[main/:?]
+	... 10 more

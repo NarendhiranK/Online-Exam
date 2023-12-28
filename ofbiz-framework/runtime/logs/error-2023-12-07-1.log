@@ -1,0 +1,1033 @@
+2023-12-07 10:14:16,970 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [DIFFICULTY_LEVEL] of table [public.QUESTION_MASTER] of entity [QuestionMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 10:14:16,978 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [PERFORMANCE_ID] of table [public.USER_ATTEMPT_ANSWER_MASTER] of entity [UserAttemptAnswerMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 10:14:16,978 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [IS_FLAGGED] of table [public.USER_ATTEMPT_ANSWER_MASTER] of entity [UserAttemptAnswerMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 10:14:16,978 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [NO_OF_QUESTIONS] of table [public.USER_ATTEMPT_MASTER] of entity [UserAttemptMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 10:14:16,979 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [TOTAL_WRONG] of table [public.USER_ATTEMPT_MASTER] of entity [UserAttemptMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 10:14:16,979 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [TOTAL_CORRECT] of table [public.USER_ATTEMPT_MASTER] of entity [UserAttemptMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 10:14:16,979 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [PERFORMANCE_ID] of table [public.USER_ATTEMPT_MASTER] of entity [UserAttemptMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 10:14:16,979 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [CORRECT_QUESTIONS_IN_THIS_TOPIC] of table [public.USER_ATTEMPT_TOPIC_MASTER] of entity [UserAttemptTopicMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 10:14:16,979 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [PERFORMANCE_ID] of table [public.USER_ATTEMPT_TOPIC_MASTER] of entity [UserAttemptTopicMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 10:14:16,979 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [TOTAL_QUESTIONS_IN_THIS_TOPIC] of table [public.USER_ATTEMPT_TOPIC_MASTER] of entity [UserAttemptTopicMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 10:14:16,979 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [MAX_SPLIT_ATTEMPTS] of table [public.USER_EXAM_MAPPING_MASTER] of entity [UserExamMappingMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 10:16:05,428 |jsse-nio-8443-exec-6 |JavaEventHandler              |E| Error loading class with name: com.vastpro.onlineexam.events, will not be able to run event...
+java.lang.ClassNotFoundException: com.vastpro.onlineexam.events
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1329) ~[tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1141) ~[tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.ofbiz.webapp.event.JavaEventHandler.loadClass(JavaEventHandler.java:48) ~[main/:?]
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708) [?:?]
+	at org.apache.ofbiz.webapp.event.JavaEventHandler.invoke(JavaEventHandler.java:64) [main/:?]
+	at org.apache.ofbiz.webapp.control.RequestHandler.runEvent(RequestHandler.java:1078) [main/:?]
+	at org.apache.ofbiz.webapp.control.RequestHandler.doRequest(RequestHandler.java:678) [main/:?]
+	at org.apache.ofbiz.webapp.control.ControlServlet.handle(ControlServlet.java:231) [main/:?]
+	at org.apache.ofbiz.webapp.control.ControlServlet.doPost(ControlServlet.java:81) [main/:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555) [tomcat-servlet-api-9.0.82.jar:4.0.FR]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) [tomcat-servlet-api-9.0.82.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) [tomcat-embed-websocket-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.ofbiz.webapp.control.SameSiteFilter.doFilter(SameSiteFilter.java:45) [main/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.ofbiz.webapp.control.ContextFilter.doFilter(ContextFilter.java:188) [main/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.ofbiz.webapp.control.ControlFilter.doFilter(ControlFilter.java:167) [main/:?]
+	at javax.servlet.http.HttpFilter.doFilter(HttpFilter.java:53) [tomcat-servlet-api-9.0.82.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.logging.log4j.web.Log4jServletFilter.doFilter(Log4jServletFilter.java:71) [log4j-web-2.20.0.jar:2.20.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) [tomcat-coyote-9.0.82.jar:9.0.82]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) [tomcat-coyote-9.0.82.jar:9.0.82]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928) [tomcat-coyote-9.0.82.jar:9.0.82]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794) [tomcat-coyote-9.0.82.jar:9.0.82]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) [tomcat-coyote-9.0.82.jar:9.0.82]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) [tomcat-util-9.0.82.jar:9.0.82]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-util-9.0.82.jar:9.0.82]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-util-9.0.82.jar:9.0.82]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+2023-12-07 10:16:05,523 |jsse-nio-8443-exec-6 |RequestHandler                |E| Request loginEvent caused an error with the following message: Error calling event: org.apache.ofbiz.webapp.event.EventHandlerException: Error invoking event, the class com.vastpro.onlineexam.events was not found
+2023-12-07 10:17:05,832 |jsse-nio-8443-exec-7 |RequestHandler                |E| Request loginEvent caused an error with the following message: [username was empty reenter, password was empty reenter]
+2023-12-07 10:17:29,300 |jsse-nio-8443-exec-8 |RequestHandler                |E| Request loginEvent caused an error with the following message: [username was empty reenter, password was empty reenter]
+2023-12-07 12:02:58,407 |sse-nio-8443-exec-10 |RequestHandler                |E| Request loginEvent caused an error with the following message: [username was empty reenter, password was empty reenter]
+2023-12-07 12:18:38,018 |jsse-nio-8443-exec-5 |TransactionUtil               |E| Rollback Only was set when trying to commit transaction here; throwing rollbackOnly cause exception
+javax.transaction.RollbackException: Unable to commit: transaction marked for rollback
+	at org.apache.geronimo.transaction.manager.TransactionImpl.commit(TransactionImpl.java:272) ~[geronimo-transaction-3.1.5.jar:3.1.5]
+	at org.apache.geronimo.transaction.manager.TransactionManagerImpl.commit(TransactionManagerImpl.java:263) ~[geronimo-transaction-3.1.5.jar:3.1.5]
+	at org.apache.ofbiz.entity.transaction.TransactionUtil.commit(TransactionUtil.java:250) [main/:?]
+	at org.apache.ofbiz.entity.transaction.TransactionUtil.commit(TransactionUtil.java:233) [main/:?]
+	at org.apache.ofbiz.webapp.event.SimpleEventHandler.invoke(SimpleEventHandler.java:91) [main/:?]
+	at org.apache.ofbiz.webapp.control.RequestHandler.runEvent(RequestHandler.java:1078) [main/:?]
+	at org.apache.ofbiz.webapp.control.RequestHandler.doRequest(RequestHandler.java:678) [main/:?]
+	at org.apache.ofbiz.webapp.control.ControlServlet.handle(ControlServlet.java:231) [main/:?]
+	at org.apache.ofbiz.webapp.control.ControlServlet.doPost(ControlServlet.java:81) [main/:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555) [tomcat-servlet-api-9.0.82.jar:4.0.FR]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) [tomcat-servlet-api-9.0.82.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) [tomcat-embed-websocket-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.ofbiz.webapp.control.ContextFilter.doFilter(ContextFilter.java:188) [main/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.ofbiz.webapp.control.ControlFilter.doFilter(ControlFilter.java:167) [main/:?]
+	at javax.servlet.http.HttpFilter.doFilter(HttpFilter.java:53) [tomcat-servlet-api-9.0.82.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.logging.log4j.web.Log4jServletFilter.doFilter(Log4jServletFilter.java:71) [log4j-web-2.20.0.jar:2.20.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.coyote.http2.StreamProcessor.service(StreamProcessor.java:432) [tomcat-coyote-9.0.82.jar:9.0.82]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) [tomcat-coyote-9.0.82.jar:9.0.82]
+	at org.apache.coyote.http2.StreamProcessor.process(StreamProcessor.java:90) [tomcat-coyote-9.0.82.jar:9.0.82]
+	at org.apache.coyote.http2.StreamRunnable.run(StreamRunnable.java:35) [tomcat-coyote-9.0.82.jar:9.0.82]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) [tomcat-util-9.0.82.jar:9.0.82]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-util-9.0.82.jar:9.0.82]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-util-9.0.82.jar:9.0.82]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+Caused by: org.apache.geronimo.transaction.manager.SetRollbackOnlyException: setRollbackOnly() called.  See stacktrace for origin
+	at org.apache.geronimo.transaction.manager.TransactionImpl.setRollbackOnly(TransactionImpl.java:126) ~[geronimo-transaction-3.1.5.jar:3.1.5]
+	at org.apache.geronimo.transaction.manager.TransactionManagerImpl.setRollbackOnly(TransactionManagerImpl.java:254) ~[geronimo-transaction-3.1.5.jar:3.1.5]
+	at org.apache.ofbiz.entity.transaction.TransactionUtil.setRollbackOnly(TransactionUtil.java:375) ~[main/:?]
+	at org.apache.ofbiz.entity.transaction.TransactionUtil.rollback(TransactionUtil.java:306) ~[main/:?]
+	at org.apache.ofbiz.minilang.SimpleMethod.exec(SimpleMethod.java:628) ~[main/:?]
+	at org.apache.ofbiz.minilang.SimpleMethod.runSimpleMethod(SimpleMethod.java:349) ~[main/:?]
+	at org.apache.ofbiz.minilang.SimpleMethod.runSimpleEvent(SimpleMethod.java:330) ~[main/:?]
+	at org.apache.ofbiz.webapp.event.SimpleEventHandler.invoke(SimpleEventHandler.java:75) ~[main/:?]
+	... 37 more
+2023-12-07 12:18:38,019 |jsse-nio-8443-exec-5 |SimpleEventHandler            |E| null
+org.apache.ofbiz.entity.transaction.GenericTransactionException: Roll back error, could not commit transaction, was rolled back instead because of: Error in simple-method [Update Password [file:/D:/ofbiz/ofbiz-framework/applications/securityext/minilang/login/LoginSimpleEvents.xml#updatePassword]]: ; [New Password is missing., New Password Verify is missing]
+	at org.apache.ofbiz.entity.transaction.TransactionUtil.commit(TransactionUtil.java:275) ~[main/:?]
+	at org.apache.ofbiz.entity.transaction.TransactionUtil.commit(TransactionUtil.java:233) ~[main/:?]
+	at org.apache.ofbiz.webapp.event.SimpleEventHandler.invoke(SimpleEventHandler.java:91) [main/:?]
+	at org.apache.ofbiz.webapp.control.RequestHandler.runEvent(RequestHandler.java:1078) [main/:?]
+	at org.apache.ofbiz.webapp.control.RequestHandler.doRequest(RequestHandler.java:678) [main/:?]
+	at org.apache.ofbiz.webapp.control.ControlServlet.handle(ControlServlet.java:231) [main/:?]
+	at org.apache.ofbiz.webapp.control.ControlServlet.doPost(ControlServlet.java:81) [main/:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555) [tomcat-servlet-api-9.0.82.jar:4.0.FR]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) [tomcat-servlet-api-9.0.82.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) [tomcat-embed-websocket-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.ofbiz.webapp.control.ContextFilter.doFilter(ContextFilter.java:188) [main/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.ofbiz.webapp.control.ControlFilter.doFilter(ControlFilter.java:167) [main/:?]
+	at javax.servlet.http.HttpFilter.doFilter(HttpFilter.java:53) [tomcat-servlet-api-9.0.82.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.logging.log4j.web.Log4jServletFilter.doFilter(Log4jServletFilter.java:71) [log4j-web-2.20.0.jar:2.20.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.coyote.http2.StreamProcessor.service(StreamProcessor.java:432) [tomcat-coyote-9.0.82.jar:9.0.82]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) [tomcat-coyote-9.0.82.jar:9.0.82]
+	at org.apache.coyote.http2.StreamProcessor.process(StreamProcessor.java:90) [tomcat-coyote-9.0.82.jar:9.0.82]
+	at org.apache.coyote.http2.StreamRunnable.run(StreamRunnable.java:35) [tomcat-coyote-9.0.82.jar:9.0.82]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) [tomcat-util-9.0.82.jar:9.0.82]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-util-9.0.82.jar:9.0.82]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-util-9.0.82.jar:9.0.82]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+2023-12-07 12:18:38,021 |jsse-nio-8443-exec-5 |RequestHandler                |E| Request ProfileUpdatePassword caused an error with the following message: [New Password is missing., New Password Verify is missing]
+2023-12-07 12:26:23,505 |sse-nio-8443-exec-10 |RequestHandler                |E| Request loginEvent caused an error with the following message: You cannot login to this application
+2023-12-07 12:27:19,925 |jsse-nio-8443-exec-1 |RequestHandler                |E| Request loginEvent caused an error with the following message: You cannot login to this application
+2023-12-07 12:28:09,380 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [DIFFICULTY_LEVEL] of table [public.QUESTION_MASTER] of entity [QuestionMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 12:28:09,388 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [PERFORMANCE_ID] of table [public.USER_ATTEMPT_ANSWER_MASTER] of entity [UserAttemptAnswerMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 12:28:09,388 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [IS_FLAGGED] of table [public.USER_ATTEMPT_ANSWER_MASTER] of entity [UserAttemptAnswerMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 12:28:09,388 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [NO_OF_QUESTIONS] of table [public.USER_ATTEMPT_MASTER] of entity [UserAttemptMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 12:28:09,389 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [TOTAL_WRONG] of table [public.USER_ATTEMPT_MASTER] of entity [UserAttemptMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 12:28:09,389 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [TOTAL_CORRECT] of table [public.USER_ATTEMPT_MASTER] of entity [UserAttemptMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 12:28:09,389 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [PERFORMANCE_ID] of table [public.USER_ATTEMPT_MASTER] of entity [UserAttemptMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 12:28:09,389 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [CORRECT_QUESTIONS_IN_THIS_TOPIC] of table [public.USER_ATTEMPT_TOPIC_MASTER] of entity [UserAttemptTopicMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 12:28:09,390 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [PERFORMANCE_ID] of table [public.USER_ATTEMPT_TOPIC_MASTER] of entity [UserAttemptTopicMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 12:28:09,390 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [TOTAL_QUESTIONS_IN_THIS_TOPIC] of table [public.USER_ATTEMPT_TOPIC_MASTER] of entity [UserAttemptTopicMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 12:28:09,390 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [MAX_SPLIT_ATTEMPTS] of table [public.USER_EXAM_MAPPING_MASTER] of entity [UserExamMappingMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 12:30:03,753 |jsse-nio-8443-exec-3 |RequestHandler                |E| Request loginEvent caused an error with the following message: You cannot login to this application
+2023-12-07 12:35:22,531 |jsse-nio-8443-exec-7 |RequestHandler                |E| Request loginEvent caused an error with the following message: You cannot login to this application
+2023-12-07 12:35:25,853 |sse-nio-8443-exec-10 |RequestHandler                |E| Request loginEvent caused an error with the following message: You cannot login to this application
+2023-12-07 13:07:14,052 |jsse-nio-8443-exec-9 |RequestHandler                |E| Request loginEvent caused an error with the following message: [username was empty reenter, password was empty reenter]
+2023-12-07 13:09:29,553 |jsse-nio-8443-exec-9 |RequestHandler                |E| Request loginEvent caused an error with the following message: [username was empty reenter, password was empty reenter]
+2023-12-07 13:09:41,723 |jsse-nio-8443-exec-6 |RequestHandler                |E| Request loginEvent caused an error with the following message: [username was empty reenter, password was empty reenter]
+2023-12-07 13:10:44,988 |jsse-nio-8443-exec-9 |RequestHandler                |E| Request loginEvent caused an error with the following message: [username was empty reenter, password was empty reenter]
+2023-12-07 13:12:04,204 |jsse-nio-8443-exec-4 |RequestHandler                |E| Request loginEvent caused an error with the following message: [username was empty reenter, password was empty reenter]
+2023-12-07 13:15:32,703 |jsse-nio-8443-exec-1 |RequestHandler                |E| Request loginEvent caused an error with the following message: You cannot login to this application
+2023-12-07 14:46:39,145 |sse-nio-8443-exec-11 |GenericDelegator              |E| Failure in removeByPrimaryKey operation for entity [Party]: org.apache.ofbiz.entity.GenericDataSourceException: Exception while deleting the following entity: [GenericEntity:Party][partyId,10010(java.lang.String)] (SQL Exception while executing the following:DELETE FROM public.PARTY WHERE PARTY_ID=? (ERROR: update or delete on table "party" violates foreign key constraint "party_rle_party" on table "party_role"
+  Detail: Key (party_id)=(10010) is still referenced from table "party_role".)). Rolling back transaction.
+org.apache.ofbiz.entity.GenericDataSourceException: Exception while deleting the following entity: [GenericEntity:Party][partyId,10010(java.lang.String)] (SQL Exception while executing the following:DELETE FROM public.PARTY WHERE PARTY_ID=? (ERROR: update or delete on table "party" violates foreign key constraint "party_rle_party" on table "party_role"
+  Detail: Key (party_id)=(10010) is still referenced from table "party_role".))
+	at org.apache.ofbiz.entity.datasource.GenericDAO.delete(GenericDAO.java:1303) ~[main/:?]
+	at org.apache.ofbiz.entity.datasource.GenericHelperDAO.removeByPrimaryKey(GenericHelperDAO.java:137) ~[main/:?]
+	at org.apache.ofbiz.entity.GenericDelegator.removeByPrimaryKey(GenericDelegator.java:1013) [main/:?]
+	at org.apache.ofbiz.webtools.GenericWebEvent.updateGeneric(GenericWebEvent.java:195) [main/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.apache.ofbiz.webapp.event.JavaEventHandler.invoke(JavaEventHandler.java:85) [main/:?]
+	at org.apache.ofbiz.webapp.control.RequestHandler.runEvent(RequestHandler.java:1078) [main/:?]
+	at org.apache.ofbiz.webapp.control.RequestHandler.doRequest(RequestHandler.java:678) [main/:?]
+	at org.apache.ofbiz.webapp.control.ControlServlet.handle(ControlServlet.java:231) [main/:?]
+	at org.apache.ofbiz.webapp.control.ControlServlet.doPost(ControlServlet.java:81) [main/:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555) [tomcat-servlet-api-9.0.82.jar:4.0.FR]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) [tomcat-servlet-api-9.0.82.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) [tomcat-embed-websocket-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.ofbiz.webapp.control.SameSiteFilter.doFilter(SameSiteFilter.java:45) [main/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.ofbiz.webapp.control.ContextFilter.doFilter(ContextFilter.java:188) [main/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.ofbiz.base.util.CacheFilter.doFilter(CacheFilter.java:63) [main/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.ofbiz.webapp.control.ControlFilter.doFilter(ControlFilter.java:167) [main/:?]
+	at javax.servlet.http.HttpFilter.doFilter(HttpFilter.java:53) [tomcat-servlet-api-9.0.82.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.logging.log4j.web.Log4jServletFilter.doFilter(Log4jServletFilter.java:71) [log4j-web-2.20.0.jar:2.20.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.coyote.http2.StreamProcessor.service(StreamProcessor.java:432) [tomcat-coyote-9.0.82.jar:9.0.82]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) [tomcat-coyote-9.0.82.jar:9.0.82]
+	at org.apache.coyote.http2.StreamProcessor.process(StreamProcessor.java:90) [tomcat-coyote-9.0.82.jar:9.0.82]
+	at org.apache.coyote.http2.StreamRunnable.run(StreamRunnable.java:35) [tomcat-coyote-9.0.82.jar:9.0.82]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) [tomcat-util-9.0.82.jar:9.0.82]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-util-9.0.82.jar:9.0.82]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-util-9.0.82.jar:9.0.82]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+Caused by: org.apache.ofbiz.entity.GenericDataSourceException: SQL Exception while executing the following:DELETE FROM public.PARTY WHERE PARTY_ID=? (ERROR: update or delete on table "party" violates foreign key constraint "party_rle_party" on table "party_role"
+  Detail: Key (party_id)=(10010) is still referenced from table "party_role".)
+	at org.apache.ofbiz.entity.jdbc.SQLProcessor.executeUpdate(SQLProcessor.java:445) ~[main/:?]
+	at org.apache.ofbiz.entity.datasource.GenericDAO.delete(GenericDAO.java:1329) ~[main/:?]
+	at org.apache.ofbiz.entity.datasource.GenericDAO.delete(GenericDAO.java:1300) ~[main/:?]
+	... 51 more
+Caused by: org.postgresql.util.PSQLException: ERROR: update or delete on table "party" violates foreign key constraint "party_rle_party" on table "party_role"
+  Detail: Key (party_id)=(10010) is still referenced from table "party_role".
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713) ~[postgresql-42.6.0.jar:42.6.0]
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401) ~[postgresql-42.6.0.jar:42.6.0]
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368) ~[postgresql-42.6.0.jar:42.6.0]
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498) ~[postgresql-42.6.0.jar:42.6.0]
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415) ~[postgresql-42.6.0.jar:42.6.0]
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190) ~[postgresql-42.6.0.jar:42.6.0]
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:152) ~[postgresql-42.6.0.jar:42.6.0]
+	at org.apache.commons.dbcp2.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:137) ~[commons-dbcp2-2.10.0.jar:2.10.0]
+	at org.apache.commons.dbcp2.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:137) ~[commons-dbcp2-2.10.0.jar:2.10.0]
+	at org.apache.ofbiz.entity.jdbc.SQLProcessor.executeUpdate(SQLProcessor.java:440) ~[main/:?]
+	at org.apache.ofbiz.entity.datasource.GenericDAO.delete(GenericDAO.java:1329) ~[main/:?]
+	at org.apache.ofbiz.entity.datasource.GenericDAO.delete(GenericDAO.java:1300) ~[main/:?]
+	... 51 more
+2023-12-07 14:46:39,155 |sse-nio-8443-exec-11 |TransactionUtil               |E| Rollback Only was set when trying to commit transaction here; throwing rollbackOnly cause exception
+javax.transaction.RollbackException: Unable to commit: transaction marked for rollback
+	at org.apache.geronimo.transaction.manager.TransactionImpl.commit(TransactionImpl.java:272) ~[geronimo-transaction-3.1.5.jar:3.1.5]
+	at org.apache.geronimo.transaction.manager.TransactionManagerImpl.commit(TransactionManagerImpl.java:263) ~[geronimo-transaction-3.1.5.jar:3.1.5]
+	at org.apache.ofbiz.entity.transaction.TransactionUtil.commit(TransactionUtil.java:250) [main/:?]
+	at org.apache.ofbiz.entity.transaction.TransactionUtil.commit(TransactionUtil.java:233) [main/:?]
+	at org.apache.ofbiz.webapp.event.JavaEventHandler.invoke(JavaEventHandler.java:105) [main/:?]
+	at org.apache.ofbiz.webapp.control.RequestHandler.runEvent(RequestHandler.java:1078) [main/:?]
+	at org.apache.ofbiz.webapp.control.RequestHandler.doRequest(RequestHandler.java:678) [main/:?]
+	at org.apache.ofbiz.webapp.control.ControlServlet.handle(ControlServlet.java:231) [main/:?]
+	at org.apache.ofbiz.webapp.control.ControlServlet.doPost(ControlServlet.java:81) [main/:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555) [tomcat-servlet-api-9.0.82.jar:4.0.FR]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) [tomcat-servlet-api-9.0.82.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) [tomcat-embed-websocket-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.ofbiz.webapp.control.SameSiteFilter.doFilter(SameSiteFilter.java:45) [main/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.ofbiz.webapp.control.ContextFilter.doFilter(ContextFilter.java:188) [main/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.ofbiz.base.util.CacheFilter.doFilter(CacheFilter.java:63) [main/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.ofbiz.webapp.control.ControlFilter.doFilter(ControlFilter.java:167) [main/:?]
+	at javax.servlet.http.HttpFilter.doFilter(HttpFilter.java:53) [tomcat-servlet-api-9.0.82.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.logging.log4j.web.Log4jServletFilter.doFilter(Log4jServletFilter.java:71) [log4j-web-2.20.0.jar:2.20.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.coyote.http2.StreamProcessor.service(StreamProcessor.java:432) [tomcat-coyote-9.0.82.jar:9.0.82]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) [tomcat-coyote-9.0.82.jar:9.0.82]
+	at org.apache.coyote.http2.StreamProcessor.process(StreamProcessor.java:90) [tomcat-coyote-9.0.82.jar:9.0.82]
+	at org.apache.coyote.http2.StreamRunnable.run(StreamRunnable.java:35) [tomcat-coyote-9.0.82.jar:9.0.82]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) [tomcat-util-9.0.82.jar:9.0.82]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-util-9.0.82.jar:9.0.82]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-util-9.0.82.jar:9.0.82]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+Caused by: org.apache.geronimo.transaction.manager.SetRollbackOnlyException: setRollbackOnly() called.  See stacktrace for origin
+	at org.apache.geronimo.transaction.manager.TransactionImpl.setRollbackOnly(TransactionImpl.java:126) ~[geronimo-transaction-3.1.5.jar:3.1.5]
+	at org.apache.geronimo.transaction.manager.TransactionManagerImpl.setRollbackOnly(TransactionManagerImpl.java:254) ~[geronimo-transaction-3.1.5.jar:3.1.5]
+	at org.apache.ofbiz.entity.transaction.TransactionUtil.setRollbackOnly(TransactionUtil.java:375) ~[main/:?]
+	at org.apache.ofbiz.entity.jdbc.SQLProcessor.rollback(SQLProcessor.java:198) ~[main/:?]
+	at org.apache.ofbiz.entity.datasource.GenericDAO.delete(GenericDAO.java:1302) ~[main/:?]
+	at org.apache.ofbiz.entity.datasource.GenericHelperDAO.removeByPrimaryKey(GenericHelperDAO.java:137) ~[main/:?]
+	at org.apache.ofbiz.entity.GenericDelegator.removeByPrimaryKey(GenericDelegator.java:1013) ~[main/:?]
+	at org.apache.ofbiz.webtools.GenericWebEvent.updateGeneric(GenericWebEvent.java:195) ~[main/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.apache.ofbiz.webapp.event.JavaEventHandler.invoke(JavaEventHandler.java:85) ~[main/:?]
+	... 43 more
+2023-12-07 14:46:39,156 |sse-nio-8443-exec-11 |JavaEventHandler              |E| null
+org.apache.ofbiz.entity.transaction.GenericTransactionException: Roll back error, could not commit transaction, was rolled back instead because of: rollback called in Entity Engine SQLProcessorjava.lang.Exception: Current Location Stack (Current Location Stack)
+	at org.apache.ofbiz.entity.transaction.TransactionUtil.commit(TransactionUtil.java:275) ~[main/:?]
+	at org.apache.ofbiz.entity.transaction.TransactionUtil.commit(TransactionUtil.java:233) ~[main/:?]
+	at org.apache.ofbiz.webapp.event.JavaEventHandler.invoke(JavaEventHandler.java:105) [main/:?]
+	at org.apache.ofbiz.webapp.control.RequestHandler.runEvent(RequestHandler.java:1078) [main/:?]
+	at org.apache.ofbiz.webapp.control.RequestHandler.doRequest(RequestHandler.java:678) [main/:?]
+	at org.apache.ofbiz.webapp.control.ControlServlet.handle(ControlServlet.java:231) [main/:?]
+	at org.apache.ofbiz.webapp.control.ControlServlet.doPost(ControlServlet.java:81) [main/:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555) [tomcat-servlet-api-9.0.82.jar:4.0.FR]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) [tomcat-servlet-api-9.0.82.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) [tomcat-embed-websocket-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.ofbiz.webapp.control.SameSiteFilter.doFilter(SameSiteFilter.java:45) [main/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.ofbiz.webapp.control.ContextFilter.doFilter(ContextFilter.java:188) [main/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.ofbiz.base.util.CacheFilter.doFilter(CacheFilter.java:63) [main/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.ofbiz.webapp.control.ControlFilter.doFilter(ControlFilter.java:167) [main/:?]
+	at javax.servlet.http.HttpFilter.doFilter(HttpFilter.java:53) [tomcat-servlet-api-9.0.82.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.logging.log4j.web.Log4jServletFilter.doFilter(Log4jServletFilter.java:71) [log4j-web-2.20.0.jar:2.20.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.coyote.http2.StreamProcessor.service(StreamProcessor.java:432) [tomcat-coyote-9.0.82.jar:9.0.82]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) [tomcat-coyote-9.0.82.jar:9.0.82]
+	at org.apache.coyote.http2.StreamProcessor.process(StreamProcessor.java:90) [tomcat-coyote-9.0.82.jar:9.0.82]
+	at org.apache.coyote.http2.StreamRunnable.run(StreamRunnable.java:35) [tomcat-coyote-9.0.82.jar:9.0.82]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) [tomcat-util-9.0.82.jar:9.0.82]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-util-9.0.82.jar:9.0.82]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-util-9.0.82.jar:9.0.82]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+Caused by: java.lang.Exception: Current Location Stack
+	at org.apache.ofbiz.entity.jdbc.SQLProcessor.rollback(SQLProcessor.java:198) ~[main/:?]
+	at org.apache.ofbiz.entity.datasource.GenericDAO.delete(GenericDAO.java:1302) ~[main/:?]
+	at org.apache.ofbiz.entity.datasource.GenericHelperDAO.removeByPrimaryKey(GenericHelperDAO.java:137) ~[main/:?]
+	at org.apache.ofbiz.entity.GenericDelegator.removeByPrimaryKey(GenericDelegator.java:1013) ~[main/:?]
+	at org.apache.ofbiz.webtools.GenericWebEvent.updateGeneric(GenericWebEvent.java:195) ~[main/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.apache.ofbiz.webapp.event.JavaEventHandler.invoke(JavaEventHandler.java:85) ~[main/:?]
+	... 43 more
+2023-12-07 14:46:39,157 |sse-nio-8443-exec-11 |RequestHandler                |E| Request entity/change/{entityName}/{pkValues: .*} caused an error with the following message: Delete failed (write error): org.apache.ofbiz.entity.GenericEntityException: org.apache.ofbiz.entity.GenericDataSourceException: Exception while deleting the following entity: [GenericEntity:Party][partyId,10010(java.lang.String)] (SQL Exception while executing the following:DELETE FROM public.PARTY WHERE PARTY_ID=? (ERROR: update or delete on table "party" violates foreign key constraint "party_rle_party" on table "party_role"
+  Detail: Key (party_id)=(10010) is still referenced from table "party_role".)) (Exception while deleting the following entity: [GenericEntity:Party][partyId,10010(java.lang.String)] (SQL Exception while executing the following:DELETE FROM public.PARTY WHERE PARTY_ID=? (ERROR: update or delete on table "party" violates foreign key constraint "party_rle_party" on table "party_role"
+  Detail: Key (party_id)=(10010) is still referenced from table "party_role".)))
+2023-12-07 14:59:18,824 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [DIFFICULTY_LEVEL] of table [public.QUESTION_MASTER] of entity [QuestionMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 14:59:18,832 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [PERFORMANCE_ID] of table [public.USER_ATTEMPT_ANSWER_MASTER] of entity [UserAttemptAnswerMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 14:59:18,832 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [IS_FLAGGED] of table [public.USER_ATTEMPT_ANSWER_MASTER] of entity [UserAttemptAnswerMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 14:59:18,833 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [NO_OF_QUESTIONS] of table [public.USER_ATTEMPT_MASTER] of entity [UserAttemptMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 14:59:18,833 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [TOTAL_WRONG] of table [public.USER_ATTEMPT_MASTER] of entity [UserAttemptMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 14:59:18,833 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [TOTAL_CORRECT] of table [public.USER_ATTEMPT_MASTER] of entity [UserAttemptMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 14:59:18,833 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [PERFORMANCE_ID] of table [public.USER_ATTEMPT_MASTER] of entity [UserAttemptMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 14:59:18,833 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [CORRECT_QUESTIONS_IN_THIS_TOPIC] of table [public.USER_ATTEMPT_TOPIC_MASTER] of entity [UserAttemptTopicMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 14:59:18,833 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [PERFORMANCE_ID] of table [public.USER_ATTEMPT_TOPIC_MASTER] of entity [UserAttemptTopicMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 14:59:18,834 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [TOTAL_QUESTIONS_IN_THIS_TOPIC] of table [public.USER_ATTEMPT_TOPIC_MASTER] of entity [UserAttemptTopicMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 14:59:18,834 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [MAX_SPLIT_ATTEMPTS] of table [public.USER_EXAM_MAPPING_MASTER] of entity [UserExamMappingMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 15:01:42,581 |jsse-nio-8443-exec-5 |RequestHandler                |E| Request login caused an error with the following message: following error occurred during login: User not found.
+2023-12-07 15:01:54,170 |jsse-nio-8443-exec-1 |RequestHandler                |E| Request login caused an error with the following message: You cannot login to this application
+2023-12-07 15:02:47,408 |jsse-nio-8443-exec-9 |RequestHandler                |E| Request login caused an error with the following message: You cannot login to this application
+2023-12-07 15:03:00,889 |jsse-nio-8443-exec-1 |RequestHandler                |E| Request login caused an error with the following message: You cannot login to this application
+2023-12-07 15:03:05,333 |jsse-nio-8443-exec-1 |RequestHandler                |E| Request login caused an error with the following message: following error occurred during login: User not found.
+2023-12-07 15:03:11,319 |jsse-nio-8443-exec-7 |RequestHandler                |E| Request login caused an error with the following message: You cannot login to this application
+2023-12-07 15:03:50,661 |sse-nio-8443-exec-10 |RequestHandler                |E| Request loginEvent caused an error with the following message: following error occurred during login: User not found.
+2023-12-07 15:04:28,453 |jsse-nio-8443-exec-9 |RequestHandler                |E| Request loginEvent caused an error with the following message: You cannot login to this application
+2023-12-07 15:55:04,542 |jsse-nio-8443-exec-5 |RequestHandler                |E| Request loginEvent caused an error with the following message: following error occurred during login: User not found.
+2023-12-07 16:15:26,377 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [DIFFICULTY_LEVEL] of table [public.QUESTION_MASTER] of entity [QuestionMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 16:15:26,384 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [PERFORMANCE_ID] of table [public.USER_ATTEMPT_ANSWER_MASTER] of entity [UserAttemptAnswerMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 16:15:26,384 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [IS_FLAGGED] of table [public.USER_ATTEMPT_ANSWER_MASTER] of entity [UserAttemptAnswerMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 16:15:26,384 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [NO_OF_QUESTIONS] of table [public.USER_ATTEMPT_MASTER] of entity [UserAttemptMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 16:15:26,384 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [TOTAL_WRONG] of table [public.USER_ATTEMPT_MASTER] of entity [UserAttemptMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 16:15:26,385 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [TOTAL_CORRECT] of table [public.USER_ATTEMPT_MASTER] of entity [UserAttemptMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 16:15:26,385 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [PERFORMANCE_ID] of table [public.USER_ATTEMPT_MASTER] of entity [UserAttemptMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 16:15:26,385 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [CORRECT_QUESTIONS_IN_THIS_TOPIC] of table [public.USER_ATTEMPT_TOPIC_MASTER] of entity [UserAttemptTopicMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 16:15:26,385 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [PERFORMANCE_ID] of table [public.USER_ATTEMPT_TOPIC_MASTER] of entity [UserAttemptTopicMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 16:15:26,385 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [TOTAL_QUESTIONS_IN_THIS_TOPIC] of table [public.USER_ATTEMPT_TOPIC_MASTER] of entity [UserAttemptTopicMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 16:15:26,386 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [MAX_SPLIT_ATTEMPTS] of table [public.USER_EXAM_MAPPING_MASTER] of entity [UserExamMappingMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 16:19:17,001 |jsse-nio-8443-exec-9 |GenericDelegator              |E| Failure in create operation for entity [ExamMaster]: org.apache.ofbiz.entity.GenericEntityException: Error while inserting: [GenericEntity:ExamMaster][answersMust,Yes(java.lang.String)][createdStamp,2023-12-07 16:19:16.975(java.sql.Timestamp)][createdTxStamp,2023-12-07 16:19:16.908(java.sql.Timestamp)][creationDate,null()][description,null()][durationMinutes,60(java.lang.Long)][enableNegativeMark,Yes(java.lang.String)][examId,ENG(java.lang.String)][examName,English(java.lang.String)][expirationDate,null()][lastUpdatedStamp,2023-12-07 16:19:16.975(java.sql.Timestamp)][lastUpdatedTxStamp,2023-12-07 16:19:16.908(java.sql.Timestamp)][negativeMarkValue,3.5(java.math.BigDecimal)][noOfQuestions,10(java.lang.Long)][passPercentage,33.3(java.math.BigDecimal)][questionsRandomized,YES(java.lang.String)] (SQL Exception while executing the following:INSERT INTO public.EXAM_MASTER (EXAM_ID, EXAM_NAME, DESCRIPTION, CREATION_DATE, EXPIRATION_DATE, NO_OF_QUESTIONS, DURATION_MINUTES, PASS_PERCENTAGE, QUESTIONS_RANDOMIZED, ANSWERS_MUST, ENABLE_NEGATIVE_MARK, NEGATIVE_MARK_VALUE, LAST_UPDATED_STAMP, LAST_UPDATED_TX_STAMP, CREATED_STAMP, CREATED_TX_STAMP) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) (ERROR: value too long for type character(1))). Rolling back transaction.
+2023-12-07 16:19:17,002 |jsse-nio-8443-exec-9 |EntityAutoEngine              |E| Error doing entity-auto operation for entity [ExamMaster] in service [createExamMaster]: org.apache.ofbiz.entity.GenericEntityException: org.apache.ofbiz.entity.GenericEntityException: Error while inserting: [GenericEntity:ExamMaster][answersMust,Yes(java.lang.String)][createdStamp,2023-12-07 16:19:16.975(java.sql.Timestamp)][createdTxStamp,2023-12-07 16:19:16.908(java.sql.Timestamp)][creationDate,null()][description,null()][durationMinutes,60(java.lang.Long)][enableNegativeMark,Yes(java.lang.String)][examId,ENG(java.lang.String)][examName,English(java.lang.String)][expirationDate,null()][lastUpdatedStamp,2023-12-07 16:19:16.975(java.sql.Timestamp)][lastUpdatedTxStamp,2023-12-07 16:19:16.908(java.sql.Timestamp)][negativeMarkValue,3.5(java.math.BigDecimal)][noOfQuestions,10(java.lang.Long)][passPercentage,33.3(java.math.BigDecimal)][questionsRandomized,YES(java.lang.String)] (SQL Exception while executing the following:INSERT INTO public.EXAM_MASTER (EXAM_ID, EXAM_NAME, DESCRIPTION, CREATION_DATE, EXPIRATION_DATE, NO_OF_QUESTIONS, DURATION_MINUTES, PASS_PERCENTAGE, QUESTIONS_RANDOMIZED, ANSWERS_MUST, ENABLE_NEGATIVE_MARK, NEGATIVE_MARK_VALUE, LAST_UPDATED_STAMP, LAST_UPDATED_TX_STAMP, CREATED_STAMP, CREATED_TX_STAMP) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) (ERROR: value too long for type character(1))) (Error while inserting: [GenericEntity:ExamMaster][answersMust,Yes(java.lang.String)][createdStamp,2023-12-07 16:19:16.975(java.sql.Timestamp)][createdTxStamp,2023-12-07 16:19:16.908(java.sql.Timestamp)][creationDate,null()][description,null()][durationMinutes,60(java.lang.Long)][enableNegativeMark,Yes(java.lang.String)][examId,ENG(java.lang.String)][examName,English(java.lang.String)][expirationDate,null()][lastUpdatedStamp,2023-12-07 16:19:16.975(java.sql.Timestamp)][lastUpdatedTxStamp,2023-12-07 16:19:16.908(java.sql.Timestamp)][negativeMarkValue,3.5(java.math.BigDecimal)][noOfQuestions,10(java.lang.Long)][passPercentage,33.3(java.math.BigDecimal)][questionsRandomized,YES(java.lang.String)] (SQL Exception while executing the following:INSERT INTO public.EXAM_MASTER (EXAM_ID, EXAM_NAME, DESCRIPTION, CREATION_DATE, EXPIRATION_DATE, NO_OF_QUESTIONS, DURATION_MINUTES, PASS_PERCENTAGE, QUESTIONS_RANDOMIZED, ANSWERS_MUST, ENABLE_NEGATIVE_MARK, NEGATIVE_MARK_VALUE, LAST_UPDATED_STAMP, LAST_UPDATED_TX_STAMP, CREATED_STAMP, CREATED_TX_STAMP) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) (ERROR: value too long for type character(1))))
+org.apache.ofbiz.entity.GenericEntityException: org.apache.ofbiz.entity.GenericEntityException: Error while inserting: [GenericEntity:ExamMaster][answersMust,Yes(java.lang.String)][createdStamp,2023-12-07 16:19:16.975(java.sql.Timestamp)][createdTxStamp,2023-12-07 16:19:16.908(java.sql.Timestamp)][creationDate,null()][description,null()][durationMinutes,60(java.lang.Long)][enableNegativeMark,Yes(java.lang.String)][examId,ENG(java.lang.String)][examName,English(java.lang.String)][expirationDate,null()][lastUpdatedStamp,2023-12-07 16:19:16.975(java.sql.Timestamp)][lastUpdatedTxStamp,2023-12-07 16:19:16.908(java.sql.Timestamp)][negativeMarkValue,3.5(java.math.BigDecimal)][noOfQuestions,10(java.lang.Long)][passPercentage,33.3(java.math.BigDecimal)][questionsRandomized,YES(java.lang.String)] (SQL Exception while executing the following:INSERT INTO public.EXAM_MASTER (EXAM_ID, EXAM_NAME, DESCRIPTION, CREATION_DATE, EXPIRATION_DATE, NO_OF_QUESTIONS, DURATION_MINUTES, PASS_PERCENTAGE, QUESTIONS_RANDOMIZED, ANSWERS_MUST, ENABLE_NEGATIVE_MARK, NEGATIVE_MARK_VALUE, LAST_UPDATED_STAMP, LAST_UPDATED_TX_STAMP, CREATED_STAMP, CREATED_TX_STAMP) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) (ERROR: value too long for type character(1))) (Error while inserting: [GenericEntity:ExamMaster][answersMust,Yes(java.lang.String)][createdStamp,2023-12-07 16:19:16.975(java.sql.Timestamp)][createdTxStamp,2023-12-07 16:19:16.908(java.sql.Timestamp)][creationDate,null()][description,null()][durationMinutes,60(java.lang.Long)][enableNegativeMark,Yes(java.lang.String)][examId,ENG(java.lang.String)][examName,English(java.lang.String)][expirationDate,null()][lastUpdatedStamp,2023-12-07 16:19:16.975(java.sql.Timestamp)][lastUpdatedTxStamp,2023-12-07 16:19:16.908(java.sql.Timestamp)][negativeMarkValue,3.5(java.math.BigDecimal)][noOfQuestions,10(java.lang.Long)][passPercentage,33.3(java.math.BigDecimal)][questionsRandomized,YES(java.lang.String)] (SQL Exception while executing the following:INSERT INTO public.EXAM_MASTER (EXAM_ID, EXAM_NAME, DESCRIPTION, CREATION_DATE, EXPIRATION_DATE, NO_OF_QUESTIONS, DURATION_MINUTES, PASS_PERCENTAGE, QUESTIONS_RANDOMIZED, ANSWERS_MUST, ENABLE_NEGATIVE_MARK, NEGATIVE_MARK_VALUE, LAST_UPDATED_STAMP, LAST_UPDATED_TX_STAMP, CREATED_STAMP, CREATED_TX_STAMP) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) (ERROR: value too long for type character(1))))
+	at org.apache.ofbiz.entity.GenericDelegator.create(GenericDelegator.java:921) ~[main/:?]
+	at org.apache.ofbiz.entity.GenericValue.create(GenericValue.java:76) ~[main/:?]
+	at org.apache.ofbiz.service.engine.EntityAutoEngine.invokeCreate(EntityAutoEngine.java:378) ~[main/:?]
+	at org.apache.ofbiz.service.engine.EntityAutoEngine.runSync(EntityAutoEngine.java:124) [main/:?]
+	at org.apache.ofbiz.service.ServiceDispatcher.runSync(ServiceDispatcher.java:428) [main/:?]
+	at org.apache.ofbiz.service.ServiceDispatcher.runSync(ServiceDispatcher.java:244) [main/:?]
+	at org.apache.ofbiz.service.GenericDispatcherFactory$GenericDispatcher.runSync(GenericDispatcherFactory.java:93) [main/:?]
+	at org.apache.ofbiz.webapp.event.CoreEvents.scheduleService(CoreEvents.java:329) [main/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.apache.ofbiz.webapp.event.JavaEventHandler.invoke(JavaEventHandler.java:85) [main/:?]
+	at org.apache.ofbiz.webapp.control.RequestHandler.runEvent(RequestHandler.java:1078) [main/:?]
+	at org.apache.ofbiz.webapp.control.RequestHandler.doRequest(RequestHandler.java:678) [main/:?]
+	at org.apache.ofbiz.webapp.control.ControlServlet.handle(ControlServlet.java:231) [main/:?]
+	at org.apache.ofbiz.webapp.control.ControlServlet.doPost(ControlServlet.java:81) [main/:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555) [tomcat-servlet-api-9.0.82.jar:4.0.FR]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) [tomcat-servlet-api-9.0.82.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) [tomcat-embed-websocket-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.ofbiz.webapp.control.SameSiteFilter.doFilter(SameSiteFilter.java:45) [main/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.ofbiz.webapp.control.ContextFilter.doFilter(ContextFilter.java:188) [main/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.ofbiz.base.util.CacheFilter.doFilter(CacheFilter.java:63) [main/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.ofbiz.webapp.control.ControlFilter.doFilter(ControlFilter.java:167) [main/:?]
+	at javax.servlet.http.HttpFilter.doFilter(HttpFilter.java:53) [tomcat-servlet-api-9.0.82.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.logging.log4j.web.Log4jServletFilter.doFilter(Log4jServletFilter.java:71) [log4j-web-2.20.0.jar:2.20.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.coyote.http2.StreamProcessor.service(StreamProcessor.java:432) [tomcat-coyote-9.0.82.jar:9.0.82]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) [tomcat-coyote-9.0.82.jar:9.0.82]
+	at org.apache.coyote.http2.StreamProcessor.process(StreamProcessor.java:90) [tomcat-coyote-9.0.82.jar:9.0.82]
+	at org.apache.coyote.http2.StreamRunnable.run(StreamRunnable.java:35) [tomcat-coyote-9.0.82.jar:9.0.82]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) [tomcat-util-9.0.82.jar:9.0.82]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-util-9.0.82.jar:9.0.82]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-util-9.0.82.jar:9.0.82]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+Caused by: org.apache.ofbiz.entity.GenericEntityException: Error while inserting: [GenericEntity:ExamMaster][answersMust,Yes(java.lang.String)][createdStamp,2023-12-07 16:19:16.975(java.sql.Timestamp)][createdTxStamp,2023-12-07 16:19:16.908(java.sql.Timestamp)][creationDate,null()][description,null()][durationMinutes,60(java.lang.Long)][enableNegativeMark,Yes(java.lang.String)][examId,ENG(java.lang.String)][examName,English(java.lang.String)][expirationDate,null()][lastUpdatedStamp,2023-12-07 16:19:16.975(java.sql.Timestamp)][lastUpdatedTxStamp,2023-12-07 16:19:16.908(java.sql.Timestamp)][negativeMarkValue,3.5(java.math.BigDecimal)][noOfQuestions,10(java.lang.Long)][passPercentage,33.3(java.math.BigDecimal)][questionsRandomized,YES(java.lang.String)] (SQL Exception while executing the following:INSERT INTO public.EXAM_MASTER (EXAM_ID, EXAM_NAME, DESCRIPTION, CREATION_DATE, EXPIRATION_DATE, NO_OF_QUESTIONS, DURATION_MINUTES, PASS_PERCENTAGE, QUESTIONS_RANDOMIZED, ANSWERS_MUST, ENABLE_NEGATIVE_MARK, NEGATIVE_MARK_VALUE, LAST_UPDATED_STAMP, LAST_UPDATED_TX_STAMP, CREATED_STAMP, CREATED_TX_STAMP) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) (ERROR: value too long for type character(1)))
+	at org.apache.ofbiz.entity.datasource.GenericDAO.singleInsert(GenericDAO.java:183) ~[main/:?]
+	at org.apache.ofbiz.entity.datasource.GenericDAO.insert(GenericDAO.java:115) ~[main/:?]
+	at org.apache.ofbiz.entity.datasource.GenericHelperDAO.create(GenericHelperDAO.java:68) ~[main/:?]
+	at org.apache.ofbiz.entity.GenericDelegator.create(GenericDelegator.java:897) ~[main/:?]
+	... 55 more
+Caused by: org.apache.ofbiz.entity.GenericDataSourceException: SQL Exception while executing the following:INSERT INTO public.EXAM_MASTER (EXAM_ID, EXAM_NAME, DESCRIPTION, CREATION_DATE, EXPIRATION_DATE, NO_OF_QUESTIONS, DURATION_MINUTES, PASS_PERCENTAGE, QUESTIONS_RANDOMIZED, ANSWERS_MUST, ENABLE_NEGATIVE_MARK, NEGATIVE_MARK_VALUE, LAST_UPDATED_STAMP, LAST_UPDATED_TX_STAMP, CREATED_STAMP, CREATED_TX_STAMP) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) (ERROR: value too long for type character(1))
+	at org.apache.ofbiz.entity.jdbc.SQLProcessor.executeUpdate(SQLProcessor.java:445) ~[main/:?]
+	at org.apache.ofbiz.entity.datasource.GenericDAO.singleInsert(GenericDAO.java:178) ~[main/:?]
+	at org.apache.ofbiz.entity.datasource.GenericDAO.insert(GenericDAO.java:115) ~[main/:?]
+	at org.apache.ofbiz.entity.datasource.GenericHelperDAO.create(GenericHelperDAO.java:68) ~[main/:?]
+	at org.apache.ofbiz.entity.GenericDelegator.create(GenericDelegator.java:897) ~[main/:?]
+	... 55 more
+Caused by: org.postgresql.util.PSQLException: ERROR: value too long for type character(1)
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713) ~[postgresql-42.6.0.jar:42.6.0]
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401) ~[postgresql-42.6.0.jar:42.6.0]
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368) ~[postgresql-42.6.0.jar:42.6.0]
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498) ~[postgresql-42.6.0.jar:42.6.0]
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415) ~[postgresql-42.6.0.jar:42.6.0]
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190) ~[postgresql-42.6.0.jar:42.6.0]
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:152) ~[postgresql-42.6.0.jar:42.6.0]
+	at org.apache.commons.dbcp2.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:137) ~[commons-dbcp2-2.10.0.jar:2.10.0]
+	at org.apache.commons.dbcp2.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:137) ~[commons-dbcp2-2.10.0.jar:2.10.0]
+	at org.apache.ofbiz.entity.jdbc.SQLProcessor.executeUpdate(SQLProcessor.java:440) ~[main/:?]
+	at org.apache.ofbiz.entity.datasource.GenericDAO.singleInsert(GenericDAO.java:178) ~[main/:?]
+	at org.apache.ofbiz.entity.datasource.GenericDAO.insert(GenericDAO.java:115) ~[main/:?]
+	at org.apache.ofbiz.entity.datasource.GenericHelperDAO.create(GenericHelperDAO.java:68) ~[main/:?]
+	at org.apache.ofbiz.entity.GenericDelegator.create(GenericDelegator.java:897) ~[main/:?]
+	... 55 more
+2023-12-07 16:19:17,070 |jsse-nio-8443-exec-9 |ServiceUtil                   |E| {errorMessage=Error doing entity-auto operation for entity ExamMaster in service createExamMaster: org.apache.ofbiz.entity.GenericEntityException: org.apache.ofbiz.entity.GenericEntityException: Error while inserting: [GenericEntity:ExamMaster][answersMust,Yes(java.lang.String)][createdStamp,2023-12-07 16:19:16.975(java.sql.Timestamp)][createdTxStamp,2023-12-07 16:19:16.908(java.sql.Timestamp)][creationDate,null()][description,null()][durationMinutes,60(java.lang.Long)][enableNegativeMark,Yes(java.lang.String)][examId,ENG(java.lang.String)][examName,English(java.lang.String)][expirationDate,null()][lastUpdatedStamp,2023-12-07 16:19:16.975(java.sql.Timestamp)][lastUpdatedTxStamp,2023-12-07 16:19:16.908(java.sql.Timestamp)][negativeMarkValue,3.5(java.math.BigDecimal)][noOfQuestions,10(java.lang.Long)][passPercentage,33.3(java.math.BigDecimal)][questionsRandomized,YES(java.lang.String)] (SQL Exception while executing the following:INSERT INTO public.EXAM_MASTER (EXAM_ID, EXAM_NAME, DESCRIPTION, CREATION_DATE, EXPIRATION_DATE, NO_OF_QUESTIONS, DURATION_MINUTES, PASS_PERCENTAGE, QUESTIONS_RANDOMIZED, ANSWERS_MUST, ENABLE_NEGATIVE_MARK, NEGATIVE_MARK_VALUE, LAST_UPDATED_STAMP, LAST_UPDATED_TX_STAMP, CREATED_STAMP, CREATED_TX_STAMP) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) (ERROR: value too long for type character(1))) (Error while inserting: [GenericEntity:ExamMaster][answersMust,Yes(java.lang.String)][createdStamp,2023-12-07 16:19:16.975(java.sql.Timestamp)][createdTxStamp,2023-12-07 16:19:16.908(java.sql.Timestamp)][creationDate,null()][description,null()][durationMinutes,60(java.lang.Long)][enableNegativeMark,Yes(java.lang.String)][examId,ENG(java.lang.String)][examName,English(java.lang.String)][expirationDate,null()][lastUpdatedStamp,2023-12-07 16:19:16.975(java.sql.Timestamp)][lastUpdatedTxStamp,2023-12-07 16:19:16.908(java.sql.Timestamp)][negativeMarkValue,3.5(java.math.BigDecimal)][noOfQuestions,10(java.lang.Long)][passPercentage,33.3(java.math.BigDecimal)][questionsRandomized,YES(java.lang.String)] (SQL Exception while executing the following:INSERT INTO public.EXAM_MASTER (EXAM_ID, EXAM_NAME, DESCRIPTION, CREATION_DATE, EXPIRATION_DATE, NO_OF_QUESTIONS, DURATION_MINUTES, PASS_PERCENTAGE, QUESTIONS_RANDOMIZED, ANSWERS_MUST, ENABLE_NEGATIVE_MARK, NEGATIVE_MARK_VALUE, LAST_UPDATED_STAMP, LAST_UPDATED_TX_STAMP, CREATED_STAMP, CREATED_TX_STAMP) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) (ERROR: value too long for type character(1)))), responseMessage=error}
+2023-12-07 16:19:17,070 |jsse-nio-8443-exec-9 |ServiceDispatcher             |E| Error in Service [createExamMaster]: Error doing entity-auto operation for entity ExamMaster in service createExamMaster: org.apache.ofbiz.entity.GenericEntityException: org.apache.ofbiz.entity.GenericEntityException: Error while inserting: [GenericEntity:ExamMaster][answersMust,Yes(java.lang.String)][createdStamp,2023-12-07 16:19:16.975(java.sql.Timestamp)][createdTxStamp,2023-12-07 16:19:16.908(java.sql.Timestamp)][creationDate,null()][description,null()][durationMinutes,60(java.lang.Long)][enableNegativeMark,Yes(java.lang.String)][examId,ENG(java.lang.String)][examName,English(java.lang.String)][expirationDate,null()][lastUpdatedStamp,2023-12-07 16:19:16.975(java.sql.Timestamp)][lastUpdatedTxStamp,2023-12-07 16:19:16.908(java.sql.Timestamp)][negativeMarkValue,3.5(java.math.BigDecimal)][noOfQuestions,10(java.lang.Long)][passPercentage,33.3(java.math.BigDecimal)][questionsRandomized,YES(java.lang.String)] (SQL Exception while executing the following:INSERT INTO public.EXAM_MASTER (EXAM_ID, EXAM_NAME, DESCRIPTION, CREATION_DATE, EXPIRATION_DATE, NO_OF_QUESTIONS, DURATION_MINUTES, PASS_PERCENTAGE, QUESTIONS_RANDOMIZED, ANSWERS_MUST, ENABLE_NEGATIVE_MARK, NEGATIVE_MARK_VALUE, LAST_UPDATED_STAMP, LAST_UPDATED_TX_STAMP, CREATED_STAMP, CREATED_TX_STAMP) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) (ERROR: value too long for type character(1))) (Error while inserting: [GenericEntity:ExamMaster][answersMust,Yes(java.lang.String)][createdStamp,2023-12-07 16:19:16.975(java.sql.Timestamp)][createdTxStamp,2023-12-07 16:19:16.908(java.sql.Timestamp)][creationDate,null()][description,null()][durationMinutes,60(java.lang.Long)][enableNegativeMark,Yes(java.lang.String)][examId,ENG(java.lang.String)][examName,English(java.lang.String)][expirationDate,null()][lastUpdatedStamp,2023-12-07 16:19:16.975(java.sql.Timestamp)][lastUpdatedTxStamp,2023-12-07 16:19:16.908(java.sql.Timestamp)][negativeMarkValue,3.5(java.math.BigDecimal)][noOfQuestions,10(java.lang.Long)][passPercentage,33.3(java.math.BigDecimal)][questionsRandomized,YES(java.lang.String)] (SQL Exception while executing the following:INSERT INTO public.EXAM_MASTER (EXAM_ID, EXAM_NAME, DESCRIPTION, CREATION_DATE, EXPIRATION_DATE, NO_OF_QUESTIONS, DURATION_MINUTES, PASS_PERCENTAGE, QUESTIONS_RANDOMIZED, ANSWERS_MUST, ENABLE_NEGATIVE_MARK, NEGATIVE_MARK_VALUE, LAST_UPDATED_STAMP, LAST_UPDATED_TX_STAMP, CREATED_STAMP, CREATED_TX_STAMP) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) (ERROR: value too long for type character(1))))
+2023-12-07 16:19:17,150 |jsse-nio-8443-exec-9 |TransactionUtil               |E| Rollback Only was set when trying to commit transaction here; throwing rollbackOnly cause exception
+javax.transaction.RollbackException: Unable to commit: transaction marked for rollback
+	at org.apache.geronimo.transaction.manager.TransactionImpl.commit(TransactionImpl.java:272) ~[geronimo-transaction-3.1.5.jar:3.1.5]
+	at org.apache.geronimo.transaction.manager.TransactionManagerImpl.commit(TransactionManagerImpl.java:263) ~[geronimo-transaction-3.1.5.jar:3.1.5]
+	at org.apache.ofbiz.entity.transaction.TransactionUtil.commit(TransactionUtil.java:250) [main/:?]
+	at org.apache.ofbiz.entity.transaction.TransactionUtil.commit(TransactionUtil.java:233) [main/:?]
+	at org.apache.ofbiz.webapp.event.JavaEventHandler.invoke(JavaEventHandler.java:105) [main/:?]
+	at org.apache.ofbiz.webapp.control.RequestHandler.runEvent(RequestHandler.java:1078) [main/:?]
+	at org.apache.ofbiz.webapp.control.RequestHandler.doRequest(RequestHandler.java:678) [main/:?]
+	at org.apache.ofbiz.webapp.control.ControlServlet.handle(ControlServlet.java:231) [main/:?]
+	at org.apache.ofbiz.webapp.control.ControlServlet.doPost(ControlServlet.java:81) [main/:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555) [tomcat-servlet-api-9.0.82.jar:4.0.FR]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) [tomcat-servlet-api-9.0.82.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) [tomcat-embed-websocket-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.ofbiz.webapp.control.SameSiteFilter.doFilter(SameSiteFilter.java:45) [main/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.ofbiz.webapp.control.ContextFilter.doFilter(ContextFilter.java:188) [main/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.ofbiz.base.util.CacheFilter.doFilter(CacheFilter.java:63) [main/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.ofbiz.webapp.control.ControlFilter.doFilter(ControlFilter.java:167) [main/:?]
+	at javax.servlet.http.HttpFilter.doFilter(HttpFilter.java:53) [tomcat-servlet-api-9.0.82.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.logging.log4j.web.Log4jServletFilter.doFilter(Log4jServletFilter.java:71) [log4j-web-2.20.0.jar:2.20.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.coyote.http2.StreamProcessor.service(StreamProcessor.java:432) [tomcat-coyote-9.0.82.jar:9.0.82]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) [tomcat-coyote-9.0.82.jar:9.0.82]
+	at org.apache.coyote.http2.StreamProcessor.process(StreamProcessor.java:90) [tomcat-coyote-9.0.82.jar:9.0.82]
+	at org.apache.coyote.http2.StreamRunnable.run(StreamRunnable.java:35) [tomcat-coyote-9.0.82.jar:9.0.82]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) [tomcat-util-9.0.82.jar:9.0.82]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-util-9.0.82.jar:9.0.82]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-util-9.0.82.jar:9.0.82]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+Caused by: org.apache.geronimo.transaction.manager.SetRollbackOnlyException: setRollbackOnly() called.  See stacktrace for origin
+	at org.apache.geronimo.transaction.manager.TransactionImpl.setRollbackOnly(TransactionImpl.java:126) ~[geronimo-transaction-3.1.5.jar:3.1.5]
+	at org.apache.geronimo.transaction.manager.TransactionManagerImpl.setRollbackOnly(TransactionManagerImpl.java:254) ~[geronimo-transaction-3.1.5.jar:3.1.5]
+	at org.apache.ofbiz.entity.transaction.TransactionUtil.setRollbackOnly(TransactionUtil.java:375) ~[main/:?]
+	at org.apache.ofbiz.entity.jdbc.SQLProcessor.rollback(SQLProcessor.java:198) ~[main/:?]
+	at org.apache.ofbiz.entity.datasource.GenericDAO.insert(GenericDAO.java:117) ~[main/:?]
+	at org.apache.ofbiz.entity.datasource.GenericHelperDAO.create(GenericHelperDAO.java:68) ~[main/:?]
+	at org.apache.ofbiz.entity.GenericDelegator.create(GenericDelegator.java:897) ~[main/:?]
+	at org.apache.ofbiz.entity.GenericValue.create(GenericValue.java:76) ~[main/:?]
+	at org.apache.ofbiz.service.engine.EntityAutoEngine.invokeCreate(EntityAutoEngine.java:378) ~[main/:?]
+	at org.apache.ofbiz.service.engine.EntityAutoEngine.runSync(EntityAutoEngine.java:124) ~[main/:?]
+	at org.apache.ofbiz.service.ServiceDispatcher.runSync(ServiceDispatcher.java:428) ~[main/:?]
+	at org.apache.ofbiz.service.ServiceDispatcher.runSync(ServiceDispatcher.java:244) ~[main/:?]
+	at org.apache.ofbiz.service.GenericDispatcherFactory$GenericDispatcher.runSync(GenericDispatcherFactory.java:93) ~[main/:?]
+	at org.apache.ofbiz.webapp.event.CoreEvents.scheduleService(CoreEvents.java:329) ~[main/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.apache.ofbiz.webapp.event.JavaEventHandler.invoke(JavaEventHandler.java:85) ~[main/:?]
+	... 43 more
+2023-12-07 16:19:17,152 |jsse-nio-8443-exec-9 |JavaEventHandler              |E| null
+org.apache.ofbiz.entity.transaction.GenericTransactionException: Roll back error, could not commit transaction, was rolled back instead because of: rollback called in Entity Engine SQLProcessorjava.lang.Exception: Current Location Stack (Current Location Stack)
+	at org.apache.ofbiz.entity.transaction.TransactionUtil.commit(TransactionUtil.java:275) ~[main/:?]
+	at org.apache.ofbiz.entity.transaction.TransactionUtil.commit(TransactionUtil.java:233) ~[main/:?]
+	at org.apache.ofbiz.webapp.event.JavaEventHandler.invoke(JavaEventHandler.java:105) [main/:?]
+	at org.apache.ofbiz.webapp.control.RequestHandler.runEvent(RequestHandler.java:1078) [main/:?]
+	at org.apache.ofbiz.webapp.control.RequestHandler.doRequest(RequestHandler.java:678) [main/:?]
+	at org.apache.ofbiz.webapp.control.ControlServlet.handle(ControlServlet.java:231) [main/:?]
+	at org.apache.ofbiz.webapp.control.ControlServlet.doPost(ControlServlet.java:81) [main/:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555) [tomcat-servlet-api-9.0.82.jar:4.0.FR]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) [tomcat-servlet-api-9.0.82.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) [tomcat-embed-websocket-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.ofbiz.webapp.control.SameSiteFilter.doFilter(SameSiteFilter.java:45) [main/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.ofbiz.webapp.control.ContextFilter.doFilter(ContextFilter.java:188) [main/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.ofbiz.base.util.CacheFilter.doFilter(CacheFilter.java:63) [main/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.ofbiz.webapp.control.ControlFilter.doFilter(ControlFilter.java:167) [main/:?]
+	at javax.servlet.http.HttpFilter.doFilter(HttpFilter.java:53) [tomcat-servlet-api-9.0.82.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.logging.log4j.web.Log4jServletFilter.doFilter(Log4jServletFilter.java:71) [log4j-web-2.20.0.jar:2.20.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.coyote.http2.StreamProcessor.service(StreamProcessor.java:432) [tomcat-coyote-9.0.82.jar:9.0.82]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) [tomcat-coyote-9.0.82.jar:9.0.82]
+	at org.apache.coyote.http2.StreamProcessor.process(StreamProcessor.java:90) [tomcat-coyote-9.0.82.jar:9.0.82]
+	at org.apache.coyote.http2.StreamRunnable.run(StreamRunnable.java:35) [tomcat-coyote-9.0.82.jar:9.0.82]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) [tomcat-util-9.0.82.jar:9.0.82]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-util-9.0.82.jar:9.0.82]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-util-9.0.82.jar:9.0.82]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+Caused by: java.lang.Exception: Current Location Stack
+	at org.apache.ofbiz.entity.jdbc.SQLProcessor.rollback(SQLProcessor.java:198) ~[main/:?]
+	at org.apache.ofbiz.entity.datasource.GenericDAO.insert(GenericDAO.java:117) ~[main/:?]
+	at org.apache.ofbiz.entity.datasource.GenericHelperDAO.create(GenericHelperDAO.java:68) ~[main/:?]
+	at org.apache.ofbiz.entity.GenericDelegator.create(GenericDelegator.java:897) ~[main/:?]
+	at org.apache.ofbiz.entity.GenericValue.create(GenericValue.java:76) ~[main/:?]
+	at org.apache.ofbiz.service.engine.EntityAutoEngine.invokeCreate(EntityAutoEngine.java:378) ~[main/:?]
+	at org.apache.ofbiz.service.engine.EntityAutoEngine.runSync(EntityAutoEngine.java:124) ~[main/:?]
+	at org.apache.ofbiz.service.ServiceDispatcher.runSync(ServiceDispatcher.java:428) ~[main/:?]
+	at org.apache.ofbiz.service.ServiceDispatcher.runSync(ServiceDispatcher.java:244) ~[main/:?]
+	at org.apache.ofbiz.service.GenericDispatcherFactory$GenericDispatcher.runSync(GenericDispatcherFactory.java:93) ~[main/:?]
+	at org.apache.ofbiz.webapp.event.CoreEvents.scheduleService(CoreEvents.java:329) ~[main/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.apache.ofbiz.webapp.event.JavaEventHandler.invoke(JavaEventHandler.java:85) ~[main/:?]
+	... 43 more
+2023-12-07 16:26:17,353 |sse-nio-8443-exec-15 |ServiceUtil                   |E| {errorMessage=Value not found, cannot update, responseMessage=error}
+2023-12-07 16:26:17,355 |sse-nio-8443-exec-15 |ServiceDispatcher             |E| Error in Service [updateExamMaster]: Value not found, cannot update
+2023-12-07 16:26:17,356 |sse-nio-8443-exec-15 |TransactionUtil               |E| Rollback Only was set when trying to commit transaction here; throwing rollbackOnly cause exception
+javax.transaction.RollbackException: Unable to commit: transaction marked for rollback
+	at org.apache.geronimo.transaction.manager.TransactionImpl.commit(TransactionImpl.java:272) ~[geronimo-transaction-3.1.5.jar:3.1.5]
+	at org.apache.geronimo.transaction.manager.TransactionManagerImpl.commit(TransactionManagerImpl.java:263) ~[geronimo-transaction-3.1.5.jar:3.1.5]
+	at org.apache.ofbiz.entity.transaction.TransactionUtil.commit(TransactionUtil.java:250) [main/:?]
+	at org.apache.ofbiz.entity.transaction.TransactionUtil.commit(TransactionUtil.java:233) [main/:?]
+	at org.apache.ofbiz.webapp.event.JavaEventHandler.invoke(JavaEventHandler.java:105) [main/:?]
+	at org.apache.ofbiz.webapp.control.RequestHandler.runEvent(RequestHandler.java:1078) [main/:?]
+	at org.apache.ofbiz.webapp.control.RequestHandler.doRequest(RequestHandler.java:678) [main/:?]
+	at org.apache.ofbiz.webapp.control.ControlServlet.handle(ControlServlet.java:231) [main/:?]
+	at org.apache.ofbiz.webapp.control.ControlServlet.doPost(ControlServlet.java:81) [main/:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555) [tomcat-servlet-api-9.0.82.jar:4.0.FR]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) [tomcat-servlet-api-9.0.82.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) [tomcat-embed-websocket-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.ofbiz.webapp.control.SameSiteFilter.doFilter(SameSiteFilter.java:45) [main/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.ofbiz.webapp.control.ContextFilter.doFilter(ContextFilter.java:188) [main/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.ofbiz.base.util.CacheFilter.doFilter(CacheFilter.java:63) [main/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.ofbiz.webapp.control.ControlFilter.doFilter(ControlFilter.java:167) [main/:?]
+	at javax.servlet.http.HttpFilter.doFilter(HttpFilter.java:53) [tomcat-servlet-api-9.0.82.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.logging.log4j.web.Log4jServletFilter.doFilter(Log4jServletFilter.java:71) [log4j-web-2.20.0.jar:2.20.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.coyote.http2.StreamProcessor.service(StreamProcessor.java:432) [tomcat-coyote-9.0.82.jar:9.0.82]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) [tomcat-coyote-9.0.82.jar:9.0.82]
+	at org.apache.coyote.http2.StreamProcessor.process(StreamProcessor.java:90) [tomcat-coyote-9.0.82.jar:9.0.82]
+	at org.apache.coyote.http2.StreamRunnable.run(StreamRunnable.java:35) [tomcat-coyote-9.0.82.jar:9.0.82]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) [tomcat-util-9.0.82.jar:9.0.82]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-util-9.0.82.jar:9.0.82]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-util-9.0.82.jar:9.0.82]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+Caused by: org.apache.geronimo.transaction.manager.SetRollbackOnlyException: setRollbackOnly() called.  See stacktrace for origin
+	at org.apache.geronimo.transaction.manager.TransactionImpl.setRollbackOnly(TransactionImpl.java:126) ~[geronimo-transaction-3.1.5.jar:3.1.5]
+	at org.apache.geronimo.transaction.manager.TransactionManagerImpl.setRollbackOnly(TransactionManagerImpl.java:254) ~[geronimo-transaction-3.1.5.jar:3.1.5]
+	at org.apache.ofbiz.entity.transaction.TransactionUtil.setRollbackOnly(TransactionUtil.java:375) ~[main/:?]
+	at org.apache.ofbiz.entity.transaction.TransactionUtil.rollback(TransactionUtil.java:306) ~[main/:?]
+	at org.apache.ofbiz.service.ServiceDispatcher.runSync(ServiceDispatcher.java:577) ~[main/:?]
+	at org.apache.ofbiz.service.ServiceDispatcher.runSync(ServiceDispatcher.java:244) ~[main/:?]
+	at org.apache.ofbiz.service.GenericDispatcherFactory$GenericDispatcher.runSync(GenericDispatcherFactory.java:93) ~[main/:?]
+	at org.apache.ofbiz.webapp.event.CoreEvents.scheduleService(CoreEvents.java:329) ~[main/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.apache.ofbiz.webapp.event.JavaEventHandler.invoke(JavaEventHandler.java:85) ~[main/:?]
+	... 43 more
+2023-12-07 16:26:17,357 |sse-nio-8443-exec-15 |JavaEventHandler              |E| null
+org.apache.ofbiz.entity.transaction.GenericTransactionException: Roll back error, could not commit transaction, was rolled back instead because of: Error in Service [updateExamMaster]: Value not found, cannot update
+	at org.apache.ofbiz.entity.transaction.TransactionUtil.commit(TransactionUtil.java:275) ~[main/:?]
+	at org.apache.ofbiz.entity.transaction.TransactionUtil.commit(TransactionUtil.java:233) ~[main/:?]
+	at org.apache.ofbiz.webapp.event.JavaEventHandler.invoke(JavaEventHandler.java:105) [main/:?]
+	at org.apache.ofbiz.webapp.control.RequestHandler.runEvent(RequestHandler.java:1078) [main/:?]
+	at org.apache.ofbiz.webapp.control.RequestHandler.doRequest(RequestHandler.java:678) [main/:?]
+	at org.apache.ofbiz.webapp.control.ControlServlet.handle(ControlServlet.java:231) [main/:?]
+	at org.apache.ofbiz.webapp.control.ControlServlet.doPost(ControlServlet.java:81) [main/:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555) [tomcat-servlet-api-9.0.82.jar:4.0.FR]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) [tomcat-servlet-api-9.0.82.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) [tomcat-embed-websocket-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.ofbiz.webapp.control.SameSiteFilter.doFilter(SameSiteFilter.java:45) [main/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.ofbiz.webapp.control.ContextFilter.doFilter(ContextFilter.java:188) [main/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.ofbiz.base.util.CacheFilter.doFilter(CacheFilter.java:63) [main/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.ofbiz.webapp.control.ControlFilter.doFilter(ControlFilter.java:167) [main/:?]
+	at javax.servlet.http.HttpFilter.doFilter(HttpFilter.java:53) [tomcat-servlet-api-9.0.82.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.logging.log4j.web.Log4jServletFilter.doFilter(Log4jServletFilter.java:71) [log4j-web-2.20.0.jar:2.20.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.coyote.http2.StreamProcessor.service(StreamProcessor.java:432) [tomcat-coyote-9.0.82.jar:9.0.82]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) [tomcat-coyote-9.0.82.jar:9.0.82]
+	at org.apache.coyote.http2.StreamProcessor.process(StreamProcessor.java:90) [tomcat-coyote-9.0.82.jar:9.0.82]
+	at org.apache.coyote.http2.StreamRunnable.run(StreamRunnable.java:35) [tomcat-coyote-9.0.82.jar:9.0.82]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) [tomcat-util-9.0.82.jar:9.0.82]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-util-9.0.82.jar:9.0.82]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-util-9.0.82.jar:9.0.82]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+2023-12-07 17:01:17,006 |sse-nio-8443-exec-21 |GenericDelegator              |E| Failure in create operation for entity [PartyRole]: org.apache.ofbiz.entity.GenericEntityException: Error while inserting: [GenericEntity:PartyRole][createdStamp,2023-12-07 17:01:16.997(java.sql.Timestamp)][createdTxStamp,2023-12-07 17:01:16.996(java.sql.Timestamp)][lastUpdatedStamp,2023-12-07 17:01:16.997(java.sql.Timestamp)][lastUpdatedTxStamp,2023-12-07 17:01:16.996(java.sql.Timestamp)][partyId,10030(java.lang.String)][roleTypeId,admin(java.lang.String)] (SQL Exception while executing the following:INSERT INTO public.PARTY_ROLE (PARTY_ID, ROLE_TYPE_ID, LAST_UPDATED_STAMP, LAST_UPDATED_TX_STAMP, CREATED_STAMP, CREATED_TX_STAMP) VALUES (?, ?, ?, ?, ?, ?) (ERROR: insert or update on table "party_role" violates foreign key constraint "party_rle_role"
+  Detail: Key (role_type_id)=(admin) is not present in table "role_type".)). Rolling back transaction.
+2023-12-07 17:01:17,008 |sse-nio-8443-exec-21 |TransactionUtil               |E| Rollback Only was set when trying to commit transaction here; throwing rollbackOnly cause exception
+javax.transaction.RollbackException: Unable to commit: transaction marked for rollback
+	at org.apache.geronimo.transaction.manager.TransactionImpl.commit(TransactionImpl.java:272) ~[geronimo-transaction-3.1.5.jar:3.1.5]
+	at org.apache.geronimo.transaction.manager.TransactionManagerImpl.commit(TransactionManagerImpl.java:263) ~[geronimo-transaction-3.1.5.jar:3.1.5]
+	at org.apache.ofbiz.entity.transaction.TransactionUtil.commit(TransactionUtil.java:250) [main/:?]
+	at org.apache.ofbiz.entity.transaction.TransactionUtil.commit(TransactionUtil.java:233) [main/:?]
+	at org.apache.ofbiz.webapp.event.JavaEventHandler.invoke(JavaEventHandler.java:105) [main/:?]
+	at org.apache.ofbiz.webapp.control.RequestHandler.runEvent(RequestHandler.java:1078) [main/:?]
+	at org.apache.ofbiz.webapp.control.RequestHandler.doRequest(RequestHandler.java:678) [main/:?]
+	at org.apache.ofbiz.webapp.control.ControlServlet.handle(ControlServlet.java:231) [main/:?]
+	at org.apache.ofbiz.webapp.control.ControlServlet.doPost(ControlServlet.java:81) [main/:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555) [tomcat-servlet-api-9.0.82.jar:4.0.FR]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) [tomcat-servlet-api-9.0.82.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) [tomcat-embed-websocket-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.ofbiz.webapp.control.SameSiteFilter.doFilter(SameSiteFilter.java:45) [main/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.ofbiz.webapp.control.ContextFilter.doFilter(ContextFilter.java:188) [main/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.ofbiz.base.util.CacheFilter.doFilter(CacheFilter.java:63) [main/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.ofbiz.webapp.control.ControlFilter.doFilter(ControlFilter.java:167) [main/:?]
+	at javax.servlet.http.HttpFilter.doFilter(HttpFilter.java:53) [tomcat-servlet-api-9.0.82.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.logging.log4j.web.Log4jServletFilter.doFilter(Log4jServletFilter.java:71) [log4j-web-2.20.0.jar:2.20.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.coyote.http2.StreamProcessor.service(StreamProcessor.java:432) [tomcat-coyote-9.0.82.jar:9.0.82]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) [tomcat-coyote-9.0.82.jar:9.0.82]
+	at org.apache.coyote.http2.StreamProcessor.process(StreamProcessor.java:90) [tomcat-coyote-9.0.82.jar:9.0.82]
+	at org.apache.coyote.http2.StreamRunnable.run(StreamRunnable.java:35) [tomcat-coyote-9.0.82.jar:9.0.82]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) [tomcat-util-9.0.82.jar:9.0.82]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-util-9.0.82.jar:9.0.82]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-util-9.0.82.jar:9.0.82]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+Caused by: org.apache.geronimo.transaction.manager.SetRollbackOnlyException: setRollbackOnly() called.  See stacktrace for origin
+	at org.apache.geronimo.transaction.manager.TransactionImpl.setRollbackOnly(TransactionImpl.java:126) ~[geronimo-transaction-3.1.5.jar:3.1.5]
+	at org.apache.geronimo.transaction.manager.TransactionManagerImpl.setRollbackOnly(TransactionManagerImpl.java:254) ~[geronimo-transaction-3.1.5.jar:3.1.5]
+	at org.apache.ofbiz.entity.transaction.TransactionUtil.setRollbackOnly(TransactionUtil.java:375) ~[main/:?]
+	at org.apache.ofbiz.entity.jdbc.SQLProcessor.rollback(SQLProcessor.java:198) ~[main/:?]
+	at org.apache.ofbiz.entity.datasource.GenericDAO.insert(GenericDAO.java:117) ~[main/:?]
+	at org.apache.ofbiz.entity.datasource.GenericHelperDAO.create(GenericHelperDAO.java:68) ~[main/:?]
+	at org.apache.ofbiz.entity.GenericDelegator.create(GenericDelegator.java:897) ~[main/:?]
+	at org.apache.ofbiz.entity.GenericDelegator.create(GenericDelegator.java:753) ~[main/:?]
+	at org.apache.ofbiz.webtools.GenericWebEvent.updateGeneric(GenericWebEvent.java:350) ~[main/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.apache.ofbiz.webapp.event.JavaEventHandler.invoke(JavaEventHandler.java:85) ~[main/:?]
+	... 43 more
+2023-12-07 17:01:17,009 |sse-nio-8443-exec-21 |JavaEventHandler              |E| null
+org.apache.ofbiz.entity.transaction.GenericTransactionException: Roll back error, could not commit transaction, was rolled back instead because of: rollback called in Entity Engine SQLProcessorjava.lang.Exception: Current Location Stack (Current Location Stack)
+	at org.apache.ofbiz.entity.transaction.TransactionUtil.commit(TransactionUtil.java:275) ~[main/:?]
+	at org.apache.ofbiz.entity.transaction.TransactionUtil.commit(TransactionUtil.java:233) ~[main/:?]
+	at org.apache.ofbiz.webapp.event.JavaEventHandler.invoke(JavaEventHandler.java:105) [main/:?]
+	at org.apache.ofbiz.webapp.control.RequestHandler.runEvent(RequestHandler.java:1078) [main/:?]
+	at org.apache.ofbiz.webapp.control.RequestHandler.doRequest(RequestHandler.java:678) [main/:?]
+	at org.apache.ofbiz.webapp.control.ControlServlet.handle(ControlServlet.java:231) [main/:?]
+	at org.apache.ofbiz.webapp.control.ControlServlet.doPost(ControlServlet.java:81) [main/:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555) [tomcat-servlet-api-9.0.82.jar:4.0.FR]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) [tomcat-servlet-api-9.0.82.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) [tomcat-embed-websocket-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.ofbiz.webapp.control.SameSiteFilter.doFilter(SameSiteFilter.java:45) [main/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.ofbiz.webapp.control.ContextFilter.doFilter(ContextFilter.java:188) [main/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.ofbiz.base.util.CacheFilter.doFilter(CacheFilter.java:63) [main/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.ofbiz.webapp.control.ControlFilter.doFilter(ControlFilter.java:167) [main/:?]
+	at javax.servlet.http.HttpFilter.doFilter(HttpFilter.java:53) [tomcat-servlet-api-9.0.82.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.logging.log4j.web.Log4jServletFilter.doFilter(Log4jServletFilter.java:71) [log4j-web-2.20.0.jar:2.20.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.coyote.http2.StreamProcessor.service(StreamProcessor.java:432) [tomcat-coyote-9.0.82.jar:9.0.82]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) [tomcat-coyote-9.0.82.jar:9.0.82]
+	at org.apache.coyote.http2.StreamProcessor.process(StreamProcessor.java:90) [tomcat-coyote-9.0.82.jar:9.0.82]
+	at org.apache.coyote.http2.StreamRunnable.run(StreamRunnable.java:35) [tomcat-coyote-9.0.82.jar:9.0.82]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) [tomcat-util-9.0.82.jar:9.0.82]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-util-9.0.82.jar:9.0.82]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-util-9.0.82.jar:9.0.82]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+Caused by: java.lang.Exception: Current Location Stack
+	at org.apache.ofbiz.entity.jdbc.SQLProcessor.rollback(SQLProcessor.java:198) ~[main/:?]
+	at org.apache.ofbiz.entity.datasource.GenericDAO.insert(GenericDAO.java:117) ~[main/:?]
+	at org.apache.ofbiz.entity.datasource.GenericHelperDAO.create(GenericHelperDAO.java:68) ~[main/:?]
+	at org.apache.ofbiz.entity.GenericDelegator.create(GenericDelegator.java:897) ~[main/:?]
+	at org.apache.ofbiz.entity.GenericDelegator.create(GenericDelegator.java:753) ~[main/:?]
+	at org.apache.ofbiz.webtools.GenericWebEvent.updateGeneric(GenericWebEvent.java:350) ~[main/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.apache.ofbiz.webapp.event.JavaEventHandler.invoke(JavaEventHandler.java:85) ~[main/:?]
+	... 43 more
+2023-12-07 17:01:17,010 |sse-nio-8443-exec-21 |RequestHandler                |E| Request entity/change/{entityName} caused an error with the following message: Creation of PartyRole failed for entity: [GenericEntity:PartyRole][createdStamp,null()][createdTxStamp,null()][lastUpdatedStamp,null()][lastUpdatedTxStamp,null()][partyId,10030(java.lang.String)][roleTypeId,admin(java.lang.String)]: org.apache.ofbiz.entity.GenericEntityException: org.apache.ofbiz.entity.GenericEntityException: Error while inserting: [GenericEntity:PartyRole][createdStamp,2023-12-07 17:01:16.997(java.sql.Timestamp)][createdTxStamp,2023-12-07 17:01:16.996(java.sql.Timestamp)][lastUpdatedStamp,2023-12-07 17:01:16.997(java.sql.Timestamp)][lastUpdatedTxStamp,2023-12-07 17:01:16.996(java.sql.Timestamp)][partyId,10030(java.lang.String)][roleTypeId,admin(java.lang.String)] (SQL Exception while executing the following:INSERT INTO public.PARTY_ROLE (PARTY_ID, ROLE_TYPE_ID, LAST_UPDATED_STAMP, LAST_UPDATED_TX_STAMP, CREATED_STAMP, CREATED_TX_STAMP) VALUES (?, ?, ?, ?, ?, ?) (ERROR: insert or update on table "party_role" violates foreign key constraint "party_rle_role"
+  Detail: Key (role_type_id)=(admin) is not present in table "role_type".)) (Error while inserting: [GenericEntity:PartyRole][createdStamp,2023-12-07 17:01:16.997(java.sql.Timestamp)][createdTxStamp,2023-12-07 17:01:16.996(java.sql.Timestamp)][lastUpdatedStamp,2023-12-07 17:01:16.997(java.sql.Timestamp)][lastUpdatedTxStamp,2023-12-07 17:01:16.996(java.sql.Timestamp)][partyId,10030(java.lang.String)][roleTypeId,admin(java.lang.String)] (SQL Exception while executing the following:INSERT INTO public.PARTY_ROLE (PARTY_ID, ROLE_TYPE_ID, LAST_UPDATED_STAMP, LAST_UPDATED_TX_STAMP, CREATED_STAMP, CREATED_TX_STAMP) VALUES (?, ?, ?, ?, ?, ?) (ERROR: insert or update on table "party_role" violates foreign key constraint "party_rle_role"
+  Detail: Key (role_type_id)=(admin) is not present in table "role_type".)))
+2023-12-07 17:02:44,260 |jsse-nio-8443-exec-9 |RequestHandler                |E| Request login caused an error with the following message: following error occurred during login: Password incorrect.
+2023-12-07 17:02:49,627 |sse-nio-8443-exec-11 |RequestHandler                |E| Request login caused an error with the following message: following error occurred during login: Password incorrect.
+2023-12-07 17:35:08,034 |jsse-nio-8443-exec-7 |ServiceUtil                   |E| {errorMessage=Cannot create person, a party with the specified party ID already exists and is not a PERSON type party, responseMessage=error}
+2023-12-07 17:35:08,035 |jsse-nio-8443-exec-7 |ServiceDispatcher             |E| Error in Service [createPerson]: Cannot create person, a party with the specified party ID already exists and is not a PERSON type party
+2023-12-07 17:35:08,035 |jsse-nio-8443-exec-7 |TransactionUtil               |E| [TransactionUtil.rollback]
+java.lang.Exception: Stack Trace
+	at org.apache.ofbiz.entity.transaction.TransactionUtil.rollback(TransactionUtil.java:328) [main/:?]
+	at org.apache.ofbiz.entity.transaction.TransactionUtil.rollback(TransactionUtil.java:304) [main/:?]
+	at org.apache.ofbiz.service.ServiceDispatcher.runSync(ServiceDispatcher.java:577) [main/:?]
+	at org.apache.ofbiz.service.ServiceDispatcher.runSync(ServiceDispatcher.java:244) [main/:?]
+	at org.apache.ofbiz.service.GenericDispatcherFactory$GenericDispatcher.runSync(GenericDispatcherFactory.java:93) [main/:?]
+	at org.apache.ofbiz.webapp.event.ServiceEventHandler.invoke(ServiceEventHandler.java:254) [main/:?]
+	at org.apache.ofbiz.webapp.control.RequestHandler.runEvent(RequestHandler.java:1078) [main/:?]
+	at org.apache.ofbiz.webapp.control.RequestHandler.doRequest(RequestHandler.java:678) [main/:?]
+	at org.apache.ofbiz.webapp.control.ControlServlet.handle(ControlServlet.java:231) [main/:?]
+	at org.apache.ofbiz.webapp.control.ControlServlet.doPost(ControlServlet.java:81) [main/:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555) [tomcat-servlet-api-9.0.82.jar:4.0.FR]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) [tomcat-servlet-api-9.0.82.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) [tomcat-embed-websocket-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.ofbiz.webapp.control.ContextFilter.doFilter(ContextFilter.java:188) [main/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.ofbiz.webapp.control.ControlFilter.doFilter(ControlFilter.java:167) [main/:?]
+	at javax.servlet.http.HttpFilter.doFilter(HttpFilter.java:53) [tomcat-servlet-api-9.0.82.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.logging.log4j.web.Log4jServletFilter.doFilter(Log4jServletFilter.java:71) [log4j-web-2.20.0.jar:2.20.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.coyote.http2.StreamProcessor.service(StreamProcessor.java:432) [tomcat-coyote-9.0.82.jar:9.0.82]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) [tomcat-coyote-9.0.82.jar:9.0.82]
+	at org.apache.coyote.http2.StreamProcessor.process(StreamProcessor.java:90) [tomcat-coyote-9.0.82.jar:9.0.82]
+	at org.apache.coyote.http2.StreamRunnable.run(StreamRunnable.java:35) [tomcat-coyote-9.0.82.jar:9.0.82]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) [tomcat-util-9.0.82.jar:9.0.82]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-util-9.0.82.jar:9.0.82]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-util-9.0.82.jar:9.0.82]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+2023-12-07 17:35:08,090 |jsse-nio-8443-exec-7 |RequestHandler                |E| Request createPerson caused an error with the following message: Cannot create person, a party with the specified party ID already exists and is not a PERSON type party
+2023-12-07 17:48:02,319 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [DIFFICULTY_LEVEL] of table [public.QUESTION_MASTER] of entity [QuestionMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 17:48:02,328 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [PERFORMANCE_ID] of table [public.USER_ATTEMPT_ANSWER_MASTER] of entity [UserAttemptAnswerMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 17:48:02,328 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [IS_FLAGGED] of table [public.USER_ATTEMPT_ANSWER_MASTER] of entity [UserAttemptAnswerMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 17:48:02,328 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [NO_OF_QUESTIONS] of table [public.USER_ATTEMPT_MASTER] of entity [UserAttemptMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 17:48:02,328 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [TOTAL_WRONG] of table [public.USER_ATTEMPT_MASTER] of entity [UserAttemptMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 17:48:02,329 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [TOTAL_CORRECT] of table [public.USER_ATTEMPT_MASTER] of entity [UserAttemptMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 17:48:02,329 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [PERFORMANCE_ID] of table [public.USER_ATTEMPT_MASTER] of entity [UserAttemptMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 17:48:02,329 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [CORRECT_QUESTIONS_IN_THIS_TOPIC] of table [public.USER_ATTEMPT_TOPIC_MASTER] of entity [UserAttemptTopicMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 17:48:02,329 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [PERFORMANCE_ID] of table [public.USER_ATTEMPT_TOPIC_MASTER] of entity [UserAttemptTopicMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 17:48:02,329 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [TOTAL_QUESTIONS_IN_THIS_TOPIC] of table [public.USER_ATTEMPT_TOPIC_MASTER] of entity [UserAttemptTopicMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 17:48:02,330 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [MAX_SPLIT_ATTEMPTS] of table [public.USER_EXAM_MAPPING_MASTER] of entity [UserExamMappingMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 17:54:15,436 |sse-nio-8443-exec-13 |RequestHandler                |E| Request login caused an error with the following message: You cannot login to this application
+2023-12-07 17:54:24,879 |jsse-nio-8443-exec-4 |RequestHandler                |E| Request loginEvent caused an error with the following message: You cannot login to this application
+2023-12-07 18:48:40,408 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [DIFFICULTY_LEVEL] of table [public.QUESTION_MASTER] of entity [QuestionMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 18:48:40,415 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [PERFORMANCE_ID] of table [public.USER_ATTEMPT_ANSWER_MASTER] of entity [UserAttemptAnswerMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 18:48:40,415 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [IS_FLAGGED] of table [public.USER_ATTEMPT_ANSWER_MASTER] of entity [UserAttemptAnswerMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 18:48:40,415 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [NO_OF_QUESTIONS] of table [public.USER_ATTEMPT_MASTER] of entity [UserAttemptMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 18:48:40,416 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [TOTAL_WRONG] of table [public.USER_ATTEMPT_MASTER] of entity [UserAttemptMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 18:48:40,416 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [TOTAL_CORRECT] of table [public.USER_ATTEMPT_MASTER] of entity [UserAttemptMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 18:48:40,416 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [PERFORMANCE_ID] of table [public.USER_ATTEMPT_MASTER] of entity [UserAttemptMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 18:48:40,416 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [CORRECT_QUESTIONS_IN_THIS_TOPIC] of table [public.USER_ATTEMPT_TOPIC_MASTER] of entity [UserAttemptTopicMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 18:48:40,416 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [PERFORMANCE_ID] of table [public.USER_ATTEMPT_TOPIC_MASTER] of entity [UserAttemptTopicMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 18:48:40,416 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [TOTAL_QUESTIONS_IN_THIS_TOPIC] of table [public.USER_ATTEMPT_TOPIC_MASTER] of entity [UserAttemptTopicMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 18:48:40,417 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [MAX_SPLIT_ATTEMPTS] of table [public.USER_EXAM_MAPPING_MASTER] of entity [UserExamMappingMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 18:56:57,933 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [DIFFICULTY_LEVEL] of table [public.QUESTION_MASTER] of entity [QuestionMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 18:56:57,939 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [PERFORMANCE_ID] of table [public.USER_ATTEMPT_ANSWER_MASTER] of entity [UserAttemptAnswerMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 18:56:57,939 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [IS_FLAGGED] of table [public.USER_ATTEMPT_ANSWER_MASTER] of entity [UserAttemptAnswerMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 18:56:57,940 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [NO_OF_QUESTIONS] of table [public.USER_ATTEMPT_MASTER] of entity [UserAttemptMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 18:56:57,940 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [TOTAL_WRONG] of table [public.USER_ATTEMPT_MASTER] of entity [UserAttemptMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 18:56:57,940 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [TOTAL_CORRECT] of table [public.USER_ATTEMPT_MASTER] of entity [UserAttemptMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 18:56:57,940 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [PERFORMANCE_ID] of table [public.USER_ATTEMPT_MASTER] of entity [UserAttemptMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 18:56:57,940 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [CORRECT_QUESTIONS_IN_THIS_TOPIC] of table [public.USER_ATTEMPT_TOPIC_MASTER] of entity [UserAttemptTopicMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 18:56:57,940 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [PERFORMANCE_ID] of table [public.USER_ATTEMPT_TOPIC_MASTER] of entity [UserAttemptTopicMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 18:56:57,941 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [TOTAL_QUESTIONS_IN_THIS_TOPIC] of table [public.USER_ATTEMPT_TOPIC_MASTER] of entity [UserAttemptTopicMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 18:56:57,941 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [MAX_SPLIT_ATTEMPTS] of table [public.USER_EXAM_MAPPING_MASTER] of entity [UserExamMappingMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 19:07:09,794 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [DIFFICULTY_LEVEL] of table [public.QUESTION_MASTER] of entity [QuestionMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 19:07:09,801 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [PERFORMANCE_ID] of table [public.USER_ATTEMPT_ANSWER_MASTER] of entity [UserAttemptAnswerMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 19:07:09,801 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [IS_FLAGGED] of table [public.USER_ATTEMPT_ANSWER_MASTER] of entity [UserAttemptAnswerMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 19:07:09,801 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [NO_OF_QUESTIONS] of table [public.USER_ATTEMPT_MASTER] of entity [UserAttemptMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 19:07:09,802 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [TOTAL_WRONG] of table [public.USER_ATTEMPT_MASTER] of entity [UserAttemptMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 19:07:09,802 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [TOTAL_CORRECT] of table [public.USER_ATTEMPT_MASTER] of entity [UserAttemptMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 19:07:09,802 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [PERFORMANCE_ID] of table [public.USER_ATTEMPT_MASTER] of entity [UserAttemptMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 19:07:09,802 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [CORRECT_QUESTIONS_IN_THIS_TOPIC] of table [public.USER_ATTEMPT_TOPIC_MASTER] of entity [UserAttemptTopicMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 19:07:09,802 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [PERFORMANCE_ID] of table [public.USER_ATTEMPT_TOPIC_MASTER] of entity [UserAttemptTopicMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 19:07:09,802 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [TOTAL_QUESTIONS_IN_THIS_TOPIC] of table [public.USER_ATTEMPT_TOPIC_MASTER] of entity [UserAttemptTopicMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 19:07:09,802 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [MAX_SPLIT_ATTEMPTS] of table [public.USER_EXAM_MAPPING_MASTER] of entity [UserExamMappingMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 19:12:14,718 |jsse-nio-8443-exec-6 |RequestHandler                |E| Request loginEvent caused an error with the following message: following error occurred during login: Password incorrect.
+2023-12-07 19:16:08,864 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [DIFFICULTY_LEVEL] of table [public.QUESTION_MASTER] of entity [QuestionMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 19:16:08,876 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [PERFORMANCE_ID] of table [public.USER_ATTEMPT_ANSWER_MASTER] of entity [UserAttemptAnswerMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 19:16:08,877 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [IS_FLAGGED] of table [public.USER_ATTEMPT_ANSWER_MASTER] of entity [UserAttemptAnswerMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 19:16:08,877 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [NO_OF_QUESTIONS] of table [public.USER_ATTEMPT_MASTER] of entity [UserAttemptMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 19:16:08,878 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [TOTAL_WRONG] of table [public.USER_ATTEMPT_MASTER] of entity [UserAttemptMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 19:16:08,878 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [TOTAL_CORRECT] of table [public.USER_ATTEMPT_MASTER] of entity [UserAttemptMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 19:16:08,879 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [PERFORMANCE_ID] of table [public.USER_ATTEMPT_MASTER] of entity [UserAttemptMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 19:16:08,879 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [CORRECT_QUESTIONS_IN_THIS_TOPIC] of table [public.USER_ATTEMPT_TOPIC_MASTER] of entity [UserAttemptTopicMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 19:16:08,880 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [PERFORMANCE_ID] of table [public.USER_ATTEMPT_TOPIC_MASTER] of entity [UserAttemptTopicMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 19:16:08,880 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [TOTAL_QUESTIONS_IN_THIS_TOPIC] of table [public.USER_ATTEMPT_TOPIC_MASTER] of entity [UserAttemptTopicMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 19:16:08,881 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [MAX_SPLIT_ATTEMPTS] of table [public.USER_EXAM_MAPPING_MASTER] of entity [UserExamMappingMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 19:31:37,546 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [DIFFICULTY_LEVEL] of table [public.QUESTION_MASTER] of entity [QuestionMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 19:31:37,549 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [PERFORMANCE_ID] of table [public.USER_ATTEMPT_ANSWER_MASTER] of entity [UserAttemptAnswerMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 19:31:37,549 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [IS_FLAGGED] of table [public.USER_ATTEMPT_ANSWER_MASTER] of entity [UserAttemptAnswerMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 19:31:37,550 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [NO_OF_QUESTIONS] of table [public.USER_ATTEMPT_MASTER] of entity [UserAttemptMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 19:31:37,550 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [TOTAL_WRONG] of table [public.USER_ATTEMPT_MASTER] of entity [UserAttemptMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 19:31:37,550 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [TOTAL_CORRECT] of table [public.USER_ATTEMPT_MASTER] of entity [UserAttemptMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 19:31:37,550 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [PERFORMANCE_ID] of table [public.USER_ATTEMPT_MASTER] of entity [UserAttemptMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 19:31:37,551 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [CORRECT_QUESTIONS_IN_THIS_TOPIC] of table [public.USER_ATTEMPT_TOPIC_MASTER] of entity [UserAttemptTopicMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 19:31:37,551 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [PERFORMANCE_ID] of table [public.USER_ATTEMPT_TOPIC_MASTER] of entity [UserAttemptTopicMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 19:31:37,551 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [TOTAL_QUESTIONS_IN_THIS_TOPIC] of table [public.USER_ATTEMPT_TOPIC_MASTER] of entity [UserAttemptTopicMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 19:31:37,551 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [MAX_SPLIT_ATTEMPTS] of table [public.USER_EXAM_MAPPING_MASTER] of entity [UserExamMappingMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 19:45:56,865 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [DIFFICULTY_LEVEL] of table [public.QUESTION_MASTER] of entity [QuestionMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 19:45:56,871 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [PERFORMANCE_ID] of table [public.USER_ATTEMPT_ANSWER_MASTER] of entity [UserAttemptAnswerMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 19:45:56,871 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [IS_FLAGGED] of table [public.USER_ATTEMPT_ANSWER_MASTER] of entity [UserAttemptAnswerMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 19:45:56,872 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [NO_OF_QUESTIONS] of table [public.USER_ATTEMPT_MASTER] of entity [UserAttemptMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 19:45:56,872 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [TOTAL_WRONG] of table [public.USER_ATTEMPT_MASTER] of entity [UserAttemptMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 19:45:56,872 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [TOTAL_CORRECT] of table [public.USER_ATTEMPT_MASTER] of entity [UserAttemptMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 19:45:56,872 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [PERFORMANCE_ID] of table [public.USER_ATTEMPT_MASTER] of entity [UserAttemptMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 19:45:56,872 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [CORRECT_QUESTIONS_IN_THIS_TOPIC] of table [public.USER_ATTEMPT_TOPIC_MASTER] of entity [UserAttemptTopicMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 19:45:56,872 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [PERFORMANCE_ID] of table [public.USER_ATTEMPT_TOPIC_MASTER] of entity [UserAttemptTopicMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 19:45:56,873 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [TOTAL_QUESTIONS_IN_THIS_TOPIC] of table [public.USER_ATTEMPT_TOPIC_MASTER] of entity [UserAttemptTopicMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 19:45:56,873 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [MAX_SPLIT_ATTEMPTS] of table [public.USER_EXAM_MAPPING_MASTER] of entity [UserExamMappingMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 20:02:41,443 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [DIFFICULTY_LEVEL] of table [public.QUESTION_MASTER] of entity [QuestionMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 20:02:41,448 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [PERFORMANCE_ID] of table [public.USER_ATTEMPT_ANSWER_MASTER] of entity [UserAttemptAnswerMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 20:02:41,448 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [IS_FLAGGED] of table [public.USER_ATTEMPT_ANSWER_MASTER] of entity [UserAttemptAnswerMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 20:02:41,449 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [NO_OF_QUESTIONS] of table [public.USER_ATTEMPT_MASTER] of entity [UserAttemptMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 20:02:41,449 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [TOTAL_WRONG] of table [public.USER_ATTEMPT_MASTER] of entity [UserAttemptMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 20:02:41,449 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [TOTAL_CORRECT] of table [public.USER_ATTEMPT_MASTER] of entity [UserAttemptMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 20:02:41,449 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [PERFORMANCE_ID] of table [public.USER_ATTEMPT_MASTER] of entity [UserAttemptMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 20:02:41,449 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [CORRECT_QUESTIONS_IN_THIS_TOPIC] of table [public.USER_ATTEMPT_TOPIC_MASTER] of entity [UserAttemptTopicMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 20:02:41,449 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [PERFORMANCE_ID] of table [public.USER_ATTEMPT_TOPIC_MASTER] of entity [UserAttemptTopicMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 20:02:41,449 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [TOTAL_QUESTIONS_IN_THIS_TOPIC] of table [public.USER_ATTEMPT_TOPIC_MASTER] of entity [UserAttemptTopicMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-07 20:02:41,449 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [MAX_SPLIT_ATTEMPTS] of table [public.USER_EXAM_MAPPING_MASTER] of entity [UserExamMappingMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.

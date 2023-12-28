@@ -1,0 +1,767 @@
+2023-12-06 11:07:59,037 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Auto-create Fixed Asset Maintenances] Id [15852] -- Next runtime: Wed Dec 06 12:07:59 IST 2023
+2023-12-06 11:07:59,064 |OFBiz-JobQueue-1     |Log                           |I| [CommonPermissionServices.xml#genericBasePermissionCheck line 59] This simple-method-call is deprecated! Please use a service-call of genericBasePermissionCheck instead.
+2023-12-06 11:07:59,119 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [15864] -- Next runtime: Wed Dec 06 11:22:59 IST 2023
+2023-12-06 11:07:59,153 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/genericBasePermissionCheck] finished in [89] milliseconds
+2023-12-06 11:07:59,154 |OFBiz-JobQueue-1     |ServiceEcaCondition           |W| doRealCompare returned null, returning false
+2023-12-06 11:07:59,154 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/fixedAssetPermissionCheck] finished in [117] milliseconds
+2023-12-06 11:07:59,872 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [753] milliseconds
+2023-12-06 11:07:59,877 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Auto-create Fixed Asset Maintenances] Id [15854] -- Next runtime: Wed Dec 06 12:07:59 IST 2023
+2023-12-06 11:07:59,877 |OFBiz-JobQueue-0     |Log                           |I| [CommonPermissionServices.xml#genericBasePermissionCheck line 59] This simple-method-call is deprecated! Please use a service-call of genericBasePermissionCheck instead.
+2023-12-06 11:07:59,878 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/genericBasePermissionCheck] finished in [1] milliseconds
+2023-12-06 11:07:59,878 |OFBiz-JobQueue-0     |ServiceEcaCondition           |W| doRealCompare returned null, returning false
+2023-12-06 11:07:59,878 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/fixedAssetPermissionCheck] finished in [1] milliseconds
+2023-12-06 11:08:00,442 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/createMaintsFromTimeInterval] finished in [1405] milliseconds
+2023-12-06 11:08:00,447 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Auto-create Fixed Asset Maintenances] Id [15855] -- Next runtime: Wed Dec 06 12:08:00 IST 2023
+2023-12-06 11:08:00,447 |OFBiz-JobQueue-1     |Log                           |I| [CommonPermissionServices.xml#genericBasePermissionCheck line 59] This simple-method-call is deprecated! Please use a service-call of genericBasePermissionCheck instead.
+2023-12-06 11:08:00,448 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/genericBasePermissionCheck] finished in [1] milliseconds
+2023-12-06 11:08:00,448 |OFBiz-JobQueue-1     |ServiceEcaCondition           |W| doRealCompare returned null, returning false
+2023-12-06 11:08:00,448 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/fixedAssetPermissionCheck] finished in [1] milliseconds
+2023-12-06 11:08:00,454 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/createMaintsFromTimeInterval] finished in [7] milliseconds
+2023-12-06 11:08:00,459 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [15865] -- Next runtime: Wed Dec 06 11:23:00 IST 2023
+2023-12-06 11:08:00,463 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [4] milliseconds
+2023-12-06 11:08:00,468 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [15866] -- Next runtime: Wed Dec 06 11:23:00 IST 2023
+2023-12-06 11:08:00,472 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [4] milliseconds
+2023-12-06 11:08:00,559 |OFBiz-JobQueue-1     |PersistedServiceJob           |W| Persisted Job [15343] references a RecurrenceInfo, recommend using TemporalExpression instead
+2023-12-06 11:08:00,572 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Auto Reconcile Financial Account] Id [15343] -- Next runtime: Mon Dec 11 00:00:00 IST 2023
+2023-12-06 11:08:00,868 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/autoFinAccountReconciliation] finished in [296] milliseconds
+2023-12-06 11:08:00,873 |OFBiz-JobQueue-1     |PersistedServiceJob           |W| Persisted Job [15342] references a RecurrenceInfo, recommend using TemporalExpression instead
+2023-12-06 11:08:00,877 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Auto Reconcile Financial Account] Id [15342] -- Next runtime: Mon Dec 11 00:00:00 IST 2023
+2023-12-06 11:08:00,878 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/autoFinAccountReconciliation] finished in [1] milliseconds
+2023-12-06 11:08:00,885 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Extend expired Subscriptions] Id [15797] -- Next runtime: Thu Dec 07 00:00:00 IST 2023
+2023-12-06 11:08:00,913 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/runSubscriptionAutoReorders] finished in [28] milliseconds
+2023-12-06 11:08:00,917 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Purge Old Store Auto-Entered Promos] Id [15796] -- Next runtime: Thu Dec 07 00:00:00 IST 2023
+2023-12-06 11:08:00,933 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/purgeOldStoreAutoPromos] finished in [16] milliseconds
+2023-12-06 11:08:00,937 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Run Auto-Reorders] Id [15795] -- Next runtime: Thu Dec 07 00:00:00 IST 2023
+2023-12-06 11:08:00,947 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/runShoppingListAutoReorder] finished in [9] milliseconds
+2023-12-06 11:08:00,950 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Replacement Held Order Auto-Cancel] Id [15794] -- Next runtime: Thu Dec 07 00:00:00 IST 2023
+2023-12-06 11:08:00,965 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/autoCancelReplacementOrders] finished in [14] milliseconds
+2023-12-06 11:08:00,968 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Run Nominated Service on Subscription Expiry] Id [15793] -- Next runtime: Thu Dec 07 00:00:00 IST 2023
+2023-12-06 11:08:00,971 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/runServiceOnSubscriptionExpiry] finished in [2] milliseconds
+2023-12-06 11:08:00,974 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Re-Try Failed Auths] Id [15792] -- Next runtime: Thu Dec 07 00:00:00 IST 2023
+2023-12-06 11:08:00,993 |OFBiz-JobQueue-1     |PaymentGatewayServices        |I| Processing failed order re-auth(s)
+2023-12-06 11:08:00,993 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/retryFailedAuths] finished in [18] milliseconds
+2023-12-06 11:08:00,997 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Extend expired Subscriptions] Id [15791] -- Next runtime: Thu Dec 07 00:00:00 IST 2023
+2023-12-06 11:08:00,998 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/runSubscriptionAutoReorders] finished in [1] milliseconds
+2023-12-06 11:08:01,001 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Cancels all orders after date] Id [15790] -- Next runtime: Thu Dec 07 00:00:00 IST 2023
+2023-12-06 11:08:01,025 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/createMaintsFromTimeInterval] finished in [1147] milliseconds
+2023-12-06 11:08:01,029 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Replacement Held Order Auto-Cancel] Id [15789] -- Next runtime: Thu Dec 07 00:00:00 IST 2023
+2023-12-06 11:08:01,037 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/autoCancelReplacementOrders] finished in [8] milliseconds
+2023-12-06 11:08:01,041 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Replacement Held Order Auto-Cancel] Id [15788] -- Next runtime: Thu Dec 07 00:00:00 IST 2023
+2023-12-06 11:08:01,042 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/autoCancelReplacementOrders] finished in [1] milliseconds
+2023-12-06 11:08:01,046 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Clear EntitySyncRemove Info] Id [15787] -- Next runtime: Thu Dec 07 00:00:00 IST 2023
+2023-12-06 11:08:01,047 |OFBiz-JobQueue-0     |EntitySyncServices            |I| Running cleanSyncRemoveInfo
+2023-12-06 11:08:01,048 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/cancelAllBackOrders] finished in [46] milliseconds
+2023-12-06 11:08:01,051 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Re-Try Failed Auths NSF] Id [15786] -- Next runtime: Thu Dec 07 00:00:00 IST 2023
+2023-12-06 11:08:01,052 |OFBiz-JobQueue-1     |PaymentGatewayServices        |I| Processing failed order re-auth(s)
+2023-12-06 11:08:01,053 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/retryFailedAuthNsfs] finished in [2] milliseconds
+2023-12-06 11:08:01,056 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Cancels all orders after date] Id [15785] -- Next runtime: Thu Dec 07 00:00:00 IST 2023
+2023-12-06 11:08:01,057 |OFBiz-JobQueue-0     |EntitySyncServices            |I| In cleanSyncRemoveInfo removed [0] values with TX timestamp before [2023-12-05 11:08:01.052]
+2023-12-06 11:08:01,058 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/cleanSyncRemoveInfo] finished in [11] milliseconds
+2023-12-06 11:08:01,058 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/cancelAllBackOrders] finished in [2] milliseconds
+2023-12-06 11:08:01,061 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [BackOrder Notification] Id [15784] -- Next runtime: Thu Dec 07 00:00:00 IST 2023
+2023-12-06 11:08:01,061 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Delete auto-save shopping list for anonymous users] Id [15783] -- Next runtime: Thu Dec 07 00:00:00 IST 2023
+2023-12-06 11:08:01,073 |OFBiz-JobQueue-1     |InventoryServices             |I| OOS Inventory Items: 0
+2023-12-06 11:08:01,073 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/checkInventoryAvailability] finished in [12] milliseconds
+2023-12-06 11:08:01,076 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Run Auto-Reorders] Id [15782] -- Next runtime: Thu Dec 07 00:00:00 IST 2023
+2023-12-06 11:08:01,076 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/autoDeleteAutoSaveShoppingList] finished in [15] milliseconds
+2023-12-06 11:08:01,077 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/runShoppingListAutoReorder] finished in [1] milliseconds
+2023-12-06 11:08:01,081 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Re-Try Failed Auths] Id [15781] -- Next runtime: Thu Dec 07 00:00:00 IST 2023
+2023-12-06 11:08:01,081 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Create Also Bought Product Associations] Id [15780] -- Next runtime: Thu Dec 07 00:00:00 IST 2023
+2023-12-06 11:08:01,085 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/createAlsoBoughtProductAssocs] finished in [4] milliseconds
+2023-12-06 11:08:01,088 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Clear EntitySyncRemove Info] Id [15779] -- Next runtime: Thu Dec 07 00:00:00 IST 2023
+2023-12-06 11:08:01,088 |OFBiz-JobQueue-1     |EntitySyncServices            |I| Running cleanSyncRemoveInfo
+2023-12-06 11:08:01,088 |OFBiz-JobQueue-0     |PaymentGatewayServices        |I| Processing failed order re-auth(s)
+2023-12-06 11:08:01,089 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/retryFailedAuths] finished in [8] milliseconds
+2023-12-06 11:08:01,092 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Run Nominated Service on Subscription Expiry] Id [15778] -- Next runtime: Thu Dec 07 00:00:00 IST 2023
+2023-12-06 11:08:01,093 |OFBiz-JobQueue-1     |EntitySyncServices            |I| In cleanSyncRemoveInfo removed [0] values with TX timestamp before [2023-12-05 11:08:01.091]
+2023-12-06 11:08:01,093 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/cleanSyncRemoveInfo] finished in [5] milliseconds
+2023-12-06 11:08:01,096 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Re-Try Failed Auths NSF] Id [15777] -- Next runtime: Thu Dec 07 00:00:00 IST 2023
+2023-12-06 11:08:01,097 |OFBiz-JobQueue-1     |PaymentGatewayServices        |I| Processing failed order re-auth(s)
+2023-12-06 11:08:01,098 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/retryFailedAuthNsfs] finished in [1] milliseconds
+2023-12-06 11:08:01,101 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Purge Old Store Auto-Entered Promos] Id [15776] -- Next runtime: Thu Dec 07 00:00:00 IST 2023
+2023-12-06 11:08:01,102 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/purgeOldStoreAutoPromos] finished in [1] milliseconds
+2023-12-06 11:08:01,102 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/runServiceOnSubscriptionExpiry] finished in [10] milliseconds
+2023-12-06 11:08:01,104 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Re-Try Failed Auths NSF] Id [15775] -- Next runtime: Thu Dec 07 00:00:00 IST 2023
+2023-12-06 11:08:01,104 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [BackOrder Notification] Id [15774] -- Next runtime: Thu Dec 07 00:00:00 IST 2023
+2023-12-06 11:08:01,105 |OFBiz-JobQueue-1     |PaymentGatewayServices        |I| Processing failed order re-auth(s)
+2023-12-06 11:08:01,105 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/retryFailedAuthNsfs] finished in [1] milliseconds
+2023-12-06 11:08:01,108 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Clear EntitySyncRemove Info] Id [15773] -- Next runtime: Thu Dec 07 00:00:00 IST 2023
+2023-12-06 11:08:01,109 |OFBiz-JobQueue-1     |EntitySyncServices            |I| Running cleanSyncRemoveInfo
+2023-12-06 11:08:01,110 |OFBiz-JobQueue-1     |EntitySyncServices            |I| In cleanSyncRemoveInfo removed [0] values with TX timestamp before [2023-12-05 11:08:01.109]
+2023-12-06 11:08:01,110 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/cleanSyncRemoveInfo] finished in [2] milliseconds
+2023-12-06 11:08:01,112 |OFBiz-JobQueue-1     |TransactionUtil               |W| No transaction in place, so not suspending.
+2023-12-06 11:08:01,112 |OFBiz-JobQueue-0     |InventoryServices             |I| OOS Inventory Items: 0
+2023-12-06 11:08:01,113 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/checkInventoryAvailability] finished in [9] milliseconds
+2023-12-06 11:08:01,116 |OFBiz-JobQueue-1     |SequenceUtil                  |I| Got bank of sequenced IDs for [JobSandbox]; curSeqId=15900, maxSeqId=16000, bankSize=100
+2023-12-06 11:08:01,117 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Delete auto-save shopping list for anonymous users] Id [15771] -- Next runtime: Thu Dec 07 00:00:00 IST 2023
+2023-12-06 11:08:01,117 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Run Nominated Service on Subscription Expiry] Id [15772] -- Next runtime: Thu Dec 07 00:00:00 IST 2023
+2023-12-06 11:08:01,118 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/runServiceOnSubscriptionExpiry] finished in [1] milliseconds
+2023-12-06 11:08:01,118 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/autoDeleteAutoSaveShoppingList] finished in [1] milliseconds
+2023-12-06 11:08:01,121 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Purge Old Store Auto-Entered Promos] Id [15770] -- Next runtime: Thu Dec 07 00:00:00 IST 2023
+2023-12-06 11:08:01,122 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Extend expired Subscriptions] Id [15769] -- Next runtime: Thu Dec 07 00:00:00 IST 2023
+2023-12-06 11:08:01,123 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/purgeOldStoreAutoPromos] finished in [1] milliseconds
+2023-12-06 11:08:01,123 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/runSubscriptionAutoReorders] finished in [1] milliseconds
+2023-12-06 11:08:01,126 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Run Auto-Reorders] Id [15768] -- Next runtime: Thu Dec 07 00:00:00 IST 2023
+2023-12-06 11:08:01,126 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Create Also Bought Product Associations] Id [15767] -- Next runtime: Thu Dec 07 00:00:00 IST 2023
+2023-12-06 11:08:01,127 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/runShoppingListAutoReorder] finished in [1] milliseconds
+2023-12-06 11:08:01,128 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/createAlsoBoughtProductAssocs] finished in [2] milliseconds
+2023-12-06 11:08:01,130 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Create Also Bought Product Associations] Id [15766] -- Next runtime: Thu Dec 07 00:00:00 IST 2023
+2023-12-06 11:08:01,131 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Re-Try Failed Auths] Id [15765] -- Next runtime: Thu Dec 07 00:00:00 IST 2023
+2023-12-06 11:08:01,132 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/createAlsoBoughtProductAssocs] finished in [2] milliseconds
+2023-12-06 11:08:01,132 |OFBiz-JobQueue-0     |PaymentGatewayServices        |I| Processing failed order re-auth(s)
+2023-12-06 11:08:01,132 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/retryFailedAuths] finished in [1] milliseconds
+2023-12-06 11:08:01,134 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Cancels all orders after date] Id [15764] -- Next runtime: Thu Dec 07 00:00:00 IST 2023
+2023-12-06 11:08:01,135 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Delete auto-save shopping list for anonymous users] Id [15763] -- Next runtime: Thu Dec 07 00:00:00 IST 2023
+2023-12-06 11:08:01,136 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/autoDeleteAutoSaveShoppingList] finished in [1] milliseconds
+2023-12-06 11:08:01,139 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [BackOrder Notification] Id [15762] -- Next runtime: Thu Dec 07 00:00:00 IST 2023
+2023-12-06 11:08:01,140 |OFBiz-JobQueue-0     |InventoryServices             |I| OOS Inventory Items: 0
+2023-12-06 11:08:01,140 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/checkInventoryAvailability] finished in [1] milliseconds
+2023-12-06 11:08:01,144 |OFBiz-JobQueue-0     |PersistedServiceJob           |W| Persisted Job [15344] references a RecurrenceInfo, recommend using TemporalExpression instead
+2023-12-06 11:08:01,147 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Auto Reconcile Financial Account] Id [15344] -- Next runtime: Mon Dec 11 00:00:00 IST 2023
+2023-12-06 11:08:01,149 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/autoFinAccountReconciliation] finished in [2] milliseconds
+2023-12-06 11:08:01,152 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/cancelAllBackOrders] finished in [18] milliseconds
+2023-12-06 11:08:29,150 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15489
+2023-12-06 11:08:29,151 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15308
+2023-12-06 11:08:29,152 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15309
+2023-12-06 11:08:29,154 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15310
+2023-12-06 11:08:29,155 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15306
+2023-12-06 11:08:29,156 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15307
+2023-12-06 11:08:29,157 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 15483
+2023-12-06 11:08:29,158 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15325
+2023-12-06 11:08:29,158 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 15326
+2023-12-06 11:08:29,158 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15327
+2023-12-06 11:08:29,159 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15329
+2023-12-06 11:08:29,160 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 15328
+2023-12-06 11:08:29,160 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15330
+2023-12-06 11:08:29,161 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 15331
+2023-12-06 11:08:29,161 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15332
+2023-12-06 11:08:29,162 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15334
+2023-12-06 11:08:29,162 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 15333
+2023-12-06 11:08:29,163 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15335
+2023-12-06 11:08:29,163 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 15336
+2023-12-06 11:08:29,164 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15337
+2023-12-06 11:08:29,165 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 15338
+2023-12-06 11:08:29,165 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15339
+2023-12-06 11:08:29,166 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15341
+2023-12-06 11:08:29,166 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 15340
+2023-12-06 11:08:29,167 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15311
+2023-12-06 11:08:29,167 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 15312
+2023-12-06 11:08:29,168 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15313
+2023-12-06 11:08:29,168 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 15314
+2023-12-06 11:08:29,169 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15315
+2023-12-06 11:08:29,169 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 15316
+2023-12-06 11:08:29,170 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 15318
+2023-12-06 11:08:29,170 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15317
+2023-12-06 11:08:29,171 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 15320
+2023-12-06 11:08:29,171 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15319
+2023-12-06 11:08:29,172 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 15321
+2023-12-06 11:08:29,172 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15322
+2023-12-06 11:08:29,172 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 15323
+2023-12-06 11:08:29,172 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15324
+2023-12-06 11:08:29,173 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15487
+2023-12-06 11:08:29,173 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 15486
+2023-12-06 11:08:29,174 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 15490
+2023-12-06 11:08:29,174 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15491
+2023-12-06 11:22:59,598 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [15868] -- Next runtime: Wed Dec 06 11:37:59 IST 2023
+2023-12-06 11:23:01,172 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1572] milliseconds
+2023-12-06 11:23:29,657 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [15872] -- Next runtime: Wed Dec 06 11:38:29 IST 2023
+2023-12-06 11:23:29,675 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [15871] -- Next runtime: Wed Dec 06 11:38:29 IST 2023
+2023-12-06 11:23:31,129 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1472] milliseconds
+2023-12-06 11:23:32,433 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [2757] milliseconds
+2023-12-06 11:38:00,164 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [15912] -- Next runtime: Wed Dec 06 11:53:00 IST 2023
+2023-12-06 11:38:01,455 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1291] milliseconds
+2023-12-06 11:38:30,226 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [15913] -- Next runtime: Wed Dec 06 11:53:30 IST 2023
+2023-12-06 11:38:30,228 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [15914] -- Next runtime: Wed Dec 06 11:53:30 IST 2023
+2023-12-06 11:38:31,640 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1414] milliseconds
+2023-12-06 11:38:32,909 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [2639] milliseconds
+2023-12-06 11:53:00,719 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [15915] -- Next runtime: Wed Dec 06 12:08:00 IST 2023
+2023-12-06 11:53:02,282 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1563] milliseconds
+2023-12-06 11:53:30,775 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [15916] -- Next runtime: Wed Dec 06 12:08:30 IST 2023
+2023-12-06 11:53:30,776 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [15917] -- Next runtime: Wed Dec 06 12:08:30 IST 2023
+2023-12-06 11:53:32,207 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1432] milliseconds
+2023-12-06 11:53:33,601 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [2823] milliseconds
+2023-12-06 12:07:01,205 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 15492
+2023-12-06 12:07:01,205 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15494
+2023-12-06 12:07:01,208 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 15493
+2023-12-06 12:07:31,216 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15495
+2023-12-06 12:07:31,218 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 15496
+2023-12-06 12:07:31,223 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15497
+2023-12-06 12:08:01,262 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Auto-create Fixed Asset Maintenances] Id [15869] -- Next runtime: Wed Dec 06 13:08:01 IST 2023
+2023-12-06 12:08:01,371 |OFBiz-JobQueue-0     |Log                           |I| [CommonPermissionServices.xml#genericBasePermissionCheck line 59] This simple-method-call is deprecated! Please use a service-call of genericBasePermissionCheck instead.
+2023-12-06 12:08:01,513 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Auto-create Fixed Asset Maintenances] Id [15867] -- Next runtime: Wed Dec 06 13:08:01 IST 2023
+2023-12-06 12:08:01,514 |OFBiz-JobQueue-1     |Log                           |I| [CommonPermissionServices.xml#genericBasePermissionCheck line 59] This simple-method-call is deprecated! Please use a service-call of genericBasePermissionCheck instead.
+2023-12-06 12:08:01,620 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/genericBasePermissionCheck] finished in [248] milliseconds
+2023-12-06 12:08:01,621 |OFBiz-JobQueue-0     |ServiceEcaCondition           |W| doRealCompare returned null, returning false
+2023-12-06 12:08:01,621 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/fixedAssetPermissionCheck] finished in [357] milliseconds
+2023-12-06 12:08:01,780 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/genericBasePermissionCheck] finished in [264] milliseconds
+2023-12-06 12:08:01,780 |OFBiz-JobQueue-1     |ServiceEcaCondition           |W| doRealCompare returned null, returning false
+2023-12-06 12:08:01,780 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/fixedAssetPermissionCheck] finished in [267] milliseconds
+2023-12-06 12:08:03,064 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/createMaintsFromTimeInterval] finished in [1801] milliseconds
+2023-12-06 12:08:03,081 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Auto-create Fixed Asset Maintenances] Id [15870] -- Next runtime: Wed Dec 06 13:08:03 IST 2023
+2023-12-06 12:08:03,081 |OFBiz-JobQueue-0     |Log                           |I| [CommonPermissionServices.xml#genericBasePermissionCheck line 59] This simple-method-call is deprecated! Please use a service-call of genericBasePermissionCheck instead.
+2023-12-06 12:08:03,083 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/genericBasePermissionCheck] finished in [1] milliseconds
+2023-12-06 12:08:03,083 |OFBiz-JobQueue-0     |ServiceEcaCondition           |W| doRealCompare returned null, returning false
+2023-12-06 12:08:03,083 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/fixedAssetPermissionCheck] finished in [2] milliseconds
+2023-12-06 12:08:03,090 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/createMaintsFromTimeInterval] finished in [9] milliseconds
+2023-12-06 12:08:03,097 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [15918] -- Next runtime: Wed Dec 06 12:23:03 IST 2023
+2023-12-06 12:08:05,076 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/createMaintsFromTimeInterval] finished in [3563] milliseconds
+2023-12-06 12:08:07,761 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [4664] milliseconds
+2023-12-06 12:08:31,373 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [15919] -- Next runtime: Wed Dec 06 12:23:31 IST 2023
+2023-12-06 12:08:31,375 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [15920] -- Next runtime: Wed Dec 06 12:23:31 IST 2023
+2023-12-06 12:08:32,735 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1362] milliseconds
+2023-12-06 12:08:34,479 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [3104] milliseconds
+2023-12-06 12:22:01,821 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 15535
+2023-12-06 12:22:01,836 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15534
+2023-12-06 12:22:31,836 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 15536
+2023-12-06 12:23:31,902 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [15924] -- Next runtime: Wed Dec 06 12:38:31 IST 2023
+2023-12-06 12:23:32,089 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [15925] -- Next runtime: Wed Dec 06 12:38:32 IST 2023
+2023-12-06 12:23:33,339 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1436] milliseconds
+2023-12-06 12:23:33,352 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [15926] -- Next runtime: Wed Dec 06 12:38:33 IST 2023
+2023-12-06 12:23:33,359 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [7] milliseconds
+2023-12-06 12:23:34,565 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [2476] milliseconds
+2023-12-06 12:37:02,372 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 15541
+2023-12-06 12:37:02,372 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15540
+2023-12-06 12:37:32,385 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 15542
+2023-12-06 12:38:32,435 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [15927] -- Next runtime: Wed Dec 06 12:53:32 IST 2023
+2023-12-06 12:38:32,439 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [15928] -- Next runtime: Wed Dec 06 12:53:32 IST 2023
+2023-12-06 12:38:33,822 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1387] milliseconds
+2023-12-06 12:38:34,962 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [2523] milliseconds
+2023-12-06 12:39:02,462 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [15929] -- Next runtime: Wed Dec 06 12:54:02 IST 2023
+2023-12-06 12:39:03,901 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1439] milliseconds
+2023-12-06 12:52:02,964 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 15543
+2023-12-06 12:52:02,965 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15544
+2023-12-06 12:52:32,973 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 15545
+2023-12-06 12:53:33,035 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [15930] -- Next runtime: Wed Dec 06 13:08:33 IST 2023
+2023-12-06 12:53:33,039 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [15931] -- Next runtime: Wed Dec 06 13:08:33 IST 2023
+2023-12-06 12:53:34,444 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1408] milliseconds
+2023-12-06 12:53:35,552 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [2513] milliseconds
+2023-12-06 12:54:03,098 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [15932] -- Next runtime: Wed Dec 06 13:09:03 IST 2023
+2023-12-06 12:54:04,445 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1320] milliseconds
+2023-12-06 13:30:15,384 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Auto-create Fixed Asset Maintenances] Id [15921] -- Next runtime: Wed Dec 06 14:30:15 IST 2023
+2023-12-06 13:30:15,406 |OFBiz-JobQueue-1     |Log                           |I| [CommonPermissionServices.xml#genericBasePermissionCheck line 59] This simple-method-call is deprecated! Please use a service-call of genericBasePermissionCheck instead.
+2023-12-06 13:30:15,517 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/genericBasePermissionCheck] finished in [111] milliseconds
+2023-12-06 13:30:15,518 |OFBiz-JobQueue-1     |ServiceEcaCondition           |W| doRealCompare returned null, returning false
+2023-12-06 13:30:15,518 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/fixedAssetPermissionCheck] finished in [133] milliseconds
+2023-12-06 13:30:15,557 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Auto-create Fixed Asset Maintenances] Id [15922] -- Next runtime: Wed Dec 06 14:30:15 IST 2023
+2023-12-06 13:30:15,558 |OFBiz-JobQueue-0     |Log                           |I| [CommonPermissionServices.xml#genericBasePermissionCheck line 59] This simple-method-call is deprecated! Please use a service-call of genericBasePermissionCheck instead.
+2023-12-06 13:30:15,558 |OFBiz-JobQueue-0     |ServiceEcaCondition           |W| doRealCompare returned null, returning false
+2023-12-06 13:30:15,558 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/fixedAssetPermissionCheck] finished in [1] milliseconds
+2023-12-06 13:30:16,303 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/createMaintsFromTimeInterval] finished in [918] milliseconds
+2023-12-06 13:30:16,310 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Auto-create Fixed Asset Maintenances] Id [15923] -- Next runtime: Wed Dec 06 14:30:16 IST 2023
+2023-12-06 13:30:16,310 |OFBiz-JobQueue-1     |Log                           |I| [CommonPermissionServices.xml#genericBasePermissionCheck line 59] This simple-method-call is deprecated! Please use a service-call of genericBasePermissionCheck instead.
+2023-12-06 13:30:16,311 |OFBiz-JobQueue-1     |ServiceEcaCondition           |W| doRealCompare returned null, returning false
+2023-12-06 13:30:16,311 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/fixedAssetPermissionCheck] finished in [1] milliseconds
+2023-12-06 13:30:16,317 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/createMaintsFromTimeInterval] finished in [7] milliseconds
+2023-12-06 13:30:16,323 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [15933] -- Next runtime: Wed Dec 06 13:45:16 IST 2023
+2023-12-06 13:30:16,970 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/createMaintsFromTimeInterval] finished in [1413] milliseconds
+2023-12-06 13:30:16,975 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [15934] -- Next runtime: Wed Dec 06 13:45:16 IST 2023
+2023-12-06 13:30:17,765 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1441] milliseconds
+2023-12-06 13:30:17,777 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [15935] -- Next runtime: Wed Dec 06 13:45:17 IST 2023
+2023-12-06 13:30:17,779 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1] milliseconds
+2023-12-06 13:30:18,486 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1511] milliseconds
+2023-12-06 13:30:45,406 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15538
+2023-12-06 13:30:45,406 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 15550
+2023-12-06 13:30:45,407 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15539
+2023-12-06 13:30:45,408 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 15537
+2023-12-06 13:30:45,409 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15554
+2023-12-06 13:30:45,410 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 15547
+2023-12-06 13:30:45,410 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15546
+2023-12-06 13:30:45,412 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15551
+2023-12-06 13:30:45,412 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 15548
+2023-12-06 13:37:15,593 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15555
+2023-12-06 13:37:45,617 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 15556
+2023-12-06 13:38:15,618 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15557
+2023-12-06 13:45:45,826 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [15939] -- Next runtime: Wed Dec 06 14:00:45 IST 2023
+2023-12-06 13:45:45,917 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [15940] -- Next runtime: Wed Dec 06 14:00:45 IST 2023
+2023-12-06 13:45:46,861 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1035] milliseconds
+2023-12-06 13:45:46,876 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [15941] -- Next runtime: Wed Dec 06 14:00:46 IST 2023
+2023-12-06 13:45:46,878 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [2] milliseconds
+2023-12-06 13:45:47,775 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1858] milliseconds
+2023-12-06 13:52:16,036 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 15558
+2023-12-06 13:52:46,014 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15559
+2023-12-06 13:53:16,020 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 15560
+2023-12-06 14:00:46,197 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [15942] -- Next runtime: Wed Dec 06 14:15:46 IST 2023
+2023-12-06 14:00:46,198 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [15943] -- Next runtime: Wed Dec 06 14:15:46 IST 2023
+2023-12-06 14:00:47,056 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [859] milliseconds
+2023-12-06 14:00:48,000 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1801] milliseconds
+2023-12-06 14:01:16,215 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [15944] -- Next runtime: Wed Dec 06 14:16:16 IST 2023
+2023-12-06 14:01:17,028 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [813] milliseconds
+2023-12-06 14:07:16,358 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15561
+2023-12-06 14:07:16,358 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 15549
+2023-12-06 14:07:46,373 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 15562
+2023-12-06 14:07:46,374 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15553
+2023-12-06 14:07:46,379 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 15552
+2023-12-06 14:08:16,392 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15563
+2023-12-06 14:15:46,602 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [15945] -- Next runtime: Wed Dec 06 14:30:46 IST 2023
+2023-12-06 14:15:46,608 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [15946] -- Next runtime: Wed Dec 06 14:30:46 IST 2023
+2023-12-06 14:15:47,350 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [747] milliseconds
+2023-12-06 14:15:48,075 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1467] milliseconds
+2023-12-06 14:16:16,626 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [15947] -- Next runtime: Wed Dec 06 14:31:16 IST 2023
+2023-12-06 14:16:17,358 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [732] milliseconds
+2023-12-06 14:30:17,004 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Auto-create Fixed Asset Maintenances] Id [15936] -- Next runtime: Wed Dec 06 15:30:17 IST 2023
+2023-12-06 14:30:17,029 |OFBiz-JobQueue-0     |Log                           |I| [CommonPermissionServices.xml#genericBasePermissionCheck line 59] This simple-method-call is deprecated! Please use a service-call of genericBasePermissionCheck instead.
+2023-12-06 14:30:17,067 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Auto-create Fixed Asset Maintenances] Id [15937] -- Next runtime: Wed Dec 06 15:30:17 IST 2023
+2023-12-06 14:30:17,068 |OFBiz-JobQueue-1     |Log                           |I| [CommonPermissionServices.xml#genericBasePermissionCheck line 59] This simple-method-call is deprecated! Please use a service-call of genericBasePermissionCheck instead.
+2023-12-06 14:30:17,129 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/genericBasePermissionCheck] finished in [100] milliseconds
+2023-12-06 14:30:17,129 |OFBiz-JobQueue-0     |ServiceEcaCondition           |W| doRealCompare returned null, returning false
+2023-12-06 14:30:17,129 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/fixedAssetPermissionCheck] finished in [124] milliseconds
+2023-12-06 14:30:17,212 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/genericBasePermissionCheck] finished in [144] milliseconds
+2023-12-06 14:30:17,212 |OFBiz-JobQueue-1     |ServiceEcaCondition           |W| doRealCompare returned null, returning false
+2023-12-06 14:30:17,212 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/fixedAssetPermissionCheck] finished in [145] milliseconds
+2023-12-06 14:30:17,878 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/createMaintsFromTimeInterval] finished in [874] milliseconds
+2023-12-06 14:30:17,882 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Auto-create Fixed Asset Maintenances] Id [15938] -- Next runtime: Wed Dec 06 15:30:17 IST 2023
+2023-12-06 14:30:17,883 |OFBiz-JobQueue-0     |Log                           |I| [CommonPermissionServices.xml#genericBasePermissionCheck line 59] This simple-method-call is deprecated! Please use a service-call of genericBasePermissionCheck instead.
+2023-12-06 14:30:17,883 |OFBiz-JobQueue-0     |ServiceEcaCondition           |W| doRealCompare returned null, returning false
+2023-12-06 14:30:17,883 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/fixedAssetPermissionCheck] finished in [1] milliseconds
+2023-12-06 14:30:17,891 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/createMaintsFromTimeInterval] finished in [9] milliseconds
+2023-12-06 14:30:18,504 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/createMaintsFromTimeInterval] finished in [1437] milliseconds
+2023-12-06 14:30:47,039 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [15948] -- Next runtime: Wed Dec 06 14:45:47 IST 2023
+2023-12-06 14:30:47,040 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [15949] -- Next runtime: Wed Dec 06 14:45:47 IST 2023
+2023-12-06 14:30:48,852 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1812] milliseconds
+2023-12-06 14:30:50,254 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [3214] milliseconds
+2023-12-06 14:31:17,061 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [15950] -- Next runtime: Wed Dec 06 14:46:17 IST 2023
+2023-12-06 14:31:18,343 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1281] milliseconds
+2023-12-06 14:45:47,480 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [15954] -- Next runtime: Wed Dec 06 15:00:47 IST 2023
+2023-12-06 14:45:47,480 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [15955] -- Next runtime: Wed Dec 06 15:00:47 IST 2023
+2023-12-06 14:45:48,323 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [843] milliseconds
+2023-12-06 14:45:49,086 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1606] milliseconds
+2023-12-06 14:46:17,501 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [15956] -- Next runtime: Wed Dec 06 15:01:17 IST 2023
+2023-12-06 14:46:18,245 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [744] milliseconds
+2023-12-06 15:00:47,968 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [15958] -- Next runtime: Wed Dec 06 15:15:47 IST 2023
+2023-12-06 15:00:47,989 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [15957] -- Next runtime: Wed Dec 06 15:15:47 IST 2023
+2023-12-06 15:00:49,161 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1193] milliseconds
+2023-12-06 15:00:50,064 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [2075] milliseconds
+2023-12-06 15:01:18,002 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [15959] -- Next runtime: Wed Dec 06 15:16:17 IST 2023
+2023-12-06 15:01:18,816 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [813] milliseconds
+2023-12-06 15:04:18,137 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15564
+2023-12-06 15:04:18,137 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 15568
+2023-12-06 15:04:18,139 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15569
+2023-12-06 15:07:18,191 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 15565
+2023-12-06 15:07:48,207 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 15566
+2023-12-06 15:07:48,207 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15567
+2023-12-06 15:15:48,440 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [15960] -- Next runtime: Wed Dec 06 15:30:48 IST 2023
+2023-12-06 15:15:48,443 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [15961] -- Next runtime: Wed Dec 06 15:30:48 IST 2023
+2023-12-06 15:15:49,297 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [855] milliseconds
+2023-12-06 15:15:50,123 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1680] milliseconds
+2023-12-06 15:16:18,465 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [15962] -- Next runtime: Wed Dec 06 15:31:18 IST 2023
+2023-12-06 15:16:19,220 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [755] milliseconds
+2023-12-06 15:19:18,575 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 15570
+2023-12-06 15:19:18,575 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15571
+2023-12-06 15:19:48,583 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 15572
+2023-12-06 15:30:18,916 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Auto-create Fixed Asset Maintenances] Id [15951] -- Next runtime: Wed Dec 06 16:30:18 IST 2023
+2023-12-06 15:30:18,950 |OFBiz-JobQueue-0     |Log                           |I| [CommonPermissionServices.xml#genericBasePermissionCheck line 59] This simple-method-call is deprecated! Please use a service-call of genericBasePermissionCheck instead.
+2023-12-06 15:30:18,970 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Auto-create Fixed Asset Maintenances] Id [15952] -- Next runtime: Wed Dec 06 16:30:18 IST 2023
+2023-12-06 15:30:18,971 |OFBiz-JobQueue-1     |Log                           |I| [CommonPermissionServices.xml#genericBasePermissionCheck line 59] This simple-method-call is deprecated! Please use a service-call of genericBasePermissionCheck instead.
+2023-12-06 15:30:19,063 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/genericBasePermissionCheck] finished in [113] milliseconds
+2023-12-06 15:30:19,063 |OFBiz-JobQueue-0     |ServiceEcaCondition           |W| doRealCompare returned null, returning false
+2023-12-06 15:30:19,063 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/fixedAssetPermissionCheck] finished in [145] milliseconds
+2023-12-06 15:30:19,135 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/genericBasePermissionCheck] finished in [164] milliseconds
+2023-12-06 15:30:19,135 |OFBiz-JobQueue-1     |ServiceEcaCondition           |W| doRealCompare returned null, returning false
+2023-12-06 15:30:19,135 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/fixedAssetPermissionCheck] finished in [164] milliseconds
+2023-12-06 15:30:19,974 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/createMaintsFromTimeInterval] finished in [1057] milliseconds
+2023-12-06 15:30:19,978 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Auto-create Fixed Asset Maintenances] Id [15953] -- Next runtime: Wed Dec 06 16:30:19 IST 2023
+2023-12-06 15:30:19,979 |OFBiz-JobQueue-0     |Log                           |I| [CommonPermissionServices.xml#genericBasePermissionCheck line 59] This simple-method-call is deprecated! Please use a service-call of genericBasePermissionCheck instead.
+2023-12-06 15:30:19,979 |OFBiz-JobQueue-0     |ServiceEcaCondition           |W| doRealCompare returned null, returning false
+2023-12-06 15:30:19,979 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/fixedAssetPermissionCheck] finished in [1] milliseconds
+2023-12-06 15:30:19,984 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/createMaintsFromTimeInterval] finished in [6] milliseconds
+2023-12-06 15:30:20,513 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/createMaintsFromTimeInterval] finished in [1543] milliseconds
+2023-12-06 15:30:48,959 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [15963] -- Next runtime: Wed Dec 06 15:45:48 IST 2023
+2023-12-06 15:30:48,964 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [15964] -- Next runtime: Wed Dec 06 15:45:48 IST 2023
+2023-12-06 15:30:49,718 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [759] milliseconds
+2023-12-06 15:30:50,456 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1492] milliseconds
+2023-12-06 15:31:18,976 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [15965] -- Next runtime: Wed Dec 06 15:46:18 IST 2023
+2023-12-06 15:31:19,691 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [715] milliseconds
+2023-12-06 15:34:19,072 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15577
+2023-12-06 15:34:19,079 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 15576
+2023-12-06 15:34:49,100 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15578
+2023-12-06 15:45:49,454 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [15970] -- Next runtime: Wed Dec 06 16:00:49 IST 2023
+2023-12-06 15:45:49,462 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [15969] -- Next runtime: Wed Dec 06 16:00:49 IST 2023
+2023-12-06 15:45:50,193 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [739] milliseconds
+2023-12-06 15:45:50,901 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1439] milliseconds
+2023-12-06 15:46:19,521 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [15971] -- Next runtime: Wed Dec 06 16:01:19 IST 2023
+2023-12-06 15:46:20,309 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [788] milliseconds
+2023-12-06 15:49:19,604 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 15580
+2023-12-06 15:49:49,609 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15581
+2023-12-06 15:49:49,610 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 15579
+2023-12-06 16:00:49,895 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [15973] -- Next runtime: Wed Dec 06 16:15:49 IST 2023
+2023-12-06 16:00:49,896 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [15972] -- Next runtime: Wed Dec 06 16:15:49 IST 2023
+2023-12-06 16:00:50,609 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [713] milliseconds
+2023-12-06 16:00:51,333 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1437] milliseconds
+2023-12-06 16:01:19,929 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [15974] -- Next runtime: Wed Dec 06 16:16:19 IST 2023
+2023-12-06 16:01:20,682 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [753] milliseconds
+2023-12-06 16:04:20,022 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 15583
+2023-12-06 16:04:20,022 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15582
+2023-12-06 16:04:50,034 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 15584
+2023-12-06 16:07:20,116 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15573
+2023-12-06 16:07:50,125 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 15575
+2023-12-06 16:07:50,125 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15574
+2023-12-06 16:15:50,379 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [15975] -- Next runtime: Wed Dec 06 16:30:50 IST 2023
+2023-12-06 16:15:50,383 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [15976] -- Next runtime: Wed Dec 06 16:30:50 IST 2023
+2023-12-06 16:15:51,112 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [733] milliseconds
+2023-12-06 16:15:51,812 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1429] milliseconds
+2023-12-06 16:16:20,406 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [15977] -- Next runtime: Wed Dec 06 16:31:20 IST 2023
+2023-12-06 16:16:21,122 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [716] milliseconds
+2023-12-06 16:19:20,504 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15586
+2023-12-06 16:19:20,504 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 15585
+2023-12-06 16:19:50,525 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15587
+2023-12-06 16:30:20,840 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Auto-create Fixed Asset Maintenances] Id [15967] -- Next runtime: Wed Dec 06 17:30:20 IST 2023
+2023-12-06 16:30:20,858 |OFBiz-JobQueue-0     |Log                           |I| [CommonPermissionServices.xml#genericBasePermissionCheck line 59] This simple-method-call is deprecated! Please use a service-call of genericBasePermissionCheck instead.
+2023-12-06 16:30:20,883 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Auto-create Fixed Asset Maintenances] Id [15966] -- Next runtime: Wed Dec 06 17:30:20 IST 2023
+2023-12-06 16:30:20,883 |OFBiz-JobQueue-1     |Log                           |I| [CommonPermissionServices.xml#genericBasePermissionCheck line 59] This simple-method-call is deprecated! Please use a service-call of genericBasePermissionCheck instead.
+2023-12-06 16:30:20,933 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/genericBasePermissionCheck] finished in [75] milliseconds
+2023-12-06 16:30:20,933 |OFBiz-JobQueue-0     |ServiceEcaCondition           |W| doRealCompare returned null, returning false
+2023-12-06 16:30:20,933 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/fixedAssetPermissionCheck] finished in [93] milliseconds
+2023-12-06 16:30:21,003 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/genericBasePermissionCheck] finished in [120] milliseconds
+2023-12-06 16:30:21,003 |OFBiz-JobQueue-1     |ServiceEcaCondition           |W| doRealCompare returned null, returning false
+2023-12-06 16:30:21,003 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/fixedAssetPermissionCheck] finished in [120] milliseconds
+2023-12-06 16:30:21,541 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/createMaintsFromTimeInterval] finished in [700] milliseconds
+2023-12-06 16:30:21,548 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Auto-create Fixed Asset Maintenances] Id [15968] -- Next runtime: Wed Dec 06 17:30:21 IST 2023
+2023-12-06 16:30:21,550 |OFBiz-JobQueue-0     |Log                           |I| [CommonPermissionServices.xml#genericBasePermissionCheck line 59] This simple-method-call is deprecated! Please use a service-call of genericBasePermissionCheck instead.
+2023-12-06 16:30:21,551 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/genericBasePermissionCheck] finished in [1] milliseconds
+2023-12-06 16:30:21,551 |OFBiz-JobQueue-0     |ServiceEcaCondition           |W| doRealCompare returned null, returning false
+2023-12-06 16:30:21,551 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/fixedAssetPermissionCheck] finished in [3] milliseconds
+2023-12-06 16:30:21,556 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/createMaintsFromTimeInterval] finished in [8] milliseconds
+2023-12-06 16:30:22,057 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/createMaintsFromTimeInterval] finished in [1173] milliseconds
+2023-12-06 16:30:50,887 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [15978] -- Next runtime: Wed Dec 06 16:45:50 IST 2023
+2023-12-06 16:30:50,888 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [15979] -- Next runtime: Wed Dec 06 16:45:50 IST 2023
+2023-12-06 16:30:51,610 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [723] milliseconds
+2023-12-06 16:30:52,323 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1435] milliseconds
+2023-12-06 16:31:20,927 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [15980] -- Next runtime: Wed Dec 06 16:46:20 IST 2023
+2023-12-06 16:31:21,667 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [739] milliseconds
+2023-12-06 16:34:21,026 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 15591
+2023-12-06 16:34:21,043 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15592
+2023-12-06 16:34:51,039 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 15593
+2023-12-06 16:45:51,364 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [15984] -- Next runtime: Wed Dec 06 17:00:51 IST 2023
+2023-12-06 16:45:51,367 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [15985] -- Next runtime: Wed Dec 06 17:00:51 IST 2023
+2023-12-06 16:45:52,089 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [725] milliseconds
+2023-12-06 16:45:52,805 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1438] milliseconds
+2023-12-06 16:46:21,388 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [15986] -- Next runtime: Wed Dec 06 17:01:21 IST 2023
+2023-12-06 16:46:22,141 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [752] milliseconds
+2023-12-06 16:49:21,455 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 15594
+2023-12-06 16:49:21,456 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15595
+2023-12-06 16:49:51,474 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 15596
+2023-12-06 17:00:51,728 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [15987] -- Next runtime: Wed Dec 06 17:15:51 IST 2023
+2023-12-06 17:00:51,730 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [15988] -- Next runtime: Wed Dec 06 17:15:51 IST 2023
+2023-12-06 17:00:52,524 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [795] milliseconds
+2023-12-06 17:00:53,284 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1554] milliseconds
+2023-12-06 17:01:21,749 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [15989] -- Next runtime: Wed Dec 06 17:16:21 IST 2023
+2023-12-06 17:01:22,476 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [727] milliseconds
+2023-12-06 17:10:21,945 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 15598
+2023-12-06 17:10:21,948 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 15590
+2023-12-06 17:10:21,949 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 15589
+2023-12-06 17:10:21,951 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 15597
+2023-12-06 17:10:21,952 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15588
+2023-12-06 17:10:21,952 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 15599
+2023-12-06 17:15:52,098 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [15990] -- Next runtime: Wed Dec 06 17:30:52 IST 2023
+2023-12-06 17:15:52,098 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [15991] -- Next runtime: Wed Dec 06 17:30:52 IST 2023
+2023-12-06 17:15:52,890 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [792] milliseconds
+2023-12-06 17:15:53,633 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1535] milliseconds
+2023-12-06 17:16:22,127 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [15992] -- Next runtime: Wed Dec 06 17:31:22 IST 2023
+2023-12-06 17:16:22,891 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [764] milliseconds
+2023-12-06 17:25:22,292 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15600
+2023-12-06 17:25:22,292 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 15601
+2023-12-06 17:25:52,291 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15602
+2023-12-06 17:30:22,407 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Auto-create Fixed Asset Maintenances] Id [15981] -- Next runtime: Wed Dec 06 18:30:22 IST 2023
+2023-12-06 17:30:22,426 |OFBiz-JobQueue-1     |Log                           |I| [CommonPermissionServices.xml#genericBasePermissionCheck line 59] This simple-method-call is deprecated! Please use a service-call of genericBasePermissionCheck instead.
+2023-12-06 17:30:22,458 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Auto-create Fixed Asset Maintenances] Id [15982] -- Next runtime: Wed Dec 06 18:30:22 IST 2023
+2023-12-06 17:30:22,459 |OFBiz-JobQueue-0     |Log                           |I| [CommonPermissionServices.xml#genericBasePermissionCheck line 59] This simple-method-call is deprecated! Please use a service-call of genericBasePermissionCheck instead.
+2023-12-06 17:30:22,507 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/genericBasePermissionCheck] finished in [80] milliseconds
+2023-12-06 17:30:22,508 |OFBiz-JobQueue-1     |ServiceEcaCondition           |W| doRealCompare returned null, returning false
+2023-12-06 17:30:22,508 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/fixedAssetPermissionCheck] finished in [101] milliseconds
+2023-12-06 17:30:22,580 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/genericBasePermissionCheck] finished in [121] milliseconds
+2023-12-06 17:30:22,581 |OFBiz-JobQueue-0     |ServiceEcaCondition           |W| doRealCompare returned null, returning false
+2023-12-06 17:30:22,581 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/fixedAssetPermissionCheck] finished in [123] milliseconds
+2023-12-06 17:30:23,161 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/createMaintsFromTimeInterval] finished in [754] milliseconds
+2023-12-06 17:30:23,165 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Auto-create Fixed Asset Maintenances] Id [15983] -- Next runtime: Wed Dec 06 18:30:23 IST 2023
+2023-12-06 17:30:23,166 |OFBiz-JobQueue-1     |Log                           |I| [CommonPermissionServices.xml#genericBasePermissionCheck line 59] This simple-method-call is deprecated! Please use a service-call of genericBasePermissionCheck instead.
+2023-12-06 17:30:23,167 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/genericBasePermissionCheck] finished in [1] milliseconds
+2023-12-06 17:30:23,167 |OFBiz-JobQueue-1     |ServiceEcaCondition           |W| doRealCompare returned null, returning false
+2023-12-06 17:30:23,167 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/fixedAssetPermissionCheck] finished in [2] milliseconds
+2023-12-06 17:30:23,172 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/createMaintsFromTimeInterval] finished in [7] milliseconds
+2023-12-06 17:30:23,731 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/createMaintsFromTimeInterval] finished in [1272] milliseconds
+2023-12-06 17:30:52,438 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [15993] -- Next runtime: Wed Dec 06 17:45:52 IST 2023
+2023-12-06 17:30:52,440 |OFBiz-JobQueue-0     |TransactionUtil               |W| No transaction in place, so not suspending.
+2023-12-06 17:30:52,443 |OFBiz-JobQueue-0     |SequenceUtil                  |I| Got bank of sequenced IDs for [JobSandbox]; curSeqId=16000, maxSeqId=16100, bankSize=100
+2023-12-06 17:30:52,444 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [15994] -- Next runtime: Wed Dec 06 17:45:52 IST 2023
+2023-12-06 17:30:53,274 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [836] milliseconds
+2023-12-06 17:30:54,132 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1688] milliseconds
+2023-12-06 17:31:22,450 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [15995] -- Next runtime: Wed Dec 06 17:46:22 IST 2023
+2023-12-06 17:31:23,356 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [906] milliseconds
+2023-12-06 17:40:22,719 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 15607
+2023-12-06 17:40:22,725 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15606
+2023-12-06 17:40:52,736 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 15608
+2023-12-06 17:45:52,854 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [15999] -- Next runtime: Wed Dec 06 18:00:52 IST 2023
+2023-12-06 17:45:52,856 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [16000] -- Next runtime: Wed Dec 06 18:00:52 IST 2023
+2023-12-06 17:45:53,619 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [765] milliseconds
+2023-12-06 17:45:54,443 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1587] milliseconds
+2023-12-06 17:46:22,871 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [16001] -- Next runtime: Wed Dec 06 18:01:22 IST 2023
+2023-12-06 17:46:23,601 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [729] milliseconds
+2023-12-06 18:00:53,265 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [16002] -- Next runtime: Wed Dec 06 18:15:53 IST 2023
+2023-12-06 18:00:53,267 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [16003] -- Next runtime: Wed Dec 06 18:15:53 IST 2023
+2023-12-06 18:00:54,021 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [756] milliseconds
+2023-12-06 18:00:54,730 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1463] milliseconds
+2023-12-06 18:01:23,269 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [16004] -- Next runtime: Wed Dec 06 18:16:23 IST 2023
+2023-12-06 18:01:24,181 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [912] milliseconds
+2023-12-06 18:03:23,332 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15609
+2023-12-06 18:03:23,333 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 15610
+2023-12-06 18:03:23,338 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15611
+2023-12-06 18:10:53,563 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15604
+2023-12-06 18:10:53,563 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 15603
+2023-12-06 18:10:53,568 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15605
+2023-12-06 18:15:53,787 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [16006] -- Next runtime: Wed Dec 06 18:30:53 IST 2023
+2023-12-06 18:15:53,796 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [16005] -- Next runtime: Wed Dec 06 18:30:53 IST 2023
+2023-12-06 18:15:54,540 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [753] milliseconds
+2023-12-06 18:15:55,432 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1636] milliseconds
+2023-12-06 18:16:23,815 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [16007] -- Next runtime: Wed Dec 06 18:31:23 IST 2023
+2023-12-06 18:16:24,546 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [730] milliseconds
+2023-12-06 18:18:23,878 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 15612
+2023-12-06 18:18:23,879 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15613
+2023-12-06 18:18:53,882 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 15614
+2023-12-06 18:30:24,180 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Auto-create Fixed Asset Maintenances] Id [15996] -- Next runtime: Wed Dec 06 19:30:24 IST 2023
+2023-12-06 18:30:24,204 |OFBiz-JobQueue-0     |Log                           |I| [CommonPermissionServices.xml#genericBasePermissionCheck line 59] This simple-method-call is deprecated! Please use a service-call of genericBasePermissionCheck instead.
+2023-12-06 18:30:24,235 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Auto-create Fixed Asset Maintenances] Id [15997] -- Next runtime: Wed Dec 06 19:30:24 IST 2023
+2023-12-06 18:30:24,235 |OFBiz-JobQueue-1     |Log                           |I| [CommonPermissionServices.xml#genericBasePermissionCheck line 59] This simple-method-call is deprecated! Please use a service-call of genericBasePermissionCheck instead.
+2023-12-06 18:30:24,292 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/genericBasePermissionCheck] finished in [87] milliseconds
+2023-12-06 18:30:24,293 |OFBiz-JobQueue-0     |ServiceEcaCondition           |W| doRealCompare returned null, returning false
+2023-12-06 18:30:24,293 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/fixedAssetPermissionCheck] finished in [113] milliseconds
+2023-12-06 18:30:24,364 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/genericBasePermissionCheck] finished in [128] milliseconds
+2023-12-06 18:30:24,364 |OFBiz-JobQueue-1     |ServiceEcaCondition           |W| doRealCompare returned null, returning false
+2023-12-06 18:30:24,364 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/fixedAssetPermissionCheck] finished in [129] milliseconds
+2023-12-06 18:30:24,904 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/createMaintsFromTimeInterval] finished in [724] milliseconds
+2023-12-06 18:30:24,908 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Auto-create Fixed Asset Maintenances] Id [15998] -- Next runtime: Wed Dec 06 19:30:24 IST 2023
+2023-12-06 18:30:24,908 |OFBiz-JobQueue-0     |Log                           |I| [CommonPermissionServices.xml#genericBasePermissionCheck line 59] This simple-method-call is deprecated! Please use a service-call of genericBasePermissionCheck instead.
+2023-12-06 18:30:24,909 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/genericBasePermissionCheck] finished in [1] milliseconds
+2023-12-06 18:30:24,909 |OFBiz-JobQueue-0     |ServiceEcaCondition           |W| doRealCompare returned null, returning false
+2023-12-06 18:30:24,909 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/fixedAssetPermissionCheck] finished in [1] milliseconds
+2023-12-06 18:30:24,914 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/createMaintsFromTimeInterval] finished in [6] milliseconds
+2023-12-06 18:30:25,406 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/createMaintsFromTimeInterval] finished in [1170] milliseconds
+2023-12-06 18:30:54,213 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [16008] -- Next runtime: Wed Dec 06 18:45:54 IST 2023
+2023-12-06 18:30:54,216 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [16009] -- Next runtime: Wed Dec 06 18:45:54 IST 2023
+2023-12-06 18:30:55,406 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1193] milliseconds
+2023-12-06 18:30:56,144 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1928] milliseconds
+2023-12-06 18:31:24,245 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [16010] -- Next runtime: Wed Dec 06 18:46:24 IST 2023
+2023-12-06 18:31:24,992 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [746] milliseconds
+2023-12-06 18:33:24,284 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15618
+2023-12-06 18:33:24,291 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 15619
+2023-12-06 18:33:54,298 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15620
+2023-12-06 19:01:54,785 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [16014] -- Next runtime: Wed Dec 06 19:16:54 IST 2023
+2023-12-06 19:01:54,840 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [16015] -- Next runtime: Wed Dec 06 19:16:54 IST 2023
+2023-12-06 19:01:55,560 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [774] milliseconds
+2023-12-06 19:01:55,564 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [16016] -- Next runtime: Wed Dec 06 19:16:55 IST 2023
+2023-12-06 19:01:55,566 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [2] milliseconds
+2023-12-06 19:01:56,346 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1506] milliseconds
+2023-12-06 19:02:24,800 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15621
+2023-12-06 19:02:24,801 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15622
+2023-12-06 19:02:24,808 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 15623
+2023-12-06 19:10:54,980 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15615
+2023-12-06 19:10:54,980 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 15616
+2023-12-06 19:10:54,982 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15617
+2023-12-06 19:12:55,036 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 15624
+2023-12-06 19:12:55,038 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15625
+2023-12-06 19:13:25,051 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 15626
+2023-12-06 19:16:55,173 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [16017] -- Next runtime: Wed Dec 06 19:31:55 IST 2023
+2023-12-06 19:16:55,183 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [16018] -- Next runtime: Wed Dec 06 19:31:55 IST 2023
+2023-12-06 19:16:56,072 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [898] milliseconds
+2023-12-06 19:16:57,125 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1942] milliseconds
+2023-12-06 19:17:25,205 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [16019] -- Next runtime: Wed Dec 06 19:32:25 IST 2023
+2023-12-06 19:17:26,005 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [799] milliseconds
+2023-12-06 19:27:55,482 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15631
+2023-12-06 19:27:55,482 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 15630
+2023-12-06 19:28:25,472 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15632
+2023-12-06 19:30:25,539 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Auto-create Fixed Asset Maintenances] Id [16012] -- Next runtime: Wed Dec 06 20:30:25 IST 2023
+2023-12-06 19:30:25,564 |OFBiz-JobQueue-0     |Log                           |I| [CommonPermissionServices.xml#genericBasePermissionCheck line 59] This simple-method-call is deprecated! Please use a service-call of genericBasePermissionCheck instead.
+2023-12-06 19:30:25,676 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/genericBasePermissionCheck] finished in [112] milliseconds
+2023-12-06 19:30:25,676 |OFBiz-JobQueue-0     |ServiceEcaCondition           |W| doRealCompare returned null, returning false
+2023-12-06 19:30:25,676 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/fixedAssetPermissionCheck] finished in [136] milliseconds
+2023-12-06 19:30:25,700 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Auto-create Fixed Asset Maintenances] Id [16011] -- Next runtime: Wed Dec 06 20:30:25 IST 2023
+2023-12-06 19:30:25,701 |OFBiz-JobQueue-1     |Log                           |I| [CommonPermissionServices.xml#genericBasePermissionCheck line 59] This simple-method-call is deprecated! Please use a service-call of genericBasePermissionCheck instead.
+2023-12-06 19:30:25,701 |OFBiz-JobQueue-1     |ServiceEcaCondition           |W| doRealCompare returned null, returning false
+2023-12-06 19:30:25,701 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/fixedAssetPermissionCheck] finished in [1] milliseconds
+2023-12-06 19:30:26,518 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/createMaintsFromTimeInterval] finished in [979] milliseconds
+2023-12-06 19:30:26,526 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Auto-create Fixed Asset Maintenances] Id [16013] -- Next runtime: Wed Dec 06 20:30:26 IST 2023
+2023-12-06 19:30:26,527 |OFBiz-JobQueue-0     |Log                           |I| [CommonPermissionServices.xml#genericBasePermissionCheck line 59] This simple-method-call is deprecated! Please use a service-call of genericBasePermissionCheck instead.
+2023-12-06 19:30:26,527 |OFBiz-JobQueue-0     |ServiceEcaCondition           |W| doRealCompare returned null, returning false
+2023-12-06 19:30:26,528 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/fixedAssetPermissionCheck] finished in [1] milliseconds
+2023-12-06 19:30:26,535 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/createMaintsFromTimeInterval] finished in [9] milliseconds
+2023-12-06 19:30:27,143 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/createMaintsFromTimeInterval] finished in [1443] milliseconds
+2023-12-06 19:31:55,630 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [16020] -- Next runtime: Wed Dec 06 19:46:55 IST 2023
+2023-12-06 19:31:55,632 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [16021] -- Next runtime: Wed Dec 06 19:46:55 IST 2023
+2023-12-06 19:31:56,427 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [797] milliseconds
+2023-12-06 19:31:57,224 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1592] milliseconds
+2023-12-06 19:32:25,649 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [16022] -- Next runtime: Wed Dec 06 19:47:25 IST 2023
+2023-12-06 19:32:26,538 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [889] milliseconds
+2023-12-06 19:46:56,139 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [16027] -- Next runtime: Wed Dec 06 20:01:56 IST 2023
+2023-12-06 19:46:56,144 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [16026] -- Next runtime: Wed Dec 06 20:01:56 IST 2023
+2023-12-06 19:46:56,862 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [723] milliseconds
+2023-12-06 19:46:57,574 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1430] milliseconds
+2023-12-06 19:47:26,165 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [16028] -- Next runtime: Wed Dec 06 20:02:26 IST 2023
+2023-12-06 19:47:26,974 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [809] milliseconds
+2023-12-06 19:54:26,353 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 15633
+2023-12-06 19:54:26,358 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 15635
+2023-12-06 19:54:26,377 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15634
+2023-12-06 20:01:56,565 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [16029] -- Next runtime: Wed Dec 06 20:16:56 IST 2023
+2023-12-06 20:01:56,570 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [16030] -- Next runtime: Wed Dec 06 20:16:56 IST 2023
+2023-12-06 20:01:58,029 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1464] milliseconds
+2023-12-06 20:01:58,750 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [2179] milliseconds
+2023-12-06 20:02:26,602 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [16031] -- Next runtime: Wed Dec 06 20:17:26 IST 2023
+2023-12-06 20:02:27,398 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [796] milliseconds
+2023-12-06 20:30:37,771 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [16032] -- Next runtime: Wed Dec 06 20:45:37 IST 2023
+2023-12-06 20:30:37,821 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [16033] -- Next runtime: Wed Dec 06 20:45:37 IST 2023
+2023-12-06 20:30:38,556 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [785] milliseconds
+2023-12-06 20:30:38,560 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [16034] -- Next runtime: Wed Dec 06 20:45:38 IST 2023
+2023-12-06 20:30:38,562 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [2] milliseconds
+2023-12-06 20:30:38,567 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Auto-create Fixed Asset Maintenances] Id [16023] -- Next runtime: Wed Dec 06 21:30:38 IST 2023
+2023-12-06 20:30:38,585 |OFBiz-JobQueue-0     |Log                           |I| [CommonPermissionServices.xml#genericBasePermissionCheck line 59] This simple-method-call is deprecated! Please use a service-call of genericBasePermissionCheck instead.
+2023-12-06 20:30:39,305 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1484] milliseconds
+2023-12-06 20:30:39,355 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Auto-create Fixed Asset Maintenances] Id [16024] -- Next runtime: Wed Dec 06 21:30:39 IST 2023
+2023-12-06 20:30:39,356 |OFBiz-JobQueue-1     |Log                           |I| [CommonPermissionServices.xml#genericBasePermissionCheck line 59] This simple-method-call is deprecated! Please use a service-call of genericBasePermissionCheck instead.
+2023-12-06 20:30:39,404 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/genericBasePermissionCheck] finished in [819] milliseconds
+2023-12-06 20:30:39,405 |OFBiz-JobQueue-0     |ServiceEcaCondition           |W| doRealCompare returned null, returning false
+2023-12-06 20:30:39,405 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/fixedAssetPermissionCheck] finished in [838] milliseconds
+2023-12-06 20:30:39,452 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/genericBasePermissionCheck] finished in [96] milliseconds
+2023-12-06 20:30:39,452 |OFBiz-JobQueue-1     |ServiceEcaCondition           |W| doRealCompare returned null, returning false
+2023-12-06 20:30:39,452 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/fixedAssetPermissionCheck] finished in [96] milliseconds
+2023-12-06 20:30:40,060 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/createMaintsFromTimeInterval] finished in [1493] milliseconds
+2023-12-06 20:30:40,064 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Auto-create Fixed Asset Maintenances] Id [16025] -- Next runtime: Wed Dec 06 21:30:40 IST 2023
+2023-12-06 20:30:40,065 |OFBiz-JobQueue-0     |Log                           |I| [CommonPermissionServices.xml#genericBasePermissionCheck line 59] This simple-method-call is deprecated! Please use a service-call of genericBasePermissionCheck instead.
+2023-12-06 20:30:40,066 |OFBiz-JobQueue-0     |ServiceEcaCondition           |W| doRealCompare returned null, returning false
+2023-12-06 20:30:40,066 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/fixedAssetPermissionCheck] finished in [2] milliseconds
+2023-12-06 20:30:40,071 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/createMaintsFromTimeInterval] finished in [7] milliseconds
+2023-12-06 20:30:40,632 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/createMaintsFromTimeInterval] finished in [1277] milliseconds
+2023-12-06 20:31:07,837 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15636
+2023-12-06 20:31:07,837 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 15629
+2023-12-06 20:31:07,839 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15627
+2023-12-06 20:31:07,839 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 15628
+2023-12-06 20:31:07,840 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15637
+2023-12-06 20:31:07,841 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 15638
+2023-12-06 20:35:07,907 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 15639
+2023-12-06 20:35:07,907 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 15640
+2023-12-06 20:35:37,961 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 15641
+2023-12-06 20:45:38,317 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [16035] -- Next runtime: Wed Dec 06 21:00:38 IST 2023
+2023-12-06 20:45:38,322 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [16036] -- Next runtime: Wed Dec 06 21:00:38 IST 2023
+2023-12-06 20:45:39,590 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1272] milliseconds
+2023-12-06 20:45:40,927 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [2605] milliseconds
+2023-12-06 20:46:08,442 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [16037] -- Next runtime: Wed Dec 06 21:01:08 IST 2023
+2023-12-06 20:46:09,628 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1182] milliseconds
+2023-12-06 21:05:48,426 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [16041] -- Next runtime: Wed Dec 06 21:20:48 IST 2023
+2023-12-06 21:05:48,583 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [16042] -- Next runtime: Wed Dec 06 21:20:48 IST 2023
+2023-12-06 21:05:49,183 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [756] milliseconds
+2023-12-06 21:05:49,237 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [16043] -- Next runtime: Wed Dec 06 21:20:49 IST 2023
+2023-12-06 21:05:49,241 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [3] milliseconds
+2023-12-06 21:05:49,979 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1396] milliseconds
+2023-12-06 21:14:15,263 |sse-nio-8443-exec-13 |ControlEventListener          |I| Creating session:  hidden sessionId by default.
+2023-12-06 21:14:15,269 |sse-nio-8443-exec-13 |ControlServlet                |T| [[[webtools::entity (Domain:https://localhost)] Request Begun, encoding=[UTF-8]- total:0.0,since last(Begin):0.0]]
+2023-12-06 21:14:15,287 |sse-nio-8443-exec-13 |VisitHandler                  |I| Found visitorId [11300] in cookie
+2023-12-06 21:14:15,441 |sse-nio-8443-exec-13 |ConfigXMLReader               |I| controller loaded: 0.001s, 0 requests, 0 views in file:/D:/ofbiz/ofbiz-framework/framework/common/webcommon/WEB-INF/handlers-controller.xml
+2023-12-06 21:14:15,444 |sse-nio-8443-exec-13 |ConfigXMLReader               |I| controller loaded: 0.027s, 52 requests, 21 views in file:/D:/ofbiz/ofbiz-framework/framework/common/webcommon/WEB-INF/common-controller.xml
+2023-12-06 21:14:15,472 |sse-nio-8443-exec-13 |ConfigXMLReader               |I| controller loaded: 0.002s, 26 requests, 10 views in file:/D:/ofbiz/ofbiz-framework/framework/common/webcommon/WEB-INF/portal-controller.xml
+2023-12-06 21:14:15,499 |sse-nio-8443-exec-13 |ConfigXMLReader               |I| controller loaded: 0.002s, 30 requests, 13 views in file:/D:/ofbiz/ofbiz-framework/framework/common/webcommon/WEB-INF/security-controller.xml
+2023-12-06 21:14:15,523 |sse-nio-8443-exec-13 |ConfigXMLReader               |I| controller loaded: 0.0s, 5 requests, 0 views in file:/D:/ofbiz/ofbiz-framework/framework/common/webcommon/WEB-INF/tempexpr-controller.xml
+2023-12-06 21:14:15,530 |sse-nio-8443-exec-13 |ConfigXMLReader               |I| controller loaded: 0.142s, 122 requests, 79 views in file:/D:/ofbiz/ofbiz-framework/framework/webtools/webapp/webtools/WEB-INF/controller.xml
+2023-12-06 21:14:15,551 |sse-nio-8443-exec-13 |RequestHandler                |I| Rendering View [login].  Hidden sessionId by default.
+2023-12-06 21:14:15,569 |sse-nio-8443-exec-13 |ServiceDispatcher             |T| Sync service [webtools/getUserPreferenceGroup] finished in [17] milliseconds
+2023-12-06 21:14:15,965 |sse-nio-8443-exec-13 |ScreenFactory                 |I| Got 29 screens in 0.027s from: file:/D:/ofbiz/ofbiz-framework/framework/common/widget/CommonScreens.xml
+2023-12-06 21:14:16,101 |sse-nio-8443-exec-13 |ScreenFactory                 |I| Got 28 screens in 0.012s from: file:/D:/ofbiz/ofbiz-framework/themes/common-theme/widget/CommonScreens.xml
+2023-12-06 21:14:16,110 |sse-nio-8443-exec-13 |ScreenFactory                 |I| Got 11 screens in 0.009s from: file:/D:/ofbiz/ofbiz-framework/framework/webtools/widget/CommonScreens.xml
+2023-12-06 21:14:16,430 |sse-nio-8443-exec-13 |ControlServlet                |T| [[[webtools::entity (Domain:https://localhost)] Request Done- total:1.161,since last([webtools::entity...):1.161]]
+2023-12-06 21:15:04,807 |jsse-nio-8443-exec-5 |ControlEventListener          |I| Creating session:  hidden sessionId by default.
+2023-12-06 21:17:00,601 |jsse-nio-8443-exec-5 |ControlEventListener          |I| Creating session:  hidden sessionId by default.
+2023-12-06 21:17:00,631 |sse-nio-8443-exec-38 |ControlEventListener          |I| Creating session:  hidden sessionId by default.
+2023-12-06 21:17:00,637 |sse-nio-8443-exec-38 |ControlServlet                |T| [[[onlineexam::customJSONEvent (Domain:https://localhost)] Request Begun, encoding=[UTF-8]- total:0.0,since last(Begin):0.0]]
+2023-12-06 21:17:00,637 |sse-nio-8443-exec-38 |VisitHandler                  |I| Found visitorId [null] in cookie
+2023-12-06 21:17:00,736 |sse-nio-8443-exec-38 |ConfigXMLReader               |I| controller loaded: 0.0s, 0 requests, 0 views in file:/D:/ofbiz/ofbiz-framework/framework/common/webcommon/WEB-INF/handlers-controller.xml
+2023-12-06 21:17:00,741 |sse-nio-8443-exec-38 |ConfigXMLReader               |I| controller loaded: 0.037s, 52 requests, 21 views in file:/D:/ofbiz/ofbiz-framework/framework/common/webcommon/WEB-INF/common-controller.xml
+2023-12-06 21:17:00,741 |sse-nio-8443-exec-38 |ConfigXMLReader               |I| controller loaded: 0.064s, 3 requests, 1 views in file:/D:/ofbiz/ofbiz-framework/plugins/onlineexam/webapp/onlineexam/WEB-INF/controller.xml
+2023-12-06 21:17:00,742 |sse-nio-8443-exec-38 |RequestHandler                |I| This is the first request in this visit. Hidden sessionId by default.
+2023-12-06 21:17:00,747 |sse-nio-8443-exec-38 |RequestHandler                |I| Ran Event [java:com.vastpro.ofbizdemo.events.JSONEvent#customJSONEvent] from [request], result is [success]
+2023-12-06 21:17:00,787 |sse-nio-8443-exec-38 |RequestHandler                |I| [RequestHandler.doRequest]: Response is a chained request. Hidden sessionId by default.
+2023-12-06 21:17:00,788 |sse-nio-8443-exec-38 |RequestHandler                |I| [RequestHandler]: Chain in place: requestUri=json overrideViewUri=null Hidden sessionId by default.
+2023-12-06 21:17:00,791 |sse-nio-8443-exec-38 |RequestHandler                |I| Ran Event [java:org.apache.ofbiz.common.CommonEvents#jsonResponseFromRequestAttributes] from [request], result is [success]
+2023-12-06 21:17:00,792 |sse-nio-8443-exec-38 |TransactionUtil               |W| No transaction in place, so not suspending.
+2023-12-06 21:17:00,808 |sse-nio-8443-exec-38 |SequenceUtil                  |I| Got bank of sequenced IDs for [ServerHitBin]; curSeqId=10480, maxSeqId=10490, bankSize=10
+2023-12-06 21:17:00,835 |sse-nio-8443-exec-38 |ServerHitBin                  |I| Visit delegatorName=default, ServerHitBin delegatorName=default
+2023-12-06 21:17:00,853 |sse-nio-8443-exec-38 |ControlServlet                |T| [[[onlineexam::customJSONEvent (Domain:https://localhost)] Request Done- total:0.216,since last([onlineexam::cust...):0.216]]
+2023-12-06 21:20:48,915 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [16044] -- Next runtime: Wed Dec 06 21:35:48 IST 2023
+2023-12-06 21:20:48,918 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [16045] -- Next runtime: Wed Dec 06 21:35:48 IST 2023
+2023-12-06 21:20:50,572 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1654] milliseconds
+2023-12-06 21:20:51,643 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [2725] milliseconds
+2023-12-06 21:21:19,002 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [16046] -- Next runtime: Wed Dec 06 21:36:18 IST 2023
+2023-12-06 21:21:20,389 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1383] milliseconds
+2023-12-06 21:30:49,336 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Auto-create Fixed Asset Maintenances] Id [16038] -- Next runtime: Wed Dec 06 22:30:49 IST 2023
+2023-12-06 21:30:49,420 |OFBiz-JobQueue-0     |Log                           |I| [CommonPermissionServices.xml#genericBasePermissionCheck line 59] This simple-method-call is deprecated! Please use a service-call of genericBasePermissionCheck instead.
+2023-12-06 21:30:49,562 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Auto-create Fixed Asset Maintenances] Id [16039] -- Next runtime: Wed Dec 06 22:30:49 IST 2023
+2023-12-06 21:30:49,562 |OFBiz-JobQueue-1     |Log                           |I| [CommonPermissionServices.xml#genericBasePermissionCheck line 59] This simple-method-call is deprecated! Please use a service-call of genericBasePermissionCheck instead.
+2023-12-06 21:30:49,699 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/genericBasePermissionCheck] finished in [279] milliseconds
+2023-12-06 21:30:49,701 |OFBiz-JobQueue-0     |ServiceEcaCondition           |W| doRealCompare returned null, returning false
+2023-12-06 21:30:49,701 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/fixedAssetPermissionCheck] finished in [360] milliseconds
+2023-12-06 21:30:49,829 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/genericBasePermissionCheck] finished in [267] milliseconds
+2023-12-06 21:30:49,830 |OFBiz-JobQueue-1     |ServiceEcaCondition           |W| doRealCompare returned null, returning false
+2023-12-06 21:30:49,830 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/fixedAssetPermissionCheck] finished in [268] milliseconds
+2023-12-06 21:30:51,034 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/createMaintsFromTimeInterval] finished in [1695] milliseconds
+2023-12-06 21:30:51,078 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Auto-create Fixed Asset Maintenances] Id [16040] -- Next runtime: Wed Dec 06 22:30:51 IST 2023
+2023-12-06 21:30:51,078 |OFBiz-JobQueue-0     |Log                           |I| [CommonPermissionServices.xml#genericBasePermissionCheck line 59] This simple-method-call is deprecated! Please use a service-call of genericBasePermissionCheck instead.
+2023-12-06 21:30:51,079 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/genericBasePermissionCheck] finished in [1] milliseconds
+2023-12-06 21:30:51,079 |OFBiz-JobQueue-0     |ServiceEcaCondition           |W| doRealCompare returned null, returning false
+2023-12-06 21:30:51,079 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/fixedAssetPermissionCheck] finished in [1] milliseconds
+2023-12-06 21:30:51,087 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/createMaintsFromTimeInterval] finished in [8] milliseconds
+2023-12-06 21:30:52,129 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/createMaintsFromTimeInterval] finished in [2567] milliseconds
+2023-12-06 21:35:49,568 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [16047] -- Next runtime: Wed Dec 06 21:50:49 IST 2023
+2023-12-06 21:35:49,572 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [16048] -- Next runtime: Wed Dec 06 21:50:49 IST 2023
+2023-12-06 21:35:50,837 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1269] milliseconds
+2023-12-06 21:35:52,043 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [2471] milliseconds
+2023-12-06 21:36:19,631 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [16049] -- Next runtime: Wed Dec 06 21:51:19 IST 2023
+2023-12-06 21:36:20,971 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1340] milliseconds
+2023-12-06 21:50:50,102 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [16053] -- Next runtime: Wed Dec 06 22:05:50 IST 2023
+2023-12-06 21:50:50,103 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [16054] -- Next runtime: Wed Dec 06 22:05:50 IST 2023
+2023-12-06 21:50:51,453 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1349] milliseconds
+2023-12-06 21:50:52,621 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [2518] milliseconds
+2023-12-06 21:51:20,166 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [16055] -- Next runtime: Wed Dec 06 22:06:20 IST 2023
+2023-12-06 21:51:21,529 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1363] milliseconds
+2023-12-06 22:05:50,677 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [16056] -- Next runtime: Wed Dec 06 22:20:50 IST 2023
+2023-12-06 22:05:50,678 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [16057] -- Next runtime: Wed Dec 06 22:20:50 IST 2023
+2023-12-06 22:05:51,951 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1274] milliseconds
+2023-12-06 22:05:53,183 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [2505] milliseconds
+2023-12-06 22:06:20,742 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [16058] -- Next runtime: Wed Dec 06 22:21:20 IST 2023
+2023-12-06 22:06:22,188 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1446] milliseconds
+2023-12-06 22:14:35,685 |Catalina-utility-1   |ControlEventListener          |I| Destroying session:  hidden sessionId by default.
+2023-12-06 22:15:05,736 |Catalina-utility-2   |ControlEventListener          |I| Could not find visit value object in session [ hidden sessionId by default.] that is being destroyed
+2023-12-06 22:15:05,736 |Catalina-utility-2   |ControlEventListener          |I| Destroying session:  hidden sessionId by default.
+2023-12-06 22:17:06,008 |Catalina-utility-2   |ControlEventListener          |I| Destroying session:  hidden sessionId by default.
+2023-12-06 22:17:06,009 |Catalina-utility-2   |ControlEventListener          |I| Could not find visit value object in session [ hidden sessionId by default.] that is being destroyed
+2023-12-06 22:17:06,009 |Catalina-utility-2   |ControlEventListener          |I| Destroying session:  hidden sessionId by default.
+2023-12-06 22:20:51,276 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [16060] -- Next runtime: Wed Dec 06 22:35:51 IST 2023
+2023-12-06 22:20:51,296 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [16059] -- Next runtime: Wed Dec 06 22:35:51 IST 2023
+2023-12-06 22:20:52,714 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1438] milliseconds
+2023-12-06 22:20:53,971 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [2674] milliseconds
+2023-12-06 22:21:21,341 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [16061] -- Next runtime: Wed Dec 06 22:36:21 IST 2023
+2023-12-06 22:21:22,597 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1256] milliseconds
+2023-12-06 22:45:07,904 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Auto-create Fixed Asset Maintenances] Id [16050] -- Next runtime: Wed Dec 06 23:45:07 IST 2023
+2023-12-06 22:45:07,923 |OFBiz-JobQueue-0     |Log                           |I| [CommonPermissionServices.xml#genericBasePermissionCheck line 59] This simple-method-call is deprecated! Please use a service-call of genericBasePermissionCheck instead.
+2023-12-06 22:45:07,950 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Auto-create Fixed Asset Maintenances] Id [16051] -- Next runtime: Wed Dec 06 23:45:07 IST 2023
+2023-12-06 22:45:07,950 |OFBiz-JobQueue-1     |Log                           |I| [CommonPermissionServices.xml#genericBasePermissionCheck line 59] This simple-method-call is deprecated! Please use a service-call of genericBasePermissionCheck instead.
+2023-12-06 22:45:08,019 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/genericBasePermissionCheck] finished in [96] milliseconds
+2023-12-06 22:45:08,020 |OFBiz-JobQueue-0     |ServiceEcaCondition           |W| doRealCompare returned null, returning false
+2023-12-06 22:45:08,020 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/fixedAssetPermissionCheck] finished in [116] milliseconds
+2023-12-06 22:45:08,074 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/genericBasePermissionCheck] finished in [124] milliseconds
+2023-12-06 22:45:08,074 |OFBiz-JobQueue-1     |ServiceEcaCondition           |W| doRealCompare returned null, returning false
+2023-12-06 22:45:08,074 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/fixedAssetPermissionCheck] finished in [124] milliseconds
+2023-12-06 22:45:08,621 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/createMaintsFromTimeInterval] finished in [717] milliseconds
+2023-12-06 22:45:08,626 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Auto-create Fixed Asset Maintenances] Id [16052] -- Next runtime: Wed Dec 06 23:45:08 IST 2023
+2023-12-06 22:45:08,626 |OFBiz-JobQueue-0     |Log                           |I| [CommonPermissionServices.xml#genericBasePermissionCheck line 59] This simple-method-call is deprecated! Please use a service-call of genericBasePermissionCheck instead.
+2023-12-06 22:45:08,632 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/genericBasePermissionCheck] finished in [6] milliseconds
+2023-12-06 22:45:08,633 |OFBiz-JobQueue-0     |ServiceEcaCondition           |W| doRealCompare returned null, returning false
+2023-12-06 22:45:08,633 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/fixedAssetPermissionCheck] finished in [7] milliseconds
+2023-12-06 22:45:08,637 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/createMaintsFromTimeInterval] finished in [11] milliseconds
+2023-12-06 22:45:08,641 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [16062] -- Next runtime: Wed Dec 06 23:00:08 IST 2023
+2023-12-06 22:45:09,099 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/createMaintsFromTimeInterval] finished in [1149] milliseconds
+2023-12-06 22:45:09,112 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [16063] -- Next runtime: Wed Dec 06 23:00:09 IST 2023
+2023-12-06 22:45:09,951 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1310] milliseconds
+2023-12-06 22:45:09,955 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [16064] -- Next runtime: Wed Dec 06 23:00:09 IST 2023
+2023-12-06 22:45:09,957 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [2] milliseconds
+2023-12-06 22:45:10,619 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1507] milliseconds
+2023-12-06 23:00:38,410 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [16068] -- Next runtime: Wed Dec 06 23:15:38 IST 2023
+2023-12-06 23:00:38,412 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [16069] -- Next runtime: Wed Dec 06 23:15:38 IST 2023
+2023-12-06 23:00:39,231 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [821] milliseconds
+2023-12-06 23:00:39,247 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [16070] -- Next runtime: Wed Dec 06 23:15:39 IST 2023
+2023-12-06 23:00:39,250 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [2] milliseconds
+2023-12-06 23:00:39,928 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1516] milliseconds

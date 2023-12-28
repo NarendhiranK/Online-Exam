@@ -1,0 +1,64 @@
+package com.vastpro.onlineexam.constants;
+
+public interface ConstantValue {
+	
+	String EXAM_ID = "examId";
+	String EXAM_NAME = "examName";
+	String CREATION_DATE = "creationDate";
+	String EXPIRATION_DATE = "expirationDate";
+	String NO_OF_QUESTIONS = "noOfQuestions";
+	String DURATION_MINUTES = "durationMinutes";
+	String PASS_PERCENTAGE = "passPercentage";
+	String QUESTIONS_RANDOMIZED = "questionsRandomized";
+	String ANSWERS_MUST = "answersMust";
+	String ENABLE_NEGATIVE_MARK = "enableNegativeMark";
+	String NEGATIVE_MARK_VALUE = "negativeMarkValue";
+	String TOPIC_ID = "topicId";
+	String TOPIC_NAME = "topicName";
+	String QUESTION_ID = "questionId";
+	String QUESTION_DETAIL = "questionDetail";
+	String OPTIONA = "optionA";
+	String OPTIONB = "optionB";
+	String OPTIONC = "optionC";
+	String OPTIOND = "optionD";
+	String OPTIONE = "optionE";
+	String ANSWER = "answer";
+	String NUM_ANSWERS = "numAnswers";
+	String QUESTION_TYPE = "questionType";
+	String DIFFICULTY_LEVEL = "difficultyLevel";
+	String ANSWER_VALUE = "answerValue";
+	String PERFORMANCE_ID = "performanceId";
+	String ATTEMPT_NUMBER = "attemptNumber";
+	String PARTY_ID = "partyId";
+	String SCORE = "score";
+	String COMPLETE_DATE = "completedDate";
+	String TOTAL_CORRECT = "totalCorrect";
+	String TOTAL_WRONG = "totalWrong";
+	String USER_PASSED = "userPassed";
+	String TOPIC_PASS_PERCENTAGE = "topicPassPercentage";
+	String TOTAL_QUESTIONS_IN_THIS_TOPIC = "totalQuestionsInThisTopic";
+	String CORRECT_QUESTIONS_IN_THIS_TOPIC = "correctQuestionsInThisTopic";
+	String USER_TOPIC_PERCENTAGE = "userTopicPercentage";
+	String USER_PASSED_THIS_TOPIC = "userPassedThisTopic";
+	String ALLOWED_ATTEMPTS = "allowedAttempts";
+	String NO_OF_ATTEMPTS = "noOfAttempts";
+	String LAST_PERFORMANCE_DATE = "lastPerformanceDate";
+	String TIME_OUT_DAYS = "timeoutDays";
+	String PASSWORD_CAHNGES_AUTO = "passwordChangesAuto";
+	String CAN_SPLIT_EXAMS = "canSplitExams";
+	String CAN_SEE_DETAILED_RESULTS = "canSeeDetailedResults";
+	String MAX_SPLIT_ATTEMPTS = "maxSplitAttempts";
+	String DESCRIPTION = "description";
+	String PERCENTAGE = "percentage";
+	String QUESTION_PER_EXAM = "questionsPerExam";
+	String Error = "";
+	String USERNAME = "USERNAME";
+	String PASSWORD = "PASSWORD";
+	String ERROR_MESSAGE = "_ERROR_MESSAGE";
+	String SUCCESS_MESSAGE = "_SUCCESS_MESSAGE";
+	String RECORD_DELETE = "RECORD DELETED SUCCESSFULLY";
+	String SERVICE_FAILED = "SERVICE FAILED";
+	String DELEGATOR = "delegator";
+	String DISPATCHER = "dispatcher";
+	
+}

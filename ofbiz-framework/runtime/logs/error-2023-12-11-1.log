@@ -1,0 +1,57 @@
+2023-12-11 09:53:29,839 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [DIFFICULTY_LEVEL] of table [public.QUESTION_MASTER] of entity [QuestionMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-11 09:53:29,857 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [PERFORMANCE_ID] of table [public.USER_ATTEMPT_ANSWER_MASTER] of entity [UserAttemptAnswerMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-11 09:53:29,857 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [IS_FLAGGED] of table [public.USER_ATTEMPT_ANSWER_MASTER] of entity [UserAttemptAnswerMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-11 09:53:29,857 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [NO_OF_QUESTIONS] of table [public.USER_ATTEMPT_MASTER] of entity [UserAttemptMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-11 09:53:29,858 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [TOTAL_WRONG] of table [public.USER_ATTEMPT_MASTER] of entity [UserAttemptMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-11 09:53:29,858 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [TOTAL_CORRECT] of table [public.USER_ATTEMPT_MASTER] of entity [UserAttemptMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-11 09:53:29,859 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [PERFORMANCE_ID] of table [public.USER_ATTEMPT_MASTER] of entity [UserAttemptMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-11 09:53:29,859 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [CORRECT_QUESTIONS_IN_THIS_TOPIC] of table [public.USER_ATTEMPT_TOPIC_MASTER] of entity [UserAttemptTopicMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-11 09:53:29,860 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [PERFORMANCE_ID] of table [public.USER_ATTEMPT_TOPIC_MASTER] of entity [UserAttemptTopicMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-11 09:53:29,860 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [TOTAL_QUESTIONS_IN_THIS_TOPIC] of table [public.USER_ATTEMPT_TOPIC_MASTER] of entity [UserAttemptTopicMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-11 09:53:29,861 |OFBiz-batch-2        |DatabaseUtil                  |E| Column [MAX_SPLIT_ATTEMPTS] of table [public.USER_EXAM_MAPPING_MASTER] of entity [UserExamMappingMaster] is of type [int4] in the database, but is defined as type [INTEGER] in the entity definition.
+2023-12-11 09:58:14,859 |jsse-nio-8443-exec-5 |RequestHandler                |E| Request createOfbizDemoEvent caused an error with the following message: First Name and Last Name are required fields on the form and can't be empty.
+2023-12-11 09:58:21,812 |jsse-nio-8443-exec-4 |ControlServlet                |E| Error in request handler: 
+org.apache.ofbiz.webapp.control.RequestHandlerException: Unknown request [null]; this request does not exist or cannot be called directly.
+	at org.apache.ofbiz.webapp.control.RequestHandler.doRequest(RequestHandler.java:408) ~[main/:?]
+	at org.apache.ofbiz.webapp.control.ControlServlet.handle(ControlServlet.java:231) [main/:?]
+	at org.apache.ofbiz.webapp.control.ControlServlet.doGet(ControlServlet.java:96) [main/:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529) [tomcat-servlet-api-9.0.82.jar:4.0.FR]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) [tomcat-servlet-api-9.0.82.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) [tomcat-embed-websocket-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.ofbiz.webapp.control.SameSiteFilter.doFilter(SameSiteFilter.java:45) [main/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.ofbiz.webapp.control.ContextFilter.doFilter(ContextFilter.java:188) [main/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.ofbiz.webapp.control.ControlFilter.doFilter(ControlFilter.java:167) [main/:?]
+	at javax.servlet.http.HttpFilter.doFilter(HttpFilter.java:53) [tomcat-servlet-api-9.0.82.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.logging.log4j.web.Log4jServletFilter.doFilter(Log4jServletFilter.java:71) [log4j-web-2.20.0.jar:2.20.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [tomcat-catalina-9.0.82.jar:9.0.82]
+	at org.apache.coyote.http2.StreamProcessor.service(StreamProcessor.java:432) [tomcat-coyote-9.0.82.jar:9.0.82]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) [tomcat-coyote-9.0.82.jar:9.0.82]
+	at org.apache.coyote.http2.StreamProcessor.process(StreamProcessor.java:90) [tomcat-coyote-9.0.82.jar:9.0.82]
+	at org.apache.coyote.http2.StreamRunnable.run(StreamRunnable.java:35) [tomcat-coyote-9.0.82.jar:9.0.82]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) [tomcat-util-9.0.82.jar:9.0.82]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-util-9.0.82.jar:9.0.82]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-util-9.0.82.jar:9.0.82]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+2023-12-11 09:58:21,830 |jsse-nio-8443-exec-4 |ControlServlet                |E| An error occurred, going to the errorPage: file:/D:/ofbiz/ofbiz-framework/framework/common/webcommon/error/Error.ftl
+2023-12-11 09:58:27,417 |sse-nio-8443-exec-11 |RequestHandler                |E| Request login caused an error with the following message: [username was empty reenter, password was empty reenter]
+2023-12-11 18:17:59,527 |jsse-nio-8443-exec-7 |RequestHandler                |E| Request loginEvent caused an error with the following message: following error occurred during login: User not found.
+2023-12-11 18:21:11,048 |sse-nio-8443-exec-21 |RequestHandler                |E| Request loginEvent caused an error with the following message: following error occurred during login: User not found.

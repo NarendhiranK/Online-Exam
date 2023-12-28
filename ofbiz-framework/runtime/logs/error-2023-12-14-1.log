@@ -1,0 +1,59 @@
+2023-12-14 10:33:15,878 |jsse-nio-8443-exec-4 |RequestHandler                |E| Request loginEvent caused an error with the following message: [username was empty reenter, password was empty reenter]
+2023-12-14 10:33:17,810 |jsse-nio-8443-exec-8 |RequestHandler                |E| Request loginEvent caused an error with the following message: [username was empty reenter, password was empty reenter]
+2023-12-14 10:36:12,763 |jsse-nio-8443-exec-8 |RequestHandler                |E| Request loginEvent caused an error with the following message: [username was empty reenter, password was empty reenter]
+2023-12-14 10:36:44,771 |jsse-nio-8443-exec-8 |RequestHandler                |E| Request loginEvent caused an error with the following message: following error occurred during login: User not found.
+2023-12-14 10:37:25,566 |jsse-nio-8443-exec-8 |RequestHandler                |E| Request loginEvent caused an error with the following message: [username was empty reenter, password was empty reenter]
+2023-12-14 10:49:21,956 |jsse-nio-8443-exec-9 |RequestHandler                |E| Request loginEvent caused an error with the following message: [username was empty reenter, password was empty reenter]
+2023-12-14 10:49:23,108 |jsse-nio-8443-exec-1 |RequestHandler                |E| Request loginEvent caused an error with the following message: [username was empty reenter, password was empty reenter]
+2023-12-14 10:49:33,316 |jsse-nio-8443-exec-5 |RequestHandler                |E| Request loginEvent caused an error with the following message: [username was empty reenter, password was empty reenter]
+2023-12-14 10:49:38,695 |jsse-nio-8443-exec-9 |RequestHandler                |E| Request loginEvent caused an error with the following message: [username was empty reenter, password was empty reenter]
+2023-12-14 10:50:20,431 |jsse-nio-8443-exec-1 |RequestHandler                |E| Request loginEvent caused an error with the following message: [username was empty reenter, password was empty reenter]
+2023-12-14 10:50:21,100 |sse-nio-8443-exec-10 |RequestHandler                |E| Request loginEvent caused an error with the following message: [username was empty reenter, password was empty reenter]
+2023-12-14 10:50:21,848 |jsse-nio-8443-exec-5 |RequestHandler                |E| Request loginEvent caused an error with the following message: [username was empty reenter, password was empty reenter]
+2023-12-14 10:50:25,822 |jsse-nio-8443-exec-9 |RequestHandler                |E| Request loginEvent caused an error with the following message: [username was empty reenter, password was empty reenter]
+2023-12-14 12:07:58,205 |jsse-nio-8443-exec-7 |RequestHandler                |E| Request loginEvent caused an error with the following message: [username was empty reenter, password was empty reenter]
+2023-12-14 12:08:01,326 |jsse-nio-8443-exec-4 |RequestHandler                |E| Request loginEvent caused an error with the following message: [username was empty reenter]
+2023-12-14 12:08:36,385 |jsse-nio-8443-exec-6 |RequestHandler                |E| Request loginEvent caused an error with the following message: [username was empty reenter, password was empty reenter]
+2023-12-14 12:14:28,705 |jsse-nio-8443-exec-3 |RequestHandler                |E| Request loginEvent caused an error with the following message: [username was empty reenter, password was empty reenter]
+2023-12-14 14:43:01,977 |OFBiz-JobPoller      |GenericDelegator              |E| Failure in store operation for entity [JobSandbox]: org.apache.ofbiz.entity.transaction.GenericTransactionException: Roll back error (with no rollbackOnly cause found), could not commit transaction, was rolled back instead: java.lang.Exception: Transaction has timed out (Transaction has timed out). Rolling back transaction.
+org.apache.ofbiz.entity.transaction.GenericTransactionException: Roll back error (with no rollbackOnly cause found), could not commit transaction, was rolled back instead: java.lang.Exception: Transaction has timed out (Transaction has timed out)
+	at org.apache.ofbiz.entity.transaction.TransactionUtil.commit(TransactionUtil.java:279) ~[main/:?]
+	at org.apache.ofbiz.entity.transaction.TransactionUtil.commit(TransactionUtil.java:233) ~[main/:?]
+	at org.apache.ofbiz.entity.GenericDelegator.store(GenericDelegator.java:1297) [main/:?]
+	at org.apache.ofbiz.entity.GenericValue.store(GenericValue.java:80) [main/:?]
+	at org.apache.ofbiz.service.job.PersistedServiceJob.queue(PersistedServiceJob.java:133) [main/:?]
+	at org.apache.ofbiz.service.job.JobPoller.queueNow(JobPoller.java:210) [main/:?]
+	at org.apache.ofbiz.service.job.JobPoller$JobManagerPoller.run(JobPoller.java:292) [main/:?]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+Caused by: java.lang.Exception: Transaction has timed out
+	at org.apache.geronimo.transaction.manager.TransactionImpl.commit(TransactionImpl.java:266) ~[geronimo-transaction-3.1.5.jar:3.1.5]
+	at org.apache.geronimo.transaction.manager.TransactionManagerImpl.commit(TransactionManagerImpl.java:263) ~[geronimo-transaction-3.1.5.jar:3.1.5]
+	at org.apache.ofbiz.entity.transaction.TransactionUtil.commit(TransactionUtil.java:250) ~[main/:?]
+	... 7 more
+2023-12-14 14:43:01,978 |OFBiz-JobPoller      |JobPoller                     |E| null
+org.apache.ofbiz.service.job.InvalidJobException: Unable to set the startDateTime and statusId on the current job [19885]; not running! (org.apache.ofbiz.entity.transaction.GenericTransactionException: Roll back error (with no rollbackOnly cause found), could not commit transaction, was rolled back instead: java.lang.Exception: Transaction has timed out (Transaction has timed out) (Roll back error (with no rollbackOnly cause found), could not commit transaction, was rolled back instead: java.lang.Exception: Transaction has timed out (Transaction has timed out)))
+	at org.apache.ofbiz.service.job.PersistedServiceJob.queue(PersistedServiceJob.java:135) ~[main/:?]
+	at org.apache.ofbiz.service.job.JobPoller.queueNow(JobPoller.java:210) ~[main/:?]
+	at org.apache.ofbiz.service.job.JobPoller$JobManagerPoller.run(JobPoller.java:292) [main/:?]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+Caused by: org.apache.ofbiz.entity.GenericEntityException: org.apache.ofbiz.entity.transaction.GenericTransactionException: Roll back error (with no rollbackOnly cause found), could not commit transaction, was rolled back instead: java.lang.Exception: Transaction has timed out (Transaction has timed out) (Roll back error (with no rollbackOnly cause found), could not commit transaction, was rolled back instead: java.lang.Exception: Transaction has timed out (Transaction has timed out))
+	at org.apache.ofbiz.entity.GenericDelegator.store(GenericDelegator.java:1303) ~[main/:?]
+	at org.apache.ofbiz.entity.GenericValue.store(GenericValue.java:80) ~[main/:?]
+	at org.apache.ofbiz.service.job.PersistedServiceJob.queue(PersistedServiceJob.java:133) ~[main/:?]
+	... 3 more
+Caused by: org.apache.ofbiz.entity.transaction.GenericTransactionException: Roll back error (with no rollbackOnly cause found), could not commit transaction, was rolled back instead: java.lang.Exception: Transaction has timed out (Transaction has timed out)
+	at org.apache.ofbiz.entity.transaction.TransactionUtil.commit(TransactionUtil.java:279) ~[main/:?]
+	at org.apache.ofbiz.entity.transaction.TransactionUtil.commit(TransactionUtil.java:233) ~[main/:?]
+	at org.apache.ofbiz.entity.GenericDelegator.store(GenericDelegator.java:1297) ~[main/:?]
+	at org.apache.ofbiz.entity.GenericValue.store(GenericValue.java:80) ~[main/:?]
+	at org.apache.ofbiz.service.job.PersistedServiceJob.queue(PersistedServiceJob.java:133) ~[main/:?]
+	... 3 more
+Caused by: java.lang.Exception: Transaction has timed out
+	at org.apache.geronimo.transaction.manager.TransactionImpl.commit(TransactionImpl.java:266) ~[geronimo-transaction-3.1.5.jar:3.1.5]
+	at org.apache.geronimo.transaction.manager.TransactionManagerImpl.commit(TransactionManagerImpl.java:263) ~[geronimo-transaction-3.1.5.jar:3.1.5]
+	at org.apache.ofbiz.entity.transaction.TransactionUtil.commit(TransactionUtil.java:250) ~[main/:?]
+	at org.apache.ofbiz.entity.transaction.TransactionUtil.commit(TransactionUtil.java:233) ~[main/:?]
+	at org.apache.ofbiz.entity.GenericDelegator.store(GenericDelegator.java:1297) ~[main/:?]
+	at org.apache.ofbiz.entity.GenericValue.store(GenericValue.java:80) ~[main/:?]
+	at org.apache.ofbiz.service.job.PersistedServiceJob.queue(PersistedServiceJob.java:133) ~[main/:?]
+	... 3 more

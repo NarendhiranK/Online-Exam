@@ -1,0 +1,1290 @@
+2023-12-14 09:57:31,412 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Run Nominated Service on Subscription Expiry] Id [19008] -- Next runtime: Fri Dec 15 00:00:00 IST 2023
+2023-12-14 09:57:31,463 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/runServiceOnSubscriptionExpiry] finished in [49] milliseconds
+2023-12-14 09:57:31,469 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Extend expired Subscriptions] Id [19009] -- Next runtime: Fri Dec 15 00:00:00 IST 2023
+2023-12-14 09:57:31,491 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [BackOrder Notification] Id [19014] -- Next runtime: Fri Dec 15 00:00:00 IST 2023
+2023-12-14 09:57:31,569 |OFBiz-JobQueue-1     |InventoryServices             |I| OOS Inventory Items: 0
+2023-12-14 09:57:31,570 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/checkInventoryAvailability] finished in [79] milliseconds
+2023-12-14 09:57:31,585 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Run Auto-Reorders] Id [19003] -- Next runtime: Fri Dec 15 00:00:00 IST 2023
+2023-12-14 09:57:31,633 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/runShoppingListAutoReorder] finished in [48] milliseconds
+2023-12-14 09:57:31,640 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Run Nominated Service on Subscription Expiry] Id [19010] -- Next runtime: Fri Dec 15 00:00:00 IST 2023
+2023-12-14 09:57:31,643 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/runServiceOnSubscriptionExpiry] finished in [3] milliseconds
+2023-12-14 09:57:31,649 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Purge Old Store Auto-Entered Promos] Id [19012] -- Next runtime: Fri Dec 15 00:00:00 IST 2023
+2023-12-14 09:57:31,682 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/purgeOldStoreAutoPromos] finished in [33] milliseconds
+2023-12-14 09:57:31,689 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Purge Old Store Auto-Entered Promos] Id [18981] -- Next runtime: Fri Dec 15 00:00:00 IST 2023
+2023-12-14 09:57:31,690 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/purgeOldStoreAutoPromos] finished in [1] milliseconds
+2023-12-14 09:57:31,695 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Run Auto-Reorders] Id [18989] -- Next runtime: Fri Dec 15 00:00:00 IST 2023
+2023-12-14 09:57:31,696 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/runShoppingListAutoReorder] finished in [1] milliseconds
+2023-12-14 09:57:31,704 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [BackOrder Notification] Id [19006] -- Next runtime: Fri Dec 15 00:00:00 IST 2023
+2023-12-14 09:57:31,706 |OFBiz-JobQueue-1     |InventoryServices             |I| OOS Inventory Items: 0
+2023-12-14 09:57:31,707 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/checkInventoryAvailability] finished in [2] milliseconds
+2023-12-14 09:57:31,712 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Re-Try Failed Auths NSF] Id [19007] -- Next runtime: Fri Dec 15 00:00:00 IST 2023
+2023-12-14 09:57:31,736 |OFBiz-JobQueue-1     |PaymentGatewayServices        |I| Processing failed order re-auth(s)
+2023-12-14 09:57:31,737 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/retryFailedAuthNsfs] finished in [24] milliseconds
+2023-12-14 09:57:31,741 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Delete auto-save shopping list for anonymous users] Id [18990] -- Next runtime: Fri Dec 15 00:00:00 IST 2023
+2023-12-14 09:57:31,763 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/autoDeleteAutoSaveShoppingList] finished in [22] milliseconds
+2023-12-14 09:57:31,770 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Clear EntitySyncRemove Info] Id [18982] -- Next runtime: Fri Dec 15 00:00:00 IST 2023
+2023-12-14 09:57:31,779 |OFBiz-JobQueue-1     |EntitySyncServices            |I| Running cleanSyncRemoveInfo
+2023-12-14 09:57:31,792 |OFBiz-JobQueue-1     |EntitySyncServices            |I| In cleanSyncRemoveInfo removed [0] values with TX timestamp before [2023-12-13 09:57:31.786]
+2023-12-14 09:57:31,792 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/cleanSyncRemoveInfo] finished in [22] milliseconds
+2023-12-14 09:57:31,797 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Re-Try Failed Auths] Id [19005] -- Next runtime: Fri Dec 15 00:00:00 IST 2023
+2023-12-14 09:57:31,798 |OFBiz-JobQueue-0     |UtilProperties                |I| ResourceBundle OrderUiLabels (en) created in 0.141s with 1012 properties
+2023-12-14 09:57:31,799 |OFBiz-JobQueue-1     |PaymentGatewayServices        |I| Processing failed order re-auth(s)
+2023-12-14 09:57:31,800 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/retryFailedAuths] finished in [2] milliseconds
+2023-12-14 09:57:31,803 |OFBiz-JobQueue-1     |TransactionUtil               |W| No transaction in place, so not suspending.
+2023-12-14 09:57:31,803 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/runSubscriptionAutoReorders] finished in [333] milliseconds
+2023-12-14 09:57:31,813 |OFBiz-JobQueue-1     |SequenceUtil                  |I| Got bank of sequenced IDs for [JobSandbox]; curSeqId=19800, maxSeqId=19900, bankSize=100
+2023-12-14 09:57:31,814 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Delete auto-save shopping list for anonymous users] Id [19004] -- Next runtime: Fri Dec 15 00:00:00 IST 2023
+2023-12-14 09:57:31,815 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Create Also Bought Product Associations] Id [19002] -- Next runtime: Fri Dec 15 00:00:00 IST 2023
+2023-12-14 09:57:31,823 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/autoDeleteAutoSaveShoppingList] finished in [9] milliseconds
+2023-12-14 09:57:31,827 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Create Also Bought Product Associations] Id [19001] -- Next runtime: Fri Dec 15 00:00:00 IST 2023
+2023-12-14 09:57:31,840 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/createAlsoBoughtProductAssocs] finished in [25] milliseconds
+2023-12-14 09:57:31,844 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Extend expired Subscriptions] Id [19000] -- Next runtime: Fri Dec 15 00:00:00 IST 2023
+2023-12-14 09:57:31,846 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/runSubscriptionAutoReorders] finished in [2] milliseconds
+2023-12-14 09:57:31,851 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Replacement Held Order Auto-Cancel] Id [18999] -- Next runtime: Fri Dec 15 00:00:00 IST 2023
+2023-12-14 09:57:31,870 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/autoCancelReplacementOrders] finished in [19] milliseconds
+2023-12-14 09:57:31,874 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Cancels all orders after date] Id [18998] -- Next runtime: Fri Dec 15 00:00:00 IST 2023
+2023-12-14 09:57:31,965 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/cancelAllBackOrders] finished in [90] milliseconds
+2023-12-14 09:57:31,969 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Clear EntitySyncRemove Info] Id [18997] -- Next runtime: Fri Dec 15 00:00:00 IST 2023
+2023-12-14 09:57:31,970 |OFBiz-JobQueue-0     |EntitySyncServices            |I| Running cleanSyncRemoveInfo
+2023-12-14 09:57:31,972 |OFBiz-JobQueue-0     |EntitySyncServices            |I| In cleanSyncRemoveInfo removed [0] values with TX timestamp before [2023-12-13 09:57:31.971]
+2023-12-14 09:57:31,972 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/cleanSyncRemoveInfo] finished in [3] milliseconds
+2023-12-14 09:57:31,977 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Replacement Held Order Auto-Cancel] Id [18996] -- Next runtime: Fri Dec 15 00:00:00 IST 2023
+2023-12-14 09:57:31,978 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/autoCancelReplacementOrders] finished in [1] milliseconds
+2023-12-14 09:57:31,983 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Cancels all orders after date] Id [18995] -- Next runtime: Fri Dec 15 00:00:00 IST 2023
+2023-12-14 09:57:31,987 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/cancelAllBackOrders] finished in [3] milliseconds
+2023-12-14 09:57:31,989 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/createAlsoBoughtProductAssocs] finished in [162] milliseconds
+2023-12-14 09:57:31,992 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Replacement Held Order Auto-Cancel] Id [18994] -- Next runtime: Fri Dec 15 00:00:00 IST 2023
+2023-12-14 09:57:31,994 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/autoCancelReplacementOrders] finished in [2] milliseconds
+2023-12-14 09:57:31,994 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [BackOrder Notification] Id [18993] -- Next runtime: Fri Dec 15 00:00:00 IST 2023
+2023-12-14 09:57:31,999 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Clear EntitySyncRemove Info] Id [18991] -- Next runtime: Fri Dec 15 00:00:00 IST 2023
+2023-12-14 09:57:32,000 |OFBiz-JobQueue-0     |EntitySyncServices            |I| Running cleanSyncRemoveInfo
+2023-12-14 09:57:32,001 |OFBiz-JobQueue-0     |EntitySyncServices            |I| In cleanSyncRemoveInfo removed [0] values with TX timestamp before [2023-12-13 09:57:32.001]
+2023-12-14 09:57:32,002 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/cleanSyncRemoveInfo] finished in [3] milliseconds
+2023-12-14 09:57:32,007 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Create Also Bought Product Associations] Id [18992] -- Next runtime: Fri Dec 15 00:00:00 IST 2023
+2023-12-14 09:57:32,007 |OFBiz-JobQueue-1     |InventoryServices             |I| OOS Inventory Items: 0
+2023-12-14 09:57:32,008 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/checkInventoryAvailability] finished in [14] milliseconds
+2023-12-14 09:57:32,011 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/createAlsoBoughtProductAssocs] finished in [3] milliseconds
+2023-12-14 09:57:32,016 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Extend expired Subscriptions] Id [18983] -- Next runtime: Fri Dec 15 00:00:00 IST 2023
+2023-12-14 09:57:32,018 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/runSubscriptionAutoReorders] finished in [2] milliseconds
+2023-12-14 09:57:32,024 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Run Auto-Reorders] Id [18988] -- Next runtime: Fri Dec 15 00:00:00 IST 2023
+2023-12-14 09:57:32,026 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/runShoppingListAutoReorder] finished in [1] milliseconds
+2023-12-14 09:57:32,027 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Purge Old Store Auto-Entered Promos] Id [19013] -- Next runtime: Fri Dec 15 00:00:00 IST 2023
+2023-12-14 09:57:32,029 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/purgeOldStoreAutoPromos] finished in [1] milliseconds
+2023-12-14 09:57:32,033 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Re-Try Failed Auths] Id [18986] -- Next runtime: Fri Dec 15 00:00:00 IST 2023
+2023-12-14 09:57:32,034 |OFBiz-JobQueue-1     |PaymentGatewayServices        |I| Processing failed order re-auth(s)
+2023-12-14 09:57:32,035 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/retryFailedAuths] finished in [1] milliseconds
+2023-12-14 09:57:32,038 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Re-Try Failed Auths] Id [18987] -- Next runtime: Fri Dec 15 00:00:00 IST 2023
+2023-12-14 09:57:32,038 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Run Nominated Service on Subscription Expiry] Id [18985] -- Next runtime: Fri Dec 15 00:00:00 IST 2023
+2023-12-14 09:57:32,040 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/runServiceOnSubscriptionExpiry] finished in [2] milliseconds
+2023-12-14 09:57:32,045 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Re-Try Failed Auths NSF] Id [18984] -- Next runtime: Fri Dec 15 00:00:00 IST 2023
+2023-12-14 09:57:32,046 |OFBiz-JobQueue-1     |PaymentGatewayServices        |I| Processing failed order re-auth(s)
+2023-12-14 09:57:32,047 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/retryFailedAuthNsfs] finished in [2] milliseconds
+2023-12-14 09:57:32,048 |OFBiz-JobQueue-0     |PaymentGatewayServices        |I| Processing failed order re-auth(s)
+2023-12-14 09:57:32,048 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/retryFailedAuths] finished in [10] milliseconds
+2023-12-14 09:57:32,052 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Delete auto-save shopping list for anonymous users] Id [19011] -- Next runtime: Fri Dec 15 00:00:00 IST 2023
+2023-12-14 09:57:32,054 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Re-Try Failed Auths NSF] Id [18979] -- Next runtime: Fri Dec 15 00:00:00 IST 2023
+2023-12-14 09:57:32,055 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/autoDeleteAutoSaveShoppingList] finished in [3] milliseconds
+2023-12-14 09:57:32,056 |OFBiz-JobQueue-0     |PaymentGatewayServices        |I| Processing failed order re-auth(s)
+2023-12-14 09:57:32,057 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/retryFailedAuthNsfs] finished in [3] milliseconds
+2023-12-14 09:57:32,062 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Cancels all orders after date] Id [18980] -- Next runtime: Fri Dec 15 00:00:00 IST 2023
+2023-12-14 09:57:32,064 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Auto-create Fixed Asset Maintenances] Id [19772] -- Next runtime: Thu Dec 14 10:57:32 IST 2023
+2023-12-14 09:57:32,074 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/cancelAllBackOrders] finished in [12] milliseconds
+2023-12-14 09:57:32,080 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Auto-create Fixed Asset Maintenances] Id [19775] -- Next runtime: Thu Dec 14 10:57:32 IST 2023
+2023-12-14 09:57:32,090 |OFBiz-JobQueue-0     |Log                           |I| [CommonPermissionServices.xml#genericBasePermissionCheck line 59] This simple-method-call is deprecated! Please use a service-call of genericBasePermissionCheck instead.
+2023-12-14 09:57:32,092 |OFBiz-JobQueue-1     |Log                           |I| [CommonPermissionServices.xml#genericBasePermissionCheck line 59] This simple-method-call is deprecated! Please use a service-call of genericBasePermissionCheck instead.
+2023-12-14 09:57:32,203 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/genericBasePermissionCheck] finished in [113] milliseconds
+2023-12-14 09:57:32,204 |OFBiz-JobQueue-0     |ServiceEcaCondition           |W| doRealCompare returned null, returning false
+2023-12-14 09:57:32,205 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/fixedAssetPermissionCheck] finished in [140] milliseconds
+2023-12-14 09:57:32,282 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/genericBasePermissionCheck] finished in [190] milliseconds
+2023-12-14 09:57:32,282 |OFBiz-JobQueue-1     |ServiceEcaCondition           |W| doRealCompare returned null, returning false
+2023-12-14 09:57:32,283 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/fixedAssetPermissionCheck] finished in [201] milliseconds
+2023-12-14 09:57:32,883 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/createMaintsFromTimeInterval] finished in [819] milliseconds
+2023-12-14 09:57:32,887 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [19784] -- Next runtime: Thu Dec 14 10:12:32 IST 2023
+2023-12-14 09:57:34,217 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/createMaintsFromTimeInterval] finished in [2136] milliseconds
+2023-12-14 09:57:34,223 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Auto-create Fixed Asset Maintenances] Id [19776] -- Next runtime: Thu Dec 14 10:57:34 IST 2023
+2023-12-14 09:57:34,224 |OFBiz-JobQueue-1     |Log                           |I| [CommonPermissionServices.xml#genericBasePermissionCheck line 59] This simple-method-call is deprecated! Please use a service-call of genericBasePermissionCheck instead.
+2023-12-14 09:57:34,226 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/genericBasePermissionCheck] finished in [2] milliseconds
+2023-12-14 09:57:34,227 |OFBiz-JobQueue-1     |ServiceEcaCondition           |W| doRealCompare returned null, returning false
+2023-12-14 09:57:34,227 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/fixedAssetPermissionCheck] finished in [4] milliseconds
+2023-12-14 09:57:34,236 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/createMaintsFromTimeInterval] finished in [13] milliseconds
+2023-12-14 09:57:34,243 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [19785] -- Next runtime: Thu Dec 14 10:12:34 IST 2023
+2023-12-14 09:57:36,293 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [3406] milliseconds
+2023-12-14 09:57:36,299 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [19786] -- Next runtime: Thu Dec 14 10:12:36 IST 2023
+2023-12-14 09:57:36,303 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [3] milliseconds
+2023-12-14 09:57:37,746 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [3503] milliseconds
+2023-12-14 10:13:01,940 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [19825] -- Next runtime: Thu Dec 14 10:28:01 IST 2023
+2023-12-14 10:13:01,985 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [19827] -- Next runtime: Thu Dec 14 10:28:01 IST 2023
+2023-12-14 10:13:02,661 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [721] milliseconds
+2023-12-14 10:13:02,666 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [19828] -- Next runtime: Thu Dec 14 10:28:02 IST 2023
+2023-12-14 10:13:02,668 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [2] milliseconds
+2023-12-14 10:13:03,348 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1363] milliseconds
+2023-12-14 10:28:02,432 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [19829] -- Next runtime: Thu Dec 14 10:43:02 IST 2023
+2023-12-14 10:28:02,435 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [19830] -- Next runtime: Thu Dec 14 10:43:02 IST 2023
+2023-12-14 10:28:03,119 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [687] milliseconds
+2023-12-14 10:28:03,810 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1375] milliseconds
+2023-12-14 10:28:32,460 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [19831] -- Next runtime: Thu Dec 14 10:43:32 IST 2023
+2023-12-14 10:28:33,180 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [720] milliseconds
+2023-12-14 10:33:15,778 |jsse-nio-8443-exec-2 |ControlEventListener          |I| Creating session:  hidden sessionId by default.
+2023-12-14 10:33:15,800 |jsse-nio-8443-exec-4 |ControlEventListener          |I| Creating session:  hidden sessionId by default.
+2023-12-14 10:33:15,806 |jsse-nio-8443-exec-4 |ControlServlet                |T| [[[onlineexam::loginEvent (Domain:https://localhost)] Request Begun, encoding=[UTF-8]- total:0.0,since last(Begin):0.0]]
+2023-12-14 10:33:15,809 |jsse-nio-8443-exec-4 |VisitHandler                  |I| Found visitorId [null] in cookie
+2023-12-14 10:33:15,857 |jsse-nio-8443-exec-4 |ConfigXMLReader               |I| controller loaded: 0.0s, 0 requests, 0 views in file:/D:/ofbiz/ofbiz-framework/framework/common/webcommon/WEB-INF/handlers-controller.xml
+2023-12-14 10:33:15,858 |jsse-nio-8443-exec-4 |ConfigXMLReader               |I| controller loaded: 0.006s, 52 requests, 21 views in file:/D:/ofbiz/ofbiz-framework/framework/common/webcommon/WEB-INF/common-controller.xml
+2023-12-14 10:33:15,859 |jsse-nio-8443-exec-4 |ConfigXMLReader               |I| controller loaded: 0.013s, 4 requests, 1 views in file:/D:/ofbiz/ofbiz-framework/plugins/onlineexam/webapp/onlineexam/WEB-INF/controller.xml
+2023-12-14 10:33:15,861 |jsse-nio-8443-exec-4 |RequestHandler                |I| This is the first request in this visit. Hidden sessionId by default.
+2023-12-14 10:33:15,865 |jsse-nio-8443-exec-4 |RequestHandler                |I| Ran Event [java:com.vastpro.onlineexam.events.LoginEvent#loginEvent] from [request], result is [error]
+2023-12-14 10:33:15,872 |jsse-nio-8443-exec-4 |TransactionUtil               |W| No transaction in place, so not suspending.
+2023-12-14 10:33:15,876 |jsse-nio-8443-exec-4 |SequenceUtil                  |I| Got bank of sequenced IDs for [ServerHitBin]; curSeqId=11090, maxSeqId=11100, bankSize=10
+2023-12-14 10:33:15,878 |jsse-nio-8443-exec-4 |RequestHandler                |E| Request loginEvent caused an error with the following message: [username was empty reenter, password was empty reenter]
+2023-12-14 10:33:15,879 |jsse-nio-8443-exec-4 |RequestHandler                |I| [RequestHandler.doRequest]: Response is a chained request. Hidden sessionId by default.
+2023-12-14 10:33:15,880 |jsse-nio-8443-exec-4 |RequestHandler                |I| [RequestHandler]: Chain in place: requestUri=json overrideViewUri=null Hidden sessionId by default.
+2023-12-14 10:33:15,883 |jsse-nio-8443-exec-4 |RequestHandler                |I| Ran Event [java:org.apache.ofbiz.common.CommonEvents#jsonResponseFromRequestAttributes] from [request], result is [success]
+2023-12-14 10:33:15,891 |jsse-nio-8443-exec-4 |ServerHitBin                  |I| Visit delegatorName=default, ServerHitBin delegatorName=default
+2023-12-14 10:33:15,896 |jsse-nio-8443-exec-4 |ControlServlet                |T| [[[onlineexam::loginEvent (Domain:https://localhost)] Request Done- total:0.089,since last([onlineexam::logi...):0.089]]
+2023-12-14 10:33:17,801 |jsse-nio-8443-exec-8 |ControlEventListener          |I| Creating session:  hidden sessionId by default.
+2023-12-14 10:33:17,803 |jsse-nio-8443-exec-8 |ControlServlet                |T| [[[onlineexam::loginEvent (Domain:https://localhost)] Request Begun, encoding=[UTF-8]- total:0.0,since last(Begin):0.0]]
+2023-12-14 10:33:17,803 |jsse-nio-8443-exec-8 |VisitHandler                  |I| Found visitorId [null] in cookie
+2023-12-14 10:33:17,808 |jsse-nio-8443-exec-8 |RequestHandler                |I| This is the first request in this visit. Hidden sessionId by default.
+2023-12-14 10:33:17,809 |jsse-nio-8443-exec-8 |RequestHandler                |I| Ran Event [java:com.vastpro.onlineexam.events.LoginEvent#loginEvent] from [request], result is [error]
+2023-12-14 10:33:17,810 |jsse-nio-8443-exec-8 |RequestHandler                |E| Request loginEvent caused an error with the following message: [username was empty reenter, password was empty reenter]
+2023-12-14 10:33:17,810 |jsse-nio-8443-exec-8 |RequestHandler                |I| [RequestHandler.doRequest]: Response is a chained request. Hidden sessionId by default.
+2023-12-14 10:33:17,810 |jsse-nio-8443-exec-8 |RequestHandler                |I| [RequestHandler]: Chain in place: requestUri=json overrideViewUri=null Hidden sessionId by default.
+2023-12-14 10:33:17,812 |jsse-nio-8443-exec-8 |RequestHandler                |I| Ran Event [java:org.apache.ofbiz.common.CommonEvents#jsonResponseFromRequestAttributes] from [request], result is [success]
+2023-12-14 10:33:17,814 |jsse-nio-8443-exec-8 |ServerHitBin                  |I| Visit delegatorName=default, ServerHitBin delegatorName=default
+2023-12-14 10:33:17,816 |jsse-nio-8443-exec-8 |ControlServlet                |T| [[[onlineexam::loginEvent (Domain:https://localhost)] Request Done- total:0.013,since last([onlineexam::logi...):0.013]]
+2023-12-14 10:36:12,721 |jsse-nio-8443-exec-4 |ControlEventListener          |I| Creating session:  hidden sessionId by default.
+2023-12-14 10:36:12,727 |jsse-nio-8443-exec-8 |ControlEventListener          |I| Creating session:  hidden sessionId by default.
+2023-12-14 10:36:12,728 |jsse-nio-8443-exec-8 |ControlServlet                |T| [[[onlineexam::loginEvent (Domain:https://localhost)] Request Begun, encoding=[UTF-8]- total:0.0,since last(Begin):0.0]]
+2023-12-14 10:36:12,728 |jsse-nio-8443-exec-8 |VisitHandler                  |I| Found visitorId [null] in cookie
+2023-12-14 10:36:12,758 |jsse-nio-8443-exec-8 |ConfigXMLReader               |I| controller loaded: 0.0s, 0 requests, 0 views in file:/D:/ofbiz/ofbiz-framework/framework/common/webcommon/WEB-INF/handlers-controller.xml
+2023-12-14 10:36:12,760 |jsse-nio-8443-exec-8 |ConfigXMLReader               |I| controller loaded: 0.012s, 52 requests, 21 views in file:/D:/ofbiz/ofbiz-framework/framework/common/webcommon/WEB-INF/common-controller.xml
+2023-12-14 10:36:12,760 |jsse-nio-8443-exec-8 |ConfigXMLReader               |I| controller loaded: 0.018s, 4 requests, 1 views in file:/D:/ofbiz/ofbiz-framework/plugins/onlineexam/webapp/onlineexam/WEB-INF/controller.xml
+2023-12-14 10:36:12,761 |jsse-nio-8443-exec-8 |RequestHandler                |I| This is the first request in this visit. Hidden sessionId by default.
+2023-12-14 10:36:12,763 |jsse-nio-8443-exec-8 |RequestHandler                |I| Ran Event [java:com.vastpro.onlineexam.events.LoginEvent#loginEvent] from [request], result is [error]
+2023-12-14 10:36:12,763 |jsse-nio-8443-exec-8 |RequestHandler                |E| Request loginEvent caused an error with the following message: [username was empty reenter, password was empty reenter]
+2023-12-14 10:36:12,763 |jsse-nio-8443-exec-8 |RequestHandler                |I| [RequestHandler.doRequest]: Response is a chained request. Hidden sessionId by default.
+2023-12-14 10:36:12,763 |jsse-nio-8443-exec-8 |RequestHandler                |I| [RequestHandler]: Chain in place: requestUri=json overrideViewUri=null Hidden sessionId by default.
+2023-12-14 10:36:12,764 |jsse-nio-8443-exec-8 |RequestHandler                |I| Ran Event [java:org.apache.ofbiz.common.CommonEvents#jsonResponseFromRequestAttributes] from [request], result is [success]
+2023-12-14 10:36:12,766 |jsse-nio-8443-exec-8 |ServerHitBin                  |I| Visit delegatorName=default, ServerHitBin delegatorName=default
+2023-12-14 10:36:12,767 |jsse-nio-8443-exec-8 |ControlServlet                |T| [[[onlineexam::loginEvent (Domain:https://localhost)] Request Done- total:0.039,since last([onlineexam::logi...):0.039]]
+2023-12-14 10:36:44,729 |jsse-nio-8443-exec-7 |ControlEventListener          |I| Creating session:  hidden sessionId by default.
+2023-12-14 10:36:44,735 |jsse-nio-8443-exec-8 |ControlEventListener          |I| Creating session:  hidden sessionId by default.
+2023-12-14 10:36:44,737 |jsse-nio-8443-exec-8 |ControlServlet                |T| [[[onlineexam::loginEvent (Domain:https://localhost)] Request Begun, encoding=[UTF-8]- total:0.0,since last(Begin):0.0]]
+2023-12-14 10:36:44,737 |jsse-nio-8443-exec-8 |VisitHandler                  |I| Found visitorId [null] in cookie
+2023-12-14 10:36:44,761 |jsse-nio-8443-exec-8 |ConfigXMLReader               |I| controller loaded: 0.0s, 0 requests, 0 views in file:/D:/ofbiz/ofbiz-framework/framework/common/webcommon/WEB-INF/handlers-controller.xml
+2023-12-14 10:36:44,762 |jsse-nio-8443-exec-8 |ConfigXMLReader               |I| controller loaded: 0.009s, 52 requests, 21 views in file:/D:/ofbiz/ofbiz-framework/framework/common/webcommon/WEB-INF/common-controller.xml
+2023-12-14 10:36:44,763 |jsse-nio-8443-exec-8 |ConfigXMLReader               |I| controller loaded: 0.016s, 4 requests, 1 views in file:/D:/ofbiz/ofbiz-framework/plugins/onlineexam/webapp/onlineexam/WEB-INF/controller.xml
+2023-12-14 10:36:44,763 |jsse-nio-8443-exec-8 |RequestHandler                |I| This is the first request in this visit. Hidden sessionId by default.
+2023-12-14 10:36:44,765 |jsse-nio-8443-exec-8 |LoginWorker                   |I| Setting default delegator
+2023-12-14 10:36:44,770 |jsse-nio-8443-exec-8 |LoginServices                 |I| [LoginServices.userLogin] Invalid User : 'DSAfSDF'; User not found.
+2023-12-14 10:36:44,770 |jsse-nio-8443-exec-8 |ServiceDispatcher             |W| Service Failure [userLogin]: User not found.
+2023-12-14 10:36:44,770 |jsse-nio-8443-exec-8 |ServiceDispatcher             |T| Sync service [onlineexam/userLogin] finished in [5] milliseconds
+2023-12-14 10:36:44,771 |jsse-nio-8443-exec-8 |RequestHandler                |I| Ran Event [java:com.vastpro.onlineexam.events.LoginEvent#loginEvent] from [request], result is [error]
+2023-12-14 10:36:44,771 |jsse-nio-8443-exec-8 |RequestHandler                |E| Request loginEvent caused an error with the following message: following error occurred during login: User not found.
+2023-12-14 10:36:44,772 |jsse-nio-8443-exec-8 |RequestHandler                |I| [RequestHandler.doRequest]: Response is a chained request. Hidden sessionId by default.
+2023-12-14 10:36:44,772 |jsse-nio-8443-exec-8 |RequestHandler                |I| [RequestHandler]: Chain in place: requestUri=json overrideViewUri=null Hidden sessionId by default.
+2023-12-14 10:36:44,773 |jsse-nio-8443-exec-8 |RequestHandler                |I| Ran Event [java:org.apache.ofbiz.common.CommonEvents#jsonResponseFromRequestAttributes] from [request], result is [success]
+2023-12-14 10:36:44,774 |jsse-nio-8443-exec-8 |ServerHitBin                  |I| Visit delegatorName=default, ServerHitBin delegatorName=default
+2023-12-14 10:36:44,776 |jsse-nio-8443-exec-8 |ControlServlet                |T| [[[onlineexam::loginEvent (Domain:https://localhost)] Request Done- total:0.039,since last([onlineexam::logi...):0.039]]
+2023-12-14 10:37:25,534 |jsse-nio-8443-exec-4 |ControlEventListener          |I| Creating session:  hidden sessionId by default.
+2023-12-14 10:37:25,541 |jsse-nio-8443-exec-8 |ControlEventListener          |I| Creating session:  hidden sessionId by default.
+2023-12-14 10:37:25,542 |jsse-nio-8443-exec-8 |ControlServlet                |T| [[[onlineexam::loginEvent (Domain:https://localhost)] Request Begun, encoding=[UTF-8]- total:0.0,since last(Begin):0.0]]
+2023-12-14 10:37:25,542 |jsse-nio-8443-exec-8 |VisitHandler                  |I| Found visitorId [null] in cookie
+2023-12-14 10:37:25,564 |jsse-nio-8443-exec-8 |ConfigXMLReader               |I| controller loaded: 0.0s, 0 requests, 0 views in file:/D:/ofbiz/ofbiz-framework/framework/common/webcommon/WEB-INF/handlers-controller.xml
+2023-12-14 10:37:25,565 |jsse-nio-8443-exec-8 |ConfigXMLReader               |I| controller loaded: 0.006s, 52 requests, 21 views in file:/D:/ofbiz/ofbiz-framework/framework/common/webcommon/WEB-INF/common-controller.xml
+2023-12-14 10:37:25,565 |jsse-nio-8443-exec-8 |ConfigXMLReader               |I| controller loaded: 0.011s, 4 requests, 1 views in file:/D:/ofbiz/ofbiz-framework/plugins/onlineexam/webapp/onlineexam/WEB-INF/controller.xml
+2023-12-14 10:37:25,565 |jsse-nio-8443-exec-8 |RequestHandler                |I| This is the first request in this visit. Hidden sessionId by default.
+2023-12-14 10:37:25,566 |jsse-nio-8443-exec-8 |RequestHandler                |I| Ran Event [java:com.vastpro.onlineexam.events.LoginEvent#loginEvent] from [request], result is [error]
+2023-12-14 10:37:25,566 |jsse-nio-8443-exec-8 |RequestHandler                |E| Request loginEvent caused an error with the following message: [username was empty reenter, password was empty reenter]
+2023-12-14 10:37:25,567 |jsse-nio-8443-exec-8 |RequestHandler                |I| [RequestHandler.doRequest]: Response is a chained request. Hidden sessionId by default.
+2023-12-14 10:37:25,567 |jsse-nio-8443-exec-8 |RequestHandler                |I| [RequestHandler]: Chain in place: requestUri=json overrideViewUri=null Hidden sessionId by default.
+2023-12-14 10:37:25,568 |jsse-nio-8443-exec-8 |RequestHandler                |I| Ran Event [java:org.apache.ofbiz.common.CommonEvents#jsonResponseFromRequestAttributes] from [request], result is [success]
+2023-12-14 10:37:25,570 |jsse-nio-8443-exec-8 |ServerHitBin                  |I| Visit delegatorName=default, ServerHitBin delegatorName=default
+2023-12-14 10:37:25,572 |jsse-nio-8443-exec-8 |ControlServlet                |T| [[[onlineexam::loginEvent (Domain:https://localhost)] Request Done- total:0.03,since last([onlineexam::logi...):0.03]]
+2023-12-14 10:43:11,651 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [19832] -- Next runtime: Thu Dec 14 10:58:11 IST 2023
+2023-12-14 10:43:11,652 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [19833] -- Next runtime: Thu Dec 14 10:58:11 IST 2023
+2023-12-14 10:43:12,374 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [723] milliseconds
+2023-12-14 10:43:13,074 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1422] milliseconds
+2023-12-14 10:43:41,673 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [19834] -- Next runtime: Thu Dec 14 10:58:41 IST 2023
+2023-12-14 10:43:42,371 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [698] milliseconds
+2023-12-14 10:45:41,735 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18179
+2023-12-14 10:45:41,735 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18214
+2023-12-14 10:45:41,736 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18181
+2023-12-14 10:45:41,736 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18177
+2023-12-14 10:45:41,738 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18215
+2023-12-14 10:45:41,738 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18165
+2023-12-14 10:45:41,739 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18172
+2023-12-14 10:45:41,739 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18173
+2023-12-14 10:45:41,740 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18174
+2023-12-14 10:45:41,741 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18175
+2023-12-14 10:45:41,742 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18180
+2023-12-14 10:45:41,742 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18178
+2023-12-14 10:45:41,743 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18185
+2023-12-14 10:45:41,743 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18187
+2023-12-14 10:45:41,744 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18156
+2023-12-14 10:45:41,744 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18157
+2023-12-14 10:45:41,745 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18160
+2023-12-14 10:45:41,745 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18159
+2023-12-14 10:45:41,746 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18161
+2023-12-14 10:45:41,746 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18182
+2023-12-14 10:45:41,747 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18183
+2023-12-14 10:45:41,747 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18154
+2023-12-14 10:45:41,748 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18158
+2023-12-14 10:45:41,748 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18155
+2023-12-14 10:45:41,749 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18166
+2023-12-14 10:45:41,749 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18168
+2023-12-14 10:45:41,750 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18167
+2023-12-14 10:45:41,750 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18176
+2023-12-14 10:45:41,750 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18169
+2023-12-14 10:45:41,751 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18170
+2023-12-14 10:45:41,751 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18171
+2023-12-14 10:45:41,751 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18184
+2023-12-14 10:45:41,752 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18186
+2023-12-14 10:45:41,752 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18188
+2023-12-14 10:45:41,753 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18189
+2023-12-14 10:45:41,753 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18162
+2023-12-14 10:45:41,754 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18163
+2023-12-14 10:45:41,754 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18164
+2023-12-14 10:45:41,755 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18216
+2023-12-14 10:45:41,755 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18220
+2023-12-14 10:45:41,755 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18222
+2023-12-14 10:45:41,756 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18221
+2023-12-14 10:49:21,786 |jsse-nio-8443-exec-7 |ControlEventListener          |I| Creating session:  hidden sessionId by default.
+2023-12-14 10:49:21,815 |jsse-nio-8443-exec-9 |ControlEventListener          |I| Creating session:  hidden sessionId by default.
+2023-12-14 10:49:21,820 |jsse-nio-8443-exec-9 |ControlServlet                |T| [[[onlineexam::loginEvent (Domain:https://localhost)] Request Begun, encoding=[UTF-8]- total:0.0,since last(Begin):0.0]]
+2023-12-14 10:49:21,821 |jsse-nio-8443-exec-9 |VisitHandler                  |I| Found visitorId [null] in cookie
+2023-12-14 10:49:21,934 |jsse-nio-8443-exec-9 |ConfigXMLReader               |I| controller loaded: 0.0s, 0 requests, 0 views in file:/D:/ofbiz/ofbiz-framework/framework/common/webcommon/WEB-INF/handlers-controller.xml
+2023-12-14 10:49:21,937 |jsse-nio-8443-exec-9 |ConfigXMLReader               |I| controller loaded: 0.028s, 52 requests, 21 views in file:/D:/ofbiz/ofbiz-framework/framework/common/webcommon/WEB-INF/common-controller.xml
+2023-12-14 10:49:21,938 |jsse-nio-8443-exec-9 |ConfigXMLReader               |I| controller loaded: 0.062s, 4 requests, 1 views in file:/D:/ofbiz/ofbiz-framework/plugins/onlineexam/webapp/onlineexam/WEB-INF/controller.xml
+2023-12-14 10:49:21,939 |jsse-nio-8443-exec-9 |RequestHandler                |I| This is the first request in this visit. Hidden sessionId by default.
+2023-12-14 10:49:21,946 |jsse-nio-8443-exec-9 |RequestHandler                |I| Ran Event [java:com.vastpro.onlineexam.events.LoginEvent#loginEvent] from [request], result is [error]
+2023-12-14 10:49:21,956 |jsse-nio-8443-exec-9 |RequestHandler                |E| Request loginEvent caused an error with the following message: [username was empty reenter, password was empty reenter]
+2023-12-14 10:49:21,957 |jsse-nio-8443-exec-9 |RequestHandler                |I| [RequestHandler.doRequest]: Response is a chained request. Hidden sessionId by default.
+2023-12-14 10:49:21,957 |jsse-nio-8443-exec-9 |RequestHandler                |I| [RequestHandler]: Chain in place: requestUri=json overrideViewUri=null Hidden sessionId by default.
+2023-12-14 10:49:21,961 |jsse-nio-8443-exec-9 |RequestHandler                |I| Ran Event [java:org.apache.ofbiz.common.CommonEvents#jsonResponseFromRequestAttributes] from [request], result is [success]
+2023-12-14 10:49:21,966 |jsse-nio-8443-exec-9 |TransactionUtil               |W| No transaction in place, so not suspending.
+2023-12-14 10:49:21,971 |jsse-nio-8443-exec-9 |SequenceUtil                  |I| Got bank of sequenced IDs for [ServerHitBin]; curSeqId=11100, maxSeqId=11110, bankSize=10
+2023-12-14 10:49:21,977 |jsse-nio-8443-exec-9 |ServerHitBin                  |I| Visit delegatorName=default, ServerHitBin delegatorName=default
+2023-12-14 10:49:21,987 |jsse-nio-8443-exec-9 |ControlServlet                |T| [[[onlineexam::loginEvent (Domain:https://localhost)] Request Done- total:0.166,since last([onlineexam::logi...):0.166]]
+2023-12-14 10:49:23,044 |jsse-nio-8443-exec-1 |ControlEventListener          |I| Creating session:  hidden sessionId by default.
+2023-12-14 10:49:23,093 |jsse-nio-8443-exec-1 |ControlServlet                |T| [[[onlineexam::loginEvent (Domain:https://localhost)] Request Begun, encoding=[UTF-8]- total:0.0,since last(Begin):0.0]]
+2023-12-14 10:49:23,095 |jsse-nio-8443-exec-1 |VisitHandler                  |I| Found visitorId [null] in cookie
+2023-12-14 10:49:23,104 |jsse-nio-8443-exec-1 |RequestHandler                |I| This is the first request in this visit. Hidden sessionId by default.
+2023-12-14 10:49:23,108 |jsse-nio-8443-exec-1 |RequestHandler                |I| Ran Event [java:com.vastpro.onlineexam.events.LoginEvent#loginEvent] from [request], result is [error]
+2023-12-14 10:49:23,108 |jsse-nio-8443-exec-1 |RequestHandler                |E| Request loginEvent caused an error with the following message: [username was empty reenter, password was empty reenter]
+2023-12-14 10:49:23,109 |jsse-nio-8443-exec-1 |RequestHandler                |I| [RequestHandler.doRequest]: Response is a chained request. Hidden sessionId by default.
+2023-12-14 10:49:23,110 |jsse-nio-8443-exec-1 |RequestHandler                |I| [RequestHandler]: Chain in place: requestUri=json overrideViewUri=null Hidden sessionId by default.
+2023-12-14 10:49:23,112 |jsse-nio-8443-exec-1 |RequestHandler                |I| Ran Event [java:org.apache.ofbiz.common.CommonEvents#jsonResponseFromRequestAttributes] from [request], result is [success]
+2023-12-14 10:49:23,117 |jsse-nio-8443-exec-1 |ServerHitBin                  |I| Visit delegatorName=default, ServerHitBin delegatorName=default
+2023-12-14 10:49:23,121 |jsse-nio-8443-exec-1 |ControlServlet                |T| [[[onlineexam::loginEvent (Domain:https://localhost)] Request Done- total:0.028,since last([onlineexam::logi...):0.028]]
+2023-12-14 10:49:33,201 |sse-nio-8443-exec-10 |ControlEventListener          |I| Creating session:  hidden sessionId by default.
+2023-12-14 10:49:33,219 |jsse-nio-8443-exec-5 |ControlEventListener          |I| Creating session:  hidden sessionId by default.
+2023-12-14 10:49:33,222 |jsse-nio-8443-exec-5 |ControlServlet                |T| [[[onlineexam::loginEvent (Domain:https://localhost)] Request Begun, encoding=[UTF-8]- total:0.0,since last(Begin):0.0]]
+2023-12-14 10:49:33,223 |jsse-nio-8443-exec-5 |VisitHandler                  |I| Found visitorId [null] in cookie
+2023-12-14 10:49:33,307 |jsse-nio-8443-exec-5 |ConfigXMLReader               |I| controller loaded: 0.0s, 0 requests, 0 views in file:/D:/ofbiz/ofbiz-framework/framework/common/webcommon/WEB-INF/handlers-controller.xml
+2023-12-14 10:49:33,310 |jsse-nio-8443-exec-5 |ConfigXMLReader               |I| controller loaded: 0.027s, 52 requests, 21 views in file:/D:/ofbiz/ofbiz-framework/framework/common/webcommon/WEB-INF/common-controller.xml
+2023-12-14 10:49:33,311 |jsse-nio-8443-exec-5 |ConfigXMLReader               |I| controller loaded: 0.053s, 4 requests, 1 views in file:/D:/ofbiz/ofbiz-framework/plugins/onlineexam/webapp/onlineexam/WEB-INF/controller.xml
+2023-12-14 10:49:33,311 |jsse-nio-8443-exec-5 |RequestHandler                |I| This is the first request in this visit. Hidden sessionId by default.
+2023-12-14 10:49:33,315 |jsse-nio-8443-exec-5 |RequestHandler                |I| Ran Event [java:com.vastpro.onlineexam.events.LoginEvent#loginEvent] from [request], result is [error]
+2023-12-14 10:49:33,316 |jsse-nio-8443-exec-5 |RequestHandler                |E| Request loginEvent caused an error with the following message: [username was empty reenter, password was empty reenter]
+2023-12-14 10:49:33,316 |jsse-nio-8443-exec-5 |RequestHandler                |I| [RequestHandler.doRequest]: Response is a chained request. Hidden sessionId by default.
+2023-12-14 10:49:33,318 |jsse-nio-8443-exec-5 |RequestHandler                |I| [RequestHandler]: Chain in place: requestUri=json overrideViewUri=null Hidden sessionId by default.
+2023-12-14 10:49:33,322 |jsse-nio-8443-exec-5 |RequestHandler                |I| Ran Event [java:org.apache.ofbiz.common.CommonEvents#jsonResponseFromRequestAttributes] from [request], result is [success]
+2023-12-14 10:49:33,326 |jsse-nio-8443-exec-5 |ServerHitBin                  |I| Visit delegatorName=default, ServerHitBin delegatorName=default
+2023-12-14 10:49:33,330 |jsse-nio-8443-exec-5 |ControlServlet                |T| [[[onlineexam::loginEvent (Domain:https://localhost)] Request Done- total:0.107,since last([onlineexam::logi...):0.107]]
+2023-12-14 10:49:38,676 |jsse-nio-8443-exec-7 |ControlEventListener          |I| Creating session:  hidden sessionId by default.
+2023-12-14 10:49:38,685 |jsse-nio-8443-exec-9 |ControlEventListener          |I| Creating session:  hidden sessionId by default.
+2023-12-14 10:49:38,687 |jsse-nio-8443-exec-9 |ControlServlet                |T| [[[onlineexam::loginEvent (Domain:https://localhost)] Request Begun, encoding=[UTF-8]- total:0.0,since last(Begin):0.0]]
+2023-12-14 10:49:38,687 |jsse-nio-8443-exec-9 |VisitHandler                  |I| Found visitorId [null] in cookie
+2023-12-14 10:49:38,692 |jsse-nio-8443-exec-9 |RequestHandler                |I| This is the first request in this visit. Hidden sessionId by default.
+2023-12-14 10:49:38,694 |jsse-nio-8443-exec-9 |RequestHandler                |I| Ran Event [java:com.vastpro.onlineexam.events.LoginEvent#loginEvent] from [request], result is [error]
+2023-12-14 10:49:38,695 |jsse-nio-8443-exec-9 |RequestHandler                |E| Request loginEvent caused an error with the following message: [username was empty reenter, password was empty reenter]
+2023-12-14 10:49:38,696 |jsse-nio-8443-exec-9 |RequestHandler                |I| [RequestHandler.doRequest]: Response is a chained request. Hidden sessionId by default.
+2023-12-14 10:49:38,697 |jsse-nio-8443-exec-9 |RequestHandler                |I| [RequestHandler]: Chain in place: requestUri=json overrideViewUri=null Hidden sessionId by default.
+2023-12-14 10:49:38,698 |jsse-nio-8443-exec-9 |RequestHandler                |I| Ran Event [java:org.apache.ofbiz.common.CommonEvents#jsonResponseFromRequestAttributes] from [request], result is [success]
+2023-12-14 10:49:38,701 |jsse-nio-8443-exec-9 |ServerHitBin                  |I| Visit delegatorName=default, ServerHitBin delegatorName=default
+2023-12-14 10:49:38,703 |jsse-nio-8443-exec-9 |ControlServlet                |T| [[[onlineexam::loginEvent (Domain:https://localhost)] Request Done- total:0.016,since last([onlineexam::logi...):0.016]]
+2023-12-14 10:50:20,271 |jsse-nio-8443-exec-9 |ControlEventListener          |I| Creating session:  hidden sessionId by default.
+2023-12-14 10:50:20,325 |jsse-nio-8443-exec-1 |ControlEventListener          |I| Creating session:  hidden sessionId by default.
+2023-12-14 10:50:20,328 |jsse-nio-8443-exec-1 |ControlServlet                |T| [[[onlineexam::loginEvent (Domain:https://localhost)] Request Begun, encoding=[UTF-8]- total:0.0,since last(Begin):0.0]]
+2023-12-14 10:50:20,328 |jsse-nio-8443-exec-1 |VisitHandler                  |I| Found visitorId [null] in cookie
+2023-12-14 10:50:20,420 |jsse-nio-8443-exec-1 |ConfigXMLReader               |I| controller loaded: 0.0s, 0 requests, 0 views in file:/D:/ofbiz/ofbiz-framework/framework/common/webcommon/WEB-INF/handlers-controller.xml
+2023-12-14 10:50:20,424 |jsse-nio-8443-exec-1 |ConfigXMLReader               |I| controller loaded: 0.038s, 52 requests, 21 views in file:/D:/ofbiz/ofbiz-framework/framework/common/webcommon/WEB-INF/common-controller.xml
+2023-12-14 10:50:20,426 |jsse-nio-8443-exec-1 |ConfigXMLReader               |I| controller loaded: 0.069s, 4 requests, 1 views in file:/D:/ofbiz/ofbiz-framework/plugins/onlineexam/webapp/onlineexam/WEB-INF/controller.xml
+2023-12-14 10:50:20,426 |jsse-nio-8443-exec-1 |RequestHandler                |I| This is the first request in this visit. Hidden sessionId by default.
+2023-12-14 10:50:20,431 |jsse-nio-8443-exec-1 |RequestHandler                |I| Ran Event [java:com.vastpro.onlineexam.events.LoginEvent#loginEvent] from [request], result is [error]
+2023-12-14 10:50:20,431 |jsse-nio-8443-exec-1 |RequestHandler                |E| Request loginEvent caused an error with the following message: [username was empty reenter, password was empty reenter]
+2023-12-14 10:50:20,432 |jsse-nio-8443-exec-1 |RequestHandler                |I| [RequestHandler.doRequest]: Response is a chained request. Hidden sessionId by default.
+2023-12-14 10:50:20,434 |jsse-nio-8443-exec-1 |RequestHandler                |I| [RequestHandler]: Chain in place: requestUri=json overrideViewUri=null Hidden sessionId by default.
+2023-12-14 10:50:20,437 |jsse-nio-8443-exec-1 |RequestHandler                |I| Ran Event [java:org.apache.ofbiz.common.CommonEvents#jsonResponseFromRequestAttributes] from [request], result is [success]
+2023-12-14 10:50:20,442 |jsse-nio-8443-exec-1 |ServerHitBin                  |I| Visit delegatorName=default, ServerHitBin delegatorName=default
+2023-12-14 10:50:20,446 |jsse-nio-8443-exec-1 |ControlServlet                |T| [[[onlineexam::loginEvent (Domain:https://localhost)] Request Done- total:0.118,since last([onlineexam::logi...):0.118]]
+2023-12-14 10:50:21,033 |sse-nio-8443-exec-10 |ControlEventListener          |I| Creating session:  hidden sessionId by default.
+2023-12-14 10:50:21,037 |sse-nio-8443-exec-10 |ControlServlet                |T| [[[onlineexam::loginEvent (Domain:https://localhost)] Request Begun, encoding=[UTF-8]- total:0.0,since last(Begin):0.0]]
+2023-12-14 10:50:21,038 |sse-nio-8443-exec-10 |VisitHandler                  |I| Found visitorId [null] in cookie
+2023-12-14 10:50:21,096 |sse-nio-8443-exec-10 |RequestHandler                |I| This is the first request in this visit. Hidden sessionId by default.
+2023-12-14 10:50:21,100 |sse-nio-8443-exec-10 |RequestHandler                |I| Ran Event [java:com.vastpro.onlineexam.events.LoginEvent#loginEvent] from [request], result is [error]
+2023-12-14 10:50:21,100 |sse-nio-8443-exec-10 |RequestHandler                |E| Request loginEvent caused an error with the following message: [username was empty reenter, password was empty reenter]
+2023-12-14 10:50:21,101 |sse-nio-8443-exec-10 |RequestHandler                |I| [RequestHandler.doRequest]: Response is a chained request. Hidden sessionId by default.
+2023-12-14 10:50:21,102 |sse-nio-8443-exec-10 |RequestHandler                |I| [RequestHandler]: Chain in place: requestUri=json overrideViewUri=null Hidden sessionId by default.
+2023-12-14 10:50:21,106 |sse-nio-8443-exec-10 |RequestHandler                |I| Ran Event [java:org.apache.ofbiz.common.CommonEvents#jsonResponseFromRequestAttributes] from [request], result is [success]
+2023-12-14 10:50:21,110 |sse-nio-8443-exec-10 |ServerHitBin                  |I| Visit delegatorName=default, ServerHitBin delegatorName=default
+2023-12-14 10:50:21,114 |sse-nio-8443-exec-10 |ControlServlet                |T| [[[onlineexam::loginEvent (Domain:https://localhost)] Request Done- total:0.077,since last([onlineexam::logi...):0.077]]
+2023-12-14 10:50:21,784 |jsse-nio-8443-exec-5 |ControlEventListener          |I| Creating session:  hidden sessionId by default.
+2023-12-14 10:50:21,787 |jsse-nio-8443-exec-5 |ControlServlet                |T| [[[onlineexam::loginEvent (Domain:https://localhost)] Request Begun, encoding=[UTF-8]- total:0.0,since last(Begin):0.0]]
+2023-12-14 10:50:21,787 |jsse-nio-8443-exec-5 |VisitHandler                  |I| Found visitorId [null] in cookie
+2023-12-14 10:50:21,844 |jsse-nio-8443-exec-5 |RequestHandler                |I| This is the first request in this visit. Hidden sessionId by default.
+2023-12-14 10:50:21,848 |jsse-nio-8443-exec-5 |RequestHandler                |I| Ran Event [java:com.vastpro.onlineexam.events.LoginEvent#loginEvent] from [request], result is [error]
+2023-12-14 10:50:21,848 |jsse-nio-8443-exec-5 |RequestHandler                |E| Request loginEvent caused an error with the following message: [username was empty reenter, password was empty reenter]
+2023-12-14 10:50:21,849 |jsse-nio-8443-exec-5 |RequestHandler                |I| [RequestHandler.doRequest]: Response is a chained request. Hidden sessionId by default.
+2023-12-14 10:50:21,850 |jsse-nio-8443-exec-5 |RequestHandler                |I| [RequestHandler]: Chain in place: requestUri=json overrideViewUri=null Hidden sessionId by default.
+2023-12-14 10:50:21,852 |jsse-nio-8443-exec-5 |RequestHandler                |I| Ran Event [java:org.apache.ofbiz.common.CommonEvents#jsonResponseFromRequestAttributes] from [request], result is [success]
+2023-12-14 10:50:21,856 |jsse-nio-8443-exec-5 |ServerHitBin                  |I| Visit delegatorName=default, ServerHitBin delegatorName=default
+2023-12-14 10:50:21,861 |jsse-nio-8443-exec-5 |ControlServlet                |T| [[[onlineexam::loginEvent (Domain:https://localhost)] Request Done- total:0.074,since last([onlineexam::logi...):0.074]]
+2023-12-14 10:50:25,751 |jsse-nio-8443-exec-7 |ControlEventListener          |I| Creating session:  hidden sessionId by default.
+2023-12-14 10:50:25,796 |jsse-nio-8443-exec-9 |ControlEventListener          |I| Creating session:  hidden sessionId by default.
+2023-12-14 10:50:25,801 |jsse-nio-8443-exec-9 |ControlServlet                |T| [[[onlineexam::loginEvent (Domain:https://localhost)] Request Begun, encoding=[UTF-8]- total:0.0,since last(Begin):0.0]]
+2023-12-14 10:50:25,802 |jsse-nio-8443-exec-9 |VisitHandler                  |I| Found visitorId [null] in cookie
+2023-12-14 10:50:25,815 |jsse-nio-8443-exec-9 |RequestHandler                |I| This is the first request in this visit. Hidden sessionId by default.
+2023-12-14 10:50:25,822 |jsse-nio-8443-exec-9 |RequestHandler                |I| Ran Event [java:com.vastpro.onlineexam.events.LoginEvent#loginEvent] from [request], result is [error]
+2023-12-14 10:50:25,822 |jsse-nio-8443-exec-9 |RequestHandler                |E| Request loginEvent caused an error with the following message: [username was empty reenter, password was empty reenter]
+2023-12-14 10:50:25,824 |jsse-nio-8443-exec-9 |RequestHandler                |I| [RequestHandler.doRequest]: Response is a chained request. Hidden sessionId by default.
+2023-12-14 10:50:25,825 |jsse-nio-8443-exec-9 |RequestHandler                |I| [RequestHandler]: Chain in place: requestUri=json overrideViewUri=null Hidden sessionId by default.
+2023-12-14 10:50:25,828 |jsse-nio-8443-exec-9 |RequestHandler                |I| Ran Event [java:org.apache.ofbiz.common.CommonEvents#jsonResponseFromRequestAttributes] from [request], result is [success]
+2023-12-14 10:50:25,832 |jsse-nio-8443-exec-9 |ServerHitBin                  |I| Visit delegatorName=default, ServerHitBin delegatorName=default
+2023-12-14 10:50:25,837 |jsse-nio-8443-exec-9 |ControlServlet                |T| [[[onlineexam::loginEvent (Domain:https://localhost)] Request Done- total:0.034,since last([onlineexam::logi...):0.034]]
+2023-12-14 10:50:40,433 |sse-nio-8443-exec-10 |ControlEventListener          |I| Creating session:  hidden sessionId by default.
+2023-12-14 10:54:40,567 |jsse-nio-8443-exec-6 |ControlEventListener          |I| Creating session:  hidden sessionId by default.
+2023-12-14 10:54:40,661 |jsse-nio-8443-exec-3 |ControlEventListener          |I| Creating session:  hidden sessionId by default.
+2023-12-14 10:54:40,664 |jsse-nio-8443-exec-3 |ControlServlet                |T| [[[onlineexam::loginEvent (Domain:https://localhost)] Request Begun, encoding=[UTF-8]- total:0.0,since last(Begin):0.0]]
+2023-12-14 10:54:40,665 |jsse-nio-8443-exec-3 |VisitHandler                  |I| Found visitorId [null] in cookie
+2023-12-14 10:54:40,718 |jsse-nio-8443-exec-3 |ConfigXMLReader               |I| controller loaded: 0.0s, 0 requests, 0 views in file:/D:/ofbiz/ofbiz-framework/framework/common/webcommon/WEB-INF/handlers-controller.xml
+2023-12-14 10:54:40,722 |jsse-nio-8443-exec-3 |ConfigXMLReader               |I| controller loaded: 0.019s, 52 requests, 21 views in file:/D:/ofbiz/ofbiz-framework/framework/common/webcommon/WEB-INF/common-controller.xml
+2023-12-14 10:54:40,723 |jsse-nio-8443-exec-3 |ConfigXMLReader               |I| controller loaded: 0.038s, 4 requests, 1 views in file:/D:/ofbiz/ofbiz-framework/plugins/onlineexam/webapp/onlineexam/WEB-INF/controller.xml
+2023-12-14 10:54:40,725 |jsse-nio-8443-exec-3 |RequestHandler                |I| This is the first request in this visit. Hidden sessionId by default.
+2023-12-14 10:54:40,728 |jsse-nio-8443-exec-3 |LoginWorker                   |I| Setting default delegator
+2023-12-14 10:54:40,777 |jsse-nio-8443-exec-3 |ServiceDispatcher             |T| Sync service [onlineexam/userLogin] finished in [49] milliseconds
+2023-12-14 10:54:40,778 |jsse-nio-8443-exec-3 |VisitHandler                  |I| Found visitorId [null] in cookie
+2023-12-14 10:54:40,783 |jsse-nio-8443-exec-3 |ServiceDispatcher             |T| Sync service [onlineexam/preferenceGetSetPermission] finished in [2] milliseconds
+2023-12-14 10:54:40,793 |jsse-nio-8443-exec-3 |ServiceDispatcher             |T| Sync service [onlineexam/setUserPreference] finished in [13] milliseconds
+2023-12-14 10:54:40,799 |jsse-nio-8443-exec-3 |ServiceDispatcher             |T| Sync service [onlineexam/getUserPreference] finished in [2] milliseconds
+2023-12-14 10:54:40,802 |jsse-nio-8443-exec-3 |ServiceDispatcher             |T| Sync service [onlineexam/getUserPreference] finished in [1] milliseconds
+2023-12-14 10:54:40,845 |jsse-nio-8443-exec-3 |RequestHandler                |I| Ran Event [java:com.vastpro.onlineexam.events.LoginEvent#loginEvent] from [request], result is [success]
+2023-12-14 10:54:40,845 |jsse-nio-8443-exec-3 |RequestHandler                |I| [RequestHandler.doRequest]: Response is a chained request. Hidden sessionId by default.
+2023-12-14 10:54:40,846 |jsse-nio-8443-exec-3 |RequestHandler                |I| [RequestHandler]: Chain in place: requestUri=json overrideViewUri=null Hidden sessionId by default.
+2023-12-14 10:54:40,847 |jsse-nio-8443-exec-3 |RequestHandler                |I| Ran Event [java:org.apache.ofbiz.common.CommonEvents#jsonResponseFromRequestAttributes] from [request], result is [success]
+2023-12-14 10:54:40,849 |jsse-nio-8443-exec-3 |ServerHitBin                  |I| Visit delegatorName=default, ServerHitBin delegatorName=default
+2023-12-14 10:54:40,851 |jsse-nio-8443-exec-3 |ControlServlet                |T| [[[onlineexam::loginEvent (Domain:https://localhost)] Request Done- total:0.187,since last([onlineexam::logi...):0.187]]
+2023-12-14 10:57:42,173 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Auto-create Fixed Asset Maintenances] Id [19823] -- Next runtime: Thu Dec 14 11:57:42 IST 2023
+2023-12-14 10:57:42,313 |OFBiz-JobQueue-0     |Log                           |I| [CommonPermissionServices.xml#genericBasePermissionCheck line 59] This simple-method-call is deprecated! Please use a service-call of genericBasePermissionCheck instead.
+2023-12-14 10:57:42,334 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Auto-create Fixed Asset Maintenances] Id [19824] -- Next runtime: Thu Dec 14 11:57:42 IST 2023
+2023-12-14 10:57:42,336 |OFBiz-JobQueue-1     |Log                           |I| [CommonPermissionServices.xml#genericBasePermissionCheck line 59] This simple-method-call is deprecated! Please use a service-call of genericBasePermissionCheck instead.
+2023-12-14 10:57:42,559 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/genericBasePermissionCheck] finished in [246] milliseconds
+2023-12-14 10:57:42,560 |OFBiz-JobQueue-0     |ServiceEcaCondition           |W| doRealCompare returned null, returning false
+2023-12-14 10:57:42,560 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/fixedAssetPermissionCheck] finished in [385] milliseconds
+2023-12-14 10:57:42,689 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/genericBasePermissionCheck] finished in [352] milliseconds
+2023-12-14 10:57:42,689 |OFBiz-JobQueue-1     |ServiceEcaCondition           |W| doRealCompare returned null, returning false
+2023-12-14 10:57:42,689 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/fixedAssetPermissionCheck] finished in [354] milliseconds
+2023-12-14 10:57:44,047 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/createMaintsFromTimeInterval] finished in [1874] milliseconds
+2023-12-14 10:57:44,053 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Auto-create Fixed Asset Maintenances] Id [19826] -- Next runtime: Thu Dec 14 11:57:44 IST 2023
+2023-12-14 10:57:44,055 |OFBiz-JobQueue-0     |Log                           |I| [CommonPermissionServices.xml#genericBasePermissionCheck line 59] This simple-method-call is deprecated! Please use a service-call of genericBasePermissionCheck instead.
+2023-12-14 10:57:44,056 |OFBiz-JobQueue-0     |ServiceEcaCondition           |W| doRealCompare returned null, returning false
+2023-12-14 10:57:44,057 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/fixedAssetPermissionCheck] finished in [2] milliseconds
+2023-12-14 10:57:44,065 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/createMaintsFromTimeInterval] finished in [12] milliseconds
+2023-12-14 10:57:45,055 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/createMaintsFromTimeInterval] finished in [2719] milliseconds
+2023-12-14 10:58:12,189 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [19835] -- Next runtime: Thu Dec 14 11:13:12 IST 2023
+2023-12-14 10:58:12,194 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [19836] -- Next runtime: Thu Dec 14 11:13:12 IST 2023
+2023-12-14 10:58:13,945 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1756] milliseconds
+2023-12-14 10:58:15,403 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [3209] milliseconds
+2023-12-14 10:58:42,272 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [19837] -- Next runtime: Thu Dec 14 11:13:42 IST 2023
+2023-12-14 10:58:43,801 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1529] milliseconds
+2023-12-14 11:00:42,383 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18224
+2023-12-14 11:00:42,384 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18223
+2023-12-14 11:01:12,392 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18225
+2023-12-14 11:13:12,829 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [19841] -- Next runtime: Thu Dec 14 11:28:12 IST 2023
+2023-12-14 11:13:12,836 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [19842] -- Next runtime: Thu Dec 14 11:28:12 IST 2023
+2023-12-14 11:13:13,999 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1170] milliseconds
+2023-12-14 11:13:15,189 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [2351] milliseconds
+2023-12-14 11:13:42,894 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [19843] -- Next runtime: Thu Dec 14 11:28:42 IST 2023
+2023-12-14 11:13:44,140 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1246] milliseconds
+2023-12-14 11:15:43,000 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18266
+2023-12-14 11:15:43,000 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18265
+2023-12-14 11:16:13,010 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18267
+2023-12-14 11:28:13,396 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [19844] -- Next runtime: Thu Dec 14 11:43:13 IST 2023
+2023-12-14 11:28:13,401 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [19845] -- Next runtime: Thu Dec 14 11:43:13 IST 2023
+2023-12-14 11:28:14,842 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1446] milliseconds
+2023-12-14 11:28:15,898 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [2497] milliseconds
+2023-12-14 11:28:43,449 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [19846] -- Next runtime: Thu Dec 14 11:43:43 IST 2023
+2023-12-14 11:28:44,138 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [689] milliseconds
+2023-12-14 11:56:41,027 |Catalina-utility-2   |ControlEventListener          |I| Could not find visit value object in session [ hidden sessionId by default.] that is being destroyed
+2023-12-14 11:56:41,027 |Catalina-utility-2   |ControlEventListener          |I| Destroying session:  hidden sessionId by default.
+2023-12-14 11:56:41,032 |Catalina-utility-2   |ControlEventListener          |I| Destroying session:  hidden sessionId by default.
+2023-12-14 11:56:41,032 |Catalina-utility-2   |ControlEventListener          |I| Could not find visit value object in session [ hidden sessionId by default.] that is being destroyed
+2023-12-14 11:56:41,032 |Catalina-utility-2   |ControlEventListener          |I| Destroying session:  hidden sessionId by default.
+2023-12-14 11:56:41,032 |Catalina-utility-2   |ControlEventListener          |I| Could not find visit value object in session [ hidden sessionId by default.] that is being destroyed
+2023-12-14 11:56:41,032 |Catalina-utility-2   |ControlEventListener          |I| Destroying session:  hidden sessionId by default.
+2023-12-14 11:56:41,033 |Catalina-utility-2   |ControlEventListener          |I| Could not find visit value object in session [ hidden sessionId by default.] that is being destroyed
+2023-12-14 11:56:41,033 |Catalina-utility-2   |ControlEventListener          |I| Destroying session:  hidden sessionId by default.
+2023-12-14 11:56:41,034 |Catalina-utility-2   |ControlEventListener          |I| Destroying session:  hidden sessionId by default.
+2023-12-14 11:56:41,036 |Catalina-utility-2   |ControlEventListener          |I| Destroying session:  hidden sessionId by default.
+2023-12-14 11:56:41,036 |Catalina-utility-2   |ControlEventListener          |I| Could not find visit value object in session [ hidden sessionId by default.] that is being destroyed
+2023-12-14 11:56:41,036 |Catalina-utility-2   |ControlEventListener          |I| Destroying session:  hidden sessionId by default.
+2023-12-14 11:56:41,036 |Catalina-utility-2   |ControlEventListener          |I| Could not find visit value object in session [ hidden sessionId by default.] that is being destroyed
+2023-12-14 11:56:41,036 |Catalina-utility-2   |ControlEventListener          |I| Destroying session:  hidden sessionId by default.
+2023-12-14 11:56:41,036 |Catalina-utility-2   |ControlEventListener          |I| Could not find visit value object in session [ hidden sessionId by default.] that is being destroyed
+2023-12-14 11:56:41,036 |Catalina-utility-2   |ControlEventListener          |I| Destroying session:  hidden sessionId by default.
+2023-12-14 11:56:41,037 |Catalina-utility-2   |ControlEventListener          |I| Destroying session:  hidden sessionId by default.
+2023-12-14 11:56:41,038 |Catalina-utility-2   |ControlEventListener          |I| Could not find visit value object in session [ hidden sessionId by default.] that is being destroyed
+2023-12-14 11:56:41,038 |Catalina-utility-2   |ControlEventListener          |I| Destroying session:  hidden sessionId by default.
+2023-12-14 11:56:41,039 |Catalina-utility-2   |ControlEventListener          |I| Destroying session:  hidden sessionId by default.
+2023-12-14 11:56:41,041 |Catalina-utility-2   |ControlEventListener          |I| Destroying session:  hidden sessionId by default.
+2023-12-14 11:56:41,042 |Catalina-utility-2   |ControlEventListener          |I| Destroying session:  hidden sessionId by default.
+2023-12-14 11:56:41,042 |Catalina-utility-2   |ControlEventListener          |I| Could not find visit value object in session [ hidden sessionId by default.] that is being destroyed
+2023-12-14 11:56:41,043 |Catalina-utility-2   |ControlEventListener          |I| Destroying session:  hidden sessionId by default.
+2023-12-14 11:56:41,043 |Catalina-utility-2   |ControlEventListener          |I| Could not find visit value object in session [ hidden sessionId by default.] that is being destroyed
+2023-12-14 11:56:41,043 |Catalina-utility-2   |ControlEventListener          |I| Destroying session:  hidden sessionId by default.
+2023-12-14 11:56:41,044 |Catalina-utility-2   |ControlEventListener          |I| Destroying session:  hidden sessionId by default.
+2023-12-14 11:56:41,044 |Catalina-utility-2   |ControlEventListener          |I| Could not find visit value object in session [ hidden sessionId by default.] that is being destroyed
+2023-12-14 11:56:41,044 |Catalina-utility-2   |ControlEventListener          |I| Destroying session:  hidden sessionId by default.
+2023-12-14 11:56:41,045 |Catalina-utility-2   |ControlEventListener          |I| Destroying session:  hidden sessionId by default.
+2023-12-14 11:56:41,047 |Catalina-utility-2   |ControlEventListener          |I| Destroying session:  hidden sessionId by default.
+2023-12-14 11:56:41,048 |Catalina-utility-2   |ControlEventListener          |I| Destroying session:  hidden sessionId by default.
+2023-12-14 11:56:41,050 |Catalina-utility-2   |ControlEventListener          |I| Destroying session:  hidden sessionId by default.
+2023-12-14 11:56:41,051 |Catalina-utility-2   |ControlEventListener          |I| Destroying session:  hidden sessionId by default.
+2023-12-14 11:56:41,052 |Catalina-utility-2   |ControlEventListener          |I| Destroying session:  hidden sessionId by default.
+2023-12-14 11:56:56,598 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [19847] -- Next runtime: Thu Dec 14 12:11:56 IST 2023
+2023-12-14 11:56:56,650 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [19848] -- Next runtime: Thu Dec 14 12:11:56 IST 2023
+2023-12-14 11:56:57,323 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [725] milliseconds
+2023-12-14 11:56:57,375 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [19849] -- Next runtime: Thu Dec 14 12:11:57 IST 2023
+2023-12-14 11:56:57,377 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [2] milliseconds
+2023-12-14 11:56:57,994 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1344] milliseconds
+2023-12-14 11:57:26,652 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18226
+2023-12-14 11:57:26,652 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18270
+2023-12-14 11:57:26,654 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18272
+2023-12-14 11:57:26,655 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18271
+2023-12-14 11:57:26,655 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18269
+2023-12-14 11:57:26,657 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18268
+2023-12-14 11:57:56,666 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Auto-create Fixed Asset Maintenances] Id [19838] -- Next runtime: Thu Dec 14 12:57:56 IST 2023
+2023-12-14 11:57:56,667 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Auto-create Fixed Asset Maintenances] Id [19839] -- Next runtime: Thu Dec 14 12:57:56 IST 2023
+2023-12-14 11:57:56,682 |OFBiz-JobQueue-0     |Log                           |I| [CommonPermissionServices.xml#genericBasePermissionCheck line 59] This simple-method-call is deprecated! Please use a service-call of genericBasePermissionCheck instead.
+2023-12-14 11:57:56,682 |OFBiz-JobQueue-1     |Log                           |I| [CommonPermissionServices.xml#genericBasePermissionCheck line 59] This simple-method-call is deprecated! Please use a service-call of genericBasePermissionCheck instead.
+2023-12-14 11:57:56,757 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/genericBasePermissionCheck] finished in [75] milliseconds
+2023-12-14 11:57:56,757 |OFBiz-JobQueue-0     |ServiceEcaCondition           |W| doRealCompare returned null, returning false
+2023-12-14 11:57:56,758 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/fixedAssetPermissionCheck] finished in [90] milliseconds
+2023-12-14 11:57:56,826 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/genericBasePermissionCheck] finished in [143] milliseconds
+2023-12-14 11:57:56,826 |OFBiz-JobQueue-1     |ServiceEcaCondition           |W| doRealCompare returned null, returning false
+2023-12-14 11:57:56,826 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/fixedAssetPermissionCheck] finished in [160] milliseconds
+2023-12-14 11:57:57,329 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/createMaintsFromTimeInterval] finished in [662] milliseconds
+2023-12-14 11:57:57,380 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Auto-create Fixed Asset Maintenances] Id [19840] -- Next runtime: Thu Dec 14 12:57:57 IST 2023
+2023-12-14 11:57:57,381 |OFBiz-JobQueue-0     |Log                           |I| [CommonPermissionServices.xml#genericBasePermissionCheck line 59] This simple-method-call is deprecated! Please use a service-call of genericBasePermissionCheck instead.
+2023-12-14 11:57:57,383 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/genericBasePermissionCheck] finished in [2] milliseconds
+2023-12-14 11:57:57,383 |OFBiz-JobQueue-0     |ServiceEcaCondition           |W| doRealCompare returned null, returning false
+2023-12-14 11:57:57,383 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/fixedAssetPermissionCheck] finished in [3] milliseconds
+2023-12-14 11:57:57,391 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/createMaintsFromTimeInterval] finished in [11] milliseconds
+2023-12-14 11:57:57,927 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/createMaintsFromTimeInterval] finished in [1261] milliseconds
+2023-12-14 12:07:58,157 |sse-nio-8443-exec-10 |ControlEventListener          |I| Creating session:  hidden sessionId by default.
+2023-12-14 12:07:58,161 |jsse-nio-8443-exec-7 |ControlEventListener          |I| Creating session:  hidden sessionId by default.
+2023-12-14 12:07:58,162 |jsse-nio-8443-exec-7 |ControlServlet                |T| [[[onlineexam::loginEvent (Domain:https://localhost)] Request Begun, encoding=[UTF-8]- total:0.0,since last(Begin):0.0]]
+2023-12-14 12:07:58,162 |jsse-nio-8443-exec-7 |VisitHandler                  |I| Found visitorId [null] in cookie
+2023-12-14 12:07:58,195 |jsse-nio-8443-exec-7 |ConfigXMLReader               |I| controller loaded: 0.0s, 0 requests, 0 views in file:/D:/ofbiz/ofbiz-framework/framework/common/webcommon/WEB-INF/handlers-controller.xml
+2023-12-14 12:07:58,196 |jsse-nio-8443-exec-7 |ConfigXMLReader               |I| controller loaded: 0.007s, 52 requests, 21 views in file:/D:/ofbiz/ofbiz-framework/framework/common/webcommon/WEB-INF/common-controller.xml
+2023-12-14 12:07:58,196 |jsse-nio-8443-exec-7 |ConfigXMLReader               |I| controller loaded: 0.012s, 4 requests, 1 views in file:/D:/ofbiz/ofbiz-framework/plugins/onlineexam/webapp/onlineexam/WEB-INF/controller.xml
+2023-12-14 12:07:58,196 |jsse-nio-8443-exec-7 |RequestHandler                |I| This is the first request in this visit. Hidden sessionId by default.
+2023-12-14 12:07:58,198 |jsse-nio-8443-exec-7 |RequestHandler                |I| Ran Event [java:com.vastpro.onlineexam.events.LoginEvent#loginEvent] from [request], result is [error]
+2023-12-14 12:07:58,205 |jsse-nio-8443-exec-7 |RequestHandler                |E| Request loginEvent caused an error with the following message: [username was empty reenter, password was empty reenter]
+2023-12-14 12:07:58,205 |jsse-nio-8443-exec-7 |RequestHandler                |I| [RequestHandler.doRequest]: Response is a chained request. Hidden sessionId by default.
+2023-12-14 12:07:58,205 |jsse-nio-8443-exec-7 |RequestHandler                |I| [RequestHandler]: Chain in place: requestUri=json overrideViewUri=null Hidden sessionId by default.
+2023-12-14 12:07:58,206 |jsse-nio-8443-exec-7 |RequestHandler                |I| Ran Event [java:org.apache.ofbiz.common.CommonEvents#jsonResponseFromRequestAttributes] from [request], result is [success]
+2023-12-14 12:07:58,211 |jsse-nio-8443-exec-7 |ServerHitBin                  |I| Visit delegatorName=default, ServerHitBin delegatorName=default
+2023-12-14 12:07:58,216 |jsse-nio-8443-exec-7 |ControlServlet                |T| [[[onlineexam::loginEvent (Domain:https://localhost)] Request Done- total:0.054,since last([onlineexam::logi...):0.054]]
+2023-12-14 12:08:01,311 |jsse-nio-8443-exec-4 |ControlEventListener          |I| Creating session:  hidden sessionId by default.
+2023-12-14 12:08:01,312 |jsse-nio-8443-exec-4 |ControlServlet                |T| [[[onlineexam::loginEvent (Domain:https://localhost)] Request Begun, encoding=[UTF-8]- total:0.0,since last(Begin):0.0]]
+2023-12-14 12:08:01,312 |jsse-nio-8443-exec-4 |VisitHandler                  |I| Found visitorId [null] in cookie
+2023-12-14 12:08:01,325 |jsse-nio-8443-exec-4 |RequestHandler                |I| This is the first request in this visit. Hidden sessionId by default.
+2023-12-14 12:08:01,326 |jsse-nio-8443-exec-4 |RequestHandler                |I| Ran Event [java:com.vastpro.onlineexam.events.LoginEvent#loginEvent] from [request], result is [error]
+2023-12-14 12:08:01,326 |jsse-nio-8443-exec-4 |RequestHandler                |E| Request loginEvent caused an error with the following message: [username was empty reenter]
+2023-12-14 12:08:01,326 |jsse-nio-8443-exec-4 |RequestHandler                |I| [RequestHandler.doRequest]: Response is a chained request. Hidden sessionId by default.
+2023-12-14 12:08:01,326 |jsse-nio-8443-exec-4 |RequestHandler                |I| [RequestHandler]: Chain in place: requestUri=json overrideViewUri=null Hidden sessionId by default.
+2023-12-14 12:08:01,327 |jsse-nio-8443-exec-4 |RequestHandler                |I| Ran Event [java:org.apache.ofbiz.common.CommonEvents#jsonResponseFromRequestAttributes] from [request], result is [success]
+2023-12-14 12:08:01,328 |jsse-nio-8443-exec-4 |ServerHitBin                  |I| Visit delegatorName=default, ServerHitBin delegatorName=default
+2023-12-14 12:08:01,329 |jsse-nio-8443-exec-4 |ControlServlet                |T| [[[onlineexam::loginEvent (Domain:https://localhost)] Request Done- total:0.017,since last([onlineexam::logi...):0.017]]
+2023-12-14 12:08:11,993 |jsse-nio-8443-exec-8 |ControlEventListener          |I| Creating session:  hidden sessionId by default.
+2023-12-14 12:08:11,996 |jsse-nio-8443-exec-5 |ControlEventListener          |I| Creating session:  hidden sessionId by default.
+2023-12-14 12:08:11,997 |jsse-nio-8443-exec-5 |ControlServlet                |T| [[[onlineexam::loginEvent (Domain:https://localhost)] Request Begun, encoding=[UTF-8]- total:0.0,since last(Begin):0.0]]
+2023-12-14 12:08:11,997 |jsse-nio-8443-exec-5 |VisitHandler                  |I| Found visitorId [null] in cookie
+2023-12-14 12:08:12,026 |jsse-nio-8443-exec-5 |ConfigXMLReader               |I| controller loaded: 0.0s, 0 requests, 0 views in file:/D:/ofbiz/ofbiz-framework/framework/common/webcommon/WEB-INF/handlers-controller.xml
+2023-12-14 12:08:12,027 |jsse-nio-8443-exec-5 |ConfigXMLReader               |I| controller loaded: 0.007s, 52 requests, 21 views in file:/D:/ofbiz/ofbiz-framework/framework/common/webcommon/WEB-INF/common-controller.xml
+2023-12-14 12:08:12,027 |jsse-nio-8443-exec-5 |ConfigXMLReader               |I| controller loaded: 0.013s, 4 requests, 1 views in file:/D:/ofbiz/ofbiz-framework/plugins/onlineexam/webapp/onlineexam/WEB-INF/controller.xml
+2023-12-14 12:08:12,027 |jsse-nio-8443-exec-5 |RequestHandler                |I| This is the first request in this visit. Hidden sessionId by default.
+2023-12-14 12:08:12,028 |jsse-nio-8443-exec-5 |LoginWorker                   |I| Setting default delegator
+2023-12-14 12:08:12,034 |jsse-nio-8443-exec-5 |ServiceDispatcher             |T| Sync service [onlineexam/userLogin] finished in [5] milliseconds
+2023-12-14 12:08:12,034 |jsse-nio-8443-exec-5 |VisitHandler                  |I| Found visitorId [null] in cookie
+2023-12-14 12:08:12,041 |jsse-nio-8443-exec-5 |ServiceDispatcher             |T| Sync service [onlineexam/setUserPreference] finished in [5] milliseconds
+2023-12-14 12:08:12,042 |jsse-nio-8443-exec-5 |ServiceDispatcher             |T| Sync service [onlineexam/getUserPreference] finished in [1] milliseconds
+2023-12-14 12:08:12,043 |jsse-nio-8443-exec-5 |ServiceDispatcher             |T| Sync service [onlineexam/getUserPreference] finished in [1] milliseconds
+2023-12-14 12:08:12,052 |jsse-nio-8443-exec-5 |RequestHandler                |I| Ran Event [java:com.vastpro.onlineexam.events.LoginEvent#loginEvent] from [request], result is [success]
+2023-12-14 12:08:12,052 |jsse-nio-8443-exec-5 |RequestHandler                |I| [RequestHandler.doRequest]: Response is a chained request. Hidden sessionId by default.
+2023-12-14 12:08:12,053 |jsse-nio-8443-exec-5 |RequestHandler                |I| [RequestHandler]: Chain in place: requestUri=json overrideViewUri=null Hidden sessionId by default.
+2023-12-14 12:08:12,053 |jsse-nio-8443-exec-5 |RequestHandler                |I| Ran Event [java:org.apache.ofbiz.common.CommonEvents#jsonResponseFromRequestAttributes] from [request], result is [success]
+2023-12-14 12:08:12,054 |jsse-nio-8443-exec-5 |ServerHitBin                  |I| Visit delegatorName=default, ServerHitBin delegatorName=default
+2023-12-14 12:08:12,056 |jsse-nio-8443-exec-5 |ControlServlet                |T| [[[onlineexam::loginEvent (Domain:https://localhost)] Request Done- total:0.059,since last([onlineexam::logi...):0.059]]
+2023-12-14 12:08:28,375 |jsse-nio-8443-exec-3 |ControlEventListener          |I| Creating session:  hidden sessionId by default.
+2023-12-14 12:08:28,385 |jsse-nio-8443-exec-4 |ControlEventListener          |I| Creating session:  hidden sessionId by default.
+2023-12-14 12:08:28,386 |jsse-nio-8443-exec-4 |ControlServlet                |T| [[[onlineexam::loginEvent (Domain:https://localhost)] Request Begun, encoding=[UTF-8]- total:0.0,since last(Begin):0.0]]
+2023-12-14 12:08:28,386 |jsse-nio-8443-exec-4 |VisitHandler                  |I| Found visitorId [null] in cookie
+2023-12-14 12:08:28,412 |jsse-nio-8443-exec-4 |ConfigXMLReader               |I| controller loaded: 0.0s, 0 requests, 0 views in file:/D:/ofbiz/ofbiz-framework/framework/common/webcommon/WEB-INF/handlers-controller.xml
+2023-12-14 12:08:28,413 |jsse-nio-8443-exec-4 |ConfigXMLReader               |I| controller loaded: 0.005s, 52 requests, 21 views in file:/D:/ofbiz/ofbiz-framework/framework/common/webcommon/WEB-INF/common-controller.xml
+2023-12-14 12:08:28,413 |jsse-nio-8443-exec-4 |ConfigXMLReader               |I| controller loaded: 0.012s, 4 requests, 1 views in file:/D:/ofbiz/ofbiz-framework/plugins/onlineexam/webapp/onlineexam/WEB-INF/controller.xml
+2023-12-14 12:08:28,413 |jsse-nio-8443-exec-4 |RequestHandler                |I| This is the first request in this visit. Hidden sessionId by default.
+2023-12-14 12:08:28,416 |jsse-nio-8443-exec-4 |LoginWorker                   |I| Setting default delegator
+2023-12-14 12:08:28,419 |jsse-nio-8443-exec-4 |ServiceDispatcher             |T| Sync service [onlineexam/userLogin] finished in [3] milliseconds
+2023-12-14 12:08:28,419 |jsse-nio-8443-exec-4 |VisitHandler                  |I| Found visitorId [null] in cookie
+2023-12-14 12:08:28,421 |jsse-nio-8443-exec-4 |ServiceDispatcher             |T| Sync service [onlineexam/preferenceGetSetPermission] finished in [1] milliseconds
+2023-12-14 12:08:28,422 |jsse-nio-8443-exec-4 |ServiceDispatcher             |T| Sync service [onlineexam/setUserPreference] finished in [2] milliseconds
+2023-12-14 12:08:28,424 |jsse-nio-8443-exec-4 |ServiceDispatcher             |T| Sync service [onlineexam/getUserPreference] finished in [2] milliseconds
+2023-12-14 12:08:28,427 |jsse-nio-8443-exec-4 |RequestHandler                |I| Ran Event [java:com.vastpro.onlineexam.events.LoginEvent#loginEvent] from [request], result is [success]
+2023-12-14 12:08:28,427 |jsse-nio-8443-exec-4 |RequestHandler                |I| [RequestHandler.doRequest]: Response is a chained request. Hidden sessionId by default.
+2023-12-14 12:08:28,427 |jsse-nio-8443-exec-4 |RequestHandler                |I| [RequestHandler]: Chain in place: requestUri=json overrideViewUri=null Hidden sessionId by default.
+2023-12-14 12:08:28,427 |jsse-nio-8443-exec-4 |RequestHandler                |I| Ran Event [java:org.apache.ofbiz.common.CommonEvents#jsonResponseFromRequestAttributes] from [request], result is [success]
+2023-12-14 12:08:28,428 |jsse-nio-8443-exec-4 |ServerHitBin                  |I| Visit delegatorName=default, ServerHitBin delegatorName=default
+2023-12-14 12:08:28,430 |jsse-nio-8443-exec-4 |ControlServlet                |T| [[[onlineexam::loginEvent (Domain:https://localhost)] Request Done- total:0.044,since last([onlineexam::logi...):0.044]]
+2023-12-14 12:08:36,361 |jsse-nio-8443-exec-1 |ControlEventListener          |I| Creating session:  hidden sessionId by default.
+2023-12-14 12:08:36,370 |jsse-nio-8443-exec-6 |ControlEventListener          |I| Creating session:  hidden sessionId by default.
+2023-12-14 12:08:36,371 |jsse-nio-8443-exec-6 |ControlServlet                |T| [[[onlineexam::loginEvent (Domain:https://localhost)] Request Begun, encoding=[UTF-8]- total:0.0,since last(Begin):0.0]]
+2023-12-14 12:08:36,371 |jsse-nio-8443-exec-6 |VisitHandler                  |I| Found visitorId [null] in cookie
+2023-12-14 12:08:36,384 |jsse-nio-8443-exec-6 |RequestHandler                |I| This is the first request in this visit. Hidden sessionId by default.
+2023-12-14 12:08:36,385 |jsse-nio-8443-exec-6 |RequestHandler                |I| Ran Event [java:com.vastpro.onlineexam.events.LoginEvent#loginEvent] from [request], result is [error]
+2023-12-14 12:08:36,385 |jsse-nio-8443-exec-6 |RequestHandler                |E| Request loginEvent caused an error with the following message: [username was empty reenter, password was empty reenter]
+2023-12-14 12:08:36,385 |jsse-nio-8443-exec-6 |RequestHandler                |I| [RequestHandler.doRequest]: Response is a chained request. Hidden sessionId by default.
+2023-12-14 12:08:36,385 |jsse-nio-8443-exec-6 |RequestHandler                |I| [RequestHandler]: Chain in place: requestUri=json overrideViewUri=null Hidden sessionId by default.
+2023-12-14 12:08:36,386 |jsse-nio-8443-exec-6 |RequestHandler                |I| Ran Event [java:org.apache.ofbiz.common.CommonEvents#jsonResponseFromRequestAttributes] from [request], result is [success]
+2023-12-14 12:08:36,387 |jsse-nio-8443-exec-6 |ServerHitBin                  |I| Visit delegatorName=default, ServerHitBin delegatorName=default
+2023-12-14 12:08:36,388 |jsse-nio-8443-exec-6 |ControlServlet                |T| [[[onlineexam::loginEvent (Domain:https://localhost)] Request Done- total:0.017,since last([onlineexam::logi...):0.017]]
+2023-12-14 12:08:44,266 |sse-nio-8443-exec-10 |ControlEventListener          |I| Creating session:  hidden sessionId by default.
+2023-12-14 12:08:44,270 |jsse-nio-8443-exec-2 |ControlEventListener          |I| Creating session:  hidden sessionId by default.
+2023-12-14 12:08:44,271 |jsse-nio-8443-exec-2 |ControlServlet                |T| [[[onlineexam::loginEvent (Domain:https://localhost)] Request Begun, encoding=[UTF-8]- total:0.0,since last(Begin):0.0]]
+2023-12-14 12:08:44,271 |jsse-nio-8443-exec-2 |VisitHandler                  |I| Found visitorId [null] in cookie
+2023-12-14 12:08:44,294 |jsse-nio-8443-exec-2 |ConfigXMLReader               |I| controller loaded: 0.0s, 0 requests, 0 views in file:/D:/ofbiz/ofbiz-framework/framework/common/webcommon/WEB-INF/handlers-controller.xml
+2023-12-14 12:08:44,295 |jsse-nio-8443-exec-2 |ConfigXMLReader               |I| controller loaded: 0.007s, 52 requests, 21 views in file:/D:/ofbiz/ofbiz-framework/framework/common/webcommon/WEB-INF/common-controller.xml
+2023-12-14 12:08:44,296 |jsse-nio-8443-exec-2 |ConfigXMLReader               |I| controller loaded: 0.017s, 4 requests, 1 views in file:/D:/ofbiz/ofbiz-framework/plugins/onlineexam/webapp/onlineexam/WEB-INF/controller.xml
+2023-12-14 12:08:44,296 |jsse-nio-8443-exec-2 |RequestHandler                |I| This is the first request in this visit. Hidden sessionId by default.
+2023-12-14 12:08:44,298 |jsse-nio-8443-exec-2 |LoginWorker                   |I| Setting default delegator
+2023-12-14 12:08:44,301 |jsse-nio-8443-exec-2 |ServiceDispatcher             |T| Sync service [onlineexam/userLogin] finished in [3] milliseconds
+2023-12-14 12:08:44,301 |jsse-nio-8443-exec-2 |VisitHandler                  |I| Found visitorId [null] in cookie
+2023-12-14 12:08:44,304 |jsse-nio-8443-exec-2 |ServiceDispatcher             |T| Sync service [onlineexam/setUserPreference] finished in [1] milliseconds
+2023-12-14 12:08:44,305 |jsse-nio-8443-exec-2 |ServiceDispatcher             |T| Sync service [onlineexam/getUserPreference] finished in [1] milliseconds
+2023-12-14 12:08:44,308 |jsse-nio-8443-exec-2 |RequestHandler                |I| Ran Event [java:com.vastpro.onlineexam.events.LoginEvent#loginEvent] from [request], result is [success]
+2023-12-14 12:08:44,308 |jsse-nio-8443-exec-2 |RequestHandler                |I| [RequestHandler.doRequest]: Response is a chained request. Hidden sessionId by default.
+2023-12-14 12:08:44,308 |jsse-nio-8443-exec-2 |RequestHandler                |I| [RequestHandler]: Chain in place: requestUri=json overrideViewUri=null Hidden sessionId by default.
+2023-12-14 12:08:44,308 |jsse-nio-8443-exec-2 |RequestHandler                |I| Ran Event [java:org.apache.ofbiz.common.CommonEvents#jsonResponseFromRequestAttributes] from [request], result is [success]
+2023-12-14 12:08:44,309 |jsse-nio-8443-exec-2 |ServerHitBin                  |I| Visit delegatorName=default, ServerHitBin delegatorName=default
+2023-12-14 12:08:44,311 |jsse-nio-8443-exec-2 |ControlServlet                |T| [[[onlineexam::loginEvent (Domain:https://localhost)] Request Done- total:0.04,since last([onlineexam::logi...):0.04]]
+2023-12-14 12:11:57,050 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [19850] -- Next runtime: Thu Dec 14 12:26:57 IST 2023
+2023-12-14 12:11:57,052 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [19851] -- Next runtime: Thu Dec 14 12:26:57 IST 2023
+2023-12-14 12:11:57,766 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [716] milliseconds
+2023-12-14 12:11:58,464 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1411] milliseconds
+2023-12-14 12:12:27,082 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [19852] -- Next runtime: Thu Dec 14 12:27:27 IST 2023
+2023-12-14 12:12:28,540 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1457] milliseconds
+2023-12-14 12:14:28,498 |jsse-nio-8443-exec-7 |ControlEventListener          |I| Creating session:  hidden sessionId by default.
+2023-12-14 12:14:28,566 |jsse-nio-8443-exec-3 |ControlEventListener          |I| Creating session:  hidden sessionId by default.
+2023-12-14 12:14:28,571 |jsse-nio-8443-exec-3 |ControlServlet                |T| [[[onlineexam::loginEvent (Domain:https://localhost)] Request Begun, encoding=[UTF-8]- total:0.0,since last(Begin):0.0]]
+2023-12-14 12:14:28,573 |jsse-nio-8443-exec-3 |VisitHandler                  |I| Found visitorId [null] in cookie
+2023-12-14 12:14:28,697 |jsse-nio-8443-exec-3 |ConfigXMLReader               |I| controller loaded: 0.0s, 0 requests, 0 views in file:/D:/ofbiz/ofbiz-framework/framework/common/webcommon/WEB-INF/handlers-controller.xml
+2023-12-14 12:14:28,700 |jsse-nio-8443-exec-3 |ConfigXMLReader               |I| controller loaded: 0.029s, 52 requests, 21 views in file:/D:/ofbiz/ofbiz-framework/framework/common/webcommon/WEB-INF/common-controller.xml
+2023-12-14 12:14:28,700 |jsse-nio-8443-exec-3 |ConfigXMLReader               |I| controller loaded: 0.06s, 4 requests, 1 views in file:/D:/ofbiz/ofbiz-framework/plugins/onlineexam/webapp/onlineexam/WEB-INF/controller.xml
+2023-12-14 12:14:28,701 |jsse-nio-8443-exec-3 |RequestHandler                |I| This is the first request in this visit. Hidden sessionId by default.
+2023-12-14 12:14:28,705 |jsse-nio-8443-exec-3 |RequestHandler                |I| Ran Event [java:com.vastpro.onlineexam.events.LoginEvent#loginEvent] from [request], result is [error]
+2023-12-14 12:14:28,705 |jsse-nio-8443-exec-3 |RequestHandler                |E| Request loginEvent caused an error with the following message: [username was empty reenter, password was empty reenter]
+2023-12-14 12:14:28,706 |jsse-nio-8443-exec-3 |RequestHandler                |I| [RequestHandler.doRequest]: Response is a chained request. Hidden sessionId by default.
+2023-12-14 12:14:28,706 |jsse-nio-8443-exec-3 |RequestHandler                |I| [RequestHandler]: Chain in place: requestUri=json overrideViewUri=null Hidden sessionId by default.
+2023-12-14 12:14:28,708 |jsse-nio-8443-exec-3 |RequestHandler                |I| Ran Event [java:org.apache.ofbiz.common.CommonEvents#jsonResponseFromRequestAttributes] from [request], result is [success]
+2023-12-14 12:14:28,710 |jsse-nio-8443-exec-3 |ServerHitBin                  |I| Visit delegatorName=default, ServerHitBin delegatorName=default
+2023-12-14 12:14:28,759 |jsse-nio-8443-exec-3 |ControlServlet                |T| [[[onlineexam::loginEvent (Domain:https://localhost)] Request Done- total:0.188,since last([onlineexam::logi...):0.188]]
+2023-12-14 12:24:57,542 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18275
+2023-12-14 12:24:57,542 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18274
+2023-12-14 12:24:57,547 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18227
+2023-12-14 12:24:57,548 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18228
+2023-12-14 12:24:57,552 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18273
+2023-12-14 12:26:57,608 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [19856] -- Next runtime: Thu Dec 14 12:41:57 IST 2023
+2023-12-14 12:26:57,608 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [19857] -- Next runtime: Thu Dec 14 12:41:57 IST 2023
+2023-12-14 12:26:58,982 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1373] milliseconds
+2023-12-14 12:27:00,234 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [2625] milliseconds
+2023-12-14 12:27:27,667 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [19858] -- Next runtime: Thu Dec 14 12:42:27 IST 2023
+2023-12-14 12:27:29,007 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1339] milliseconds
+2023-12-14 12:40:28,125 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18280
+2023-12-14 12:40:28,125 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18279
+2023-12-14 12:40:28,130 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18281
+2023-12-14 12:48:22,853 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [19859] -- Next runtime: Thu Dec 14 13:03:22 IST 2023
+2023-12-14 12:48:22,912 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [19860] -- Next runtime: Thu Dec 14 13:03:22 IST 2023
+2023-12-14 12:48:23,634 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [781] milliseconds
+2023-12-14 12:48:23,640 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [19861] -- Next runtime: Thu Dec 14 13:03:23 IST 2023
+2023-12-14 12:48:23,644 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [3] milliseconds
+2023-12-14 12:48:24,387 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1474] milliseconds
+2023-12-14 12:48:52,926 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18276
+2023-12-14 12:51:46,294 |jsse-nio-8443-exec-6 |ControlEventListener          |I| Creating session:  hidden sessionId by default.
+2023-12-14 12:51:46,298 |jsse-nio-8443-exec-6 |ControlServlet                |T| [[[webtools::login (Domain:https://localhost)] Request Begun, encoding=[UTF-8]- total:0.0,since last(Begin):0.0]]
+2023-12-14 12:51:46,300 |jsse-nio-8443-exec-6 |VisitHandler                  |I| Found visitorId [13630] in cookie
+2023-12-14 12:51:46,424 |jsse-nio-8443-exec-6 |ConfigXMLReader               |I| controller loaded: 0.001s, 0 requests, 0 views in file:/D:/ofbiz/ofbiz-framework/framework/common/webcommon/WEB-INF/handlers-controller.xml
+2023-12-14 12:51:46,429 |jsse-nio-8443-exec-6 |ConfigXMLReader               |I| controller loaded: 0.036s, 52 requests, 21 views in file:/D:/ofbiz/ofbiz-framework/framework/common/webcommon/WEB-INF/common-controller.xml
+2023-12-14 12:51:46,468 |jsse-nio-8443-exec-6 |ConfigXMLReader               |I| controller loaded: 0.002s, 26 requests, 10 views in file:/D:/ofbiz/ofbiz-framework/framework/common/webcommon/WEB-INF/portal-controller.xml
+2023-12-14 12:51:46,495 |jsse-nio-8443-exec-6 |ConfigXMLReader               |I| controller loaded: 0.001s, 30 requests, 13 views in file:/D:/ofbiz/ofbiz-framework/framework/common/webcommon/WEB-INF/security-controller.xml
+2023-12-14 12:51:46,511 |jsse-nio-8443-exec-6 |ConfigXMLReader               |I| controller loaded: 0.0s, 5 requests, 0 views in file:/D:/ofbiz/ofbiz-framework/framework/common/webcommon/WEB-INF/tempexpr-controller.xml
+2023-12-14 12:51:46,515 |jsse-nio-8443-exec-6 |ConfigXMLReader               |I| controller loaded: 0.149s, 122 requests, 79 views in file:/D:/ofbiz/ofbiz-framework/framework/webtools/webapp/webtools/WEB-INF/controller.xml
+2023-12-14 12:51:46,522 |jsse-nio-8443-exec-6 |RequestHandler                |I| This is the first request in this visit. Hidden sessionId by default.
+2023-12-14 12:51:46,524 |jsse-nio-8443-exec-6 |LoginWorker                   |I| Setting default delegator
+2023-12-14 12:51:46,547 |jsse-nio-8443-exec-6 |ServiceDispatcher             |T| Sync service [webtools/userLogin] finished in [23] milliseconds
+2023-12-14 12:51:46,547 |jsse-nio-8443-exec-6 |VisitHandler                  |I| Found visitorId [13630] in cookie
+2023-12-14 12:51:46,561 |jsse-nio-8443-exec-6 |ServiceDispatcher             |T| Sync service [webtools/setUserPreference] finished in [11] milliseconds
+2023-12-14 12:51:46,580 |jsse-nio-8443-exec-6 |ServiceDispatcher             |T| Sync service [webtools/getUserPreference] finished in [1] milliseconds
+2023-12-14 12:51:46,582 |jsse-nio-8443-exec-6 |ServiceDispatcher             |T| Sync service [webtools/getUserPreference] finished in [2] milliseconds
+2023-12-14 12:51:46,604 |jsse-nio-8443-exec-6 |RequestHandler                |I| Ran Event [java:org.apache.ofbiz.webapp.control.LoginWorker#login] from [request], result is [success]
+2023-12-14 12:51:46,606 |jsse-nio-8443-exec-6 |TransactionUtil               |W| No transaction in place, so not suspending.
+2023-12-14 12:51:46,614 |jsse-nio-8443-exec-6 |SequenceUtil                  |I| Got bank of sequenced IDs for [ServerHitBin]; curSeqId=11110, maxSeqId=11120, bankSize=10
+2023-12-14 12:51:46,622 |jsse-nio-8443-exec-6 |RequestHandler                |I| Rendering View [main].  Hidden sessionId by default.
+2023-12-14 12:51:46,628 |jsse-nio-8443-exec-6 |ServiceDispatcher             |T| Sync service [webtools/getUserPreferenceGroup] finished in [4] milliseconds
+2023-12-14 12:51:46,817 |jsse-nio-8443-exec-6 |ScreenFactory                 |I| Got 11 screens in 0.039s from: file:/D:/ofbiz/ofbiz-framework/framework/webtools/widget/CommonScreens.xml
+2023-12-14 12:51:46,831 |jsse-nio-8443-exec-6 |ScreenFactory                 |I| Got 29 screens in 0.009s from: file:/D:/ofbiz/ofbiz-framework/framework/common/widget/CommonScreens.xml
+2023-12-14 12:51:47,010 |jsse-nio-8443-exec-6 |ScreenFactory                 |I| Got 28 screens in 0.012s from: file:/D:/ofbiz/ofbiz-framework/themes/common-theme/widget/CommonScreens.xml
+2023-12-14 12:51:47,709 |jsse-nio-8443-exec-6 |ModelService                  |I| Set default value [SECURITY] for parameter [primaryPermission]
+2023-12-14 12:51:47,737 |jsse-nio-8443-exec-6 |Log                           |I| [CommonPermissionServices.xml#genericBasePermissionCheck line 59] This simple-method-call is deprecated! Please use a service-call of genericBasePermissionCheck instead.
+2023-12-14 12:51:47,922 |jsse-nio-8443-exec-6 |ServiceDispatcher             |T| Sync service [webtools/genericBasePermissionCheck] finished in [183] milliseconds
+2023-12-14 12:51:47,963 |jsse-nio-8443-exec-6 |UtilProperties                |I| ResourceBundle DefaultMessagesUiLabels (en_US) created in 0.04s with 0 properties
+2023-12-14 12:51:47,964 |jsse-nio-8443-exec-6 |ServiceDispatcher             |T| Sync service [webtools/securityPermissionCheck] finished in [256] milliseconds
+2023-12-14 12:51:48,097 |jsse-nio-8443-exec-6 |ServerHitBin                  |I| Visit delegatorName=default, ServerHitBin delegatorName=default
+2023-12-14 12:51:48,105 |jsse-nio-8443-exec-6 |ControlServlet                |T| [[[webtools::login (Domain:https://localhost)] Request Done- total:1.807,since last([webtools::login ...):1.807]]
+2023-12-14 12:51:53,303 |jsse-nio-8443-exec-1 |ControlEventListener          |I| Creating session:  hidden sessionId by default.
+2023-12-14 12:51:53,307 |jsse-nio-8443-exec-1 |ControlServlet                |T| [[[partymgr::main (Domain:https://localhost)] Request Begun, encoding=[UTF-8]- total:0.0,since last(Begin):0.0]]
+2023-12-14 12:51:53,308 |jsse-nio-8443-exec-1 |VisitHandler                  |I| Found visitorId [13630] in cookie
+2023-12-14 12:51:53,381 |jsse-nio-8443-exec-1 |ConfigXMLReader               |I| controller loaded: 0.001s, 4 requests, 0 views in file:/D:/ofbiz/ofbiz-framework/applications/commonext/webapp/WEB-INF/controller.xml
+2023-12-14 12:51:53,446 |jsse-nio-8443-exec-1 |ConfigXMLReader               |I| controller loaded: 0.021s, 347 requests, 134 views in file:/D:/ofbiz/ofbiz-framework/applications/content/webapp/content/WEB-INF/controller.xml
+2023-12-14 12:51:53,463 |jsse-nio-8443-exec-1 |ConfigXMLReader               |I| controller loaded: 0.106s, 268 requests, 110 views in file:/D:/ofbiz/ofbiz-framework/applications/party/webapp/partymgr/WEB-INF/controller.xml
+2023-12-14 12:51:53,475 |jsse-nio-8443-exec-1 |RequestHandler                |I| This is the first request in this visit. Hidden sessionId by default.
+2023-12-14 12:51:53,482 |jsse-nio-8443-exec-1 |ServiceDispatcher             |T| Sync service [partymgr/getUserPreference] finished in [1] milliseconds
+2023-12-14 12:51:53,484 |jsse-nio-8443-exec-1 |ServiceDispatcher             |T| Sync service [partymgr/getUserPreference] finished in [2] milliseconds
+2023-12-14 12:51:53,553 |jsse-nio-8443-exec-1 |RequestHandler                |I| Rendering View [main].  Hidden sessionId by default.
+2023-12-14 12:51:53,557 |jsse-nio-8443-exec-1 |ServiceDispatcher             |T| Sync service [partymgr/getUserPreferenceGroup] finished in [2] milliseconds
+2023-12-14 12:51:53,680 |jsse-nio-8443-exec-1 |ScreenFactory                 |I| Got 42 screens in 0.114s from: file:/D:/ofbiz/ofbiz-framework/applications/party/widget/partymgr/PartyScreens.xml
+2023-12-14 12:51:53,742 |jsse-nio-8443-exec-1 |ScreenFactory                 |I| Got 5 screens in 0.007s from: file:/D:/ofbiz/ofbiz-framework/applications/party/widget/partymgr/CommonScreens.xml
+2023-12-14 12:51:53,892 |jsse-nio-8443-exec-1 |UtilProperties                |I| ResourceBundle PartyUiLabels (en_US) created in 0.149s with 837 properties
+2023-12-14 12:51:53,950 |jsse-nio-8443-exec-1 |UtilProperties                |I| ResourceBundle MarketingUiLabels (en_US) created in 0.058s with 296 properties
+2023-12-14 12:51:54,206 |jsse-nio-8443-exec-1 |UtilProperties                |I| ResourceBundle AccountingUiLabels (en_US) created in 0.255s with 1568 properties
+2023-12-14 12:51:54,372 |jsse-nio-8443-exec-1 |UtilProperties                |I| ResourceBundle WorkEffortUiLabels (en_US) created in 0.166s with 483 properties
+2023-12-14 12:51:54,445 |jsse-nio-8443-exec-1 |UtilProperties                |I| ResourceBundle ContentUiLabels (en_US) created in 0.073s with 529 properties
+2023-12-14 12:51:54,546 |jsse-nio-8443-exec-1 |UtilProperties                |I| ResourceBundle OrderUiLabels (en_US) created in 0.101s with 0 properties
+2023-12-14 12:51:54,889 |jsse-nio-8443-exec-1 |UtilProperties                |I| ResourceBundle ProductUiLabels (en_US) created in 0.343s with 2621 properties
+2023-12-14 12:51:54,951 |jsse-nio-8443-exec-1 |UtilProperties                |I| ResourceBundle HumanResUiLabels (en_US) created in 0.062s with 314 properties
+2023-12-14 12:51:55,079 |jsse-nio-8443-exec-1 |ScreenFactory                 |I| Got 1 screens in 0.127s from: file:/D:/ofbiz/ofbiz-framework/applications/commonext/widget/CommonScreens.xml
+2023-12-14 12:51:55,159 |jsse-nio-8443-exec-1 |UtilProperties                |I| ResourceBundle CommonExtUiLabels (en_US) created in 0.079s with 7 properties
+2023-12-14 12:51:55,861 |jsse-nio-8443-exec-1 |ServiceDispatcher             |T| Sync service [partymgr/getLastSystemInfoNote] finished in [341] milliseconds
+2023-12-14 12:51:56,094 |jsse-nio-8443-exec-1 |UtilProperties                |I| ResourceBundle general (en_US) created in 0.041s with 25 properties
+2023-12-14 12:51:57,353 |jsse-nio-8443-exec-1 |ServiceDispatcher             |T| Sync service [partymgr/genericBasePermissionCheck] finished in [1] milliseconds
+2023-12-14 12:51:57,354 |jsse-nio-8443-exec-1 |ServiceEcaCondition           |W| doRealCompare returned null, returning false
+2023-12-14 12:51:57,355 |jsse-nio-8443-exec-1 |ServiceDispatcher             |T| Sync service [partymgr/partyBasePermissionCheck] finished in [1000] milliseconds
+2023-12-14 12:51:57,439 |jsse-nio-8443-exec-1 |ServiceEcaCondition           |W| doRealCompare returned null, returning false
+2023-12-14 12:51:57,439 |jsse-nio-8443-exec-1 |ServiceDispatcher             |T| Sync service [partymgr/partyBasePermissionCheck] finished in [3] milliseconds
+2023-12-14 12:51:57,883 |jsse-nio-8443-exec-1 |UtilProperties                |I| ResourceBundle PartyEntityLabels (en_US) created in 0.058s with 301 properties
+2023-12-14 12:51:58,221 |jsse-nio-8443-exec-1 |ModelService                  |I| Set default value [N] for parameter [noConditionFind]
+2023-12-14 12:51:58,241 |jsse-nio-8443-exec-1 |PartyServices                 |I| In findParty mainCond=((statusId IS NULL OR statusId <> 'PARTY_DISABLED'))
+2023-12-14 12:51:58,241 |jsse-nio-8443-exec-1 |ServiceDispatcher             |T| Sync service [partymgr/performFindParty] finished in [20] milliseconds
+2023-12-14 12:51:58,273 |jsse-nio-8443-exec-1 |ServerHitBin                  |I| Visit delegatorName=default, ServerHitBin delegatorName=default
+2023-12-14 12:51:58,276 |jsse-nio-8443-exec-1 |ControlServlet                |T| [[[partymgr::main (Domain:https://localhost)] Request Done- total:4.968,since last([partymgr::main (...):4.968]]
+2023-12-14 12:52:05,627 |jsse-nio-8443-exec-6 |ControlServlet                |T| [[[partymgr::editperson (Domain:https://localhost)] Request Begun, encoding=[UTF-8]- total:0.0,since last(Begin):0.0]]
+2023-12-14 12:52:05,715 |jsse-nio-8443-exec-6 |ConfigXMLReader               |I| controller loaded: 0.001s, 0 requests, 0 views in file:/D:/ofbiz/ofbiz-framework/framework/common/webcommon/WEB-INF/handlers-controller.xml
+2023-12-14 12:52:05,718 |jsse-nio-8443-exec-6 |ConfigXMLReader               |I| controller loaded: 0.027s, 52 requests, 21 views in file:/D:/ofbiz/ofbiz-framework/framework/common/webcommon/WEB-INF/common-controller.xml
+2023-12-14 12:52:05,745 |jsse-nio-8443-exec-6 |ConfigXMLReader               |I| controller loaded: 0.001s, 30 requests, 13 views in file:/D:/ofbiz/ofbiz-framework/framework/common/webcommon/WEB-INF/security-controller.xml
+2023-12-14 12:52:05,766 |jsse-nio-8443-exec-6 |ConfigXMLReader               |I| controller loaded: 0.0s, 4 requests, 0 views in file:/D:/ofbiz/ofbiz-framework/applications/commonext/webapp/WEB-INF/controller.xml
+2023-12-14 12:52:05,824 |jsse-nio-8443-exec-6 |ConfigXMLReader               |I| controller loaded: 0.022s, 347 requests, 134 views in file:/D:/ofbiz/ofbiz-framework/applications/content/webapp/content/WEB-INF/controller.xml
+2023-12-14 12:52:05,840 |jsse-nio-8443-exec-6 |ConfigXMLReader               |I| controller loaded: 0.174s, 268 requests, 110 views in file:/D:/ofbiz/ofbiz-framework/applications/party/webapp/partymgr/WEB-INF/controller.xml
+2023-12-14 12:52:05,854 |jsse-nio-8443-exec-6 |RequestHandler                |I| Rendering View [EditPerson].  Hidden sessionId by default.
+2023-12-14 12:52:05,856 |jsse-nio-8443-exec-6 |ServiceDispatcher             |T| Sync service [partymgr/getUserPreferenceGroup] finished in [1] milliseconds
+2023-12-14 12:52:05,909 |jsse-nio-8443-exec-6 |ScreenFactory                 |I| Got 42 screens in 0.046s from: file:/D:/ofbiz/ofbiz-framework/applications/party/widget/partymgr/PartyScreens.xml
+2023-12-14 12:52:05,912 |jsse-nio-8443-exec-6 |PrimaryKeyFinder              |I| Returning null because found incomplete primary key in find: [GenericEntity:PartyAndPerson][partyId,null()]
+2023-12-14 12:52:05,930 |jsse-nio-8443-exec-6 |ScreenFactory                 |I| Got 5 screens in 0.017s from: file:/D:/ofbiz/ofbiz-framework/applications/party/widget/partymgr/CommonScreens.xml
+2023-12-14 12:52:05,931 |jsse-nio-8443-exec-6 |PrimaryKeyFinder              |I| Returning null because found incomplete primary key in find: [GenericEntity:Party][partyId,null()]
+2023-12-14 12:52:05,931 |jsse-nio-8443-exec-6 |PrimaryKeyFinder              |I| Returning null because found incomplete primary key in find: [GenericEntity:Person][partyId,null()]
+2023-12-14 12:52:05,931 |jsse-nio-8443-exec-6 |PrimaryKeyFinder              |I| Returning null because found incomplete primary key in find: [GenericEntity:PartyGroup][partyId,null()]
+2023-12-14 12:52:05,949 |jsse-nio-8443-exec-6 |ScreenFactory                 |I| Got 1 screens in 0.015s from: file:/D:/ofbiz/ofbiz-framework/applications/commonext/widget/CommonScreens.xml
+2023-12-14 12:52:06,302 |jsse-nio-8443-exec-6 |ServiceDispatcher             |T| Sync service [partymgr/getLastSystemInfoNote] finished in [250] milliseconds
+2023-12-14 12:52:06,336 |jsse-nio-8443-exec-6 |ScreenFactory                 |I| Got 29 screens in 0.016s from: file:/D:/ofbiz/ofbiz-framework/framework/common/widget/CommonScreens.xml
+2023-12-14 12:52:06,592 |jsse-nio-8443-exec-6 |ScreenFactory                 |I| Got 28 screens in 0.013s from: file:/D:/ofbiz/ofbiz-framework/themes/common-theme/widget/CommonScreens.xml
+2023-12-14 12:52:06,962 |jsse-nio-8443-exec-6 |ServiceDispatcher             |T| Sync service [partymgr/genericBasePermissionCheck] finished in [228] milliseconds
+2023-12-14 12:52:06,963 |jsse-nio-8443-exec-6 |ServiceEcaCondition           |W| doRealCompare returned null, returning false
+2023-12-14 12:52:06,963 |jsse-nio-8443-exec-6 |ServiceDispatcher             |T| Sync service [partymgr/partyBasePermissionCheck] finished in [230] milliseconds
+2023-12-14 12:52:06,987 |jsse-nio-8443-exec-6 |ServiceDispatcher             |T| Sync service [partymgr/genericBasePermissionCheck] finished in [1] milliseconds
+2023-12-14 12:52:06,988 |jsse-nio-8443-exec-6 |ServiceEcaCondition           |W| doRealCompare returned null, returning false
+2023-12-14 12:52:06,988 |jsse-nio-8443-exec-6 |ServiceDispatcher             |T| Sync service [partymgr/partyBasePermissionCheck] finished in [3] milliseconds
+2023-12-14 12:52:06,991 |jsse-nio-8443-exec-6 |ServiceDispatcher             |T| Sync service [partymgr/genericBasePermissionCheck] finished in [1] milliseconds
+2023-12-14 12:52:06,992 |jsse-nio-8443-exec-6 |ServiceEcaCondition           |W| doRealCompare returned null, returning false
+2023-12-14 12:52:06,992 |jsse-nio-8443-exec-6 |ServiceDispatcher             |T| Sync service [partymgr/partyBasePermissionCheck] finished in [3] milliseconds
+2023-12-14 12:52:07,798 |jsse-nio-8443-exec-6 |UtilProperties                |I| ResourceBundle CommonEntityLabels (en_US) created in 0.289s with 1406 properties
+2023-12-14 12:52:07,962 |jsse-nio-8443-exec-6 |ServerHitBin                  |I| Visit delegatorName=default, ServerHitBin delegatorName=default
+2023-12-14 12:52:07,965 |jsse-nio-8443-exec-6 |ControlServlet                |T| [[[partymgr::editperson (Domain:https://localhost)] Request Done- total:2.337,since last([partymgr::editpe...):2.337]]
+2023-12-14 12:55:23,122 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18282
+2023-12-14 12:55:23,122 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18283
+2023-12-14 12:55:53,170 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18284
+2023-12-14 12:58:23,253 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Auto-create Fixed Asset Maintenances] Id [19853] -- Next runtime: Thu Dec 14 13:58:23 IST 2023
+2023-12-14 12:58:23,259 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Auto-create Fixed Asset Maintenances] Id [19854] -- Next runtime: Thu Dec 14 13:58:23 IST 2023
+2023-12-14 12:58:23,335 |OFBiz-JobQueue-0     |Log                           |I| [CommonPermissionServices.xml#genericBasePermissionCheck line 59] This simple-method-call is deprecated! Please use a service-call of genericBasePermissionCheck instead.
+2023-12-14 12:58:23,337 |OFBiz-JobQueue-1     |Log                           |I| [CommonPermissionServices.xml#genericBasePermissionCheck line 59] This simple-method-call is deprecated! Please use a service-call of genericBasePermissionCheck instead.
+2023-12-14 12:58:23,516 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/genericBasePermissionCheck] finished in [180] milliseconds
+2023-12-14 12:58:23,517 |OFBiz-JobQueue-0     |ServiceEcaCondition           |W| doRealCompare returned null, returning false
+2023-12-14 12:58:23,517 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/fixedAssetPermissionCheck] finished in [258] milliseconds
+2023-12-14 12:58:23,625 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/genericBasePermissionCheck] finished in [287] milliseconds
+2023-12-14 12:58:23,625 |OFBiz-JobQueue-1     |ServiceEcaCondition           |W| doRealCompare returned null, returning false
+2023-12-14 12:58:23,626 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/fixedAssetPermissionCheck] finished in [367] milliseconds
+2023-12-14 12:58:24,972 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/createMaintsFromTimeInterval] finished in [1713] milliseconds
+2023-12-14 12:58:25,024 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Auto-create Fixed Asset Maintenances] Id [19855] -- Next runtime: Thu Dec 14 13:58:25 IST 2023
+2023-12-14 12:58:25,024 |OFBiz-JobQueue-0     |Log                           |I| [CommonPermissionServices.xml#genericBasePermissionCheck line 59] This simple-method-call is deprecated! Please use a service-call of genericBasePermissionCheck instead.
+2023-12-14 12:58:25,025 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/genericBasePermissionCheck] finished in [1] milliseconds
+2023-12-14 12:58:25,026 |OFBiz-JobQueue-0     |ServiceEcaCondition           |W| doRealCompare returned null, returning false
+2023-12-14 12:58:25,026 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/fixedAssetPermissionCheck] finished in [2] milliseconds
+2023-12-14 12:58:25,033 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/createMaintsFromTimeInterval] finished in [8] milliseconds
+2023-12-14 12:58:25,943 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/createMaintsFromTimeInterval] finished in [2685] milliseconds
+2023-12-14 13:03:23,477 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [19862] -- Next runtime: Thu Dec 14 13:18:23 IST 2023
+2023-12-14 13:03:23,481 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [19863] -- Next runtime: Thu Dec 14 13:18:23 IST 2023
+2023-12-14 13:03:25,247 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1770] milliseconds
+2023-12-14 13:03:26,575 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [3094] milliseconds
+2023-12-14 13:03:53,543 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [19864] -- Next runtime: Thu Dec 14 13:18:53 IST 2023
+2023-12-14 13:03:54,924 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1380] milliseconds
+2023-12-14 13:08:12,841 |Catalina-utility-2   |ControlEventListener          |I| Destroying session:  hidden sessionId by default.
+2023-12-14 13:08:12,893 |Catalina-utility-2   |ControlEventListener          |I| Destroying session:  hidden sessionId by default.
+2023-12-14 13:08:12,894 |Catalina-utility-2   |ControlEventListener          |I| Could not find visit value object in session [ hidden sessionId by default.] that is being destroyed
+2023-12-14 13:08:12,895 |Catalina-utility-2   |ControlEventListener          |I| Destroying session:  hidden sessionId by default.
+2023-12-14 13:08:12,895 |Catalina-utility-2   |ControlEventListener          |I| Could not find visit value object in session [ hidden sessionId by default.] that is being destroyed
+2023-12-14 13:08:12,895 |Catalina-utility-2   |ControlEventListener          |I| Destroying session:  hidden sessionId by default.
+2023-12-14 13:08:12,899 |Catalina-utility-2   |ControlEventListener          |I| Destroying session:  hidden sessionId by default.
+2023-12-14 13:08:42,951 |Catalina-utility-1   |ControlEventListener          |I| Could not find visit value object in session [ hidden sessionId by default.] that is being destroyed
+2023-12-14 13:08:42,951 |Catalina-utility-1   |ControlEventListener          |I| Destroying session:  hidden sessionId by default.
+2023-12-14 13:08:42,952 |Catalina-utility-1   |ControlEventListener          |I| Could not find visit value object in session [ hidden sessionId by default.] that is being destroyed
+2023-12-14 13:08:42,952 |Catalina-utility-1   |ControlEventListener          |I| Destroying session:  hidden sessionId by default.
+2023-12-14 13:08:42,956 |Catalina-utility-1   |ControlEventListener          |I| Destroying session:  hidden sessionId by default.
+2023-12-14 13:08:43,008 |Catalina-utility-1   |ControlEventListener          |I| Destroying session:  hidden sessionId by default.
+2023-12-14 13:09:13,052 |Catalina-utility-2   |ControlEventListener          |I| Destroying session:  hidden sessionId by default.
+2023-12-14 13:09:13,101 |Catalina-utility-2   |ControlEventListener          |I| Could not find visit value object in session [ hidden sessionId by default.] that is being destroyed
+2023-12-14 13:09:13,101 |Catalina-utility-2   |ControlEventListener          |I| Destroying session:  hidden sessionId by default.
+2023-12-14 13:10:23,790 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18286
+2023-12-14 13:10:23,790 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18287
+2023-12-14 13:10:53,798 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18288
+2023-12-14 13:14:43,676 |Catalina-utility-2   |ControlEventListener          |I| Could not find visit value object in session [ hidden sessionId by default.] that is being destroyed
+2023-12-14 13:14:43,677 |Catalina-utility-2   |ControlEventListener          |I| Destroying session:  hidden sessionId by default.
+2023-12-14 13:14:43,681 |Catalina-utility-2   |ControlEventListener          |I| Destroying session:  hidden sessionId by default.
+2023-12-14 13:18:23,988 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [19868] -- Next runtime: Thu Dec 14 13:33:23 IST 2023
+2023-12-14 13:18:23,989 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [19869] -- Next runtime: Thu Dec 14 13:33:23 IST 2023
+2023-12-14 13:18:24,712 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [723] milliseconds
+2023-12-14 13:18:25,457 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1469] milliseconds
+2023-12-14 13:18:54,024 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [19870] -- Next runtime: Thu Dec 14 13:33:54 IST 2023
+2023-12-14 13:18:54,740 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [715] milliseconds
+2023-12-14 13:24:54,208 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18278
+2023-12-14 13:24:54,208 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18277
+2023-12-14 13:25:24,208 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18289
+2023-12-14 13:25:24,209 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18290
+2023-12-14 13:25:54,240 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18291
+2023-12-14 13:33:24,470 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [19871] -- Next runtime: Thu Dec 14 13:48:24 IST 2023
+2023-12-14 13:33:24,474 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [19872] -- Next runtime: Thu Dec 14 13:48:24 IST 2023
+2023-12-14 13:33:25,185 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [715] milliseconds
+2023-12-14 13:33:25,866 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1392] milliseconds
+2023-12-14 13:33:54,502 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [19873] -- Next runtime: Thu Dec 14 13:48:54 IST 2023
+2023-12-14 13:33:55,253 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [751] milliseconds
+2023-12-14 13:40:24,700 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18295
+2023-12-14 13:40:24,701 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18294
+2023-12-14 13:40:54,709 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18296
+2023-12-14 13:45:54,871 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18285
+2023-12-14 13:48:25,003 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [19874] -- Next runtime: Thu Dec 14 14:03:25 IST 2023
+2023-12-14 13:48:25,005 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [19875] -- Next runtime: Thu Dec 14 14:03:25 IST 2023
+2023-12-14 13:48:25,707 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [704] milliseconds
+2023-12-14 13:48:26,383 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1378] milliseconds
+2023-12-14 13:48:55,041 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [19876] -- Next runtime: Thu Dec 14 14:03:55 IST 2023
+2023-12-14 13:48:55,740 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [699] milliseconds
+2023-12-14 13:52:17,514 |Catalina-utility-1   |ControlEventListener          |I| Destroying session:  hidden sessionId by default.
+2023-12-14 13:52:17,527 |Catalina-utility-1   |ControlEventListener          |I| Destroying session:  hidden sessionId by default.
+2023-12-14 13:55:25,247 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18297
+2023-12-14 13:55:25,248 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18298
+2023-12-14 13:55:55,292 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18299
+2023-12-14 13:58:25,351 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Auto-create Fixed Asset Maintenances] Id [19865] -- Next runtime: Thu Dec 14 14:58:25 IST 2023
+2023-12-14 13:58:25,378 |OFBiz-JobQueue-1     |Log                           |I| [CommonPermissionServices.xml#genericBasePermissionCheck line 59] This simple-method-call is deprecated! Please use a service-call of genericBasePermissionCheck instead.
+2023-12-14 13:58:25,460 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/genericBasePermissionCheck] finished in [82] milliseconds
+2023-12-14 13:58:25,460 |OFBiz-JobQueue-1     |ServiceEcaCondition           |W| doRealCompare returned null, returning false
+2023-12-14 13:58:25,461 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/fixedAssetPermissionCheck] finished in [108] milliseconds
+2023-12-14 13:58:25,521 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Auto-create Fixed Asset Maintenances] Id [19866] -- Next runtime: Thu Dec 14 14:58:25 IST 2023
+2023-12-14 13:58:25,523 |OFBiz-JobQueue-0     |Log                           |I| [CommonPermissionServices.xml#genericBasePermissionCheck line 59] This simple-method-call is deprecated! Please use a service-call of genericBasePermissionCheck instead.
+2023-12-14 13:58:25,524 |OFBiz-JobQueue-0     |ServiceEcaCondition           |W| doRealCompare returned null, returning false
+2023-12-14 13:58:25,524 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/fixedAssetPermissionCheck] finished in [3] milliseconds
+2023-12-14 13:58:25,983 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/createMaintsFromTimeInterval] finished in [632] milliseconds
+2023-12-14 13:58:25,987 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Auto-create Fixed Asset Maintenances] Id [19867] -- Next runtime: Thu Dec 14 14:58:25 IST 2023
+2023-12-14 13:58:25,988 |OFBiz-JobQueue-1     |Log                           |I| [CommonPermissionServices.xml#genericBasePermissionCheck line 59] This simple-method-call is deprecated! Please use a service-call of genericBasePermissionCheck instead.
+2023-12-14 13:58:25,989 |OFBiz-JobQueue-1     |ServiceEcaCondition           |W| doRealCompare returned null, returning false
+2023-12-14 13:58:25,989 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/fixedAssetPermissionCheck] finished in [2] milliseconds
+2023-12-14 13:58:25,994 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/createMaintsFromTimeInterval] finished in [7] milliseconds
+2023-12-14 13:58:26,481 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/createMaintsFromTimeInterval] finished in [960] milliseconds
+2023-12-14 14:03:25,604 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [19878] -- Next runtime: Thu Dec 14 14:18:25 IST 2023
+2023-12-14 14:03:25,609 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [19877] -- Next runtime: Thu Dec 14 14:18:25 IST 2023
+2023-12-14 14:03:26,307 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [703] milliseconds
+2023-12-14 14:03:27,000 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1390] milliseconds
+2023-12-14 14:03:55,628 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [19879] -- Next runtime: Thu Dec 14 14:18:55 IST 2023
+2023-12-14 14:03:56,322 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [694] milliseconds
+2023-12-14 14:10:25,798 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18301
+2023-12-14 14:10:25,801 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18302
+2023-12-14 14:10:55,805 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18303
+2023-12-14 14:43:01,353 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [19883] -- Next runtime: Thu Dec 14 14:58:01 IST 2023
+2023-12-14 14:43:01,357 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [19884] -- Next runtime: Thu Dec 14 14:58:01 IST 2023
+2023-12-14 14:43:01,949 |OFBiz-JobPoller      |TransactionUtil               |W| In getSetRollbackOnlyCause no stack placeholder was in place, here is the current location: 
+java.lang.Exception: Current Stack Trace
+	at org.apache.ofbiz.entity.transaction.TransactionUtil.getSetRollbackOnlyCause(TransactionUtil.java:849) [main/:?]
+	at org.apache.ofbiz.entity.transaction.TransactionUtil.commit(TransactionUtil.java:265) [main/:?]
+	at org.apache.ofbiz.entity.transaction.TransactionUtil.commit(TransactionUtil.java:233) [main/:?]
+	at org.apache.ofbiz.entity.GenericDelegator.store(GenericDelegator.java:1297) [main/:?]
+	at org.apache.ofbiz.entity.GenericValue.store(GenericValue.java:80) [main/:?]
+	at org.apache.ofbiz.service.job.PersistedServiceJob.queue(PersistedServiceJob.java:133) [main/:?]
+	at org.apache.ofbiz.service.job.JobPoller.queueNow(JobPoller.java:210) [main/:?]
+	at org.apache.ofbiz.service.job.JobPoller$JobManagerPoller.run(JobPoller.java:292) [main/:?]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+2023-12-14 14:43:01,977 |OFBiz-JobPoller      |GenericDelegator              |E| Failure in store operation for entity [JobSandbox]: org.apache.ofbiz.entity.transaction.GenericTransactionException: Roll back error (with no rollbackOnly cause found), could not commit transaction, was rolled back instead: java.lang.Exception: Transaction has timed out (Transaction has timed out). Rolling back transaction.
+org.apache.ofbiz.entity.transaction.GenericTransactionException: Roll back error (with no rollbackOnly cause found), could not commit transaction, was rolled back instead: java.lang.Exception: Transaction has timed out (Transaction has timed out)
+	at org.apache.ofbiz.entity.transaction.TransactionUtil.commit(TransactionUtil.java:279) ~[main/:?]
+	at org.apache.ofbiz.entity.transaction.TransactionUtil.commit(TransactionUtil.java:233) ~[main/:?]
+	at org.apache.ofbiz.entity.GenericDelegator.store(GenericDelegator.java:1297) [main/:?]
+	at org.apache.ofbiz.entity.GenericValue.store(GenericValue.java:80) [main/:?]
+	at org.apache.ofbiz.service.job.PersistedServiceJob.queue(PersistedServiceJob.java:133) [main/:?]
+	at org.apache.ofbiz.service.job.JobPoller.queueNow(JobPoller.java:210) [main/:?]
+	at org.apache.ofbiz.service.job.JobPoller$JobManagerPoller.run(JobPoller.java:292) [main/:?]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+Caused by: java.lang.Exception: Transaction has timed out
+	at org.apache.geronimo.transaction.manager.TransactionImpl.commit(TransactionImpl.java:266) ~[geronimo-transaction-3.1.5.jar:3.1.5]
+	at org.apache.geronimo.transaction.manager.TransactionManagerImpl.commit(TransactionManagerImpl.java:263) ~[geronimo-transaction-3.1.5.jar:3.1.5]
+	at org.apache.ofbiz.entity.transaction.TransactionUtil.commit(TransactionUtil.java:250) ~[main/:?]
+	... 7 more
+2023-12-14 14:43:01,977 |OFBiz-JobPoller      |TransactionUtil               |W| Transaction not rolled back, status is STATUS_NO_TRANSACTION
+2023-12-14 14:43:01,978 |OFBiz-JobPoller      |JobPoller                     |E| null
+org.apache.ofbiz.service.job.InvalidJobException: Unable to set the startDateTime and statusId on the current job [19885]; not running! (org.apache.ofbiz.entity.transaction.GenericTransactionException: Roll back error (with no rollbackOnly cause found), could not commit transaction, was rolled back instead: java.lang.Exception: Transaction has timed out (Transaction has timed out) (Roll back error (with no rollbackOnly cause found), could not commit transaction, was rolled back instead: java.lang.Exception: Transaction has timed out (Transaction has timed out)))
+	at org.apache.ofbiz.service.job.PersistedServiceJob.queue(PersistedServiceJob.java:135) ~[main/:?]
+	at org.apache.ofbiz.service.job.JobPoller.queueNow(JobPoller.java:210) ~[main/:?]
+	at org.apache.ofbiz.service.job.JobPoller$JobManagerPoller.run(JobPoller.java:292) [main/:?]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+Caused by: org.apache.ofbiz.entity.GenericEntityException: org.apache.ofbiz.entity.transaction.GenericTransactionException: Roll back error (with no rollbackOnly cause found), could not commit transaction, was rolled back instead: java.lang.Exception: Transaction has timed out (Transaction has timed out) (Roll back error (with no rollbackOnly cause found), could not commit transaction, was rolled back instead: java.lang.Exception: Transaction has timed out (Transaction has timed out))
+	at org.apache.ofbiz.entity.GenericDelegator.store(GenericDelegator.java:1303) ~[main/:?]
+	at org.apache.ofbiz.entity.GenericValue.store(GenericValue.java:80) ~[main/:?]
+	at org.apache.ofbiz.service.job.PersistedServiceJob.queue(PersistedServiceJob.java:133) ~[main/:?]
+	... 3 more
+Caused by: org.apache.ofbiz.entity.transaction.GenericTransactionException: Roll back error (with no rollbackOnly cause found), could not commit transaction, was rolled back instead: java.lang.Exception: Transaction has timed out (Transaction has timed out)
+	at org.apache.ofbiz.entity.transaction.TransactionUtil.commit(TransactionUtil.java:279) ~[main/:?]
+	at org.apache.ofbiz.entity.transaction.TransactionUtil.commit(TransactionUtil.java:233) ~[main/:?]
+	at org.apache.ofbiz.entity.GenericDelegator.store(GenericDelegator.java:1297) ~[main/:?]
+	at org.apache.ofbiz.entity.GenericValue.store(GenericValue.java:80) ~[main/:?]
+	at org.apache.ofbiz.service.job.PersistedServiceJob.queue(PersistedServiceJob.java:133) ~[main/:?]
+	... 3 more
+Caused by: java.lang.Exception: Transaction has timed out
+	at org.apache.geronimo.transaction.manager.TransactionImpl.commit(TransactionImpl.java:266) ~[geronimo-transaction-3.1.5.jar:3.1.5]
+	at org.apache.geronimo.transaction.manager.TransactionManagerImpl.commit(TransactionManagerImpl.java:263) ~[geronimo-transaction-3.1.5.jar:3.1.5]
+	at org.apache.ofbiz.entity.transaction.TransactionUtil.commit(TransactionUtil.java:250) ~[main/:?]
+	at org.apache.ofbiz.entity.transaction.TransactionUtil.commit(TransactionUtil.java:233) ~[main/:?]
+	at org.apache.ofbiz.entity.GenericDelegator.store(GenericDelegator.java:1297) ~[main/:?]
+	at org.apache.ofbiz.entity.GenericValue.store(GenericValue.java:80) ~[main/:?]
+	at org.apache.ofbiz.service.job.PersistedServiceJob.queue(PersistedServiceJob.java:133) ~[main/:?]
+	... 3 more
+2023-12-14 14:43:03,653 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [2300] milliseconds
+2023-12-14 14:43:04,969 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [3612] milliseconds
+2023-12-14 14:43:31,985 |OFBiz-JobPoller      |TransactionUtil               |W| In setTransactionBeginStack a stack placeholder was already in place, here is where the transaction began: 
+java.lang.Exception: Tx Stack Placeholder
+	at org.apache.ofbiz.entity.transaction.TransactionUtil.setTransactionBeginStack(TransactionUtil.java:740) ~[main/:?]
+	at org.apache.ofbiz.entity.transaction.TransactionUtil.begin(TransactionUtil.java:155) ~[main/:?]
+	at org.apache.ofbiz.entity.transaction.TransactionUtil.begin(TransactionUtil.java:109) ~[main/:?]
+	at org.apache.ofbiz.entity.GenericDelegator.store(GenericDelegator.java:1262) ~[main/:?]
+	at org.apache.ofbiz.entity.GenericValue.store(GenericValue.java:80) ~[main/:?]
+	at org.apache.ofbiz.service.job.PersistedServiceJob.queue(PersistedServiceJob.java:133) ~[main/:?]
+	at org.apache.ofbiz.service.job.JobPoller.queueNow(JobPoller.java:210) ~[main/:?]
+	at org.apache.ofbiz.service.job.JobPoller$JobManagerPoller.run(JobPoller.java:292) [main/:?]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+2023-12-14 14:43:31,985 |OFBiz-JobPoller      |TransactionUtil               |W| In setTransactionBeginStack a stack placeholder was already in place, here is the current location: 
+java.lang.Exception: Current Stack Trace
+	at org.apache.ofbiz.entity.transaction.TransactionUtil.setTransactionBeginStack(TransactionUtil.java:749) [main/:?]
+	at org.apache.ofbiz.entity.transaction.TransactionUtil.setTransactionBeginStack(TransactionUtil.java:741) [main/:?]
+	at org.apache.ofbiz.entity.transaction.TransactionUtil.begin(TransactionUtil.java:155) [main/:?]
+	at org.apache.ofbiz.entity.transaction.TransactionUtil.begin(TransactionUtil.java:109) [main/:?]
+	at org.apache.ofbiz.entity.GenericDelegator.findCountByCondition(GenericDelegator.java:1724) [main/:?]
+	at org.apache.ofbiz.entity.GenericDelegator.findCountByCondition(GenericDelegator.java:1710) [main/:?]
+	at org.apache.ofbiz.service.job.JobManager.isAvailable(JobManager.java:152) [main/:?]
+	at org.apache.ofbiz.service.job.JobPoller$JobManagerPoller.run(JobPoller.java:267) [main/:?]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+2023-12-14 14:43:32,000 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18304
+2023-12-14 14:43:32,000 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18293
+2023-12-14 14:43:32,002 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18292
+2023-12-14 14:43:32,003 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18311
+2023-12-14 14:43:32,005 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18310
+2023-12-14 14:43:32,006 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18309
+2023-12-14 14:43:32,008 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18306
+2023-12-14 14:43:32,008 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18305
+2023-12-14 14:46:09,635 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18300
+2023-12-14 14:55:40,008 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18313
+2023-12-14 14:55:40,008 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18312
+2023-12-14 14:56:09,974 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18314
+2023-12-14 14:58:10,085 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [19887] -- Next runtime: Thu Dec 14 15:13:10 IST 2023
+2023-12-14 14:58:10,105 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [19886] -- Next runtime: Thu Dec 14 15:13:10 IST 2023
+2023-12-14 14:58:11,703 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1617] milliseconds
+2023-12-14 14:58:12,762 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [2657] milliseconds
+2023-12-14 14:58:40,150 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Auto-create Fixed Asset Maintenances] Id [19880] -- Next runtime: Thu Dec 14 15:58:40 IST 2023
+2023-12-14 14:58:40,157 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Auto-create Fixed Asset Maintenances] Id [19881] -- Next runtime: Thu Dec 14 15:58:40 IST 2023
+2023-12-14 14:58:40,211 |OFBiz-JobQueue-1     |Log                           |I| [CommonPermissionServices.xml#genericBasePermissionCheck line 59] This simple-method-call is deprecated! Please use a service-call of genericBasePermissionCheck instead.
+2023-12-14 14:58:40,215 |OFBiz-JobQueue-0     |Log                           |I| [CommonPermissionServices.xml#genericBasePermissionCheck line 59] This simple-method-call is deprecated! Please use a service-call of genericBasePermissionCheck instead.
+2023-12-14 14:58:40,416 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/genericBasePermissionCheck] finished in [204] milliseconds
+2023-12-14 14:58:40,417 |OFBiz-JobQueue-1     |ServiceEcaCondition           |W| doRealCompare returned null, returning false
+2023-12-14 14:58:40,418 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/fixedAssetPermissionCheck] finished in [267] milliseconds
+2023-12-14 14:58:40,549 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/genericBasePermissionCheck] finished in [334] milliseconds
+2023-12-14 14:58:40,550 |OFBiz-JobQueue-0     |ServiceEcaCondition           |W| doRealCompare returned null, returning false
+2023-12-14 14:58:40,551 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/fixedAssetPermissionCheck] finished in [392] milliseconds
+2023-12-14 14:58:41,656 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/createMaintsFromTimeInterval] finished in [1506] milliseconds
+2023-12-14 14:58:41,708 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Auto-create Fixed Asset Maintenances] Id [19882] -- Next runtime: Thu Dec 14 15:58:41 IST 2023
+2023-12-14 14:58:41,713 |OFBiz-JobQueue-1     |Log                           |I| [CommonPermissionServices.xml#genericBasePermissionCheck line 59] This simple-method-call is deprecated! Please use a service-call of genericBasePermissionCheck instead.
+2023-12-14 14:58:41,715 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/genericBasePermissionCheck] finished in [1] milliseconds
+2023-12-14 14:58:41,715 |OFBiz-JobQueue-1     |ServiceEcaCondition           |W| doRealCompare returned null, returning false
+2023-12-14 14:58:41,715 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/fixedAssetPermissionCheck] finished in [3] milliseconds
+2023-12-14 14:58:41,724 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/createMaintsFromTimeInterval] finished in [16] milliseconds
+2023-12-14 14:58:42,385 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/createMaintsFromTimeInterval] finished in [2228] milliseconds
+2023-12-14 15:10:40,505 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18317
+2023-12-14 15:10:40,506 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18316
+2023-12-14 15:11:10,564 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18318
+2023-12-14 15:13:10,637 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [19888] -- Next runtime: Thu Dec 14 15:28:10 IST 2023
+2023-12-14 15:13:10,644 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [19889] -- Next runtime: Thu Dec 14 15:28:10 IST 2023
+2023-12-14 15:13:12,246 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1607] milliseconds
+2023-12-14 15:13:13,613 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [2969] milliseconds
+2023-12-14 15:25:11,047 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18308
+2023-12-14 15:25:11,047 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18307
+2023-12-14 15:25:41,055 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18319
+2023-12-14 15:25:41,056 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18320
+2023-12-14 15:26:11,075 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18321
+2023-12-14 15:28:11,089 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [19893] -- Next runtime: Thu Dec 14 15:43:11 IST 2023
+2023-12-14 15:28:11,091 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [19894] -- Next runtime: Thu Dec 14 15:43:11 IST 2023
+2023-12-14 15:28:12,361 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1272] milliseconds
+2023-12-14 15:28:13,852 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [2761] milliseconds
+2023-12-14 15:40:41,588 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18325
+2023-12-14 15:40:41,588 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18324
+2023-12-14 15:41:11,622 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18326
+2023-12-14 15:43:11,652 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [19895] -- Next runtime: Thu Dec 14 15:58:11 IST 2023
+2023-12-14 15:43:11,657 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [19896] -- Next runtime: Thu Dec 14 15:58:11 IST 2023
+2023-12-14 15:43:12,981 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1329] milliseconds
+2023-12-14 15:43:14,384 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [2727] milliseconds
+2023-12-14 15:46:11,812 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18315
+2023-12-14 15:55:42,069 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18327
+2023-12-14 15:55:42,069 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18328
+2023-12-14 15:56:12,083 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18329
+2023-12-14 15:58:12,151 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [19897] -- Next runtime: Thu Dec 14 16:13:12 IST 2023
+2023-12-14 15:58:12,155 |OFBiz-JobQueue-1     |TransactionUtil               |W| No transaction in place, so not suspending.
+2023-12-14 15:58:12,174 |OFBiz-JobQueue-1     |SequenceUtil                  |I| Got bank of sequenced IDs for [JobSandbox]; curSeqId=19900, maxSeqId=20000, bankSize=100
+2023-12-14 15:58:12,179 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [19898] -- Next runtime: Thu Dec 14 16:13:12 IST 2023
+2023-12-14 15:58:14,073 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1921] milliseconds
+2023-12-14 15:58:15,404 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [3225] milliseconds
+2023-12-14 15:58:42,222 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Auto-create Fixed Asset Maintenances] Id [19890] -- Next runtime: Thu Dec 14 16:58:42 IST 2023
+2023-12-14 15:58:42,334 |OFBiz-JobQueue-0     |Log                           |I| [CommonPermissionServices.xml#genericBasePermissionCheck line 59] This simple-method-call is deprecated! Please use a service-call of genericBasePermissionCheck instead.
+2023-12-14 15:58:42,527 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Auto-create Fixed Asset Maintenances] Id [19891] -- Next runtime: Thu Dec 14 16:58:42 IST 2023
+2023-12-14 15:58:42,530 |OFBiz-JobQueue-1     |Log                           |I| [CommonPermissionServices.xml#genericBasePermissionCheck line 59] This simple-method-call is deprecated! Please use a service-call of genericBasePermissionCheck instead.
+2023-12-14 15:58:42,759 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/genericBasePermissionCheck] finished in [424] milliseconds
+2023-12-14 15:58:42,762 |OFBiz-JobQueue-0     |ServiceEcaCondition           |W| doRealCompare returned null, returning false
+2023-12-14 15:58:42,763 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/fixedAssetPermissionCheck] finished in [539] milliseconds
+2023-12-14 15:58:43,145 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/genericBasePermissionCheck] finished in [611] milliseconds
+2023-12-14 15:58:43,148 |OFBiz-JobQueue-1     |ServiceEcaCondition           |W| doRealCompare returned null, returning false
+2023-12-14 15:58:43,149 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/fixedAssetPermissionCheck] finished in [620] milliseconds
+2023-12-14 15:58:44,637 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/createMaintsFromTimeInterval] finished in [2414] milliseconds
+2023-12-14 15:58:44,695 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Auto-create Fixed Asset Maintenances] Id [19892] -- Next runtime: Thu Dec 14 16:58:44 IST 2023
+2023-12-14 15:58:44,697 |OFBiz-JobQueue-0     |Log                           |I| [CommonPermissionServices.xml#genericBasePermissionCheck line 59] This simple-method-call is deprecated! Please use a service-call of genericBasePermissionCheck instead.
+2023-12-14 15:58:44,699 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/genericBasePermissionCheck] finished in [2] milliseconds
+2023-12-14 15:58:44,701 |OFBiz-JobQueue-0     |ServiceEcaCondition           |W| doRealCompare returned null, returning false
+2023-12-14 15:58:44,702 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/fixedAssetPermissionCheck] finished in [7] milliseconds
+2023-12-14 15:58:44,715 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/createMaintsFromTimeInterval] finished in [20] milliseconds
+2023-12-14 15:58:45,707 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/createMaintsFromTimeInterval] finished in [3180] milliseconds
+2023-12-14 16:10:42,722 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18331
+2023-12-14 16:10:42,722 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18332
+2023-12-14 16:11:12,743 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18333
+2023-12-14 16:13:12,774 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [19899] -- Next runtime: Thu Dec 14 16:28:12 IST 2023
+2023-12-14 16:13:12,778 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [19900] -- Next runtime: Thu Dec 14 16:28:12 IST 2023
+2023-12-14 16:13:14,056 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1281] milliseconds
+2023-12-14 16:13:15,271 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [2493] milliseconds
+2023-12-14 16:16:09,061 |jsse-nio-8443-exec-7 |ControlEventListener          |I| Creating session:  hidden sessionId by default.
+2023-12-14 16:16:09,073 |jsse-nio-8443-exec-7 |ControlServlet                |T| [[[onlineexam::loginEvent (Domain:https://localhost)] Request Begun, encoding=[UTF-8]- total:0.0,since last(Begin):0.0]]
+2023-12-14 16:16:09,074 |jsse-nio-8443-exec-7 |VisitHandler                  |I| Found visitorId [11700] in cookie
+2023-12-14 16:16:09,149 |jsse-nio-8443-exec-7 |ConfigXMLReader               |I| controller loaded: 0.0s, 0 requests, 0 views in file:/D:/ofbiz/ofbiz-framework/framework/common/webcommon/WEB-INF/handlers-controller.xml
+2023-12-14 16:16:09,152 |jsse-nio-8443-exec-7 |ConfigXMLReader               |I| controller loaded: 0.016s, 52 requests, 21 views in file:/D:/ofbiz/ofbiz-framework/framework/common/webcommon/WEB-INF/common-controller.xml
+2023-12-14 16:16:09,152 |jsse-nio-8443-exec-7 |ConfigXMLReader               |I| controller loaded: 0.037s, 4 requests, 1 views in file:/D:/ofbiz/ofbiz-framework/plugins/onlineexam/webapp/onlineexam/WEB-INF/controller.xml
+2023-12-14 16:16:09,154 |jsse-nio-8443-exec-7 |RequestHandler                |I| This is the first request in this visit. Hidden sessionId by default.
+2023-12-14 16:16:09,159 |jsse-nio-8443-exec-7 |LoginWorker                   |I| Setting default delegator
+2023-12-14 16:16:09,172 |jsse-nio-8443-exec-7 |ServiceDispatcher             |T| Sync service [onlineexam/userLogin] finished in [12] milliseconds
+2023-12-14 16:16:09,172 |jsse-nio-8443-exec-7 |VisitHandler                  |I| Found visitorId [11700] in cookie
+2023-12-14 16:16:09,176 |jsse-nio-8443-exec-7 |ServiceDispatcher             |T| Sync service [onlineexam/preferenceGetSetPermission] finished in [1] milliseconds
+2023-12-14 16:16:09,184 |jsse-nio-8443-exec-7 |ServiceDispatcher             |T| Sync service [onlineexam/setUserPreference] finished in [9] milliseconds
+2023-12-14 16:16:09,187 |jsse-nio-8443-exec-7 |ServiceDispatcher             |T| Sync service [onlineexam/getUserPreference] finished in [2] milliseconds
+2023-12-14 16:16:09,190 |jsse-nio-8443-exec-7 |ServiceDispatcher             |T| Sync service [onlineexam/getUserPreference] finished in [2] milliseconds
+2023-12-14 16:16:09,216 |jsse-nio-8443-exec-7 |RequestHandler                |I| Ran Event [java:com.vastpro.onlineexam.events.LoginEvent#loginEvent] from [request], result is [success]
+2023-12-14 16:16:09,227 |jsse-nio-8443-exec-7 |RequestHandler                |I| [RequestHandler.doRequest]: Response is a chained request. Hidden sessionId by default.
+2023-12-14 16:16:09,228 |jsse-nio-8443-exec-7 |RequestHandler                |I| [RequestHandler]: Chain in place: requestUri=json overrideViewUri=null Hidden sessionId by default.
+2023-12-14 16:16:09,235 |jsse-nio-8443-exec-7 |RequestHandler                |I| Ran Event [java:org.apache.ofbiz.common.CommonEvents#jsonResponseFromRequestAttributes] from [request], result is [success]
+2023-12-14 16:16:09,242 |jsse-nio-8443-exec-7 |ServerHitBin                  |I| Visit delegatorName=default, ServerHitBin delegatorName=default
+2023-12-14 16:16:09,251 |jsse-nio-8443-exec-7 |ControlServlet                |T| [[[onlineexam::loginEvent (Domain:https://localhost)] Request Done- total:0.177,since last([onlineexam::logi...):0.177]]
+2023-12-14 16:25:13,159 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18323
+2023-12-14 16:25:13,159 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18322
+2023-12-14 16:25:43,161 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18334
+2023-12-14 16:25:43,163 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18335
+2023-12-14 16:26:13,220 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18336
+2023-12-14 16:28:13,312 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [19904] -- Next runtime: Thu Dec 14 16:43:13 IST 2023
+2023-12-14 16:28:13,317 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [19905] -- Next runtime: Thu Dec 14 16:43:13 IST 2023
+2023-12-14 16:28:15,207 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1895] milliseconds
+2023-12-14 16:28:16,831 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [3514] milliseconds
+2023-12-14 16:40:43,678 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18339
+2023-12-14 16:40:43,679 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18340
+2023-12-14 16:41:13,687 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18341
+2023-12-14 16:43:13,829 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [19906] -- Next runtime: Thu Dec 14 16:58:13 IST 2023
+2023-12-14 16:43:13,837 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [19907] -- Next runtime: Thu Dec 14 16:58:13 IST 2023
+2023-12-14 16:43:15,306 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1475] milliseconds
+2023-12-14 16:43:16,745 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [2908] milliseconds
+2023-12-14 16:57:44,300 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18330
+2023-12-14 16:57:44,300 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18342
+2023-12-14 16:57:44,305 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18344
+2023-12-14 16:57:44,305 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18343
+2023-12-14 16:58:14,331 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [19908] -- Next runtime: Thu Dec 14 17:13:14 IST 2023
+2023-12-14 16:58:14,337 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [19909] -- Next runtime: Thu Dec 14 17:13:14 IST 2023
+2023-12-14 16:58:15,718 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1387] milliseconds
+2023-12-14 16:58:17,048 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [2710] milliseconds
+2023-12-14 16:58:44,406 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Auto-create Fixed Asset Maintenances] Id [19901] -- Next runtime: Thu Dec 14 17:58:44 IST 2023
+2023-12-14 16:58:44,435 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Auto-create Fixed Asset Maintenances] Id [19902] -- Next runtime: Thu Dec 14 17:58:44 IST 2023
+2023-12-14 16:58:44,518 |OFBiz-JobQueue-0     |Log                           |I| [CommonPermissionServices.xml#genericBasePermissionCheck line 59] This simple-method-call is deprecated! Please use a service-call of genericBasePermissionCheck instead.
+2023-12-14 16:58:44,518 |OFBiz-JobQueue-1     |Log                           |I| [CommonPermissionServices.xml#genericBasePermissionCheck line 59] This simple-method-call is deprecated! Please use a service-call of genericBasePermissionCheck instead.
+2023-12-14 16:58:45,070 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/genericBasePermissionCheck] finished in [549] milliseconds
+2023-12-14 16:58:45,071 |OFBiz-JobQueue-0     |ServiceEcaCondition           |W| doRealCompare returned null, returning false
+2023-12-14 16:58:45,071 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/fixedAssetPermissionCheck] finished in [635] milliseconds
+2023-12-14 16:58:45,230 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/genericBasePermissionCheck] finished in [709] milliseconds
+2023-12-14 16:58:45,230 |OFBiz-JobQueue-1     |ServiceEcaCondition           |W| doRealCompare returned null, returning false
+2023-12-14 16:58:45,230 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/fixedAssetPermissionCheck] finished in [823] milliseconds
+2023-12-14 16:58:46,828 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/createMaintsFromTimeInterval] finished in [2393] milliseconds
+2023-12-14 16:58:47,813 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/createMaintsFromTimeInterval] finished in [3406] milliseconds
+2023-12-14 16:59:14,493 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Auto-create Fixed Asset Maintenances] Id [19903] -- Next runtime: Thu Dec 14 17:59:14 IST 2023
+2023-12-14 16:59:14,566 |OFBiz-JobQueue-0     |Log                           |I| [CommonPermissionServices.xml#genericBasePermissionCheck line 59] This simple-method-call is deprecated! Please use a service-call of genericBasePermissionCheck instead.
+2023-12-14 16:59:14,917 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/genericBasePermissionCheck] finished in [350] milliseconds
+2023-12-14 16:59:14,918 |OFBiz-JobQueue-0     |ServiceEcaCondition           |W| doRealCompare returned null, returning false
+2023-12-14 16:59:14,918 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/fixedAssetPermissionCheck] finished in [425] milliseconds
+2023-12-14 16:59:16,243 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/createMaintsFromTimeInterval] finished in [1750] milliseconds
+2023-12-14 17:55:12,151 |Catalina-utility-2   |ControlEventListener          |I| Destroying session:  hidden sessionId by default.
+2023-12-14 17:55:13,930 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [19910] -- Next runtime: Thu Dec 14 18:10:13 IST 2023
+2023-12-14 17:55:13,931 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [19911] -- Next runtime: Thu Dec 14 18:10:13 IST 2023
+2023-12-14 17:55:14,962 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1032] milliseconds
+2023-12-14 17:55:15,663 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1732] milliseconds
+2023-12-14 17:55:43,941 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18351
+2023-12-14 17:55:43,941 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18356
+2023-12-14 17:55:43,942 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18355
+2023-12-14 17:55:43,942 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18350
+2023-12-14 17:55:43,943 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18349
+2023-12-14 17:55:43,944 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18354
+2023-12-14 17:55:43,945 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18338
+2023-12-14 17:55:43,945 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18337
+2023-12-14 17:55:43,946 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18348
+2023-12-14 17:55:43,946 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18347
+2023-12-14 17:55:43,947 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18346
+2023-12-14 17:57:44,048 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18345
+2023-12-14 17:57:44,048 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18357
+2023-12-14 17:58:14,017 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18359
+2023-12-14 17:58:14,017 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18358
+2023-12-14 17:59:14,121 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Auto-create Fixed Asset Maintenances] Id [19912] -- Next runtime: Thu Dec 14 18:59:14 IST 2023
+2023-12-14 17:59:14,125 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Auto-create Fixed Asset Maintenances] Id [19913] -- Next runtime: Thu Dec 14 18:59:14 IST 2023
+2023-12-14 17:59:14,201 |OFBiz-JobQueue-1     |Log                           |I| [CommonPermissionServices.xml#genericBasePermissionCheck line 59] This simple-method-call is deprecated! Please use a service-call of genericBasePermissionCheck instead.
+2023-12-14 17:59:14,201 |OFBiz-JobQueue-0     |Log                           |I| [CommonPermissionServices.xml#genericBasePermissionCheck line 59] This simple-method-call is deprecated! Please use a service-call of genericBasePermissionCheck instead.
+2023-12-14 17:59:14,544 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/genericBasePermissionCheck] finished in [342] milliseconds
+2023-12-14 17:59:14,546 |OFBiz-JobQueue-1     |ServiceEcaCondition           |W| doRealCompare returned null, returning false
+2023-12-14 17:59:14,547 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/fixedAssetPermissionCheck] finished in [420] milliseconds
+2023-12-14 17:59:14,795 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/genericBasePermissionCheck] finished in [592] milliseconds
+2023-12-14 17:59:14,795 |OFBiz-JobQueue-0     |ServiceEcaCondition           |W| doRealCompare returned null, returning false
+2023-12-14 17:59:14,796 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/fixedAssetPermissionCheck] finished in [674] milliseconds
+2023-12-14 17:59:17,195 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/createMaintsFromTimeInterval] finished in [3070] milliseconds
+2023-12-14 17:59:18,906 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/createMaintsFromTimeInterval] finished in [4784] milliseconds
+2023-12-14 17:59:44,187 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Auto-create Fixed Asset Maintenances] Id [19914] -- Next runtime: Thu Dec 14 18:59:44 IST 2023
+2023-12-14 17:59:44,246 |OFBiz-JobQueue-1     |Log                           |I| [CommonPermissionServices.xml#genericBasePermissionCheck line 59] This simple-method-call is deprecated! Please use a service-call of genericBasePermissionCheck instead.
+2023-12-14 17:59:44,389 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/genericBasePermissionCheck] finished in [142] milliseconds
+2023-12-14 17:59:44,390 |OFBiz-JobQueue-1     |ServiceEcaCondition           |W| doRealCompare returned null, returning false
+2023-12-14 17:59:44,390 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/fixedAssetPermissionCheck] finished in [202] milliseconds
+2023-12-14 17:59:45,428 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/createMaintsFromTimeInterval] finished in [1240] milliseconds
+2023-12-14 18:10:14,488 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [19915] -- Next runtime: Thu Dec 14 18:25:14 IST 2023
+2023-12-14 18:10:14,490 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [19916] -- Next runtime: Thu Dec 14 18:25:14 IST 2023
+2023-12-14 18:10:16,525 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [2035] milliseconds
+2023-12-14 18:10:17,853 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [3365] milliseconds
+2023-12-14 18:12:48,196 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18361
+2023-12-14 18:13:18,205 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18363
+2023-12-14 18:13:18,205 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18362
+2023-12-14 18:25:18,544 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [19921] -- Next runtime: Thu Dec 14 18:40:18 IST 2023
+2023-12-14 18:25:18,545 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [19920] -- Next runtime: Thu Dec 14 18:40:18 IST 2023
+2023-12-14 18:25:19,265 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [721] milliseconds
+2023-12-14 18:25:20,102 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1557] milliseconds
+2023-12-14 18:25:48,559 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18353
+2023-12-14 18:25:48,559 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18352
+2023-12-14 18:27:48,631 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18364
+2023-12-14 18:28:18,632 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18366
+2023-12-14 18:28:18,637 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18365
+2023-12-14 18:40:47,058 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [19923] -- Next runtime: Thu Dec 14 18:55:47 IST 2023
+2023-12-14 18:40:47,059 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [19922] -- Next runtime: Thu Dec 14 18:55:47 IST 2023
+2023-12-14 18:40:47,792 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [732] milliseconds
+2023-12-14 18:40:48,494 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1435] milliseconds
+2023-12-14 18:42:47,100 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18369
+2023-12-14 18:43:17,107 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18371
+2023-12-14 18:43:17,107 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18370
+2023-12-14 20:46:12,552 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [19925] -- Next runtime: Thu Dec 14 21:01:12 IST 2023
+2023-12-14 20:46:12,552 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [19924] -- Next runtime: Thu Dec 14 21:01:12 IST 2023
+2023-12-14 20:46:13,633 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1081] milliseconds
+2023-12-14 20:46:13,655 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Auto-create Fixed Asset Maintenances] Id [19917] -- Next runtime: Thu Dec 14 21:46:13 IST 2023
+2023-12-14 20:46:13,738 |OFBiz-JobQueue-1     |Log                           |I| [CommonPermissionServices.xml#genericBasePermissionCheck line 59] This simple-method-call is deprecated! Please use a service-call of genericBasePermissionCheck instead.
+2023-12-14 20:46:15,448 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [2896] milliseconds
+2023-12-14 20:46:15,452 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Auto-create Fixed Asset Maintenances] Id [19918] -- Next runtime: Thu Dec 14 21:46:15 IST 2023
+2023-12-14 20:46:15,453 |OFBiz-JobQueue-0     |Log                           |I| [CommonPermissionServices.xml#genericBasePermissionCheck line 59] This simple-method-call is deprecated! Please use a service-call of genericBasePermissionCheck instead.
+2023-12-14 20:46:15,533 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/genericBasePermissionCheck] finished in [1795] milliseconds
+2023-12-14 20:46:15,533 |OFBiz-JobQueue-1     |ServiceEcaCondition           |W| doRealCompare returned null, returning false
+2023-12-14 20:46:15,533 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/fixedAssetPermissionCheck] finished in [1878] milliseconds
+2023-12-14 20:46:15,606 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/genericBasePermissionCheck] finished in [153] milliseconds
+2023-12-14 20:46:15,607 |OFBiz-JobQueue-0     |ServiceEcaCondition           |W| doRealCompare returned null, returning false
+2023-12-14 20:46:15,607 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/fixedAssetPermissionCheck] finished in [155] milliseconds
+2023-12-14 20:46:16,266 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/createMaintsFromTimeInterval] finished in [2611] milliseconds
+2023-12-14 20:46:16,271 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Auto-create Fixed Asset Maintenances] Id [19919] -- Next runtime: Thu Dec 14 21:46:16 IST 2023
+2023-12-14 20:46:16,271 |OFBiz-JobQueue-1     |Log                           |I| [CommonPermissionServices.xml#genericBasePermissionCheck line 59] This simple-method-call is deprecated! Please use a service-call of genericBasePermissionCheck instead.
+2023-12-14 20:46:16,272 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/genericBasePermissionCheck] finished in [1] milliseconds
+2023-12-14 20:46:16,273 |OFBiz-JobQueue-1     |ServiceEcaCondition           |W| doRealCompare returned null, returning false
+2023-12-14 20:46:16,273 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/fixedAssetPermissionCheck] finished in [2] milliseconds
+2023-12-14 20:46:16,311 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/createMaintsFromTimeInterval] finished in [39] milliseconds
+2023-12-14 20:46:16,967 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/createMaintsFromTimeInterval] finished in [1514] milliseconds
+2023-12-14 20:46:42,749 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18401
+2023-12-14 20:46:42,751 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18374
+2023-12-14 20:46:42,753 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18372
+2023-12-14 20:46:42,754 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18400
+2023-12-14 20:46:42,755 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18396
+2023-12-14 20:46:42,757 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18378
+2023-12-14 20:46:42,758 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18375
+2023-12-14 20:46:42,760 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18373
+2023-12-14 20:46:42,761 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18360
+2023-12-14 20:46:42,762 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18395
+2023-12-14 20:46:42,764 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18393
+2023-12-14 20:46:42,765 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18376
+2023-12-14 20:46:42,769 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18367
+2023-12-14 20:46:42,770 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18368
+2023-12-14 20:46:42,771 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18377
+2023-12-14 20:46:42,772 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18399
+2023-12-14 20:46:42,774 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18383
+2023-12-14 20:46:42,775 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18382
+2023-12-14 20:46:42,776 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18389
+2023-12-14 20:46:42,778 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18394
+2023-12-14 20:46:42,779 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18392
+2023-12-14 20:46:42,780 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18380
+2023-12-14 20:46:42,780 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18391
+2023-12-14 20:46:42,781 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18387
+2023-12-14 20:46:42,782 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18388
+2023-12-14 20:46:42,783 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18386
+2023-12-14 20:46:42,784 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18384
+2023-12-14 20:46:42,784 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18385
+2023-12-14 20:46:42,786 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18379
+2023-12-14 20:46:42,787 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18381
+2023-12-14 20:58:13,140 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18402
+2023-12-14 20:58:13,141 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18390
+2023-12-14 20:58:43,200 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18403
+2023-12-14 20:58:43,200 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18404
+2023-12-14 21:01:13,244 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [19926] -- Next runtime: Thu Dec 14 21:16:13 IST 2023
+2023-12-14 21:01:13,247 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [19927] -- Next runtime: Thu Dec 14 21:16:13 IST 2023
+2023-12-14 21:01:16,297 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [3049] milliseconds
+2023-12-14 21:01:19,617 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [6373] milliseconds
+2023-12-14 21:13:13,655 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18406
+2023-12-14 21:13:43,666 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18408
+2023-12-14 21:13:43,666 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18407
+2023-12-14 21:16:13,716 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [19931] -- Next runtime: Thu Dec 14 21:31:13 IST 2023
+2023-12-14 21:16:13,720 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [19932] -- Next runtime: Thu Dec 14 21:31:13 IST 2023
+2023-12-14 21:16:15,410 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1694] milliseconds
+2023-12-14 21:16:16,848 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [3084] milliseconds
+2023-12-14 21:25:44,010 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18398
+2023-12-14 21:25:44,010 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18397
+2023-12-14 21:28:14,055 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18409
+2023-12-14 21:28:44,071 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18410
+2023-12-14 21:28:44,072 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18411
+2023-12-14 21:31:14,209 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [19933] -- Next runtime: Thu Dec 14 21:46:14 IST 2023
+2023-12-14 21:31:14,214 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [19934] -- Next runtime: Thu Dec 14 21:46:14 IST 2023
+2023-12-14 21:31:16,129 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1920] milliseconds
+2023-12-14 21:31:17,617 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [3402] milliseconds
+2023-12-14 21:43:14,599 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18414
+2023-12-14 21:43:44,615 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18415
+2023-12-14 21:43:44,616 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18416
+2023-12-14 21:46:14,702 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [19935] -- Next runtime: Thu Dec 14 22:01:14 IST 2023
+2023-12-14 21:46:14,846 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Auto-create Fixed Asset Maintenances] Id [19928] -- Next runtime: Thu Dec 14 22:46:14 IST 2023
+2023-12-14 21:46:14,959 |OFBiz-JobQueue-0     |Log                           |I| [CommonPermissionServices.xml#genericBasePermissionCheck line 59] This simple-method-call is deprecated! Please use a service-call of genericBasePermissionCheck instead.
+2023-12-14 21:46:16,414 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1711] milliseconds
+2023-12-14 21:46:16,433 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [19936] -- Next runtime: Thu Dec 14 22:01:16 IST 2023
+2023-12-14 21:46:16,436 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [3] milliseconds
+2023-12-14 21:46:16,556 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/genericBasePermissionCheck] finished in [1597] milliseconds
+2023-12-14 21:46:16,557 |OFBiz-JobQueue-0     |ServiceEcaCondition           |W| doRealCompare returned null, returning false
+2023-12-14 21:46:16,557 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/fixedAssetPermissionCheck] finished in [1710] milliseconds
+2023-12-14 21:46:17,741 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/createMaintsFromTimeInterval] finished in [2895] milliseconds
+2023-12-14 21:46:44,791 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Auto-create Fixed Asset Maintenances] Id [19929] -- Next runtime: Thu Dec 14 22:46:44 IST 2023
+2023-12-14 21:46:44,800 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Auto-create Fixed Asset Maintenances] Id [19930] -- Next runtime: Thu Dec 14 22:46:44 IST 2023
+2023-12-14 21:46:44,857 |OFBiz-JobQueue-1     |Log                           |I| [CommonPermissionServices.xml#genericBasePermissionCheck line 59] This simple-method-call is deprecated! Please use a service-call of genericBasePermissionCheck instead.
+2023-12-14 21:46:44,874 |OFBiz-JobQueue-0     |Log                           |I| [CommonPermissionServices.xml#genericBasePermissionCheck line 59] This simple-method-call is deprecated! Please use a service-call of genericBasePermissionCheck instead.
+2023-12-14 21:46:45,102 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/genericBasePermissionCheck] finished in [244] milliseconds
+2023-12-14 21:46:45,103 |OFBiz-JobQueue-1     |ServiceEcaCondition           |W| doRealCompare returned null, returning false
+2023-12-14 21:46:45,103 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/fixedAssetPermissionCheck] finished in [311] milliseconds
+2023-12-14 21:46:45,237 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/genericBasePermissionCheck] finished in [361] milliseconds
+2023-12-14 21:46:45,237 |OFBiz-JobQueue-0     |ServiceEcaCondition           |W| doRealCompare returned null, returning false
+2023-12-14 21:46:45,237 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/fixedAssetPermissionCheck] finished in [437] milliseconds
+2023-12-14 21:46:46,369 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/createMaintsFromTimeInterval] finished in [1577] milliseconds
+2023-12-14 21:46:47,438 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/createMaintsFromTimeInterval] finished in [2638] milliseconds
+2023-12-14 21:58:15,233 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18405
+2023-12-14 21:58:15,233 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18417
+2023-12-14 21:58:45,239 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18419
+2023-12-14 21:58:45,240 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18418
+2023-12-14 22:00:15,352 |OFBiz-JobQueue-1     |PersistedServiceJob           |W| Persisted Job [12410] references a RecurrenceInfo, recommend using TemporalExpression instead
+2023-12-14 22:00:15,373 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Generate Invoice template] Id [12410] -- Next runtime: Sun Jan 14 22:00:00 IST 2024
+2023-12-14 22:00:15,385 |OFBiz-JobQueue-0     |PersistedServiceJob           |W| Persisted Job [13914] references a RecurrenceInfo, recommend using TemporalExpression instead
+2023-12-14 22:00:15,410 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Generate Invoice template] Id [13914] -- Next runtime: Sun Jan 14 22:00:00 IST 2024
+2023-12-14 22:00:15,502 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/autoGenerateInvoiceFromExistingInvoice] finished in [86] milliseconds
+2023-12-14 22:00:15,502 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/autoGenerateInvoiceFromExistingInvoice] finished in [100] milliseconds
+2023-12-14 22:00:15,510 |OFBiz-JobQueue-1     |PersistedServiceJob           |W| Persisted Job [12716] references a RecurrenceInfo, recommend using TemporalExpression instead
+2023-12-14 22:00:15,515 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Generate Invoice template] Id [12716] -- Next runtime: Sun Jan 14 22:00:00 IST 2024
+2023-12-14 22:00:15,521 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/autoGenerateInvoiceFromExistingInvoice] finished in [2] milliseconds
+2023-12-14 22:01:15,361 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [19938] -- Next runtime: Thu Dec 14 22:16:15 IST 2023
+2023-12-14 22:01:17,241 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1880] milliseconds
+2023-12-14 22:01:45,419 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [19939] -- Next runtime: Thu Dec 14 22:16:45 IST 2023
+2023-12-14 22:01:46,834 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1414] milliseconds
+2023-12-14 22:13:15,857 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18420
+2023-12-14 22:13:45,871 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18423
+2023-12-14 22:13:45,871 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18422
+2023-12-14 22:16:15,963 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [19945] -- Next runtime: Thu Dec 14 22:31:15 IST 2023
+2023-12-14 22:16:19,757 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [3794] milliseconds
+2023-12-14 22:16:46,027 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [19946] -- Next runtime: Thu Dec 14 22:31:46 IST 2023
+2023-12-14 22:16:48,495 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [2467] milliseconds
+2023-12-14 22:25:46,354 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18412
+2023-12-14 22:25:46,354 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18413
+2023-12-14 22:28:16,431 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18500
+2023-12-14 22:28:46,438 |OFBiz-JobQueue-1     |JobUtil                       |I| Purged job 18501
+2023-12-14 22:28:46,438 |OFBiz-JobQueue-0     |JobUtil                       |I| Purged job 18502
+2023-12-14 22:31:16,479 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [19947] -- Next runtime: Thu Dec 14 22:46:16 IST 2023
+2023-12-14 22:31:18,685 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [2205] milliseconds
+2023-12-14 22:31:46,550 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [19948] -- Next runtime: Thu Dec 14 22:46:46 IST 2023
+2023-12-14 22:31:48,170 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1620] milliseconds
+2023-12-14 22:46:17,015 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [19949] -- Next runtime: Thu Dec 14 23:01:17 IST 2023
+2023-12-14 22:46:17,017 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Auto-create Fixed Asset Maintenances] Id [19937] -- Next runtime: Thu Dec 14 23:46:17 IST 2023
+2023-12-14 22:46:17,045 |OFBiz-JobQueue-1     |Log                           |I| [CommonPermissionServices.xml#genericBasePermissionCheck line 59] This simple-method-call is deprecated! Please use a service-call of genericBasePermissionCheck instead.
+2023-12-14 22:46:17,752 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [737] milliseconds
+2023-12-14 22:46:17,842 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/genericBasePermissionCheck] finished in [796] milliseconds
+2023-12-14 22:46:17,842 |OFBiz-JobQueue-1     |ServiceEcaCondition           |W| doRealCompare returned null, returning false
+2023-12-14 22:46:17,843 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/fixedAssetPermissionCheck] finished in [825] milliseconds
+2023-12-14 22:46:18,385 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/createMaintsFromTimeInterval] finished in [1368] milliseconds
+2023-12-14 22:46:47,051 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Auto-create Fixed Asset Maintenances] Id [19941] -- Next runtime: Thu Dec 14 23:46:47 IST 2023
+2023-12-14 22:46:47,071 |OFBiz-JobQueue-1     |Log                           |I| [CommonPermissionServices.xml#genericBasePermissionCheck line 59] This simple-method-call is deprecated! Please use a service-call of genericBasePermissionCheck instead.
+2023-12-14 22:46:47,095 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Auto-create Fixed Asset Maintenances] Id [19940] -- Next runtime: Thu Dec 14 23:46:47 IST 2023
+2023-12-14 22:46:47,095 |OFBiz-JobQueue-0     |Log                           |I| [CommonPermissionServices.xml#genericBasePermissionCheck line 59] This simple-method-call is deprecated! Please use a service-call of genericBasePermissionCheck instead.
+2023-12-14 22:46:47,153 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/genericBasePermissionCheck] finished in [82] milliseconds
+2023-12-14 22:46:47,153 |OFBiz-JobQueue-1     |ServiceEcaCondition           |W| doRealCompare returned null, returning false
+2023-12-14 22:46:47,153 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/fixedAssetPermissionCheck] finished in [102] milliseconds
+2023-12-14 22:46:47,218 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/genericBasePermissionCheck] finished in [122] milliseconds
+2023-12-14 22:46:47,219 |OFBiz-JobQueue-0     |ServiceEcaCondition           |W| doRealCompare returned null, returning false
+2023-12-14 22:46:47,219 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/fixedAssetPermissionCheck] finished in [124] milliseconds
+2023-12-14 22:46:47,751 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/createMaintsFromTimeInterval] finished in [691] milliseconds
+2023-12-14 22:46:47,761 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [19950] -- Next runtime: Thu Dec 14 23:01:47 IST 2023
+2023-12-14 22:46:48,234 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/createMaintsFromTimeInterval] finished in [1138] milliseconds
+2023-12-14 22:46:49,002 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [1241] milliseconds
+2023-12-14 23:01:17,442 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [19951] -- Next runtime: Thu Dec 14 23:16:17 IST 2023
+2023-12-14 23:01:18,319 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [877] milliseconds
+2023-12-14 23:02:17,489 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [19955] -- Next runtime: Thu Dec 14 23:17:17 IST 2023
+2023-12-14 23:02:18,218 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [728] milliseconds
+2023-12-14 23:16:17,888 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [19956] -- Next runtime: Thu Dec 14 23:31:17 IST 2023
+2023-12-14 23:16:18,631 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [743] milliseconds
+2023-12-14 23:17:17,913 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [19957] -- Next runtime: Thu Dec 14 23:32:17 IST 2023
+2023-12-14 23:17:18,697 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [783] milliseconds
+2023-12-14 23:31:18,259 |OFBiz-JobQueue-0     |PersistedServiceJob           |I| Job  [Send Email] Id [19958] -- Next runtime: Thu Dec 14 23:46:18 IST 2023
+2023-12-14 23:31:19,053 |OFBiz-JobQueue-0     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [794] milliseconds
+2023-12-14 23:32:18,325 |OFBiz-JobQueue-1     |PersistedServiceJob           |I| Job  [Send Email] Id [19959] -- Next runtime: Thu Dec 14 23:47:18 IST 2023
+2023-12-14 23:32:19,165 |OFBiz-JobQueue-1     |ServiceDispatcher             |T| Sync service [default/sendEmailDated] finished in [839] milliseconds
