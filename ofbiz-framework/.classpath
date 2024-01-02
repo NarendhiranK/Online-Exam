@@ -3415,7 +3415,7 @@
 			<attribute name="test" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Dell/ofbiz-framework/ofbiz-framework/lib/postgresql-42.6.0.jar">
+	<classpathentry kind="lib" path="D:/Vastpro_Online_Exam/online-exam/ofbiz-framework/lib/postgresql-42.6.0.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
