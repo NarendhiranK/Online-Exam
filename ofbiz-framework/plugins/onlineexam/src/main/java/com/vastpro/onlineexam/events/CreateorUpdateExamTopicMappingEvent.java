@@ -102,19 +102,19 @@ public class CreateorUpdateExamTopicMappingEvent {
 	        		registerMap.put("topicId", topicId);
 	        		registerMap.put("percentage", percentage);
 	        		registerMap.put("topicPassPercentage", topicPassPercentage);
-	        		registerMap.put("questionsPerExam", questionsPerExam);
+	        		//registerMap.put("questionsPerExam", questionsPerExam);
 
 	        		Map<String, Object> examTopicResultMap = null;
 	        		 Debug.logInfo("=====create service called...... =========", module);
 	 	            dispatcher.runSync("createExamTopicMappingMaster", UtilMisc.toMap("examId",examId,
 	 	            		"topicId",topicId,"percentage", percentage,
-	 	            		"topicPassPercentage", topicPassPercentage,"questionsPerExam", questionsPerExam));
+	 	            		"topicPassPercentage", topicPassPercentage));
 	        	}
 	        	else {
 	        		 Debug.logInfo("=====create service called.....of exam topic mapping master! =========", module);
 	        		 dispatcher.runSync("createExamTopicMappingMaster", UtilMisc.toMap("examId",examId,
 		 	            		"topicId",topicId,"percentage", percentage,
-		 	            		"topicPassPercentage", topicPassPercentage,"questionsPerExam", questionsPerExam));
+		 	            		"topicPassPercentage", topicPassPercentage));
 	        	}
 	        	
 	        	
