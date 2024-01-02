@@ -16,7 +16,7 @@ import com.vastpro.onlineexam.constants.ConstantValue;
 
 public class CreateorUpdateExamMasterEvent{
 
-	public static final String module = CreateorUpdateExamMasterEvent.class.getName();
+	public static final String MODULE = CreateorUpdateExamMasterEvent.class.getName();
 	
 	/*
 	 * 
@@ -46,7 +46,7 @@ public class CreateorUpdateExamMasterEvent{
         	
         	if(genericvalue!=null) {
         		String myexamId=delegator.getNextSeqId(examId);
-        		 Debug.logInfo("=====update service called...... =========", module);
+        		 Debug.logInfo("=====update service called...... =========", MODULE);
  	            dispatcher.runSync("updateExamMaster", UtilMisc.toMap("examId",examId,
  	            		"examName",examName,"description",description,
  	            		"creationDate",creationDate,"expirationDate",expirationDate,"noOfQuestions",noOfQuestions,"durationMinutes",durationMinutes,"passPercentage",passPercentage,
@@ -54,7 +54,7 @@ public class CreateorUpdateExamMasterEvent{
  	            		"answersMust",answersMust,"enableNegativeMark",enableNegativeMark,"negativeMarkValue",negativeMarkValue));
         	}
         	else {
-        		 Debug.logInfo("=====create service called.....! =========", module);
+        		 Debug.logInfo("=====create service called.....! =========", MODULE);
  	            dispatcher.runSync("createExamMaster", UtilMisc.toMap("examId",examId,
  	            		"examName",examName,"description",description,
  	            		"creationDate",creationDate,"expirationDate",expirationDate,"noOfQuestions",noOfQuestions,"durationMinutes",durationMinutes,"passPercentage",passPercentage,
