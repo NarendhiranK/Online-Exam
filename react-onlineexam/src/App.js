@@ -16,8 +16,9 @@ import DetailsOfQuestion from "./ExamMaster/DetailsOfQuestion";
 import { useState } from "react";
 import ViewUsers from "./User/ViewUsers";
 import Welcome from "./Welcome/Welcome";
+import Examsforuser from "./User/Examsforuser";
 
-//This is App.js
+//This is AA
 function App() {
   const [name,setName] = useState();
   const [flag,setFlag] = useState(false);
@@ -31,7 +32,7 @@ function App() {
         <Route path="user" element={<User/>}/>
         <Route path="admin" element={<Admin/>}>
         <Route path="welcome" element={<Welcome/>} />
-        <Route path='viewusers' element={<ViewUsers />} />
+        <Route path='assignExam' element={<ViewUsers />} />
           
           {/* EXAMS */}
         <Route path="createExam" element={<CreateExamMaster/>}/>
@@ -44,7 +45,8 @@ function App() {
 
         <Route path="/admin/updateExam/examdetails/question-topicView/view-questions/:questionId/:topicName/:examId" element={<DetailsOfQuestion/>}/>
        {/* TOPIC */}
-  
+
+      <Route path="/admin/assignExam/addExamForUser" element={<Examsforuser/>} />
 
        {/* QUESTION */}
 

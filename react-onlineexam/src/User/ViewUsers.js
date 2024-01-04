@@ -1,6 +1,8 @@
 import React from "react";
 import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 const ViewUsers = () => {
+  const navigate = useNavigate()
   const [userList, setUserList] = useState("");
   useEffect(() => {
     fetch("https://localhost:8443/onlineexam/control/viewUsers", {
@@ -28,10 +30,11 @@ const ViewUsers = () => {
       <table className="table-hover  w-75">
         <thead>
           <tr className="bg-primary text-light">
-            <th>User ID</th>
+            {/* <th>User ID</th> */}
             <th>First Name</th>
             <th>Last Name</th>
-            <th>Details</th>
+            <th></th>
+            <th></th>
             <td></td>
           </tr>
         </thead>
@@ -40,11 +43,15 @@ const ViewUsers = () => {
             return (
               <tbody key={user.partyId}>
                 <tr className="border border-dark">
-                  <td>{user.partyId}</td>
+                  {/* <td>{user.partyId}</td> */}
                   <td>{user.firstName}</td>
                   <td>{user.lastName}</td>
                   <td>
-                    <button className="btn btn-primary">Details</button>
+                    <button className="btn btn-primary" onClick={() => navigate("/admin/assignExam/addExamForUser")}>Add Exam</button>
+                    
+                  </td>
+                  <td>
+                    <button className="btn btn-primary">View Exams</button>
                     
                   </td>
                   <td>

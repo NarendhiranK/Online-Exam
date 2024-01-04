@@ -42,7 +42,7 @@ const Admin = () => {
                       <Link to="createExam"
                         class="nav-link  text-center  text-sm-start"   
                         aria-current="page"
-                        // onClick={window.location.reload()}
+                        // onClick={window.location.href=`createExam`}
                       >
                         Create Exam
                       </Link>
@@ -58,7 +58,7 @@ const Admin = () => {
                       </a>
                     </li>  */}
                     <li class="nav-item my-sm-1 my-2">
-                      <Link  class="nav-link text-center text-sm-start" to="viewusers">
+                      <Link  class="nav-link text-center text-sm-start" to="assignExam">
                         Assign Exam
                       </Link>
                     </li>

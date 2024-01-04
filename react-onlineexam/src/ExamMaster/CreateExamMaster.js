@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import useStateRef from "react-usestateref";
 import { useEffect } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
@@ -26,17 +26,27 @@ const CreateExamMaster = () => {
   const queryParamKeypairs = new URLSearchParams(queryParam);
   console.log("queryParamKeyPairs",queryParamKeypairs);
   const examId=queryParamKeypairs.get("examId");
+  const navigate=useNavigate();
+  const forceUpdate=React.useCallback(()=>setFormValues([]));
 
-  if(url!=null){
-    var finalOutput=document.getElementById('myform');
-    if(finalOutput !=null){
-     
+ 
+  console.log("This is url...>" , url);
+  if(url == false){
+      // setFormValues([]);
+      // window.location.reload();
     }
-  }
-  else{
-      window.location.reload();
-  }
-  
+
+  // useEffect(() => {
+  //   console.log("second inside----useeffect")
+  //     if(examId !== undefined){
+  //       console.log("Url search params is zero");
+     
+  //     }
+  //     setFormValues({});
+  //     },[url])
+
+
+
 
   var initialvalues = {};
 
@@ -122,7 +132,7 @@ const CreateExamMaster = () => {
 
 
     const map = {
-      examId: examId,
+      // examId: examId,
       examName: examName,
       description: description,
       creationDate: creationDate,
@@ -137,9 +147,7 @@ const CreateExamMaster = () => {
     };
     console.log(map);
     if (!hasNoError.current) {
-      if(url){
-         map.examId=examId;
-         console.log("update exam map...>",map)
+    
         fetch("https://localhost:8443/onlineexam/control/examMasterEvent", {
           method: "POST",
           credentials: "include",
@@ -157,39 +165,17 @@ const CreateExamMaster = () => {
             document.getElementById("h6").classList.add("d-block");
             document.getElementById("h6").innerHTML = "Exam added successfully..";
             var element = document.getElementById("myform");
-            element.reset();
+            // element.reset();
           })
           .catch((err) => console.log("ERROR FROM FETCH", err));
-      }
-      else{
-        fetch("https://localhost:8443/onlineexam/control/examMasterEvent", {
-          method: "POST",
-          credentials: "include",
-          body: JSON.stringify(map),
-          headers: {
-            "Content-Type": "application/json",
-            Accept: "application/json",
-          },
-        })
-          .then((response) => {
-            return response.json();
-          })
-          .then((data) => {
-            document.getElementById("h6").classList.remove("d-none");
-            document.getElementById("h6").classList.add("d-block");
-            document.getElementById("h6").innerHTML = "Exam added successfully..";
-            var element = document.getElementById("myform");
-            element.reset();
-          })
-          .catch((err) => console.log("ERROR FROM FETCH", err));
-      }
+      
      
     }
    
   };
 
   function handleErrors() {
-    document.getElementById("p1").classList.add("d-none");
+    // document.getElementById("p1").classList.add("d-none");
     document.getElementById("p2").classList.add("d-none");
     document.getElementById("p3").classList.add("d-none");
     document.getElementById("p4").classList.add("d-none");
@@ -207,14 +193,14 @@ const CreateExamMaster = () => {
 
   const validateExamMaster = (key, value) => {
     switch (key) {
-      case "examId":
-        if (value === null || value === "") {
-          document.getElementById("p1").classList.remove("d-none");
-          document.getElementById("p1").classList.add("d-block");
-          document.getElementById("p1").innerHTML = "Please enter a examId";
-          setHasError(true);
-        }
-        break;
+      // case "examId":
+      //   if (value === null || value === "") {
+      //     document.getElementById("p1").classList.remove("d-none");
+      //     document.getElementById("p1").classList.add("d-block");
+      //     document.getElementById("p1").innerHTML = "Please enter a examId";
+      //     setHasError(true);
+      //   }
+      //   break;
       case "examName":
         if (value == "" || value == null) {
           document.getElementById("p2").classList.remove("d-none");
@@ -340,7 +326,7 @@ const CreateExamMaster = () => {
         <div className="col-10 mx-auto">
           <form className="d-flex" id="myform" onSubmit={handleSubmit}>
             <div className="col-5">
-              <div className="mb-3">
+              {/* <div className="mb-3">
                 <label
                   htmlFor="exampleInputEmail1"
                   className="form-label float-start"
@@ -357,7 +343,7 @@ const CreateExamMaster = () => {
                   // onChange={(e)=>setexamid(e.target.value)}
                 />
                 <p id="p1" className="text-danger"></p>
-              </div>
+              </div> */}
               <div className="mb-3">
                 <label
                   htmlFor="exampleInputEmail1"
@@ -371,7 +357,7 @@ const CreateExamMaster = () => {
                   className="form-control"
                   name="examName"
                   placeholder="examName"
-                  value={examname}
+                 
                   // onChange={(e)=>setexamname(e.target.value)}
                 />
                 <p id="p2" className="text-danger"></p>

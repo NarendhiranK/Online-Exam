@@ -59,6 +59,7 @@ public class LoginRegisterEvent {
 			String roleTypeId = null;
 			String firstName = null;
 			if (UtilValidate.isNotEmpty(userLogin)) {
+				
 				String partyId = (String) userLogin.get("partyId");
 				Debug.log(partyId);
 				GenericValue personFirstName = EntityQuery.use(delegator).from("Person").where("partyId", partyId)

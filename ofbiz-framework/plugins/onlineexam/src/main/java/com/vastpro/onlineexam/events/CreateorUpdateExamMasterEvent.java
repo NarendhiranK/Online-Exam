@@ -40,6 +40,7 @@ public class CreateorUpdateExamMasterEvent{
         String answersMust =(String) request.getAttribute(ConstantValue.ANSWERS_MUST);
         String enableNegativeMark =(String)request.getAttribute(ConstantValue.ENABLE_NEGATIVE_MARK);
         String negativeMarkValue =(String)request.getAttribute(ConstantValue.NEGATIVE_MARK_VALUE);
+        GenericValue userLogin=(GenericValue)request.getSession().getAttribute("userLogin");
         try {
         	GenericValue genericvalue = EntityQuery.use(delegator).from("ExamMaster").where("examId", examId).cache()
 					.queryOne();
@@ -51,15 +52,15 @@ public class CreateorUpdateExamMasterEvent{
  	            		"examName",examName,"description",description,
  	            		"creationDate",creationDate,"expirationDate",expirationDate,"noOfQuestions",noOfQuestions,"durationMinutes",durationMinutes,"passPercentage",passPercentage,
  	            		"questionsRandomized",questionsRandomized,
- 	            		"answersMust",answersMust,"enableNegativeMark",enableNegativeMark,"negativeMarkValue",negativeMarkValue));
+ 	            		"answersMust",answersMust,"enableNegativeMark",enableNegativeMark,"negativeMarkValue",negativeMarkValue,"userLogin",userLogin));
         	}
         	else {
         		 Debug.logInfo("=====create service called.....! =========", module);
- 	            dispatcher.runSync("createExamMaster", UtilMisc.toMap("examId",examId,
+ 	            dispatcher.runSync("createExamMaster", UtilMisc.toMap(
  	            		"examName",examName,"description",description,
  	            		"creationDate",creationDate,"expirationDate",expirationDate,"noOfQuestions",noOfQuestions,"durationMinutes",durationMinutes,"passPercentage",passPercentage,
  	            		"questionsRandomized",questionsRandomized,
- 	            		"answersMust",answersMust,"enableNegativeMark",enableNegativeMark,"negativeMarkValue",negativeMarkValue));
+ 	            		"answersMust",answersMust,"enableNegativeMark",enableNegativeMark,"negativeMarkValue",negativeMarkValue,"userLogin",userLogin));
         	}
         	
         } catch (GenericServiceException | GenericEntityException e) {

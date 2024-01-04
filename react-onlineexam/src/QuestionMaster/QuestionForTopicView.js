@@ -284,6 +284,7 @@ const QuestionForTopicView = () => {
         className="btn btn-primary w-25 align-items-right offset-8"
         data-bs-toggle="modal"
         data-bs-target="#div1"
+        
       >
         Add Question
       </button>
@@ -339,11 +340,11 @@ const QuestionForTopicView = () => {
       </button>
 
       <div className="col-10">
-        <div className="modal fade bd-example-modal-lg" tabIndex="-1" id="div1">
-          <div className="modal-dialog ">
+        <div className="modal fade  bd-example-modal-lg" tabIndex="-1" id="div1">
+          <div className="modal-dialog modal-xl">
             <div className="modal-content ">
               <div className="modal-header">
-                <h5 className="modal-title">createQuestion</h5>
+                <h5 className="modal-title offset-5"  >createQuestion</h5>
                 <button
                   type="button"
                   className="btn-close"

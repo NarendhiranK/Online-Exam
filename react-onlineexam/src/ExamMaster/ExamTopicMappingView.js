@@ -7,11 +7,13 @@ const ExamTopicMappingView = () => {
   const examId = params.examId;
   const topicId = params.topicId;
   const [data, setData] = useState("");
+  const [errMsg,setErrMsg]=useState("");
   const [topicData, setTopicData] = useState([]);
   const [Examname, SetexamName] = useState("");
   const [hasError,setHasError,hasNoError]=useStateRef(false);
+  const [Percentage,setPercentage]=useState(false);
   var ExamName=Examname;
-
+  var percentage;
 
   //showQuestionsForTopic is used to display the questions for that particular topic and which accepts the topic id,examid and it can navigate that particular component.
   //getExamTopicDetails is used to retrieve the particular topic details with the topic Id and examId 
@@ -90,7 +92,7 @@ const ExamTopicMappingView = () => {
     const data = new FormData(e.target);
     handleErrors();
     console.log("examId-----", examId);
-    const topicId = data.get("topicId");
+    // const topicId = data.get("topicId");
     const topicName = data.get("topicName");
     const percentage = data.get("percentage");
     const topicPassPercentage = data.get("topicPassPercentage");
@@ -116,14 +118,14 @@ const ExamTopicMappingView = () => {
             setHasError(true);
           }
           break;
-        case "topicId":
-          if (value == "" || value == null) {
-            document.getElementById("p2").classList.remove("d-none");
-            document.getElementById("p2").classList.add("d-block");
-            document.getElementById("p2").innerHTML = "Please enter a examName";
-            setHasError(true);
-          }
-          break;
+        // case "topicId":
+        //   if (value == "" || value == null) {
+        //     document.getElementById("p2").classList.remove("d-none");
+        //     document.getElementById("p2").classList.add("d-block");
+        //     document.getElementById("p2").innerHTML = "Please enter a examName";
+        //     setHasError(true);
+        //   }
+        //   break;
   
         case "topicName":
           if (value == "" || value == null) {
@@ -196,8 +198,19 @@ const ExamTopicMappingView = () => {
         
         })
         .then(data => {
-            console.log(data);
-            window.location.reload();
+            console.log("my data.....",data);
+            console.log("error msg=",);
+            document.getElementById('err').classList.add('d-none');
+            if(data.totalpercentage == 100){
+              document.getElementById('add-btn').disabled=true;
+            }
+            if(data._ERROR_MESSAGE){
+              document.getElementById('err').classList.remove('d-none');
+              document.getElementById('err').classList.add('d-block')
+              document.getElementById('err').innerHTML=data._ERROR_MESSAGE;
+               
+            }
+            examDetails();
             
         })
         .catch(err=> console.log(err) );
@@ -209,11 +222,11 @@ const ExamTopicMappingView = () => {
 
   function handleErrors() {
     document.getElementById("p1").classList.add("d-none");
-    document.getElementById("p2").classList.add("d-none");
+    // document.getElementById("p2").classList.add("d-none");
     document.getElementById("p3").classList.add("d-none");
     document.getElementById("p4").classList.add("d-none");
     document.getElementById("p5").classList.add("d-none");
-    document.getElementById("p6").classList.add("d-none");
+    // document.getElementById("p6").classList.add("d-none");
     setHasError(false);
   }
 
@@ -246,7 +259,10 @@ const ExamTopicMappingView = () => {
   }
   useEffect(() => {
     examDetails();
-  }, []);
+    getExamTopicDetails();
+  },[]);
+
+  
 
   function showForm() {
     console.log("Show form called...");
@@ -262,7 +278,9 @@ const ExamTopicMappingView = () => {
 
   return (
     <div className="container">
+      
       <div className="container my-5">
+      <h1 className="text text-primary d-none" align="center" id="err"></h1>
         <table className="table table-striped">
           <thead>
             <tr>
@@ -274,7 +292,7 @@ const ExamTopicMappingView = () => {
               <th>Edit</th>
               <th>View Question</th>
               <th>
-                <button className="btn btn-primary" onClick={() => showForm()}>
+                <button className="btn btn-primary" id="add-btn" onClick={() => showForm()} >
                   Add Topic
                 </button>
               </th>
@@ -289,8 +307,9 @@ const ExamTopicMappingView = () => {
                     <td>{obj.examName}</td>
                     <td>{obj.topicName}</td>
                     <td>{obj.topicPassPercentage}</td>
-                    <td>{obj.questionsPerExam}</td>
                     <td>{obj.percentage}</td>
+                    <td>{obj.questionsPerExam}</td>
+                    
                     <td>
                       <button className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" onClick={()=>getExamTopicDetails(obj.examId,obj.topicId)}>Edit</button>
                     </td>
@@ -333,6 +352,7 @@ const ExamTopicMappingView = () => {
 
       <div>
         <div className="d-none" id="myform">
+          
           <div className="col-10">
             <form onSubmit={handleSubmit} id="form">
               <div className="mb-3">
@@ -353,7 +373,7 @@ const ExamTopicMappingView = () => {
                 <p id="p1" className="text-danger"></p>
               </div>
 
-              <div className="mb-3">
+              {/* <div className="mb-3">
                 <label
                   htmlFor="exampleInputEmail1"
                   className="form-label float-start"
@@ -368,7 +388,7 @@ const ExamTopicMappingView = () => {
                   name="topicId"
                 />
                 <p id="p2" className="text-danger"></p>
-              </div>
+              </div> */}
 
               <div className="mb-3">
                 <label
@@ -421,7 +441,7 @@ const ExamTopicMappingView = () => {
                 />
                 <p id="p5" className="text-danger"></p>
               </div>
-              <div className="mb-3">
+              {/* <div className="mb-3">
                 <label
                   htmlFor="exampleInputEmail1"
                   className="form-label float-start"
@@ -437,7 +457,7 @@ const ExamTopicMappingView = () => {
                 
                 />
                 <p id="p6" className="text-danger"></p>
-              </div>
+              </div> */}
               <div className="mb-3">
                 <button className="btn btn-primary" onClick={() => hideForm()}>
                   Submit

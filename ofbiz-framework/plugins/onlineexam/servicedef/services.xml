@@ -78,9 +78,9 @@
 	<!-- TopicMasterCreateService -->
 	<service name="createTopicMaster"
 		default-entity-name="TopicMaster" engine="entity-auto" invoke="create"
-		auth="false">
+		auth="true">
 		<description>Create an TopicMaster record</description>
-		<auto-attributes include="pk" mode="INOUT"
+		<auto-attributes include="pk" mode="OUT"
 			optional="false" />
 		<auto-attributes include="nonpk" mode="IN"
 			optional="true" />
@@ -145,7 +145,7 @@
 	<!-- ExamTopicMappingMaster -->
 	<service name="createExamTopicMappingMaster"
 		default-entity-name="ExamTopicMappingMaster" engine="entity-auto"
-		invoke="create" auth="false">
+		invoke="create" auth="true">
 		<description>ExamTopicMappingMasterCreateService</description>
 		<auto-attributes include="pk" mode="INOUT"
 			optional="false" />
